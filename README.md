@@ -1,5 +1,9 @@
 Welcome to the Gatenox wiki!
 
+Table of contents
+[Guide](https://github.com/Gatenox/GatenoxHub#guide-to-the-gatenox-hub)
+   [Introduction](https://github.com/Gatenox/GatenoxHub#introduction)
+
 # Guide to the Gatenox Hub
 
 This document explains the Gatenox Hub interface and possible usage scenarios. 
