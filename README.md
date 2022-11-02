@@ -39,7 +39,7 @@ The company profile you get out of the box consists of:
 
 5. In the section below, you can view all of your Company's Documents that you have previously added.
 
-<img src="https://github.com/Gatenox/GatenoxDevelopersHub/blob/main/Images/documents.png"></img>
+<img src="./Images/documents.png"></img>
 
 6. Click _Edit_ to modify your Company UBOs.  For now, you have only one UBO (Joe Allen). For each of your UBOs, you can provide all required data, in particular, KYC data. Adding UBOs is done in the Company Structure section, but here (by clicking Edit) you can go straight to the appropriate place in the form.
 
