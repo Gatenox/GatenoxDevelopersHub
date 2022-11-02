@@ -1,7 +1,7 @@
 Welcome to the Gatenox wiki!
 
-Table of contents
-[Guide](https://github.com/Gatenox/GatenoxHub#guide-to-the-gatenox-hub)
+Table of contents<br>
+[Guide](https://github.com/Gatenox/GatenoxHub#guide-to-the-gatenox-hub)<br>
    [Introduction](https://github.com/Gatenox/GatenoxHub#introduction)
 
 # Guide to the Gatenox Hub
