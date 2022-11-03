@@ -265,9 +265,9 @@ After having an overview of the company's structure, you can proceed to the proc
 
 ## Extended verification
 
-The basic sanctions check in Gatenox involves verification of individuals and companies on the internal sanctions list, which currently includes the OFAC database.
+The basic sanctions check included as a default involves verification of individuals and companies on the internal sanctions list. This currently  only includes the OFAC database.
 
-If you require to verify individuals and companies within a myriad of sanction lists, PEP, and criminal watchlists you can buy additional search by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage. 
+If you need to verify individuals and companies against a myriad of sanction lists, PEP, and criminal watchlists you can buy additional search by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage. 
 
 <img src="./Images/entities_verification.png">
 
@@ -282,11 +282,11 @@ The settings menu can be access using "Settings" tab on menu placed on left side
 <img src="./Images/settings_manage.png">
 
 The settings tab consist of 2 tabs:
-1. **Account information** - where user can review and (in the future) update personal data
-2. **Company information** - where user can update company profile settings like: update company logo, add services description or change referral code 
+1. **Account information** - to review and (in the future) update personal data
+2. **Company information** - to update company profile information like company logo, services description or referral code 
 
 **Account information**
-Here you can currently see your individual account details. In the nearby future we are planning to add more features in the section.
+In this section, you can see your individual account details. We plan to add more features in the section shortly.
 
 <img src="./Images/settings_personal.png">
 
