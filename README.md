@@ -267,17 +267,17 @@ After having an overview of the company's structure, you can proceed to the proc
 
 The basic sanctions check included as a default involves verification of individuals and companies on the internal sanctions list. This currently  only includes the OFAC database.
 
-If you need to verify individuals and companies against a myriad of sanction lists, PEP, and criminal watchlists you can buy additional search by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage. 
+If you need to verify individuals and companies against a myriad of sanction lists, PEP, and criminal watchlists, you can buy additional search credits by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage. 
 
 <img src="./Images/entities_verification.png">
 
-Now you can press the “Verify” button and additional verification will be performed. The results will be presented in the same way as internal checks.
+If you have sufficient credits, when you press the “Verify” button, additional verification will be performed and the results will be presented in the same manner as internal checks.
 
 <img src="./Images/entities_verification_result.png">
 
 # Settings
 
-The settings menu can be access using "Settings" tab on menu placed on left side of the portal or by clicking on "Manage your account" button in context menu in the upper right corner.
+Settings can be accessed using the "Settings" tab on the side menu pane on the left or by clicking on the "Manage your account" button in the upper right corner.
 
 <img src="./Images/settings_manage.png">
 
@@ -286,6 +286,7 @@ The settings tab consist of 2 tabs:
 2. **Company information** - to update company profile information like company logo, services description or referral code 
 
 **Account information**
+
 In this section, you can see your individual account details. We plan to add more features in the section shortly.
 
 <img src="./Images/settings_personal.png">
@@ -293,13 +294,13 @@ In this section, you can see your individual account details. We plan to add mor
 **Company information**
 The tab is split into 2 sections:
 1. Basic settings:
-   * you can upload your company logo, to present it on portal
-   * about company - a brief description about your company and its services. It is used on welcome screen, when you invite users using your referral code
-   * check available amount of credits - credits are used in Gatenox to buy additional services, such as extend verification on sanctions and PEP lists or to ask users to provide an external KYC verification. To add more credits please contact our sales department at sales@gatenox.com.
+   * you can upload your company logo that is displayed on the Gatenox Hub
+   * you can edit the "About Company" details which is a brief description about your company and its services. It is displayed on the welcome screen and will be displayed to users you invite using your referral code
+   * you can also check your credit balance. Credits are used to buy additional services such as extended verification on sanctions and PEP lists or to ask users to provide an external KYC verification. To add more credits, please contact our sales department at sales@gatenox.com.
 
 2. Verification settings:
-   * Verification link - consist of a link + your company referral code. The code can be modified to fit your company name or other requirements,
-   * Required fields - a complete set of required data + documents, that need to be provided by other companies during the verification process. This data can be configured in the setup phase, when you will be using Gatenox as a corporate KYC verification tool.
+   * you can customize your verification link 
+   * you can see the required fields which is mandatory for every user you verify. This data can be configured in the setup phase.
 
 <img src="./Images/settings_company.png">
 
