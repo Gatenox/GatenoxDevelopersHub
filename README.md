@@ -198,16 +198,33 @@ When your data has been sent, your application will appear in the _Your Applicat
 
 <img src="./Images/Share_profile.png">
 <img src="./Images/Share_profile_onboarding1.png">
+
+After starting onboarding with the partner, the partner name wil be displyed in the box on the top of ther "Your profile" screen. You can switch between partner by choosing diffrent one from the list.
+
+<img src="./Images/Current_onboardings.png">
+
+
+
 <img src="./Images/Share_profile_onboarding_missing.png">
+
 <img src="./Images/Share_profile_onboarding_send.png">
 <img src="./Images/Share_profile_onboarding_send2.png">
 
-### Your current onboardings
+After sending profile to the partner, the partner name wil be displyed in the box on the top of ther "Your profile" screen. You can switch between partner by choosing diffrent one from the list.
 
-<img src="./Images/Current_onboarding_1.png">
-<img src="./Images/Current_onboarding_2.png">
+### Your current appliactions
+
+After sending profile to the partner, the partner name wil be displyed in the box on the top of ther "Your profile" screen. You can switch between partner by choosing diffrent one from the list.
+
+<img src="./Images/Share_profile_onboarding_send2.png">
+
+After clicking on each appliaction you can preview the appliaction data in the sae way as verifier sees them.
+
+<img src="./Images/Share_profile_preview.png">
 
 ### Other gatenox partners
+
+O the right side of the screen you can find other Gatenox partners, to which you can onboard quickly using your already existing company profile.
 
 <img src="./Images/Other_Gatenox_partners.png">
 
