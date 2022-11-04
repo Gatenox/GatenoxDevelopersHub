@@ -1,4 +1,29 @@
-Welcome to the Gatenox wiki!
+# Welcome to the Gatenox wiki!
+
+**Introduction**
+
+1. [Guide](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#guide-to-the-gatenox-hub)
+2. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#introduction)
+
+**User journey**
+
+1. [How to create copamy profile](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+2. [Create new copmany](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
+3. [Add company detials](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
+4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
+5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
+
+**How to onbaord to partner**
+
+**Verifier journey**
+
+1. [How to manage incoming reviews](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#verification-process-verifier-journey)
+2. [Extended individuals and comanies verification](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#extended-verification)
+
+**Configuration and settigns**
+
+1. Settings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#settings)
+2. [Feedback](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#feedback)
 
 # Guide to the Gatenox Hub
 
