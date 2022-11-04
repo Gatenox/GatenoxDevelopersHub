@@ -13,7 +13,7 @@
 4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
 5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
 
-**How to onbaord to partner**
+**How to onboard to partner**
 
 **Verifier journey**
 
