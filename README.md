@@ -102,15 +102,15 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 <img src="./Images/proof_of_office_addr.png">
 
-Business Activity > Description
+**Business Activity > Description**
 
 <img src="./Images/business_act.png">
 
-Business Activity > Financials
+**Business Activity > Financials**
 
 <img src="./Images/finanscials.png">
 
-Additional Information
+**Additional Information**
 
 <img src="./Images/add_info.png">
 
