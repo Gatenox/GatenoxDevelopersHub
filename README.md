@@ -16,9 +16,9 @@ How to create company profile?
 4. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
 
 How to onboard to partner?
-1. [Share your profile with partner]()
-2. [Your current onboardings]()
-3. [Other Gatenox partners]()
+1. [Share your profile with partner](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#share-your-profile)
+2. [Your current onboardings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#your-current-onboardings)
+3. [Other Gatenox partners](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#other-gatenox-partners)
 
 **Verifier journey**
 
