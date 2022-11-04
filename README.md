@@ -7,14 +7,18 @@
 
 **User journey**
 
+[Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+
 How to create company profile?
-1. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
-2. [Create new company](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
-3. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
-4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
-5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
+1. [Create new company](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
+2. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
+3. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
+4. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
 
 How to onboard to partner?
+1. [Share your profile with partner](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#share-your-profile)
+2. [Your current onboardings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#your-current-onboardings)
+3. [Other Gatenox partners](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#other-gatenox-partners)
 
 **Verifier journey**
 
@@ -51,7 +55,9 @@ In the Gatenox Hub, the data collection process has been divided into 3 main par
 
 Each part has an easy-to-use wizard that guides you throughout the process.
 
-## Creating new company
+## How to create company profile?
+
+### Creating new company
 
 To create a new company profile you need to open the context menu in the upper right corner and click on the “Add company” link.
 
@@ -70,7 +76,7 @@ Now you can press the “Continue” button to go through the company setup wiza
 <img src="./Images/company_add4.png">
 
 
-## Company Details
+### Company Details
 This part is divided into 5 main steps (some steps contain more than one screen):
 * **Preparation** - displays information about the data and documents that are required,
 * **Basic Data** - asks data related to incorporation,
@@ -114,7 +120,7 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 <img src="./Images/add_info.png">
 
-## Directors
+### Directors
 This part is divided into 4 main steps:
 1. **Preparation** - displays information about the data and documents that are required
 2. **List of Directors** - asks data regarding directors’ basic personal information such as date of birth
@@ -151,7 +157,7 @@ This part is divided into 4 main steps:
 
 <img src="./Images/dir_verif2.png">
 
-## Company Structure
+### Company Structure
 This part is divided into 4 main steps:
 1. **Preparation** - displays information about the data and documents that are required
 2. **Shareholders** - asks data regarding the structure of your company (you can build any structure by adding Individual and Corporate shareholders)
@@ -185,6 +191,25 @@ Once the required company data is completed, you will be able to send it to the 
 When your data has been sent, your application will appear in the _Your Applications_ panel on the Company profile screen. 
 
 <img src="./Images/send_review2.png">
+
+## How to onboard to partner?
+
+### Share your profile
+
+<img src="./Images/Share_profile.png">
+<img src="./Images/Share_profile_onboarding1.png">
+<img src="./Images/Share_profile_onboarding_missing.png">
+<img src="./Images/Share_profile_onboarding_send.png">
+<img src="./Images/Share_profile_onboarding_send2.png">
+
+### Your current onboardings
+
+<img src="./Images/Current_onboarding_1.png">
+<img src="./Images/Current_onboarding_2.png">
+
+### Other gatenox partners
+
+<img src="./Images/Other_Gatenox_partners.png">
 
 # Verification Process (Verifier Journey)
 
