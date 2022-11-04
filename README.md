@@ -2,7 +2,7 @@
 
 **Introduction**
 
-1. [Guide](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#guide-to-the-gatenox-hub)
+1. [Guide](https://docs.gatenox.com#guide-to-the-gatenox-hub)
 2. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#introduction)
 
 **User journey**
