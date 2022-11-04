@@ -19,7 +19,7 @@ How to onboard to partner?
 **Verifier journey**
 
 1. [How to manage incoming reviews](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#verification-process-verifier-journey)
-2. [Extended individuals and comanies verification](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#extended-verification)
+2. [Extended individuals and companies verification](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#extended-verification)
 
 **Configuration and settigns**
 
