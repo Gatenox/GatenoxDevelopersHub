@@ -9,7 +9,7 @@
 
 How to create company profile?
 1. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
-2. [Create new copmany](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
+2. [Create new company](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
 3. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
 4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
 5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
