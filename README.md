@@ -196,21 +196,21 @@ When your data has been sent, your application will appear in the _Your Applicat
 
 ### Share your profile
 
+On the right sid of "your profile" screen you can find a list of Gatenox partners. To start onboaridng process click on your chosen partner.
+
 <img src="./Images/Share_profile.png">
+
+The partne will be added to your current onbaording list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using "Send for review" button.
+
 <img src="./Images/Share_profile_onboarding1.png">
 
-After starting onboarding with the partner, the partner name wil be displyed in the box on the top of ther "Your profile" screen. You can switch between partner by choosing diffrent one from the list.
-
-<img src="./Images/Current_onboardings.png">
-
-
+In case additional data is required by partner, the notification will be presented on the top of the screen.
 
 <img src="./Images/Share_profile_onboarding_missing.png">
 
-<img src="./Images/Share_profile_onboarding_send.png">
-<img src="./Images/Share_profile_onboarding_send2.png">
+After completing the required informaction, press "Send for review" button to share your profile with partner. Your will see a list of data, which will be send to the partner.
 
-After sending profile to the partner, the partner name wil be displyed in the box on the top of ther "Your profile" screen. You can switch between partner by choosing diffrent one from the list.
+<img src="./Images/Share_profile_onboarding_send.png">
 
 ### Your current appliactions
 
@@ -224,7 +224,7 @@ After clicking on each appliaction you can preview the appliaction data in the s
 
 ### Other gatenox partners
 
-O the right side of the screen you can find other Gatenox partners, to which you can onboard quickly using your already existing company profile.
+On the right side of the screen you can find other Gatenox partners, to which you can onboard quickly using your already existing company profile.
 
 <img src="./Images/Other_Gatenox_partners.png">
 
