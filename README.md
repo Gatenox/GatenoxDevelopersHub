@@ -7,13 +7,14 @@
 
 **User journey**
 
-1. [How to create company profile](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+How to create company profile?
+1. [Intro](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
 2. [Create new copmany](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
 3. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
 4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
 5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
 
-**How to onboard to partner**
+How to onboard to partner?
 
 **Verifier journey**
 
@@ -22,7 +23,7 @@
 
 **Configuration and settigns**
 
-1. Settings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#settings)
+1. [Settings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#settings)
 2. [Feedback](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#feedback)
 
 # Guide to the Gatenox Hub
