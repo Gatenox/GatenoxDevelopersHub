@@ -7,9 +7,9 @@
 
 **User journey**
 
-1. [How to create copamy profile](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+1. [How to create company profile](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
 2. [Create new copmany](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
-3. [Add company detials](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
+3. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
 4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
 5. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
 
