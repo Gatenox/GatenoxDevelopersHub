@@ -8,7 +8,7 @@
 **User journey**
 
 How to create company profile?
-1. [Intro](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+1. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
 2. [Create new copmany](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
 3. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
 4. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
