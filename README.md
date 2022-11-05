@@ -3,32 +3,32 @@
 **Introduction**
 
 1. [Guide](https://docs.gatenox.com#guide-to-the-gatenox-hub)
-2. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#introduction)
+2. [Introduction](https://docs.gatenox.com#introduction)
 
 **User journey**
 
-[Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+[Introduction](https://docs.gatenox.com#onboarding-process-user-journey)
 
 How to create company profile?
-1. [Create new company](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
-2. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
-3. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
-4. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
+1. [Create new company](https://docs.gatenox.com#creating-new-company)
+2. [Add company details](https://docs.gatenox.com#company-details)
+3. [Add directors](https://docs.gatenox.com#directors)
+4. [Create company structure](https://docs.gatenox.com#company-structure)
 
 How to onboard to partner?
-1. [Share your profile with partner](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#share-your-profile)
-2. [Your current onboardings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#your-current-onboardings)
-3. [Other Gatenox partners](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#other-gatenox-partners)
+1. [Share your profile with partner](https://docs.gatenox.com#share-your-profile)
+2. [Your current onboardings](https://docs.gatenox.com#your-current-onboardings)
+3. [Other Gatenox partners](https://docs.gatenox.com#other-gatenox-partners)
 
 **Verifier journey**
 
-1. [How to manage incoming reviews](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#verification-process-verifier-journey)
-2. [Extended individuals and companies verification](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#extended-verification)
+1. [How to manage incoming reviews](https://docs.gatenox.com#verification-process-verifier-journey)
+2. [Extended individuals and companies verification](https://docs.gatenox.com#extended-verification)
 
 **Configuration and settigns**
 
-1. [Settings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#settings)
-2. [Feedback](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#feedback)
+1. [Settings](https://docs.gatenox.com#settings)
+2. [Feedback](https://docs.gatenox.com#feedback)
 
 # Guide to the Gatenox Hub
 
