@@ -2,33 +2,33 @@
 
 **Introduction**
 
-1. [Guide](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#guide-to-the-gatenox-hub)
-2. [Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#introduction)
+1. [Guide](https://docs.gatenox.com#guide-to-the-gatenox-hub)
+2. [Introduction](https://docs.gatenox.com#introduction)
 
 **User journey**
 
-[Introduction](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#onboarding-process-user-journey)
+[Introduction](https://docs.gatenox.com#onboarding-process-user-journey)
 
 How to create company profile?
-1. [Create new company](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#creating-new-company)
-2. [Add company details](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-details)
-3. [Add directors](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#directors)
-4. [Create company structure](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#company-structure)
+1. [Create new company](https://docs.gatenox.com#creating-new-company)
+2. [Add company details](https://docs.gatenox.com#company-details)
+3. [Add directors](https://docs.gatenox.com#directors)
+4. [Create company structure](https://docs.gatenox.com#company-structure)
 
 How to onboard to partner?
-1. [Share your profile with partner](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#share-your-profile)
-2. [Your current onboardings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#your-current-onboardings)
-3. [Other Gatenox partners](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#other-gatenox-partners)
+1. [Share your profile with partner](https://docs.gatenox.com#share-your-profile)
+2. [Your current onboardings](https://docs.gatenox.com#your-current-onboardings)
+3. [Other Gatenox partners](https://docs.gatenox.com#other-gatenox-partners)
 
 **Verifier journey**
 
-1. [How to manage incoming reviews](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#verification-process-verifier-journey)
-2. [Extended individuals and companies verification](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#extended-verification)
+1. [How to manage incoming reviews](https://docs.gatenox.com#verification-process-verifier-journey)
+2. [Extended individuals and companies verification](https://docs.gatenox.com#extended-verification)
 
 **Configuration and settigns**
 
-1. [Settings](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#settings)
-2. [Feedback](https://github.com/Gatenox/GatenoxHub/blob/main/README.md#feedback)
+1. [Settings](https://docs.gatenox.com#settings)
+2. [Feedback](https://docs.gatenox.com#feedback)
 
 # Guide to the Gatenox Hub
 
@@ -192,22 +192,39 @@ When your data has been sent, your application will appear in the _Your Applicat
 
 <img src="./Images/send_review2.png">
 
-## How to onboard to partner?
+## How to onboard to partner
 
 ### Share your profile
 
+On the right side of the "your profile" screen, you can find a list of Gatenox partners. To start the onboarding process, click on your chosen partner.
+
 <img src="./Images/Share_profile.png">
+
+The partner will be added to your current onboarding list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using the "Send for review" button.
+
 <img src="./Images/Share_profile_onboarding1.png">
+
+In case additional data is required by partner, a notification will be presented at the top of the screen.
+
 <img src="./Images/Share_profile_onboarding_missing.png">
+
+After completing the required informaction, press the "Send for review" button to share your profile with the partner. You will see a list of data which will be sent to the partner.
+
 <img src="./Images/Share_profile_onboarding_send.png">
+
+### Your current applications
+
+After sending your profile to the partner, the partner name will be displayed in the box on top of the "Your profile" screen. You can switch between partners by choosing a different one from the list.
+
 <img src="./Images/Share_profile_onboarding_send2.png">
 
-### Your current onboardings
+After clicking on each application, you can preview the application data in the same way as the verifier sees them.
 
-<img src="./Images/Current_onboarding_1.png">
-<img src="./Images/Current_onboarding_2.png">
+<img src="./Images/Share_profile_preview.png">
 
-### Other gatenox partners
+### Other Gatenox partners
+
+On the right side of the screen, you can find other Gatenox partners who you can onboard to using your existing company profile.
 
 <img src="./Images/Other_Gatenox_partners.png">
 
@@ -262,7 +279,7 @@ After having an overview of the company's structure, you can proceed to the proc
 
 **Identified issues**
 
-<img src="./Images/review_ubo2.png">
+<img src="./Images/review_ident_issues.png">
 
 **Assessment**
 
