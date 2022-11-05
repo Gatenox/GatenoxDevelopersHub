@@ -279,7 +279,7 @@ After having an overview of the company's structure, you can proceed to the proc
 
 **Identified issues**
 
-<img src="./Images/review_ubo2.png">
+<img src="./Images/review_ident_issues.png">
 
 **Assessment**
 
