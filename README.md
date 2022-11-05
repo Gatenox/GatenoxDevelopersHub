@@ -200,11 +200,11 @@ On the right side of the "your profile" screen, you can find a list of Gatenox p
 
 <img src="./Images/Share_profile.png">
 
-The partner will be added to your current onbaording list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using "Send for review" button.
+The partner will be added to your current onboarding list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using "Send for review" button.
 
 <img src="./Images/Share_profile_onboarding1.png">
 
-In case additional data is required by partner, a notification will be presented on the top of the screen.
+In case additional data is required by partner, a notification will be presented at the top of the screen.
 
 <img src="./Images/Share_profile_onboarding_missing.png">
 
