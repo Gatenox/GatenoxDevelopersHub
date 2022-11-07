@@ -21,6 +21,7 @@ How to onboard to partner?
 3. [Other Gatenox partners](https://docs.gatenox.com#other-gatenox-partners)
 
 **Verifier journey**
+
 [Introduction](https://docs.gatenox.com#verification-process-verifier-journey)
 
 1. [How to manage incoming reviews](https://docs.gatenox.com#verification-process-verifier-journey)
