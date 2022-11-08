@@ -14,27 +14,27 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 **Basic Data > Incorporation Details**
 
-<figure><img src="../../Images/basic\_data.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/basic_data.png" alt=""><figcaption></figcaption></figure>
 
 **Basic Data > Proof of Incorporation Details** (upload each document with one click)
 
-<figure><img src="../../Images/proof\_of\_incorp.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/proof_of_incorp.png" alt=""><figcaption></figcaption></figure>
 
 **Addresses > Registered Address**
 
-<figure><img src="../../Images/reg\_address.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/reg_address.png" alt=""><figcaption></figcaption></figure>
 
 **Addresses > Office Address**
 
-<figure><img src="../../Images/office\_addr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/office_addr.png" alt=""><figcaption></figcaption></figure>
 
 **Basic Data > Proof of Office Address** (upload each document with one click)
 
-<figure><img src="../../Images/proof\_of\_office\_addr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/proof_of_office_addr.png" alt=""><figcaption></figcaption></figure>
 
 **Business Activity > Description**
 
-<figure><img src="../../Images/business\_act.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/business_act.png" alt=""><figcaption></figcaption></figure>
 
 **Business Activity > Financials**
 
@@ -42,5 +42,5 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 **Additional Information**
 
-<figure><img src="../../Images/add\_info.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/add_info.png" alt=""><figcaption></figcaption></figure>
 

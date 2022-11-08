@@ -9,29 +9,29 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-<figure><img src="../../Images/dir\_prep.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_prep.png" alt=""><figcaption></figcaption></figure>
 
 **List of Directors > Add Directors**
 
-<figure><img src="../../Images/dir\_add.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_add.png" alt=""><figcaption></figcaption></figure>
 
 **List of Directors > Personal Data**
 
-<figure><img src="../../Images/dir\_personal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_personal.png" alt=""><figcaption></figcaption></figure>
 
 **List of Directors > Verify your list of directors**
 
-<figure><img src="../../Images/dir\_proof\_list.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_proof_list.png" alt=""><figcaption></figcaption></figure>
 
 **Verification > Personal Data**
 
-<figure><img src="../../Images/dir\_personal2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_personal2.png" alt=""><figcaption></figcaption></figure>
 
 **Verification > Address**
 
-<figure><img src="../../Images/dir\_address.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_address.png" alt=""><figcaption></figcaption></figure>
 
 **Verification > Identity Verification**
 
-<figure><img src="../../Images/dir\_verif.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../Images/dir\_verif2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../Images/dir_verif.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../Images/dir_verif2.png" alt=""><figcaption></figcaption></figure>
 
