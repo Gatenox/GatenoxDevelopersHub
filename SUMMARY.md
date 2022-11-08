@@ -8,18 +8,18 @@
   * [ISSUE\_TEMPLATE](.github/issue\_template-1/README.md)
     * [feature\_request](.github/ISSUE\_TEMPLATE/feature\_request.md)
 
-## (User) How to ... ?
+## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
-* [Add new company](user-how-to-.../add-new-company.md)
-* [Edit company details](user-how-to-.../edit-company-details.md)
-* [Add / edit directors](user-how-to-.../add-edit-directors.md)
-* [Create / modify company structure](user-how-to-.../create-modify-company-structure.md)
-* [Add / edit UBOs](user-how-to-.../add-edit-ubos.md)
+* [Add new company](user-how-to/add-new-company.md)
+* [Edit company details](user-how-to/edit-company-details.md)
+* [Add / edit directors](user-how-to/add-edit-directors.md)
+* [Create / modify company structure](user-how-to/create-modify-company-structure.md)
+* [Add / edit UBOs](user-how-to/add-edit-ubos.md)
 
-## (Verifier) How to ... ?
+## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 
-* [Send invitation for review](verifier-how-to-.../send-invitation-for-review.md)
-* [Verify reviews](verifier-how-to-.../verify-reviews.md)
+* [Send invitation for review](verifier-how-to/send-invitation-for-review.md)
+* [Verify reviews](verifier-how-to/verify-reviews.md)
 
 ## General settings
 
