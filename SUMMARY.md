@@ -1,7 +1,17 @@
 # Table of contents
 
-* [Guide](README.md)
-* [Interface overview](BetaGuide.md)
+## Gatenox guide
+
+* [Introduction](README.md)
+* [User journey](gatenox-guide/user-journey/README.md)
+  * [Create new company](gatenox-guide/user-journey/create-new-company.md)
+  * [Company details](gatenox-guide/user-journey/company-details.md)
+  * [Directors](gatenox-guide/user-journey/directors.md)
+  * [Company structure](gatenox-guide/user-journey/company-structure.md)
+* [Verifier journey](gatenox-guide/verifier-journey.md)
+* [Configuration and settings](gatenox-guide/configuration-and-settings.md)
+* [Guide](gatenox-guide/readme.md)
+* [Interface overview](gatenox-guide/betaguide.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
