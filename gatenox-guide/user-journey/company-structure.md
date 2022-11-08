@@ -9,29 +9,28 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-<figure><img src="../../Images/cs_prep.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_prep.png" alt=""><figcaption></figcaption></figure>
 
 **Shareholders**
 
-<figure><img src="../../Images/cs_shareholders.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_shareholders.png" alt=""><figcaption></figcaption></figure>
 
 **UBOs - list**
 
-<figure><img src="../../Images/cs_UBO.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_UBO.png" alt=""><figcaption></figcaption></figure>
 
 **UBOs - justification**
 
-<figure><img src="../../Images/cs_UBO2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_UBO2.png" alt=""><figcaption></figcaption></figure>
 
 **Verification** (add detailed data regarding Individual and Corporate shareholders)
 
-<figure><img src="../../Images/cs_verif.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_verif.png" alt=""><figcaption></figcaption></figure>
 
 Once the required company data is completed, you will be able to send it to the Gatenox Partner by clicking on the _Send for Review_ button.
 
-<figure><img src="../../Images/send_review.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/send_review.png" alt=""><figcaption></figcaption></figure>
 
 When your data has been sent, your application will appear in the _Your Applications_ panel on the Company profile screen.
 
-<figure><img src="../../Images/send_review2.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../docs/Images/send_review2.png" alt=""><figcaption></figcaption></figure>
