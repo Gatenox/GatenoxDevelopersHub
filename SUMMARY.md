@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Interface overview](README.md)
-* [README](<README (1).md>)
+* [Guide](README.md)
+* [Interface overview](BetaGuide.md)
 * [.github](.github/README.md)
   * [ISSUE\_TEMPLATE](.github/issue\_template/README.md)
     * [bug\_report](.github/ISSUE\_TEMPLATE/bug\_report.md)
