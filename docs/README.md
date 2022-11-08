@@ -29,7 +29,7 @@ How to onboard to partner?
 1. [How to manage incoming reviews](https://docs.gatenox.com/#verification-process-verifier-journey)
 2. [Extended individuals and companies verification](https://docs.gatenox.com/#extended-verification)
 
-**Configuration and settigns**
+**Configuration and settings**
 
 1. [Settings](https://docs.gatenox.com/#settings)
 2. [Feedback](https://docs.gatenox.com/#feedback)
