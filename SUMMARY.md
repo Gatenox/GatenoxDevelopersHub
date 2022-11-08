@@ -8,10 +8,14 @@
   * [Company details](gatenox-guide/user-journey/company-details.md)
   * [Directors](gatenox-guide/user-journey/directors.md)
   * [Company structure](gatenox-guide/user-journey/company-structure.md)
-* [Verifier journey](gatenox-guide/verifier-journey.md)
-* [Configuration and settings](gatenox-guide/configuration-and-settings.md)
-* [Guide](gatenox-guide/readme.md)
-* [Interface overview](gatenox-guide/betaguide.md)
+* [Verifier journey](gatenox-guide/verifier-journey/README.md)
+  * [Review list](gatenox-guide/verifier-journey/review-list.md)
+  * [Review details](gatenox-guide/verifier-journey/review-details.md)
+* [Configuration and settings](gatenox-guide/configuration-and-settings/README.md)
+  * [Personal informaction](gatenox-guide/configuration-and-settings/personal-informaction.md)
+  * [Company informaction](gatenox-guide/configuration-and-settings/company-informaction.md)
+* [Guide](<README (1).md>)
+* [Interface overview](BetaGuide.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
