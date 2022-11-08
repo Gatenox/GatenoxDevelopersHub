@@ -2,11 +2,6 @@
 
 * [Guide](README.md)
 * [Interface overview](BetaGuide.md)
-* [.github](.github/README.md)
-  * [ISSUE\_TEMPLATE](.github/issue\_template/README.md)
-    * [bug\_report](.github/ISSUE\_TEMPLATE/bug\_report.md)
-  * [ISSUE\_TEMPLATE](.github/issue\_template-1/README.md)
-    * [feature\_request](.github/ISSUE\_TEMPLATE/feature\_request.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
