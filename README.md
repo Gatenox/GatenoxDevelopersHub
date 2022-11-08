@@ -70,19 +70,19 @@ Each part has an easy-to-use wizard that guides you throughout the process.
 
 To create a new company profile you need to open the context menu in the upper right corner and click on the “Add company” link.
 
-![](Images/settings\_manage.png)
+![](docs/Images/settings\_manage.png)
 
 You will see an “Add new company” screen. In order to facilitate the process of creating a new company profile (entering selected data for you), you must specify exactly what company you mean by entering the jurisdiction and number.
 
-![](Images/company\_add.png)
+![](docs/Images/company\_add.png)
 
 Now you can use the “Find your company” button to search for the name of your company. The result will be displayed in the “Company name” field. In case your company will not be found, you can enter “Company name” manually and press the “Continue” button. If the company was not found, then we will not be able to facilitate the process for you.
 
-![](Images/company\_add2.png)
+![](docs/Images/company\_add2.png)
 
 Now you can press the “Continue” button to go through the company setup wizard. The “Company details” preparation screen will be displayed.
 
-![](Images/company\_add4.png)
+![](docs/Images/company\_add4.png)
 
 #### Company Details
 
@@ -96,39 +96,39 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 **Preparation**
 
-![](Images/preparation.png)
+![](docs/Images/preparation.png)
 
 **Basic Data > Incorporation Details**
 
-![](Images/basic\_data.png)
+![](docs/Images/basic\_data.png)
 
 **Basic Data > Proof of Incorporation Details** (upload each document with one click)
 
-![](Images/proof\_of\_incorp.png)
+![](docs/Images/proof\_of\_incorp.png)
 
 **Addresses > Registered Address**
 
-![](Images/reg\_address.png)
+![](docs/Images/reg\_address.png)
 
 **Addresses > Office Address**
 
-![](Images/office\_addr.png)
+![](docs/Images/office\_addr.png)
 
 **Basic Data > Proof of Office Address** (upload each document with one click)
 
-![](Images/proof\_of\_office\_addr.png)
+![](docs/Images/proof\_of\_office\_addr.png)
 
 **Business Activity > Description**
 
-![](Images/business\_act.png)
+![](docs/Images/business\_act.png)
 
 **Business Activity > Financials**
 
-![](Images/finanscials.png)
+![](docs/Images/finanscials.png)
 
 **Additional Information**
 
-![](Images/add\_info.png)
+![](docs/Images/add\_info.png)
 
 #### Directors
 
@@ -141,31 +141,31 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-![](Images/dir\_prep.png)
+![](docs/Images/dir\_prep.png)
 
 **List of Directors > Add Directors**
 
-![](Images/dir\_add.png)
+![](docs/Images/dir\_add.png)
 
 **List of Directors > Personal Data**
 
-![](Images/dir\_personal.png)
+![](docs/Images/dir\_personal.png)
 
 **List of Directors > Verify your list of directors**
 
-![](Images/dir\_proof\_list.png)
+![](docs/Images/dir\_proof\_list.png)
 
 **Verification > Personal Data**
 
-![](Images/dir\_personal2.png)
+![](docs/Images/dir\_personal2.png)
 
 **Verification > Address**
 
-![](Images/dir\_address.png)
+![](docs/Images/dir\_address.png)
 
 **Verification > Identity Verification**
 
-![](Images/dir\_verif.png) ![](Images/dir\_verif2.png)
+![](docs/Images/dir\_verif.png) ![](docs/Images/dir\_verif2.png)
 
 #### Company Structure
 
@@ -178,31 +178,31 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-![](Images/cs\_prep.png)
+![](docs/Images/cs\_prep.png)
 
 **Shareholders**
 
-![](Images/cs\_shareholders.png)
+![](docs/Images/cs\_shareholders.png)
 
 **UBOs - list**
 
-![](Images/cs\_UBO.png)
+![](docs/Images/cs\_UBO.png)
 
 **UBOs - justification**
 
-![](Images/cs\_UBO2.png)
+![](docs/Images/cs\_UBO2.png)
 
 **Verification** (add detailed data regarding Individual and Corporate shareholders)
 
-![](Images/cs\_verif.png)
+![](docs/Images/cs\_verif.png)
 
 Once the required company data is completed, you will be able to send it to the Gatenox Partner by clicking on the _Send for Review_ button.
 
-![](Images/send\_review.png)
+![](docs/Images/send\_review.png)
 
 When your data has been sent, your application will appear in the _Your Applications_ panel on the Company profile screen.
 
-![](Images/send\_review2.png)
+![](docs/Images/send\_review2.png)
 
 ### How to onboard to partner
 
@@ -210,45 +210,45 @@ When your data has been sent, your application will appear in the _Your Applicat
 
 On the right side of the "your profile" screen, you can find a list of Gatenox partners. To start the onboarding process, click on your chosen partner.
 
-![](Images/Share\_profile.png)
+![](Images/Other\_Gatenox\_partners.png)
 
 The partner will be added to your current onboarding list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using the "Send for review" button.
 
-![](Images/Share\_profile\_onboarding1.png)
+![](docs/Images/Share\_profile\_onboarding1.png)
 
 In case additional data is required by partner, a notification will be presented at the top of the screen.
 
-![](Images/Share\_profile\_onboarding\_missing.png)
+![](docs/Images/Share\_profile\_onboarding\_missing.png)
 
 After completing the required informaction, press the "Send for review" button to share your profile with the partner. You will see a list of data which will be sent to the partner.
 
-![](Images/Share\_profile\_onboarding\_send.png)
+![](docs/Images/Share\_profile\_onboarding\_send.png)
 
 #### Your current applications
 
 After sending your profile to the partner, the partner name will be displayed in the box on top of the "Your profile" screen. You can switch between partners by choosing a different one from the list.
 
-![](Images/Share\_profile\_onboarding\_send2.png)
+![](docs/Images/Share\_profile\_onboarding\_send2.png)
 
 After clicking on each application, you can preview the application data in the same way as the verifier sees them.
 
-![](Images/Share\_profile\_preview.png)
+![](docs/Images/Share\_profile\_preview.png)
 
 #### Other Gatenox partners
 
 On the right side of the screen, you can find other Gatenox partners who you can onboard to using your existing company profile.
 
-![](Images/Other\_Gatenox\_partners.png)
+![](Images/Share\_profile.png)
 
 ## Verification Process (Verifier Journey)
 
 To review applications, click on the Verifications tab and select one of the applications in the list.
 
-![](Images/applic.png)
+![](docs/Images/applic.png)
 
 From this screen, you can also send a verification invitation to another company. As soon as the other party accepts your invitation to the Corporate KYC process, the application will appear in the mentioned list.
 
-![](Images/appli\_invitation.png)
+![](docs/Images/appli\_invitation.png)
 
 ### Review Process
 
@@ -263,41 +263,41 @@ Each application is divided into 6 main parts:
 
 Before the mentioned sections are displayed, a summary of any identified potential issues will appear at the top of the page e.g. presence of company entities or individuals on sanction, PEP or criminal lists in **a red section**.
 
-![](Images/review\_issues.png)
+![](docs/Images/review\_issues.png)
 
 If no potential issues are found, a green section will be displayed at the top of the page.
 
-![](Images/review\_issues2.png)
+![](docs/Images/review\_issues2.png)
 
 In addition, you can view the whole structure of the company in the form of a **fully interactive graph** (it is possible to open the graph in a new browser tab).
 
-![](Images/review\_graph.png)
+![](docs/Images/review\_graph.png)
 
 After having an overview of the company's structure, you can proceed to the process of viewing the data.
 
 **Company Details**
 
-![](Images/review\_comp\_detials.png)
+![](docs/Images/review\_comp\_detials.png)
 
 **Directors**
 
-![](Images/review\_dir.png)
+![](docs/Images/review\_dir.png)
 
 **UBOs**
 
-![](Images/review\_UBO.png)
+![](docs/Images/review\_UBO.png)
 
 **Company Structure - tree view** (you can view the entire structure by expanding the selection - in this case, clicking the down arrow next to PETROPARS UK LIMITED)
 
-![](Images/review\_cs.png)
+![](docs/Images/review\_cs.png)
 
 **Identified issues**
 
-![](Images/review\_ident\_issues.png)
+![](docs/Images/review\_ident\_issues.png)
 
 **Assessment**
 
-![](Images/review\_assesment.png)
+![](docs/Images/review\_assesment.png)
 
 ### Extended verification
 
@@ -305,17 +305,17 @@ The basic sanctions check included as a default involves verification of individ
 
 If you need to verify individuals and companies against a myriad of sanction lists, PEP, and criminal watchlists, you can buy additional search credits by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage.
 
-![](Images/entities\_verification.png)
+![](docs/Images/entities\_verification.png)
 
 If you have sufficient credits, when you press the “Verify” button, additional verification will be performed and the results will be presented in the same manner as internal checks.
 
-![](Images/entities\_verification\_result.png)
+![](docs/Images/entities\_verification\_result.png)
 
 ## Settings
 
 Settings can be accessed using the "Settings" tab on the side menu pane on the left or by clicking on the "Manage your account" button in the upper right corner.
 
-![](Images/settings\_manage.png)
+![](docs/Images/settings\_manage.png)
 
 The settings tab consist of 2 tabs:
 
@@ -326,7 +326,7 @@ The settings tab consist of 2 tabs:
 
 In this section, you can see your individual account details. We plan to add more features in the section shortly.
 
-![](Images/settings\_personal.png)
+![](docs/Images/settings\_personal.png)
 
 **Company information** The tab is split into 2 sections:
 
@@ -338,10 +338,10 @@ In this section, you can see your individual account details. We plan to add mor
    * you can customize your verification link
    * you can see the required fields which is mandatory for every user you verify. This data can be configured in the setup phase.
 
-![](Images/settings\_company.png)
+![](docs/Images/settings\_company.png)
 
 ## Feedback
 
 We encourage you to take the opportunity to leave feedback. Click on the blue GIVE US FEEDBACK button pinned to the bottom of the page and leave your opinion.
 
-![](Images/feedback.png)
+![](docs/Images/feedback.png)
