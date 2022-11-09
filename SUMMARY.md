@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Page 1](README.md)
+
 ## Gatenox guide
 
-* [Introduction](README.md)
+* [Introduction](gatenox-guide/guide-introduction.md)
 * [User journey](gatenox-guide/user-journey/README.md)
   * [Create new company](gatenox-guide/user-journey/create-new-company.md)
   * [Company details](gatenox-guide/user-journey/company-details.md)
@@ -15,10 +17,10 @@
 * [Verifier journey](gatenox-guide/verifier-journey/README.md)
   * [Review list](gatenox-guide/verifier-journey/review-list.md)
   * [Review details](gatenox-guide/verifier-journey/review-details.md)
+* [Feedback](gatenox-guide/feedback/feedback.md)
 * [Configuration and settings](gatenox-guide/configuration-and-settings/README.md)
   * [Personal informaction](gatenox-guide/configuration-and-settings/personal-informaction.md)
   * [Company informaction](gatenox-guide/configuration-and-settings/company-informaction.md)
-* [Feedback](gatenox-guide/feedback/feedback.md)
 
 ## Sandbox
 
