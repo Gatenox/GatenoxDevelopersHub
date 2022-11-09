@@ -8,38 +8,38 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 * **Business Activity** - asks data about the nature of your business,
 * **Additional Data** - asks about any additional information that may be required.
 
-**Preparation**
+## **Preparation**
 
 <figure><img src="../../docs/Images/preparation.png" alt=""><figcaption></figcaption></figure>
 
-**Basic Data > Incorporation Details**
+## **Basic Data > Incorporation Details**
 
 <figure><img src="../../docs/Images/basic_data.png" alt=""><figcaption></figcaption></figure>
 
-**Basic Data > Proof of Incorporation Details** (upload each document with one click)
+## **Basic Data > Proof of Incorporation Details** (upload each document with one click)
 
 <figure><img src="../../docs/Images/proof_of_incorp.png" alt=""><figcaption></figcaption></figure>
 
-**Addresses > Registered Address**
+## **Addresses > Registered Address**
 
 <figure><img src="../../docs/Images/reg_address.png" alt=""><figcaption></figcaption></figure>
 
-**Addresses > Office Address**
+## **Addresses > Office Address**
 
 <figure><img src="../../docs/Images/office_addr.png" alt=""><figcaption></figcaption></figure>
 
-**Basic Data > Proof of Office Address** (upload each document with one click)
+## **Basic Data > Proof of Office Address** (upload each document with one click)
 
 <figure><img src="../../docs/Images/proof_of_office_addr.png" alt=""><figcaption></figcaption></figure>
 
-**Business Activity > Description**
+## **Business Activity > Description**
 
 <figure><img src="../../docs/Images/business_act.png" alt=""><figcaption></figcaption></figure>
 
-**Business Activity > Financials**
+## **Business Activity > Financials**
 
 <figure><img src="../../docs/Images/finanscials.png" alt=""><figcaption></figcaption></figure>
 
-**Additional Information**
+## **Additional Information**
 
 <figure><img src="../../docs/Images/add_info.png" alt=""><figcaption></figcaption></figure>
