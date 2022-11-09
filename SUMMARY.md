@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Page 1](README.md)
-
 ## Gatenox guide
 
-* [Introduction](gatenox-guide/guide-introduction.md)
+* [Introduction](README.md)
 * [User journey](gatenox-guide/user-journey/README.md)
   * [Create new company](gatenox-guide/user-journey/create-new-company.md)
   * [Company details](gatenox-guide/user-journey/company-details.md)
