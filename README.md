@@ -1,7 +1,3 @@
----
-coverY: 0
----
-
 # Introduction
 
 This wiki explains the Gatenox Hub interface and possible usage scenarios.
