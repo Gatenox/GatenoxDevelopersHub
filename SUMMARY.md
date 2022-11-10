@@ -23,6 +23,7 @@
 ## Sandbox
 
 * [Sandbox example data - overview](sandbox/betaguide.md)
+* [Videos tutorials](sandbox/videos-tutorials.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
