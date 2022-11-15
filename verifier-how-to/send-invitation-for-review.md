@@ -10,4 +10,4 @@ After clicking on "Invite for verification" button, the pop-up window will be di
 
 After clicking on invite button, the invitation email will be send to your customer.
 
-<figure><img src="../.gitbook/assets/email_invitation.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../Images/email_invitation.PNG" alt=""><figcaption></figcaption></figure>
