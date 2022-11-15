@@ -1,3 +1,2 @@
-# Apply via Gatenox button
+# Apply via Gatenox
 
-Coming soon ...
