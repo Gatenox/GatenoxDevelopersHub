@@ -35,9 +35,10 @@
 
 ## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 
-* [Referral code](verifier-how-to/referral-code.md)
-* [Send invitation for review](verifier-how-to/send-invitation-for-review.md)
-* [Apply via Gatenox](verifier-how-to/apply-via-gatenox-button.md)
+* [Start onboarding customers with Gatenox](verifier-how-to/start-onboarding-customers-with-gatenox/README.md)
+  * [Referral code](verifier-how-to/start-onboarding-customers-with-gatenox/referral-code.md)
+  * [Send invitation for review](verifier-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
+  * [Apply via Gatenox](verifier-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox-button.md)
 * [Verify reviews](verifier-how-to/verify-reviews.md)
 
 ## General settings
