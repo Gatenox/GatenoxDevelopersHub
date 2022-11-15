@@ -15,10 +15,10 @@
 * [Verifier journey](gatenox-guide/verifier-journey/README.md)
   * [Review list](gatenox-guide/verifier-journey/review-list.md)
   * [Review details](gatenox-guide/verifier-journey/review-details.md)
-* [Feedback](gatenox-guide/feedback/feedback.md)
 * [Configuration and settings](gatenox-guide/configuration-and-settings/README.md)
   * [Personal informaction](gatenox-guide/configuration-and-settings/personal-informaction.md)
   * [Company informaction](gatenox-guide/configuration-and-settings/company-informaction.md)
+* [Feedback](gatenox-guide/feedback/feedback.md)
 
 ## Sandbox
 
@@ -36,6 +36,7 @@
 ## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 
 * [Send invitation for review](verifier-how-to/send-invitation-for-review.md)
+* [Apply via Gatenox button](verifier-how-to/apply-via-gatenox-button.md)
 * [Verify reviews](verifier-how-to/verify-reviews.md)
 
 ## General settings
