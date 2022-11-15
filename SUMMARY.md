@@ -8,18 +8,22 @@
   * [Company details](gatenox-guide/user-journey/company-details.md)
   * [Directors](gatenox-guide/user-journey/directors.md)
   * [Company structure](gatenox-guide/user-journey/company-structure.md)
+* [Share your profile](gatenox-guide/share-your-profile/README.md)
   * [Share your profile](gatenox-guide/user-journey/share-your-profile.md)
-  * [[Your current applications](gatenox-guide/user-journey/your-current-applications.md)
+  * [Your current applications](gatenox-guide/user-journey/your-current-applications.md)
   * [Other Gatenox Partners](gatenox-guide/user-journey/other-gatenox-partners.md)
 * [Verifier journey](gatenox-guide/verifier-journey/README.md)
   * [Review list](gatenox-guide/verifier-journey/review-list.md)
   * [Review details](gatenox-guide/verifier-journey/review-details.md)
+* [Feedback](gatenox-guide/feedback/feedback.md)
 * [Configuration and settings](gatenox-guide/configuration-and-settings/README.md)
   * [Personal informaction](gatenox-guide/configuration-and-settings/personal-informaction.md)
   * [Company informaction](gatenox-guide/configuration-and-settings/company-informaction.md)
-* [Feedback](gatenox-guide/feedback/feedback.md)
-* [Guide](<README (1).md>)
-* [Interface overview](BetaGuide.md)
+
+## Sandbox
+
+* [Sandbox example data - overview](sandbox/betaguide.md)
+* [Videos tutorials](sandbox/videos-tutorials.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 

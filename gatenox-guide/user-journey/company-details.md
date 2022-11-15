@@ -1,5 +1,7 @@
 # Company details
 
+## Introduction
+
 This part is divided into 5 main steps (some steps contain more than one screen):
 
 * **Preparation** - displays information about the data and documents that are required,
@@ -8,39 +10,44 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 * **Business Activity** - asks data about the nature of your business,
 * **Additional Data** - asks about any additional information that may be required.
 
-**Preparation**
+## **Preparation**
 
-<figure><img src="../../Images/preparation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/preparation.png" alt=""><figcaption></figcaption></figure>
 
-**Basic Data > Incorporation Details**
+## **Basic Data**&#x20;
 
-<figure><img src="../../Images/basic_data.png" alt=""><figcaption></figcaption></figure>
+Incorporation Details
 
-**Basic Data > Proof of Incorporation Details** (upload each document with one click)
+<figure><img src="../../docs/Images/basic_data.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../Images/proof_of_incorp.png" alt=""><figcaption></figcaption></figure>
+**Proof of Incorporation Details** (upload each document with one click)
 
-**Addresses > Registered Address**
+<figure><img src="../../docs/Images/proof_of_incorp.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../Images/reg_address.png" alt=""><figcaption></figcaption></figure>
+## **Addresses**
 
-**Addresses > Office Address**
+Registered Address
 
-<figure><img src="../../Images/office_addr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/reg_address.png" alt=""><figcaption></figcaption></figure>
 
-**Basic Data > Proof of Office Address** (upload each document with one click)
+Office Address
 
-<figure><img src="../../Images/proof_of_office_addr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/office_addr.png" alt=""><figcaption></figcaption></figure>
 
-**Business Activity > Description**
+**Proof of Office Address** (upload each document with one click)
 
-<figure><img src="../../Images/business_act.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/proof_of_office_addr.png" alt=""><figcaption></figcaption></figure>
 
-**Business Activity > Financials**
+## **Business Activity**
 
-<figure><img src="../../Images/finanscials.png" alt=""><figcaption></figcaption></figure>
+Description
 
-**Additional Information**
+<figure><img src="../../docs/Images/business_act.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../Images/add_info.png" alt=""><figcaption></figcaption></figure>
+Financials
 
+<figure><img src="../../docs/Images/finanscials.png" alt=""><figcaption></figcaption></figure>
+
+## **Additional Information**
+
+<figure><img src="../../docs/Images/add_info.png" alt=""><figcaption></figcaption></figure>
