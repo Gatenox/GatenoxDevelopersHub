@@ -2,9 +2,9 @@
 
 Here, you can watch a video explaining user journey.
 
-{% embed url="https://www.loom.com/share/61926592af084613a7429d33e1755786" %}
+{% embed url="https://www.loom.com/share/12abfc7c426247a39c94dbf483c7bd8d" %}
 
 Here, you can watch a video explaining verifier journey.
 
-{% embed url="https://www.loom.com/share/2dafc4cf20f64491958cb723fc2c5da7" %}
+{% embed url="https://www.loom.com/share/297c2492601644cf8792914c3bbeb7bb" %}
 
