@@ -4,7 +4,7 @@ Instead of sending each user an invitation email ([send-invitation-for-review.md
 
 You can use the following button to inform users about verification processes via Gatenox:
 
-<figure><img src="../docs/Images/verifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../Images/apply_via_gatenox.png" alt=""><figcaption>Apply via Gatenox button</figcaption></figure>
 
 {% tabs %}
 {% tab title="button.html" %}
