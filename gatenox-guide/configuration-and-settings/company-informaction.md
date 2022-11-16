@@ -1,4 +1,4 @@
-# Company informaction
+# Company information
 
 The tab is split into 2 sections:
 

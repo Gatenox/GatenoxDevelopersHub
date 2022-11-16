@@ -1,9 +1,9 @@
 # Sandbox example data - overview
 
-Here you can find a description of sample data that has been provided to user and verifier profile on sandbox environment.
+Here you can find a description of sample data that has been provided to user and verifier profile on the sandbox environment.
 
 1. Log in to the application using the login information you received in the email.
-2.  After logging in, you will hit your company profile screen. We have prepared a profile of the company named **Verifier LTD** for you. As you can see in the following screenshot, the profile contains several sections related to Verifier LTD company details (_Company Details, Directors, Documents, UBOs, Company Structure_) and _Message Panel_, and _Other Gatenox Partners_.&#x20;
+2.  After logging in, you will hit your company profile screen. We have prepared a profile of the company named **Verifier LTD** for you. As you can see in the following screenshot, the profile contains several sections related to the Verifier LTD company details (_Company Details, Directors, Documents, UBOs, Company Structure_) and _Message Panel_, and _Other Gatenox Partners_.&#x20;
 
     <figure><img src="../docs/Images/profile.png" alt=""><figcaption></figcaption></figure>
 3.  Click _Edit_ to modify your Company Details. You may notice that optional data is missing. Editing and data entry are done through an intuitive and simple wizard. More detailed instructions are provided in the latter sections of this guide.&#x20;

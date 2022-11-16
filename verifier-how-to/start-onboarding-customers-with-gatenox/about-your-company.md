@@ -2,13 +2,13 @@
 
 ### Set company logo
 
-Your logo is your visual identity. We will use it in plenty of spaces in Gatenox. You can set it in "Settings" menu, on "Company account" tab.
+Your logo is your visual identity. We will use your logo throughout the Gatenox Platform. You can add the logo in the "Settings" menu, under the "Company information" tab.
 
 <figure><img src="../../Images/settings_company.png" alt=""><figcaption></figcaption></figure>
 
 ### Describe your services
 
-Your services description will be used in invitation emails send via Gatenox to your customers. Your can shortly describe your business in "Settings" menu, on "Company account" tab.
+Your services description will be used in invitation emails sent via Gatenox to your customers. Your can shortly describe your business in the "Settings" menu, under the "Company information" tab.
 
 ### Add you webpage address
 

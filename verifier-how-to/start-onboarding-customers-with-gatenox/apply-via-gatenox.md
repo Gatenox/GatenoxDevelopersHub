@@ -14,7 +14,7 @@ You can use the following button to inform users about verification processes vi
 </a>
 ```
 
-The "GATENOX" code in href link should be replaced with your referral code. It is available to copy from "Settings" menu, tab "Company account" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
+The "GATENOX" code in href link should be replaced with your referral code. It is available to copy from "Settings" menu, tab "Company information" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
 {% endtab %}
 
 {% tab title="button.css" %}

@@ -8,7 +8,7 @@ The partner will be added to your current onboarding list. If your profile is co
 
 <figure><img src="../../docs/Images/Share_profile_onboarding1.png" alt=""><figcaption></figcaption></figure>
 
-In case additional data is required by partner, a notification will be presented at the top of the screen.
+In case additional data is required by a partner, a notification will be presented at the top of the screen.
 
 <figure><img src="../../docs/Images/Share_profile_onboarding_missing.png" alt=""><figcaption></figcaption></figure>
 
