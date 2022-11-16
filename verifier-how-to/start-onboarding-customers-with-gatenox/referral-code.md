@@ -16,3 +16,11 @@ The referral code (with link to Gatenox Hub) is used in:
 
 1. invitation emails ([send-invitation-for-review.md](send-invitation-for-review.md "mention"))
 2. "Apply via Gatenox" button or link ([apply-via-gatenox-button.md](apply-via-gatenox-button.md "mention"))
+
+### What will my customer see after clicking on referral link?
+
+Customer will be redirected to welcome page after clinking on link / button with referral code. The informaction about onboarding process and your services wil be displayed, along with "Sign up" / "Log in" to Gatenox Hub button.
+
+After logging in to Gatenox your comapny will be automatically added to customer current onboarding list.
+
+<figure><img src="../../Images/referral_welcome_page.png" alt=""><figcaption></figcaption></figure>
