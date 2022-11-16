@@ -10,7 +10,6 @@ You can use the following button to inform users about verification processes vi
 {% tab title="button.html" %}
 ```
 <a class="GatenoxButton" href="<gatenoxUrl>">
-	<img src="https://kyb.dev.gatenox.com/gatenox_logomark_white.png" alt="Gatenox Logo"></img>
 	<div class="GatenoxButton-caption">Apply via Gatenox</div>
 </a>
 ```
@@ -32,15 +31,6 @@ The "\<gatenoxUrl>" variable should be replaced with your referral code (includi
   box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2);
 }
 
-.GatenoxButton-logo {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 9px;
-  left: 16px;
-}
-
 .GatenoxButton-caption {
   position: absolute;
   top: 9px;
@@ -49,7 +39,7 @@ The "\<gatenoxUrl>" variable should be replaced with your referral code (includi
   height: 30px;
   width: 224px;
   color: #FFFFFF;
-  font-family: Inter;
+  font-family: Roboto;
   font-size: 24px;
   line-height: 30px;
   font-weight: 100;
