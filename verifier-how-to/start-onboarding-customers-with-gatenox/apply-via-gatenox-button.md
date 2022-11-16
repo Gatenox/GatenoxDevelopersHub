@@ -4,17 +4,17 @@ Instead of sending each user an invitation email ([send-invitation-for-review.md
 
 You can use the following button to inform users about verification processes via Gatenox:
 
-<figure><img src="../../Images/apply_via_gatenox.png" alt=""><figcaption><p>Apply via Gatenox button</p></figcaption></figure>
+<figure><img src="../../Images/apply_via_gatenox.png" alt="Apply via Gatenox"><figcaption><p>Apply via Gatenox button</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="button.html" %}
 ```
-<a class="GatenoxButton" href="<gatenoxUrl>">
+<a class="GatenoxButton" href="https://app.gatenox.com/referrals/join/GATENOX">
 	<div class="GatenoxButton-caption">Apply via Gatenox</div>
 </a>
 ```
 
-The "\<gatenoxUrl>" variable should be replaced with your referral code (including link to Gatenox Hub). It is available to copy from "Settings" menu, tab "Company account" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
+The "GATENOX" code in href link should be replaced with your referral code. It is available to copy from "Settings" menu, tab "Company account" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
 {% endtab %}
 
 {% tab title="button.css" %}
