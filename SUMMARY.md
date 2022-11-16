@@ -16,8 +16,8 @@
   * [Review list](gatenox-guide/verifier-journey/review-list.md)
   * [Review details](gatenox-guide/verifier-journey/review-details.md)
 * [Configuration and settings](gatenox-guide/configuration-and-settings/README.md)
-  * [Personal informaction](gatenox-guide/configuration-and-settings/personal-informaction.md)
-  * [Company informaction](gatenox-guide/configuration-and-settings/company-informaction.md)
+  * [Personal information](gatenox-guide/configuration-and-settings/personal-information.md)
+  * [Company information](gatenox-guide/configuration-and-settings/company-information.md)
 * [Feedback](gatenox-guide/feedback/feedback.md)
 
 ## Sandbox
