@@ -1,5 +1,14 @@
 # Sandbox example data - overview
 
+To save you time and maximize your user experience, we have populated your profile with sample company data. For BETA testing, you don't have to worry about filling in these necessary data. Feel free to edit them if you want to fill in the data yourself.
+
+The company profile provided of the box consists of:
+
+* **Company details data** (Jurisdiction, Company Name, Company Registration Number, Date of Incorporation, Company Type, Brand Name, Proof of Incorporation, Registered Address, Office Address, Proof of Office Address, Industry)
+* **One Company Director** (and UBO) with KYC data
+* **One Individual Shareholder** (the same person as the Director)
+* **One Corporate Shareholder**
+
 Here you can find a description of sample data that has been provided to user and verifier profile on the sandbox environment.
 
 1. Log in to the application using the login information you received in the email.
