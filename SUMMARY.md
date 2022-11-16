@@ -36,11 +36,11 @@
 ## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 
 * [Start onboarding customers with Gatenox](verifier-how-to/start-onboarding-customers-with-gatenox/README.md)
-  * [About your company](verifier-how-to/start-onboarding-customers-with-gatenox/set-company-logo.md)
+  * [About your company](verifier-how-to/start-onboarding-customers-with-gatenox/about-your-company.md)
   * [What data my company requires?](verifier-how-to/start-onboarding-customers-with-gatenox/what-data-my-company-requires.md)
   * [Referral code](verifier-how-to/start-onboarding-customers-with-gatenox/referral-code.md)
   * [Send invitation for review](verifier-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
-  * [Apply via Gatenox](verifier-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox-button.md)
+  * [Apply via Gatenox](verifier-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
 * [Verify reviews](verifier-how-to/verify-reviews.md)
 
 ## General settings
