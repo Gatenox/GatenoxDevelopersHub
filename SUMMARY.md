@@ -28,7 +28,10 @@
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
 * [Add new company](user-how-to/add-new-company.md)
-* [Edit company details](user-how-to/edit-company-details.md)
+* [Edit company details](user-how-to/edit-company-details/README.md)
+  * [Basic data](user-how-to/edit-company-details/basic-data.md)
+  * [Company addresses](user-how-to/edit-company-details/company-addresses.md)
+  * [Other company details](user-how-to/edit-company-details/other-company-details.md)
 * [Add / edit directors](user-how-to/add-edit-directors.md)
 * [Create / modify company structure](user-how-to/create-modify-company-structure.md)
 * [Add / edit UBOs](user-how-to/add-edit-ubos.md)
