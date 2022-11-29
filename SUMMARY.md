@@ -20,10 +20,10 @@
   * [Company information](gatenox-guide/configuration-and-settings/company-information.md)
 * [Feedback](gatenox-guide/feedback/feedback.md)
 
-## Sandbox
+## Examples
 
-* [Sandbox example data - overview](sandbox/betaguide.md)
-* [Videos tutorials](sandbox/videos-tutorials.md)
+* [Example data - overview](examples/exampledata.md)
+* [Videos tutorials](examples/videos-tutorials.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
