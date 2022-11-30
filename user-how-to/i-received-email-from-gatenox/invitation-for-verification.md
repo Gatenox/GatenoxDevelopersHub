@@ -4,7 +4,7 @@
 
 If you have found an email from the Gatenox Hub, which invites you to onboarding process, it means that other Gatenox User has asked you to create and share your company corporate profile using Gatenox Hub.
 
-<figure><img src="../../Images/email_invitation.PNG" alt=""><figcaption><p>Invitation for verification - email example</p></figcaption></figure>
+<figure><img src="../../Images/email_invitation.png" alt=""><figcaption><p>Invitation for verification - email example</p></figcaption></figure>
 
 In the email you can find information about who invites you to onboarding process, including inviter webpage and email / support contact in case you have any questions about received invitation.
 
