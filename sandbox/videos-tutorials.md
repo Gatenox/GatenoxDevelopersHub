@@ -7,4 +7,3 @@ Here, you can watch a video explaining user journey.
 Here, you can watch a video explaining verifier journey.
 
 {% embed url="https://www.loom.com/share/297c2492601644cf8792914c3bbeb7bb" %}
-

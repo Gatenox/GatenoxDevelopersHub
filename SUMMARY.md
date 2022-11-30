@@ -23,10 +23,13 @@
 ## Examples
 
 * [Example data - overview](examples/exampledata.md)
-* [Videos tutorials](examples/videos-tutorials.md)
+* [Videos tutorials](sandbox/videos-tutorials.md)
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
+* [I received email from Gatenox ...](user-how-to/i-received-email-from-gatenox-.../README.md)
+  * [Invitation for verification](user-how-to/i-received-email-from-gatenox-.../invitation-for-verification.md)
+  * [Invitation for KYC](user-how-to/i-received-email-from-gatenox-.../invitation-for-kyc.md)
 * [Add new company](user-how-to/add-new-company.md)
 * [Edit company details](user-how-to/edit-company-details/README.md)
   * [Basic data](user-how-to/edit-company-details/basic-data.md)
