@@ -21,7 +21,7 @@ In both cases, the amount of information required to be completed depends on the
 
 <figure><img src="../../Images/Current_onboarding_OK.png" alt=""><figcaption></figcaption></figure>
 
-* Sometimes, only 1-2 additional fields are required. You will see appropriate notification on your profile.&#x20;
+* Sometimes, only 1-2 additional fields are required. You will see appropriate notification on your profile. Learn more here: [complete-required-company-data.md](../complete-required-company-data.md "mention").
 
 <figure><img src="../../Images/Current_onboarding_missing.png" alt=""><figcaption></figcaption></figure>
 
