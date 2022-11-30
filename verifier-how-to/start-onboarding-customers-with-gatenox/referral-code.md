@@ -6,7 +6,7 @@ Each verifier receives dedicated referral code which is used to quickly redirect
 
 The referral code is generated automatically after a new company is created. It can be found in the "Settings" menu under the "Company information" tab.
 
-<figure><img src="../../Images/settings_company.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/settings_company.png" alt=""><figcaption></figcaption></figure>
 
 Your code consists of randomly generated letters and digits. If you prefer you can change the code to better fit your requirements, for example: company name.
 

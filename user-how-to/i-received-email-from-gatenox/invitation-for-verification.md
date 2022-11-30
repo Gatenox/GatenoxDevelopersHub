@@ -17,14 +17,14 @@ If you recognized that inviter, there a few simple steps you need to do, to comp
 
 In both cases, the amount of information required to be completed depends on the inviter / partner.
 
-* Sometimes, when you have already onboard to other company, your profile may include all required information and all you need to do is to press "Send for review" button. Learn more here: [share-my-profile.md](../share-my-profile.md "mention").
+* Sometimes, when you have already onboard to other company, your profile may include all required information and all you need to do is to press "Send for review" button. Learn more here: [share-my-profile.md](../share-company-profile/share-my-profile.md "mention").
 
 <figure><img src="../../Images/Current_onboarding_OK.png" alt=""><figcaption></figcaption></figure>
 
-* Sometimes, only 1-2 additional fields are required. You will see appropriate notification on your profile. Learn more here: [complete-required-company-data.md](../complete-required-company-data.md "mention").
+* Sometimes, only 1-2 additional fields are required. You will see appropriate notification on your profile. Learn more here: [complete-required-company-data.md](../share-company-profile/complete-required-company-data.md "mention").
 
 <figure><img src="../../Images/Current_onboarding_missing.png" alt=""><figcaption></figcaption></figure>
 
-* If you have just created Gatenox account, then you will need to create the profile from scratch. Do not worry - we will facilitate the process for you! After providing company number and jurisdiction we will try to complete your profile with available data from the company register and other data sources. At the beginning you will see the company add screen. Learn more about creating your profile here: [add-new-company.md](../add-new-company.md "mention").
+* If you have just created Gatenox account, then you will need to create the profile from scratch. Do not worry - we will facilitate the process for you! After providing company number and jurisdiction we will try to complete your profile with available data from the company register and other data sources. At the beginning you will see the company add screen. Learn more about creating your profile here: [add-new-company.md](../create-and-complete-company-profile/add-new-company.md "mention").
 
 <figure><img src="../../Images/company_add.png" alt=""><figcaption></figcaption></figure>
