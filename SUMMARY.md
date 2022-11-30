@@ -38,6 +38,8 @@
 * [Add / edit directors](user-how-to/add-edit-directors.md)
 * [Create / modify company structure](user-how-to/create-modify-company-structure.md)
 * [Add / edit UBOs](user-how-to/add-edit-ubos.md)
+* [Complete required company data](user-how-to/complete-required-company-data.md)
+* [Share my profile](user-how-to/share-my-profile.md)
 
 ## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 
