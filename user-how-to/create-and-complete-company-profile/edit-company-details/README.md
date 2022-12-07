@@ -2,4 +2,5 @@
 
 Coming soon ...
 
-![](../../../.gitbook/assets/TEST.png)
+<figure><img src="../../../.gitbook/assets/TEST.png" alt=""><figcaption><p>Edit company details</p></figcaption></figure>
+
