@@ -11,24 +11,24 @@ This part is divided into 4 main steps:
 
 ## **Preparation**
 
-<figure><img src="../../.gitbook/assets/cs_prep.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_prep.png" alt=""><figcaption></figcaption></figure>
 
 ## **Shareholders**
 
-<figure><img src="../../.gitbook/assets/cs_shareholders.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_shareholders.png" alt=""><figcaption></figcaption></figure>
 
 ## **UBOs**
 
 List
 
-<figure><img src="../../.gitbook/assets/cs_UBO.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_UBO.png" alt=""><figcaption></figcaption></figure>
 
 Justification
 
-<figure><img src="../../.gitbook/assets/cs_UBO2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_UBO2.png" alt=""><figcaption></figcaption></figure>
 
 ## **Entities verification**
 
 **Verification** (add detailed data regarding Individual and Corporate shareholders)
 
-<figure><img src="../../.gitbook/assets/cs_verif.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Images/cs_verif.png" alt=""><figcaption></figcaption></figure>

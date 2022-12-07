@@ -36,6 +36,7 @@
   * [Edit company details](user-how-to/create-and-complete-company-profile/edit-company-details/README.md)
     * [Basic data](user-how-to/create-and-complete-company-profile/edit-company-details/basic-data.md)
     * [Company addresses](user-how-to/create-and-complete-company-profile/edit-company-details/company-addresses.md)
+    * [Business description](user-how-to/create-and-complete-company-profile/edit-company-details/business-description.md)
     * [Other company details](user-how-to/create-and-complete-company-profile/edit-company-details/other-company-details.md)
   * [Add / edit directors](user-how-to/create-and-complete-company-profile/add-edit-directors.md)
   * [Create / modify company structure](user-how-to/create-and-complete-company-profile/create-modify-company-structure.md)
