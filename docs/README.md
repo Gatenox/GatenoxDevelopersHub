@@ -68,19 +68,19 @@ Each part has an easy-to-use wizard that guides you throughout the process.
 
 To create a new company profile you need to open the context menu in the upper right corner and click on the “Add company” link.
 
-<img src="./Images/settings_manage.png">
+<img src="./.gitbook/assets/settings_manage.png">
 
 You will see an “Add new company” screen. In order to facilitate the process of creating a new company profile (entering selected data for you), you must specify exactly what company you mean by entering the jurisdiction and number.
 
-<img src="./Images/company_add.png">
+<img src="./.gitbook/assets/company_add.png">
 
 Now you can use the “Find your company” button to search for the name of your company. The result will be displayed in the “Company name” field. In case your company will not be found, you can enter “Company name” manually and press the “Continue” button. If the company was not found, then we will not be able to facilitate the process for you.
 
-<img src="./Images/company_add2.png">
+<img src="./.gitbook/assets/company_add2.png">
 
 Now you can press the “Continue” button to go through the company setup wizard. The “Company details” preparation screen will be displayed.
 
-<img src="./Images/company_add4.png">
+<img src="./.gitbook/assets/company_add4.png">
 
 #### Company Details
 
@@ -94,39 +94,39 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 **Preparation**
 
-<img src="./Images/preparation.png">
+<img src="./.gitbook/assets/preparation.png">
 
 **Basic Data > Incorporation Details**
 
-<img src="./Images/basic_data.png">
+<img src="./.gitbook/assets/basic_data.png">
 
 **Basic Data > Proof of Incorporation Details** (upload each document with one click)
 
-<img src="./Images/proof_of_incorp.png">
+<img src="./.gitbook/assets/proof_of_incorp.png">
 
 **Addresses > Registered Address**
 
-<img src="./Images/reg_address.png">
+<img src="./.gitbook/assets/reg_address.png">
 
 **Addresses > Office Address**
 
-<img src="./Images/office_addr.png">
+<img src="./.gitbook/assets/office_addr.png">
 
 **Basic Data > Proof of Office Address** (upload each document with one click)
 
-<img src="./Images/proof_of_office_addr.png">
+<img src="./.gitbook/assets/proof_of_office_addr.png">
 
 **Business Activity > Description**
 
-<img src="./Images/business_act.png">
+<img src="./.gitbook/assets/business_act.png">
 
 **Business Activity > Financials**
 
-<img src="./Images/finanscials.png">
+<img src="./.gitbook/assets/finanscials.png">
 
 **Additional Information**
 
-<img src="./Images/add_info.png">
+<img src="./.gitbook/assets/add_info.png">
 
 #### Directors
 
@@ -139,31 +139,31 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-<img src="./Images/dir_prep.png">
+<img src="./.gitbook/assets/dir_prep.png">
 
 **List of Directors > Add Directors**
 
-<img src="./Images/dir_add.png">
+<img src="./.gitbook/assets/dir_add.png">
 
 **List of Directors > Personal Data**
 
-<img src="./Images/dir_personal.png">
+<img src="./.gitbook/assets/dir_personal.png">
 
 **List of Directors > Verify your list of directors**
 
-<img src="./Images/dir_proof_list.png">
+<img src="./.gitbook/assets/dir_proof_list.png">
 
 **Verification > Personal Data**
 
-<img src="./Images/dir_personal2.png">
+<img src="./.gitbook/assets/dir_personal2.png">
 
 **Verification > Address**
 
-<img src="./Images/dir_address.png">
+<img src="./.gitbook/assets/dir_address.png">
 
 **Verification > Identity Verification**
 
-<img src="./Images/dir_verif.png"> <img src="./Images/dir_verif2.png">
+<img src="./.gitbook/assets/dir_verif.png"> <img src="./.gitbook/assets/dir_verif2.png">
 
 #### Company Structure
 
@@ -176,31 +176,31 @@ This part is divided into 4 main steps:
 
 **Preparation**
 
-<img src="./Images/cs_prep.png">
+<img src="./.gitbook/assets/cs_prep.png">
 
 **Shareholders**
 
-<img src="./Images/cs_shareholders.png">
+<img src="./.gitbook/assets/cs_shareholders.png">
 
 **UBOs - list**
 
-<img src="./Images/cs_UBO.png">
+<img src="./.gitbook/assets/cs_UBO.png">
 
 **UBOs - justification**
 
-<img src="./Images/cs_UBO2.png">
+<img src="./.gitbook/assets/cs_UBO2.png">
 
 **Verification** (add detailed data regarding Individual and Corporate shareholders)
 
-<img src="./Images/cs_verif.png">
+<img src="./.gitbook/assets/cs_verif.png">
 
 Once the required company data is completed, you will be able to send it to the Gatenox Partner by clicking on the _Send for Review_ button.
 
-<img src="./Images/send_review.png">
+<img src="./.gitbook/assets/send_review.png">
 
 When your data has been sent, your application will appear in the _Your Applications_ panel on the Company profile screen.
 
-<img src="./Images/send_review2.png">
+<img src="./.gitbook/assets/send_review2.png">
 
 ### How to onboard to partner
 
@@ -208,45 +208,45 @@ When your data has been sent, your application will appear in the _Your Applicat
 
 On the right side of the "your profile" screen, you can find a list of Gatenox partners. To start the onboarding process, click on your chosen partner.
 
-<img src="./Images/Share_profile.png">
+<img src="./.gitbook/assets/Share_profile.png">
 
 The partner will be added to your current onboarding list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using the "Send for review" button.
 
-<img src="./Images/Share_profile_onboarding1.png">
+<img src="./.gitbook/assets/Share_profile_onboarding1.png">
 
 In case additional data is required by partner, a notification will be presented at the top of the screen.
 
-<img src="./Images/Share_profile_onboarding_missing.png">
+<img src="./.gitbook/assets/Share_profile_onboarding_missing.png">
 
 After completing the required informaction, press the "Send for review" button to share your profile with the partner. You will see a list of data which will be sent to the partner.
 
-<img src="./Images/Share_profile_onboarding_send.png">
+<img src="./.gitbook/assets/Share_profile_onboarding_send.png">
 
 #### Your current applications
 
 After sending your profile to the partner, the partner name will be displayed in the box on top of the "Your profile" screen. You can switch between partners by choosing a different one from the list.
 
-<img src="./Images/Share_profile_onboarding_send2.png">
+<img src="./.gitbook/assets/Share_profile_onboarding_send2.png">
 
 After clicking on each application, you can preview the application data in the same way as the verifier sees them.
 
-<img src="./Images/Share_profile_preview.png">
+<img src="./.gitbook/assets/Share_profile_preview.png">
 
 #### Other Gatenox partners
 
 On the right side of the screen, you can find other Gatenox partners who you can onboard to using your existing company profile.
 
-<img src="./Images/Other_Gatenox_partners.png">
+<img src="./.gitbook/assets/Other_Gatenox_partners.png">
 
 ## Verification Process (Verifier Journey)
 
 To review applications, click on the Verifications tab and select one of the applications in the list.
 
-<img src="./Images/applic.png">
+<img src="./.gitbook/assets/applic.png">
 
 From this screen, you can also send a verification invitation to another company. As soon as the other party accepts your invitation to the Corporate KYC process, the application will appear in the mentioned list.
 
-<img src="./Images/appli_invitation.png">
+<img src="./.gitbook/assets/appli_invitation.png">
 
 ### Review Process
 
@@ -261,41 +261,41 @@ Each application is divided into 6 main parts:
 
 Before the mentioned sections are displayed, a summary of any identified potential issues will appear at the top of the page e.g. presence of company entities or individuals on sanction, PEP or criminal lists in **a red section**.
 
-<img src="./Images/review_issues.png">
+<img src="./.gitbook/assets/review_issues.png">
 
 If no potential issues are found, a green section will be displayed at the top of the page.
 
-<img src="./Images/review_issues2.png">
+<img src="./.gitbook/assets/review_issues2.png">
 
 In addition, you can view the whole structure of the company in the form of a **fully interactive graph** (it is possible to open the graph in a new browser tab).
 
-<img src="./Images/review_graph.png">
+<img src="./.gitbook/assets/review_graph.png">
 
 After having an overview of the company's structure, you can proceed to the process of viewing the data.
 
 **Company Details**
 
-<img src="./Images/review_comp_detials.png">
+<img src="./.gitbook/assets/review_comp_detials.png">
 
 **Directors**
 
-<img src="./Images/review_dir.png">
+<img src="./.gitbook/assets/review_dir.png">
 
 **UBOs**
 
-<img src="./Images/review_UBO.png">
+<img src="./.gitbook/assets/review_UBO.png">
 
 **Company Structure - tree view** (you can view the entire structure by expanding the selection - in this case, clicking the down arrow next to PETROPARS UK LIMITED)
 
-<img src="./Images/review_cs.png">
+<img src="./.gitbook/assets/review_cs.png">
 
 **Identified issues**
 
-<img src="./Images/review_ident_issues.png">
+<img src="./.gitbook/assets/review_ident_issues.png">
 
 **Assessment**
 
-<img src="./Images/review_assesment.png">
+<img src="./.gitbook/assets/review_assesment.png">
 
 ### Extended verification
 
@@ -303,17 +303,17 @@ The basic sanctions check included as a default involves verification of individ
 
 If you need to verify individuals and companies against a myriad of sanction lists, PEP, and criminal watchlists, you can buy additional search credits by selecting an entity on directors, UBOS and company structure tabs. They will be added to the entity's verification basket on the right side of the webpage.
 
-<img src="./Images/entities_verification.png">
+<img src="./.gitbook/assets/entities_verification.png">
 
 If you have sufficient credits, when you press the “Verify” button, additional verification will be performed and the results will be presented in the same manner as internal checks.
 
-<img src="./Images/entities_verification_result.png">
+<img src="./.gitbook/assets/entities_verification_result.png">
 
 ## Settings
 
 Settings can be accessed using the "Settings" tab on the side menu pane on the left or by clicking on the "Manage your account" button in the upper right corner.
 
-<img src="./Images/settings_manage.png">
+<img src="./.gitbook/assets/settings_manage.png">
 
 The settings tab consist of 2 tabs:
 
@@ -324,7 +324,7 @@ The settings tab consist of 2 tabs:
 
 In this section, you can see your individual account details. We plan to add more features in the section shortly.
 
-<img src="./Images/settings_personal.png">
+<img src="./.gitbook/assets/settings_personal.png">
 
 **Company information** The tab is split into 2 sections:
 
@@ -336,10 +336,10 @@ In this section, you can see your individual account details. We plan to add mor
    * you can customize your verification link
    * you can see the required fields which is mandatory for every user you verify. This data can be configured in the setup phase.
 
-<img src="./Images/settings_company.png">
+<img src="./.gitbook/assets/settings_company.png">
 
 ## Feedback
 
 We encourage you to take the opportunity to leave feedback. Click on the blue GIVE US FEEDBACK button pinned to the bottom of the page and leave your opinion.
 
-<img src="./Images/feedback.png">
+<img src="./.gitbook/assets/feedback.png">
