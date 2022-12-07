@@ -2,5 +2,5 @@
 
 Coming soon ...
 
-<figure><img src="../../../.gitbook/assets/TEST.png" alt=""><figcaption><p>Edit company details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/edit_company.png" alt=""><figcaption><p>Edit company</p></figcaption></figure>
 
