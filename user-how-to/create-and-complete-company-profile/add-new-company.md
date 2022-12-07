@@ -10,7 +10,7 @@ You will see an “Add new company” screen. In order to facilitate the process
 
 First, enter your company's jurisdiction and registration number. Now you can use the “Find your company” button to search for the name of your company.
 
-<figure><img src="../../docs/Images/company_add1.png" alt=""><figcaption><p>Find your company</p></figcaption></figure>
+<figure><img src="../../Images/company_add1.png" alt=""><figcaption><p>Find your company</p></figcaption></figure>
 
 The result will be displayed in the “Company name” field. If your company is not found, you can enter “Company name” manually and press the “Continue” button. In this case, we will not be able to facilitate the process for you.
 
