@@ -27,6 +27,7 @@
 
 ## (User) How to ... ? <a href="#user-how-to" id="user-how-to"></a>
 
+* [What should I do after first login?](user-how-to/what-should-i-do-after-first-login.md)
 * [I received an email from Gatenox ...](user-how-to/i-received-email-from-gatenox/README.md)
   * [Invitation for verification](user-how-to/i-received-email-from-gatenox/invitation-for-verification.md)
   * [Invitation for KYC](user-how-to/i-received-email-from-gatenox/invitation-for-kyc.md)
