@@ -6,7 +6,7 @@
 
 Settings can be accessed using the "Settings" tab on the side menu pane on the left or by clicking on the "Manage your account" button in the upper right corner.
 
-<figure><img src="../../docs/Images/settings_manage.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/settings_manage.png" alt=""><figcaption></figcaption></figure>
 
 The settings tab consist of 2 tabs:
 

@@ -2,7 +2,7 @@
 
 In case you need to add some business description to your profile, please navigate to the "Company profile" menu and click _Edit in_ "Company Details" section. The "Preparation" screen will be displayed.
 
-<figure><img src="../../../.gitbook/assets/preparation.png" alt=""><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../../docs/Images/preparation.png" alt=""><figcaption><p>Company details - preparation</p></figcaption></figure>
 
 Now, you can navigate directly to business description section by clicking on "Business activity" navigation element on the top of the screen. Here you can select your company industry, and description of your business and products and choose courtiers of your business activity.
 
