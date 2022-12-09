@@ -1,6 +1,6 @@
 # Add / edit list of directors
 
-You can edit your company directors by clicking on "Edit" button in "Directors" section of the "Your company profile" screen.
+You can edit your company directors by clicking on the "Edit" button in the "Directors" section of the "Your company profile" screen.
 
 <figure><img src="../../.gitbook/assets/directors (1).png" alt=""><figcaption></figcaption></figure>
 

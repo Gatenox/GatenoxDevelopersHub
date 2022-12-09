@@ -1,6 +1,6 @@
 # Edit company details
 
-You can edit your company details by clicking on "Edit" button in "Company details" section of the "Your company profile" screen.
+You can edit your company details by clicking on the "Edit" button in the "Company details" section of the "Your company profile" screen.
 
 You will be redirected to data edit wizard, including the following steps:
 
@@ -10,4 +10,3 @@ You will be redirected to data edit wizard, including the following steps:
 4. Additional company details - other company information [other-company-details.md](other-company-details.md "mention").
 
 <figure><img src="../../../.gitbook/assets/edit_details.png" alt=""><figcaption><p>Your company profile - edit company details</p></figcaption></figure>
-

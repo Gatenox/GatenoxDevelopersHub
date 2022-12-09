@@ -2,23 +2,23 @@
 
 Your company registration data may change over time.
 
-In case you need to correct your company registration details, please navigate to the "Company profile" menu and click _Edit in_ "Company Details" section. The "Preparation" screen will be displayed.
+In case you need to correct your company registration details, please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
 
 <figure><img src="../../../.gitbook/assets/preparation.png" alt=""><figcaption></figcaption></figure>
 
-Click on the "Basic data" in navigation menu to start editing your company basic data.
+Click on the "Basic data" in the navigation menu to start editing your company's basic data.
 
 ### Basic data
 
-Here, your can edit your company registration data.
+Here, you can edit your company registration data.
 
 <figure><img src="../../../.gitbook/assets/basic_data.png" alt=""><figcaption><p>Company basic data - registration info</p></figcaption></figure>
 
-After clicking on "Verify incorporation details" you will be moved to part of the process where you can add list of documents confirming your registration data.
+After clicking on "Verify incorporation details" you will be moved to part of the process where you can add a list of documents confirming your registration data.
 
 ### Verify incorporation details
 
-Here you can proved all necessary documents proofing your registration data. The list of documents depends on your company jurisdiction and type.
+Here you can provide all necessary documents proofing your registration data. The list of documents depends on your company jurisdiction and type.
 
 Please provide those, which you consider the most relevant.
 

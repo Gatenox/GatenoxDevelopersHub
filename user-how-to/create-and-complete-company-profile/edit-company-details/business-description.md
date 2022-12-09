@@ -1,10 +1,10 @@
 # Business description
 
-In case you need to add some business description to your profile, please navigate to the "Company profile" menu and click _Edit in_ "Company Details" section. The "Preparation" screen will be displayed.
+In case you need to add some business description to your profile, please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
 
 <figure><img src="../../../docs/Images/preparation.png" alt=""><figcaption><p>Company details - preparation</p></figcaption></figure>
 
-Now, you can navigate directly to business description section by clicking on "Business activity" navigation element on the top of the screen.
+Now, you can navigate directly to the business description section by clicking on the "Business activity" navigation element on the top of the screen.
 
 ### Business description
 
@@ -12,11 +12,11 @@ Here you can select your company industry, and description of your business and 
 
 <figure><img src="../../../.gitbook/assets/business_activity_general.png" alt=""><figcaption><p>Business activity - description</p></figcaption></figure>
 
-To move to next part (financial information) click on "Continue" button.
+To move to the next part (financial information) click on the "Continue" button.
 
-### Financial informaction
+### Financial information
 
-Here you will be able to add the TAX number and provide an information about your company sources of funds.&#x20;
+Here you will be able to add the TAX number and provide information about your company sources of funds.&#x20;
 
 <figure><img src="../../../.gitbook/assets/business_activity_financials.png" alt=""><figcaption><p>Business activities - financials</p></figcaption></figure>
 
