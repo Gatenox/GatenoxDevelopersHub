@@ -2,7 +2,7 @@
 
 You can edit your company structure by clicking on "Edit" button in "Company structure" section of the "Your company profile" screen.
 
-<figure><img src="../../../.gitbook/assets/company_structure (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/company_structure (1).png" alt=""><figcaption></figcaption></figure>
 
 You will be redirected to data edit wizard, including the following steps:
 

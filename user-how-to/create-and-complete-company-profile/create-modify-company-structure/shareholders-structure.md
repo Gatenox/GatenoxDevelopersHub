@@ -13,7 +13,7 @@ To add new shareholder to the structure, click on "Add shareholder +" button. Yo
 1. Individual - please provide given names, last name and add % of shares own by the shareholder.&#x20;
 2. Corporate - please provide company name and add % of shares own by the shareholder.
 
-<figure><img src="../../../.gitbook/assets/cs_shareholders (2).png" alt=""><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_shareholders (1).png" alt=""><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
 
 If you have already added someone to your company profile (for example: a person in a role of director) you can easily select individual from the list. To add new shareholder to company structure press the "Add new person" or "Add new company" button.
 

@@ -6,7 +6,7 @@ The UBOs definition screen involves pre-calculated list of UBOs. The calculation
 
 If you need to know who is UBO, please click on "Ultimate Beneficiary Owner" link.
 
-<figure><img src="../../../.gitbook/assets/cs_UBO (1).png" alt=""><figcaption><p>Company structure - UBO</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_UBO.png" alt=""><figcaption><p>Company structure - UBO</p></figcaption></figure>
 
 The calculation made by us is only a helper for you. On the list you can select ( checkbox on the right side of the list), which one of your individual shareholders are real UBOs. In some situation you will not be able to place your UBO on the company structure prepared on previous step. In this case, you can manually add UBO to current list by clicking on the "Add UBO" button.
 

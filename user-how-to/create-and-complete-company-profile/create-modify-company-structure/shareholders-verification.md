@@ -25,7 +25,7 @@ Repeat those steps for all individual shareholders included in your structure.
 
 For corporate shareholders only limited data is collected: company number and jurisdiction. This data allows us to perform sanction check.
 
-<figure><img src="../../../.gitbook/assets/cs_verif (1).png" alt=""><figcaption><p>Shareholders verification - corporates, company details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_verif.png" alt=""><figcaption><p>Shareholders verification - corporates, company details</p></figcaption></figure>
 
 Repeat those steps for all corporate shareholders included in your structure.
 
