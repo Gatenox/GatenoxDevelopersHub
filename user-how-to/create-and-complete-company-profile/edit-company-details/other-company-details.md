@@ -12,6 +12,6 @@ Now, you can navigate directly to additional information section by clicking on 
 
 This is the last step of completing data in "Company details" section of your profile. By pressing "Continue" button you will be redirected to "Thank you screen".
 
-<figure><img src="../../../.gitbook/assets/company_details_completed.png" alt=""><figcaption><p>Company details - completed</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/company_details_completed.png" alt=""><figcaption><p>Company details - required data completed</p></figcaption></figure>
 
-In the next section you will be asked to provide details about your company directors.
+In the next section you will be asked to provide details about your company directors. If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.

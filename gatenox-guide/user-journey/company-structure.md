@@ -25,7 +25,7 @@ List
 
 Justification
 
-<figure><img src="../../.gitbook/assets/cs_UBO2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cs_UBO2 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Entities verification**
 
