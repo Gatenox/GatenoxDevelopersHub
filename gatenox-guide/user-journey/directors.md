@@ -11,34 +11,34 @@ This part is divided into 4 main steps:
 
 ## **Preparation**
 
-<figure><img src="../../.gitbook/assets/dir_prep (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_prep (1).png" alt="Directors - preparation"><figcaption><p>Directors - preparation</p></figcaption></figure>
 
 **List of Directors > Add Directors**
 
-<figure><img src="../../.gitbook/assets/dir_add.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_add.png" alt="List of directors"><figcaption><p>List of directors</p></figcaption></figure>
 
 ## **List of Directors**
 
 Personal Data
 
-<figure><img src="../../.gitbook/assets/dir_personal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_personal.png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
 
 **List of Directors > Verify your list of directors**
 
-<figure><img src="../../.gitbook/assets/dir_proof_list.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_proof_list.png" alt="Directors - verification"><figcaption><p>Directors - verification</p></figcaption></figure>
 
 ## **Verification**
 
 Personal Data
 
-<figure><img src="../../.gitbook/assets/dir_personal2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_personal2.png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
 
 **Verification > Address**
 
-<figure><img src="../../.gitbook/assets/dir_address.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_address.png" alt="Directors - residential address"><figcaption><p>Directors - residential address</p></figcaption></figure>
 
 Identity Verification
 
-<figure><img src="../../.gitbook/assets/dir_verif.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_verif.png" alt="Directors - identification document"><figcaption><p>Directors - identification document</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/dir_verif2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_verif2.png" alt="Directors - identification document (2)"><figcaption><p>Directors - identification document (2)</p></figcaption></figure>

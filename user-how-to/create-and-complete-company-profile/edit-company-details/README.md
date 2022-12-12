@@ -9,4 +9,4 @@ You will be redirected to data edit wizard, including the following steps:
 3. Business activity description, including basic financial information [business-description.md](business-description.md "mention").
 4. Additional company details - other company information [other-company-details.md](other-company-details.md "mention").
 
-<figure><img src="../../../.gitbook/assets/edit_details.png" alt=""><figcaption><p>Your company profile - edit company details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/edit_details.png" alt="Your company profile - edit company details"><figcaption><p>Your company profile - edit company details</p></figcaption></figure>

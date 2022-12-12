@@ -2,7 +2,7 @@
 
 In case you need to add or correct your company structure or shareholders and UBOs details, please navigate to the "Company profile" menu and click _Edit_ in the "Company structure" section. The "Preparation" screen will be displayed.
 
-<figure><img src="../../../.gitbook/assets/cs_prep (1).png" alt=""><figcaption><p>Company structure - preparation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_prep (1).png" alt="Company structure - preparation"><figcaption><p>Company structure - preparation</p></figcaption></figure>
 
 Please click on the "Continue" button to start creating or modifying your company shareholders structure.
 
@@ -13,7 +13,7 @@ To add new shareholder to the structure, click on the "Add shareholder +" button
 1. Individual - please provide given names, last name and add % of shares owned by the shareholder.&#x20;
 2. Corporate - please provide the company name and add % of shares owned by the shareholder.
 
-<figure><img src="../../../.gitbook/assets/cs_shareholders (1).png" alt=""><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_shareholders (1).png" alt="Company shareholders - tree and graph view"><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
 
 If you have already added someone to your company profile (for example: a person in a role of director) you can easily select an individual from the list. To add a new shareholder to the company structure press the "Add new person" or "Add new company" button.
 
@@ -23,7 +23,7 @@ If required, you will be asked to provide more details (company number and juris
 
 In case of the corporate shareholder, you can also provide their structure, by clicking on the company name presented on the tree view. &#x20;
 
-<figure><img src="../../../.gitbook/assets/cs_corporate_shareholder.png" alt=""><figcaption><p>Company structure - corporate shareholder's structure</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_corporate_shareholder.png" alt="Company structure - corporate shareholder&#x27;s structure"><figcaption><p>Company structure - corporate shareholder's structure</p></figcaption></figure>
 
 The process is the same - just add shareholders using the "Add shareholder +" button. All persons / companies added previously are reusable. If you added a person (individual shareholder or director) or company on the previous level of the structure, just select it from the list of shareholders.
 

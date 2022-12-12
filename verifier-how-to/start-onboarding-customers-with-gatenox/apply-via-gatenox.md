@@ -4,7 +4,7 @@ Instead of sending each user an invitation email ([send-invitation-for-review.md
 
 You can use the following button to inform users about verification processes via Gatenox:
 
-<figure><img src="../../.gitbook/assets/apply_via_gatenox.png" alt="Apply via Gatenox"><figcaption><p>Apply via Gatenox button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/apply_via_gatenox.png" alt="&#x22;Apply via Gatenox&#x22; button"><figcaption><p>"Apply via Gatenox" button</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="button.html" %}
