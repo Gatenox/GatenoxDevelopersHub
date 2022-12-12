@@ -18,12 +18,12 @@ After clicking on "Verify incorporation details" you will be moved to part of th
 
 ### Verify incorporation details
 
-Here you can provide all necessary documents proofing your registration data. The list of documents depends on your company jurisdiction and type.
+Here you can provide all necessary documents to verify your registration data. The list of documents depends on your company jurisdiction and type.
 
-Please provide those, which you consider the most relevant.
+Please provide those which you consider the most relevant.
 
 <figure><img src="../../../.gitbook/assets/basic_data_verify.png" alt=""><figcaption><p>Company basic data - verification documents</p></figcaption></figure>
 
-After uploading the document, you can move to the next step, where you will be asked to provide addresses related to your company.
+After uploading the document, you can move to the next step where you will be asked to provide addresses related to your company.
 
 If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.
