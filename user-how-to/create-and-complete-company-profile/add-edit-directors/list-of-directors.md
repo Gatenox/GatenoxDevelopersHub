@@ -1,6 +1,6 @@
 # List of directors
 
-In case you need to add or correct your company list of directors or directors personal details, please navigate to the "Company profile" menu and click _Edit in_ "Directors" section. The "Preparation" screen will be displayed.
+In case you need to add or correct your company list of directors or directors' personal details, please navigate to the "Company profile" menu and click _Edit_ in "Directors" section. The "Preparation" screen will be displayed.
 
 <figure><img src="../../../.gitbook/assets/dir_prep.png" alt=""><figcaption><p>Directors - preparation</p></figcaption></figure>
 
@@ -20,7 +20,7 @@ Now, you can add position and date of birth for each of the directors. When you 
 
 <figure><img src="../../../.gitbook/assets/dir_proof_list.png" alt=""><figcaption><p>Proof of directors list</p></figcaption></figure>
 
-In the step you will be asked to provide a document verifying your list of directors. Depending on your company's country of residence and type, you can provide relevant documents to prove this list. When you are ready, press "Continue" button to add personal details (KYC) of your directors.
+In this step you will be asked to provide a document verifying your list of directors. Depending on your company's country of residence and type, you can provide relevant documents to support this list. When you are ready, press "Continue" button to add the personal details (KYC) of your directors.
 
 If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.
 

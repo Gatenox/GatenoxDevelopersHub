@@ -1,6 +1,6 @@
 # Directors verification
 
-The directors verification process involve providing personal data in the following areas:
+The directors verification process involves providing personal data in the following areas:
 
 1. Personal data.
 2. Residential address.
@@ -22,9 +22,9 @@ In this step you are asked to provide the director's identity document. Pick one
 
 <figure><img src="../../../.gitbook/assets/dir_identity.png" alt=""><figcaption><p>Directors - identity document</p></figcaption></figure>
 
-Repeat those steps for all directors included in your company's directors list.
+Repeat these steps for all directors included in your company's directors list.
 
-It is the last step of completing data in the "Directors" section of your profile. By pressing the "Finish" button you will be redirected to the "Thank you" screen.
+This is the last step of completing data in the "Directors" section of your profile. By pressing the "Finish" button you will be redirected to the "Thank you" screen.
 
 <figure><img src="../../../.gitbook/assets/dir_finished.png" alt=""><figcaption><p>Directors - required data completed</p></figcaption></figure>
 
