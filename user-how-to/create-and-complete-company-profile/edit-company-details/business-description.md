@@ -1,6 +1,6 @@
 # Business description
 
-In case you need to add a business description to your profile, please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
+In case you need to add some business description to your profile, please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
 
 <figure><img src="../../../docs/Images/preparation.png" alt=""><figcaption><p>Company details - preparation</p></figcaption></figure>
 
@@ -8,7 +8,7 @@ Now, you can navigate directly to the business description section by clicking o
 
 ### Business description
 
-Here you can select your company industry and include descriptions of your business, products and countries where you operate.
+Here you can select your company industry, and description of your business and products and choose courtiers of your business activity.
 
 <figure><img src="../../../.gitbook/assets/business_activity_general.png" alt=""><figcaption><p>Business activity - description</p></figcaption></figure>
 

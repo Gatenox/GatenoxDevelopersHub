@@ -4,7 +4,7 @@ In case you need to add or correct your company structure or shareholders and UB
 
 <figure><img src="../../../.gitbook/assets/cs_prep (1).png" alt=""><figcaption><p>Company structure - preparation</p></figcaption></figure>
 
-Please click on the "Continue" button to start creating or modifying your company shareholders structure.
+Please click on the "Continue" button to start creating or modify your company shareholders structure.
 
 ### Shareholders - create structure
 
@@ -25,7 +25,7 @@ In case of the corporate shareholder, you can also provide their structure, by c
 
 <figure><img src="../../../.gitbook/assets/cs_corporate_shareholder.png" alt=""><figcaption><p>Company structure - corporate shareholder's structure</p></figcaption></figure>
 
-The process is the same - just add shareholders using the "Add shareholder +" button. All persons / companies added previously are reusable. If you added a person (individual shareholder or director) or company on the previous level of the structure, just select it from the list of shareholders.
+The process is the same - just add shareholders using the "Add shareholder +" button. All persons / companies added previously are reusable - if you added a person (individual shareholder or director) or company on the previous level of the structure, just select it from the list of shareholders.
 
 You can always go back to the top of the structure by clicking on the "Back to top" button.
 

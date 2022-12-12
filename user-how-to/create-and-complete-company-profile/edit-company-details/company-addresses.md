@@ -12,7 +12,7 @@ Here you can select an address from the existing list (downloaded from the compa
 
 <figure><img src="../../../.gitbook/assets/reg_address.png" alt=""><figcaption><p>Registration address</p></figcaption></figure>
 
-After selecting your company address, click on the "Add office address" button to move to the next part.
+After selecting your company address click on the "Add office address" button to move to the next part - office address.
 
 ### Office address
 
@@ -20,11 +20,11 @@ The process of choosing an office address is the same as for a registration addr
 
 <figure><img src="../../../.gitbook/assets/office_addr.png" alt=""><figcaption><p>Office address</p></figcaption></figure>
 
-The last step of completing this part of the company profile is to add a verification document, verifying your office address. Click on the "Verify address" button.
+The last step of completing this part of the company profile is to add a verification document, proofing your office address. Click on the "Verify address" button.
 
 ### Verify office address
 
-Add a document confirming your office address.
+Add a document confirming your office address and all information regarding company address is completed.
 
 <figure><img src="../../../.gitbook/assets/address_verification.png" alt=""><figcaption><p>Proof of office address</p></figcaption></figure>
 

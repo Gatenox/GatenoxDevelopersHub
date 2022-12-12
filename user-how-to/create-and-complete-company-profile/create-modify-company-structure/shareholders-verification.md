@@ -7,7 +7,7 @@ The last part of the company structure preparation is the process of providing d
 
 ### Individual shareholders
 
-On the left side of the screen you will see a list of shareholders prepared in previous steps. You can switch between individual names and company names. If the entity name is followed by a green "OK" icon then all required information has been provided. Click on the "Continue" button after completing all required information to move to the next step.
+On the left side of the screen you will see a list of shareholders prepared on previous steps. You can switch between individual's names and company names. If the entity name is followed by a green "OK" icon then all required information has been provided. Click on the "Continue" button after completing all required information to move to the next step.
 
 <figure><img src="../../../.gitbook/assets/cs_verif_individual.png" alt=""><figcaption><p>Shareholders verification - individuals, personal data</p></figcaption></figure>
 
@@ -23,13 +23,13 @@ Repeat those steps for all individual shareholders included in your structure.
 
 ### Corporate shareholders
 
-For corporate shareholders only limited data is collected: company number and jurisdiction. This data allows us to perform a sanction screen.
+For corporate shareholders only limited data is collected: company number and jurisdiction. This data allows us to perform a sanction check.
 
 <figure><img src="../../../.gitbook/assets/cs_verif.png" alt=""><figcaption><p>Shareholders verification - corporates, company details</p></figcaption></figure>
 
-Repeat these steps for all corporate shareholders included in your structure.
+Repeat those steps for all corporate shareholders included in your structure.
 
-This is the last step of completing data in the "Company shareholders" section of your profile. By pressing the "Continue" button you will be redirected to the "Thank you" screen.
+It is the last step of completing data in the "Company shareholders" section of your profile. By pressing the "Continue" button you will be redirected to the "Thank you" screen.
 
 <figure><img src="../../../.gitbook/assets/cs_completed.png" alt=""><figcaption><p>Company structure - completed</p></figcaption></figure>
 
