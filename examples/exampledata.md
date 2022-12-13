@@ -14,16 +14,16 @@ Here you can find a description of sample data that has been provided to user an
 1. Log in to the application using the login information you received in the email.
 2.  After logging in, you will hit your company profile screen. We have prepared a profile of the company named **Verifier LTD** for you. As you can see in the following screenshot, the profile contains several sections related to the Verifier LTD company details (_Company Details, Directors, Documents, UBOs, Company Structure_) and _Message Panel_, and _Other Gatenox Partners_.
 
-    <figure><img src="../.gitbook/assets/profile (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/profile.png" alt=""><figcaption></figcaption></figure>
 3.  Click _Edit_ to modify your Company Details. You may notice that optional data is missing. Editing and data entry are done through an intuitive and simple wizard. More detailed instructions are provided in the latter sections of this guide.
 
-    <figure><img src="../.gitbook/assets/company_detials (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/company_detials.png" alt=""><figcaption></figcaption></figure>
 4.  Click _Edit_ to modify your Company Directors. For now, you have only one Director (Joe Allen), but you can add as many directors as you need. For each of them, you can provide all required data, in particular, KYC data.
 
-    <figure><img src="../.gitbook/assets/directors (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/directors.png" alt=""><figcaption></figcaption></figure>
 5.  In the section below, you can view all of your Company's Documents that you have previously added.
 
-    <figure><img src="../.gitbook/assets/documents (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/documents.png" alt=""><figcaption></figcaption></figure>
 6.  Click _Edit_ to modify your Company UBOs. For now, you have only one UBO (Joe Allen). For each of your UBOs, you can provide all required data, in particular, KYC data. Adding UBOs is done in the Company Structure section, but here (by clicking Edit) you can go straight to the appropriate place in the form.
 
     <figure><img src="../.gitbook/assets/UBOs.png" alt=""><figcaption></figcaption></figure>
@@ -32,7 +32,7 @@ Here you can find a description of sample data that has been provided to user an
     <figure><img src="../.gitbook/assets/company_structure.png" alt=""><figcaption></figcaption></figure>
 8. On the right, you can see two panels. \*\*Message Panel \*\*_\*\*\*\*_ is where messages from the Compliance Officer who is reviewing your application will appear.
 
-<figure><img src="../.gitbook/assets/message_panel (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/message_panel.png" alt=""><figcaption></figcaption></figure>
 
 **Other Gatenox Partners** is the section with a list of other Gatenox Partners who offer one-click onboarding.
 

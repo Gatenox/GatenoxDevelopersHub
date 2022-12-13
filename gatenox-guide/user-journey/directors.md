@@ -11,7 +11,7 @@ This part is divided into 4 main steps:
 
 ## **Preparation**
 
-<figure><img src="../../.gitbook/assets/dir_prep (1).png" alt="Directors - preparation"><figcaption><p>Directors - preparation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_prep.png" alt="Directors - preparation"><figcaption><p>Directors - preparation</p></figcaption></figure>
 
 **List of Directors > Add Directors**
 

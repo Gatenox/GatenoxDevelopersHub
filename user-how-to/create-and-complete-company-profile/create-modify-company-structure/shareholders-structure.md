@@ -2,7 +2,7 @@
 
 In case you need to add or correct your company structure or shareholders and UBOs details, please navigate to the "Company profile" menu and click _Edit_ in the "Company structure" section. The "Preparation" screen will be displayed.
 
-<figure><img src="../../../.gitbook/assets/cs_prep (1).png" alt="Company structure - preparation"><figcaption><p>Company structure - preparation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_prep.png" alt="Company structure - preparation"><figcaption><p>Company structure - preparation</p></figcaption></figure>
 
 Please click on the "Continue" button to start creating or modifying your company shareholders structure.
 
@@ -13,7 +13,7 @@ To add new shareholder to the structure, click on the "Add shareholder +" button
 1. Individual - please provide given names, last name and add % of shares owned by the shareholder.&#x20;
 2. Corporate - please provide the company name and add % of shares owned by the shareholder.
 
-<figure><img src="../../../.gitbook/assets/cs_shareholders (1).png" alt="Company shareholders - tree and graph view"><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_shareholders_structure.png" alt="Company shareholders - tree and graph view"><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
 
 If you have already added someone to your company profile (for example: a person in a role of director) you can easily select an individual from the list. To add a new shareholder to the company structure press the "Add new person" or "Add new company" button.
 
