@@ -12,42 +12,42 @@ This part is divided into 5 main steps (some steps contain more than one screen)
 
 ## **Preparation**
 
-<figure><img src="../../.gitbook/assets/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../docs/Images/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
 
 ## **Basic Data**&#x20;
 
 Incorporation Details
 
-<figure><img src="../../.gitbook/assets/basic_data.png" alt="Company details - basic data"><figcaption><p>Company details - basic data</p></figcaption></figure>
+<figure><img src="../../docs/Images/basic_data.png" alt="Company details - basic data"><figcaption><p>Company details - basic data</p></figcaption></figure>
 
 **Proof of Incorporation Details** (upload each document with one click)
 
-<figure><img src="../../.gitbook/assets/proof_of_incorp.png" alt="Company details - documents"><figcaption><p>Company details - documents</p></figcaption></figure>
+<figure><img src="../../docs/Images/proof_of_incorp.png" alt="Company details - documents"><figcaption><p>Company details - documents</p></figcaption></figure>
 
 ## **Addresses**
 
 Registered Address
 
-<figure><img src="../../.gitbook/assets/reg_address.png" alt="Company details - registration address"><figcaption><p>Company details - registration address</p></figcaption></figure>
+<figure><img src="../../docs/Images/reg_address.png" alt="Company details - registration address"><figcaption><p>Company details - registration address</p></figcaption></figure>
 
 Office Address
 
-<figure><img src="../../.gitbook/assets/office_addr.png" alt="Company details - office address"><figcaption><p>Company details - office address</p></figcaption></figure>
+<figure><img src="../../docs/Images/office_addr.png" alt="Company details - office address"><figcaption><p>Company details - office address</p></figcaption></figure>
 
 **Proof of Office Address** (upload each document with one click)
 
-<figure><img src="../../.gitbook/assets/proof_of_office_addr.png" alt="Company details - proof of office address"><figcaption><p>Company details - proof of office address</p></figcaption></figure>
+<figure><img src="../../docs/Images/proof_of_office_addr.png" alt="Company details - proof of office address"><figcaption><p>Company details - proof of office address</p></figcaption></figure>
 
 ## **Business Activity**
 
 Description
 
-<figure><img src="../../.gitbook/assets/business_act.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
+<figure><img src="../../docs/Images/business_act.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
 
 Financials
 
-<figure><img src="../../.gitbook/assets/finanscials.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
+<figure><img src="../../docs/Images/finanscials.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
 
 ## **Additional Information**
 
-<figure><img src="../../.gitbook/assets/add_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>
+<figure><img src="../../docs/Images/add_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>

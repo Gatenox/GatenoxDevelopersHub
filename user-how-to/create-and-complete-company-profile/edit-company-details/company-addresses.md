@@ -2,7 +2,7 @@
 
 In case you need to correct your company addresses or add verification documents (proof of address), please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
 
-<figure><img src="../../../docs/Images/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
 
 Now, you can navigate directly to addresses by clicking on the "Address" navigation element on the top of the screen.
 
@@ -10,7 +10,7 @@ Now, you can navigate directly to addresses by clicking on the "Address" navigat
 
 Here you can select an address from the existing list (downloaded from the company register or previously entered) or add new address manually, by clicking on "Add new address" link.&#x20;
 
-<figure><img src="../../../.gitbook/assets/reg_address.png" alt="Registration address"><figcaption><p>Registration address</p></figcaption></figure>
+<figure><img src="../../../docs/Images/reg_address.png" alt="Registration address"><figcaption><p>Registration address</p></figcaption></figure>
 
 After selecting your company address, click on the "Add office address" button to move to the next part.
 
@@ -18,7 +18,7 @@ After selecting your company address, click on the "Add office address" button t
 
 The process of choosing an office address is the same as for a registration address.&#x20;
 
-<figure><img src="../../../.gitbook/assets/office_addr.png" alt="Office address"><figcaption><p>Office address</p></figcaption></figure>
+<figure><img src="../../../docs/Images/office_addr.png" alt="Office address"><figcaption><p>Office address</p></figcaption></figure>
 
 The last step of completing this part of the company profile is to add a verification document, verifying your office address. Click on the "Verify address" button.
 

@@ -29,7 +29,7 @@ Here you can find a description of sample data that has been provided to user an
     <figure><img src="../.gitbook/assets/UBOs.png" alt=""><figcaption></figcaption></figure>
 7.  Click _Edit_ to modify your Company Structure. The company's structure includes the mentioned UBOs as well as Individual and Corporate Shareholders. By adding individual entities to the structure, a graph is dynamically generated to illustrate the connections between the various entities. Below you can see a simple structure consisting of only two shareholders.
 
-    <figure><img src="../.gitbook/assets/company_structure.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/company_structure (2).png" alt=""><figcaption></figcaption></figure>
 8. On the right, you can see two panels. \*\*Message Panel \*\*_\*\*\*\*_ is where messages from the Compliance Officer who is reviewing your application will appear.
 
 <figure><img src="../.gitbook/assets/message_panel.png" alt=""><figcaption></figcaption></figure>

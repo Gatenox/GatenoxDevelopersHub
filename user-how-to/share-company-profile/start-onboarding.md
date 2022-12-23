@@ -11,7 +11,7 @@ The service provider, which allow business users to send company profile (docume
 
 In both cases after clicking on the link, you will be redirected to the Gatenox Hub login / sign up page and after the successful login / sign up, the partner's name will be added to your "Onboarding list". Your "Onboarding list" is presented on the right side of the "You company profile" screen.
 
-<figure><img src="../../.gitbook/assets/Current_onboardings.png" alt="Onboarding list"><figcaption><p>Onboarding list</p></figcaption></figure>
+<figure><img src="../../docs/Images/Current_onboardings.png" alt="Onboarding list"><figcaption><p>Onboarding list</p></figcaption></figure>
 
 Depending on your profile requirements there are 2 possible scenarios:
 

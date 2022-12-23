@@ -10,4 +10,4 @@ The tab is split into 2 sections:
    * you can customize your verification link
    * you can see the required fields which is mandatory for every user you verify. This data can be configured in the setup phase.
 
-<figure><img src="../../.gitbook/assets/settings_company.png" alt="Settings - company information"><figcaption><p>Settings - company information</p></figcaption></figure>
+<figure><img src="../../docs/Images/settings_company.png" alt="Settings - company information"><figcaption><p>Settings - company information</p></figcaption></figure>
