@@ -2,7 +2,7 @@
 
 If your profile requires additional information requested by Gatenox Partner, the following information will be displayed on "Your company profile" screen.
 
-<figure><img src="../../.gitbook/assets/Current_onboarding_missing.png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Current_onboarding_missing (3).png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
 
 You will get information about the profile section, which needs to be completed. Click on the "Get started". You will be redirected to wizard, which will guide you through the company profile to enter required data.
 

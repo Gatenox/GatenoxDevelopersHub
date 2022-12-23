@@ -18,6 +18,10 @@ To move to the next part (financial information) click on the "Continue" button.
 
 Here you will be able to add the TAX number and provide information about your company sources of funds.&#x20;
 
-<figure><img src="../../../.gitbook/assets/business_activity_financials.png" alt="Business activities - financials"><figcaption><p>Business activities - financials</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/business_activity_financials (1).png" alt=""><figcaption><p>Business activities - financials</p></figcaption></figure>
+
+On this screen your are also able to provide your company crypto addresses, by simply pasting it into "List of crypto addresses" field and click on "Apply" button.
+
+<figure><img src="../../../.gitbook/assets/business_activity_financials.png" alt=""><figcaption></figcaption></figure>
 
 Now you can move to next step and add more information to your profile in "Additional information" section. If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.
