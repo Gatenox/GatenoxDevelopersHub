@@ -14,4 +14,4 @@ In case additional data is required by a partner, a notification will be present
 
 After completing the required information, press the "Send for review" button to share your profile with the partner. You will see a list of data which will be sent to the partner.
 
-<figure><img src="../../.gitbook/assets/Share_profile_onboarding_send.png" alt="Share your profile - summary of data shared with Partner"><figcaption><p>Share your profile - summary of data shared with Partner</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Share_profile_onboarding_send (1).png" alt="Share your profile - summary of data shared with Partner"><figcaption><p>Share your profile - summary of data shared with Partner</p></figcaption></figure>

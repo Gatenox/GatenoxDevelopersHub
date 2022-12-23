@@ -4,7 +4,7 @@ On this screen you will be able to add contact details to your profile.
 
 To complete your profile with contact data, please navigate to the "Company profile" menu and click _Edit_ in the "Company Details" section. The "Preparation" screen will be displayed.
 
-<figure><img src="../../../.gitbook/assets/preparation.png" alt="Contact details - preparation"><figcaption><p>Contact details - preparation</p></figcaption></figure>
+<figure><img src="../../../docs/Images/preparation.png" alt="Contact details - preparation"><figcaption><p>Contact details - preparation</p></figcaption></figure>
 
 Now, you can navigate directly to the additional information section by clicking on the "Additional information" navigation element on the top of the screen. Here you can enter your company website address, contact number and email, number of employees and provide the contact details for the person responsible for AML in your company.
 
