@@ -41,4 +41,4 @@ Identity Verification
 
 <figure><img src="../../.gitbook/assets/dir_verif.png" alt="Directors - identification document"><figcaption><p>Directors - identification document</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/dir_verif2.png" alt="Directors - identification document (2)"><figcaption><p>Directors - identification document (2)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_verif2.png" alt="Directors - identification document"><figcaption><p>Directors - identification document</p></figcaption></figure>

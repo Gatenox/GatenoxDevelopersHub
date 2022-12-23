@@ -12,11 +12,11 @@ You can navigate directly to the "Directors verification" screen by clicking on 
 
 On the left side of the screen you will see a list of directors prepared on previous steps. You can switch between their names. If the director name is followed by a green "OK" icon then all required information has been provided. Click on the "Continue" button after completing all required information to move to the next step.
 
-<figure><img src="../../../.gitbook/assets/dir_personal2 (1).png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_personal2.png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
 
 Now you can provide the director's residential address - pick one from the list or enter a new one manually. Click on the "Continue" button after completing all required information to move to the next step.&#x20;
 
-<figure><img src="../../../.gitbook/assets/dir_address (1).png" alt="Directors - residential address"><figcaption><p>Directors - residential address</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_address.png" alt="Directors - residential address"><figcaption><p>Directors - residential address</p></figcaption></figure>
 
 In this step you are asked to provide the director's identity document. Pick one of the following identity document types: passport, national ID card or driving license. After choosing the type, enter documents data (country of issue / citizenship, number, issue and expiry date) and upload document photo.
 

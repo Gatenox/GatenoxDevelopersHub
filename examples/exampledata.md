@@ -23,13 +23,13 @@ Here you can find a description of sample data that has been provided to user an
     <figure><img src="../.gitbook/assets/directors.png" alt=""><figcaption></figcaption></figure>
 5.  In the section below, you can view all of your Company's Documents that you have previously added.
 
-    <figure><img src="../.gitbook/assets/documents (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/documents.png" alt=""><figcaption></figcaption></figure>
 6.  Click _Edit_ to modify your Company UBOs. For now, you have only one UBO (Joe Allen). For each of your UBOs, you can provide all required data, in particular, KYC data. Adding UBOs is done in the Company Structure section, but here (by clicking Edit) you can go straight to the appropriate place in the form.
 
     <figure><img src="../.gitbook/assets/UBOs.png" alt=""><figcaption></figcaption></figure>
 7.  Click _Edit_ to modify your Company Structure. The company's structure includes the mentioned UBOs as well as Individual and Corporate Shareholders. By adding individual entities to the structure, a graph is dynamically generated to illustrate the connections between the various entities. Below you can see a simple structure consisting of only two shareholders.
 
-    <figure><img src="../.gitbook/assets/company_structure (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/company_structure.png" alt=""><figcaption></figcaption></figure>
 8. On the right, you can see two panels. \*\*Message Panel \*\*_\*\*\*\*_ is where messages from the Compliance Officer who is reviewing your application will appear.
 
 <figure><img src="../.gitbook/assets/message_panel.png" alt=""><figcaption></figcaption></figure>
