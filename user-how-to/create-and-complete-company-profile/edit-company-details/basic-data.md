@@ -14,7 +14,7 @@ Here, you can edit your company registration data.
 
 In case you would like to know more about completing the company details, you can click on "Preparation" link in the top menu. The pop up window with additional informaction will be displayed.
 
-<figure><img src="../../../.gitbook/assets/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/preparation (1).png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
 
 Click the "Understand" button to go back to the "Basic data" screen.
 
