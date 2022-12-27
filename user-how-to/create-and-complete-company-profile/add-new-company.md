@@ -16,6 +16,6 @@ The result will be displayed in the “Company name” field. If your company is
 
 <figure><img src="../../.gitbook/assets/company_add3.png" alt="Find your company - check results"><figcaption><p>Find your company - check results</p></figcaption></figure>
 
-Now you can press the “Continue” button to go through the company setup wizard. The “Company details” preparation screen will be displayed.
+Now you can press the “Continue” button to go through the company setup wizard. The “Company details” basic data screen will be displayed.
 
-<figure><img src="../../.gitbook/assets/company_add4.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/basic_data.png" alt="Company details - basic data"><figcaption><p>Company details - preparation</p></figcaption></figure>
