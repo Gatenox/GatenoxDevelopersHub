@@ -8,6 +8,10 @@ If you received an email from the Gatenox Hub inviting you to the onboarding pro
 
 In the email, you can find information about who invited you to the onboarding process including their webpage and email / support contact in case you have any questions about the received invitation.
 
+After accepting the request you will be redirected to welcome page.
+
+<figure><img src="../../.gitbook/assets/invitation_for_verification.png" alt="Invitation for verification - welcome email"><figcaption><p>Invitation for verification - welcome email</p></figcaption></figure>
+
 ### :question: What should I do?
 
 If you recognize the inviter, there are a few simple steps you need to do to complete your company profile and share it with the inviter.
