@@ -1,16 +1,12 @@
 # Shareholders structure
 
-In case you need to add or correct your company structure or shareholders and UBOs details, please navigate to the "Company profile" menu and click _Edit_ in the "Company structure" section. The "Preparation" screen will be displayed.
-
-<figure><img src="../../../.gitbook/assets/cs_prep.png" alt="Company structure - preparation"><figcaption><p>Company structure - preparation</p></figcaption></figure>
-
-Please click on the "Continue" button to start creating or modifying your company shareholders structure.
+In case you need to add or correct your company structure or shareholders and UBOs details, please navigate to the "Company profile" menu and click _Edit_ in the "Company structure" section. The "Add your company shareholders" screen will be displayed.
 
 ### Shareholders - create structure
 
 To add new shareholder to the structure, click on the "Add shareholder +" button. You will be asked to define shareholders type:
 
-1. Individual - please provide given names, last name and add % of shares owned by the shareholder.&#x20;
+1. Individual - please provide given names, last name and add % of shares owned by the shareholder.
 2. Corporate - please provide the company name and add % of shares owned by the shareholder.
 
 <figure><img src="../../../.gitbook/assets/cs_shareholders_structure.png" alt="Company shareholders - tree and graph view"><figcaption><p>Company shareholders - tree and graph view</p></figcaption></figure>
@@ -21,7 +17,7 @@ If required, you will be asked to provide more details (company number and juris
 
 ### Corporate shareholders - add structure
 
-In case of the corporate shareholder, you can also provide their structure, by clicking on the company name presented on the tree view. &#x20;
+In case of the corporate shareholder, you can also provide their structure, by clicking on the company name presented on the tree view.
 
 <figure><img src="../../../.gitbook/assets/cs_corporate_shareholder.png" alt="Company structure - corporate shareholder&#x27;s structure"><figcaption><p>Company structure - corporate shareholder's structure</p></figcaption></figure>
 

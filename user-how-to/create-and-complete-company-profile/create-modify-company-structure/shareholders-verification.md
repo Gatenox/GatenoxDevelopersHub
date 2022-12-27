@@ -7,30 +7,27 @@ The last part of the company structure preparation is the process of providing d
 
 ### Individual shareholders
 
-On the left side of the screen you will see a list of shareholders prepared in previous steps. You can switch between individual names and company names. If the entity name is followed by a green "OK" icon then all required information has been provided. Click on the "Continue" button after completing all required information to move to the next step.
+The Gatenox Hub offers 2 ways of providing individuals identity data:
+
+1. Complete all data by the business user, who is creating or managing the company's profile. In this scenario the business user needs to be in possession of all required identity data and photos of identity documents belonging to directors / shareholders / UBOs added to the company's structure.
+2. Send the invitation to complete data to the person, who has been added to the company's structure. This scenario offers the business user the possibility of inviting the individual to complete the identity data and upload document photos on his own. You can learn more here about the invitation for KYC: [invitation-for-kyc.md](../../i-received-email-from-gatenox/invitation-for-kyc.md "mention").
+
+Please remember that you can mix those 2 methods within your profile.
+
+:warning: The individuals KYC has been described in details here: [kyc-process](../../kyc-process/ "mention")
+
+On the left side of the screen you will see a list of shareholders prepared in previous steps. You can switch between individual names and company names. If the entity name is followed by a green "OK" icon then all required information has been provided.
 
 <figure><img src="../../../.gitbook/assets/cs_verif_individual.png" alt="Shareholders verification - individuals, personal data"><figcaption><p>Shareholders verification - individuals, personal data</p></figcaption></figure>
-
-Now you can provide an individual shareholder's residential address - pick one from the list or enter a new one manually. Click on the "Continue" button after completing all required information to move to the next step.
-
-<figure><img src="../../../.gitbook/assets/cs_verif_individual_2.png" alt="Shareholders verification - individuals, residential address"><figcaption><p>Shareholders verification - individuals, residential address</p></figcaption></figure>
-
-In this step you are asked to provide an individual shareholder's identity document. Pick one of the following identity document types: passport, national ID card or driving license. After choosing the type, enter documents data (country of issue / citizenship, number, issue and expiry date) and upload document photo.
-
-<figure><img src="../../../.gitbook/assets/cs_verif_individual_3.png" alt="Shareholders verification - individuals, identity document"><figcaption><p>Shareholders verification - individuals, identity document</p></figcaption></figure>
-
-Repeat those steps for all individual shareholders included in your structure.
 
 ### Corporate shareholders
 
 For corporate shareholders only limited data is collected: company number and jurisdiction. This data allows us to perform a sanction screen.
 
-<figure><img src="../../../docs/Images/cs_verif.png" alt="Shareholders verification - corporates, company details"><figcaption><p>Shareholders verification - corporates, company details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_corporate_verification (1).png" alt="Shareholders verification - corporates, company details"><figcaption><p>Shareholders verification - corporates, company details</p></figcaption></figure>
 
 Repeat these steps for all corporate shareholders included in your structure.
 
-This is the last step of completing data in the "Company shareholders" section of your profile. By pressing the "Continue" button you will be redirected to the "Thank you" screen.
-
-<figure><img src="../../../.gitbook/assets/cs_completed.png" alt="Company structure - completed"><figcaption><p>Company structure - completed</p></figcaption></figure>
+This is the last step of completing data in the "Company shareholders" section of your profile.&#x20;
 
 If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.

@@ -12,10 +12,10 @@ You can navigate directly to the "Directors verification" screen by clicking on 
 
 The Gatenox Hub offers 2 ways of providing individuals identity data:
 
-1. Complete all data by the business user, who is creating or managing company's profile. In this scenario the business user need to be in possession of all required identity data and photos of identity documents belonging to directors / shareholders / UBOs added to company's structure.
-2. Send the invitation to complete data to the person, who has been added to company's structure. This scenario offers the business user the possibility of inviting the individual to complete the identity data and upload document photos on his own. You can learn more here about invitation for KYC: [invitation-for-kyc.md](../../i-received-email-from-gatenox/invitation-for-kyc.md "mention").
+1. Complete all data by the business user, who is creating or managing the company's profile. In this scenario the business user needs to be in possession of all required identity data and photos of identity documents belonging to directors / shareholders / UBOs added to the company's structure.
+2. Send the invitation to complete data to the person, who has been added to the company's structure. This scenario offers the business user the possibility of inviting the individual to complete the identity data and upload document photos on his own. You can learn more here about the invitation for KYC: [invitation-for-kyc.md](../../i-received-email-from-gatenox/invitation-for-kyc.md "mention").
 
-Please remember, that you can mix those 2 methods within your profile.
+Please remember that you can mix those 2 methods within your profile.
 
 ### Directors verification - complete data by user
 
@@ -35,9 +35,9 @@ Repeat these steps for all directors included in your company's directors list. 
 
 ### Directors verification - invite for KYC
 
-If you are not in possession of identity data of your directors, you can invite them to upload their identity on their own.
+If you are not in possession of the identity data of your directors, you can invite them to upload their identity on their own.
 
-To send invitation click on the "Invite to KYC" link next to the director's name. The pop up window will be displayed.
+To send an invitation click on the "Invite to KYC" link next to the director's name. The pop up window will be displayed.
 
 <figure><img src="../../../.gitbook/assets/dir_personal_invitation_KYC (1).png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
 
