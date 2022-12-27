@@ -44,4 +44,4 @@ Here you can find a description of sample data that has been provided to user an
 
 10\. After clicking **Verifications** you will be taken to the list of applications that are ready to review.
 
-<figure><img src="../.gitbook/assets/verifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/verifications (1).png" alt=""><figcaption></figcaption></figure>

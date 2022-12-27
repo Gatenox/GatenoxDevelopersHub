@@ -14,7 +14,7 @@ In case you would like to know more about completing details of your company's d
 
 If downloaded data is not up-to-date or any other changes are required you can add, edit or delete a person from the list. When the list is ready, click on the "Continue" button to enter the director's details.
 
-<figure><img src="../../../.gitbook/assets/dir_list_personal.png" alt="Directors - details"><figcaption><p>Directors - details</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_list_personal (2).png" alt="Directors - details"><figcaption><p>Directors - details</p></figcaption></figure>
 
 Now, you can add position and date of birth for each of the directors. When you have completed all required information, click on the "Continue" button to provide proof of entered data.
 

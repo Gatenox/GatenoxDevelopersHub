@@ -10,8 +10,8 @@ You will see an “Add new company” screen. In order to facilitate the process
 
 Now you can use the “Find your company” button to search for the name of your company. The result will be displayed in the “Company name” field. If your company is not found, you can enter “Company name” manually and press the “Continue” button. In this case, we will not be able to facilitate the process for you.
 
-<figure><img src="../../.gitbook/assets/company_add2.png" alt="Find your company"><figcaption><p>Find your company</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/company_add3.png" alt="Find your company"><figcaption><p>Find your company</p></figcaption></figure>
 
-Now you can press the “Continue” button to go through the company setup wizard. The “Company details” preparation screen will be displayed.
+Now you can press the “Continue” button to go through the company setup wizard. The “Basic data” screen will be displayed.
 
-<figure><img src="../../.gitbook/assets/company_add4.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/basic_data.png" alt="Company details - basic data"><figcaption><p>Company details - basic data</p></figcaption></figure>

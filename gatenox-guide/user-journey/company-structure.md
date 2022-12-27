@@ -2,16 +2,11 @@
 
 ## Introduction
 
-This part is divided into 4 main steps:
+This part is divided into 3 main steps:
 
-1. **Preparation** - displays information about the data and documents that are required
-2. **Shareholders** - asks data regarding the structure of your company (you can build any structure by adding Individual and Corporate shareholders)
-3. **UBOs** - displays information regarding UBOs (taken from the company structure)
-4. **Verification** - asks data regarding Individual and Corporate shareholders
-
-## **Preparation**
-
-<figure><img src="../../.gitbook/assets/cs_prep.png" alt="Company structure - preparation"><figcaption><p>Company structure - preparation</p></figcaption></figure>
+1. **Shareholders** - asks data regarding the structure of your company (you can build any structure by adding Individual and Corporate shareholders)
+2. **UBOs** - displays information regarding UBOs (taken from the company structure)
+3. **Verification** - asks data regarding Individual and Corporate shareholders
 
 ## **Shareholders**
 
@@ -21,14 +16,20 @@ This part is divided into 4 main steps:
 
 List
 
-<figure><img src="../../docs/Images/cs_UBO.png" alt="Company structure - UBOs"><figcaption><p>Company structure - UBOs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cs_UBO.png" alt="Company structure - UBOs"><figcaption><p>Company structure - UBOs</p></figcaption></figure>
 
 Justification
 
-<figure><img src="../../docs/Images/cs_UBO2.png" alt="Company structure - UBOs justification"><figcaption><p>Company structure - UBOs justification</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cs_UBO2.png" alt="Company structure - UBOs justification"><figcaption><p>Company structure - UBOs justification</p></figcaption></figure>
 
 ## **Entities verification**
 
 **Verification** (add detailed data regarding Individual and Corporate shareholders)
 
-<figure><img src="../../docs/Images/cs_verif.png" alt="Company structure - entities verification"><figcaption><p>Company structure - entities verification</p></figcaption></figure>
+Individuals
+
+<figure><img src="../../.gitbook/assets/cs_individual_verification.png" alt="Company structure - entities verification (individuals)"><figcaption><p>Company structure - entities verification (individuals)</p></figcaption></figure>
+
+Corporates
+
+<figure><img src="../../.gitbook/assets/cs_corporate_verification (1).png" alt="Company structure - entities verification (corporates)"><figcaption><p>Company structure - entities verification (corporates)</p></figcaption></figure>

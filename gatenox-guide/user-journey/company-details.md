@@ -2,19 +2,14 @@
 
 ## Introduction
 
-This part is divided into 5 main steps (some steps contain more than one screen):
+This part is divided into 4 main steps (some steps contain more than one screen):
 
-* **Preparation** - displays information about the data and documents that are required,
-* **Basic Data** - asks data related to incorporation,
-* **Addresses** - asks data related to Registered Address and Office Address,
-* **Business Activity** - asks data about the nature of your business,
-* **Additional Data** - asks about any additional information that may be required.
+1. **Basic Data** - asks data related to incorporation,
+2. **Addresses** - asks data related to Registered Address and Office Address,
+3. **Business Activity** - asks data about the nature of your business,
+4. **Additional Data** - asks about any additional information that may be required.
 
-## **Preparation**
-
-<figure><img src="../../.gitbook/assets/preparation.png" alt="Company details - preparation"><figcaption><p>Company details - preparation</p></figcaption></figure>
-
-## **Basic Data**&#x20;
+## **Basic Data**
 
 Incorporation Details
 
@@ -42,11 +37,11 @@ Office Address
 
 Description
 
-<figure><img src="../../.gitbook/assets/business_activity_general.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_general (1).png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
 
 Financials
 
-<figure><img src="../../.gitbook/assets/business_activity_financials.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_financials (1).png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
 
 ## **Additional Information**
 
