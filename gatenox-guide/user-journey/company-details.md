@@ -42,12 +42,12 @@ Office Address
 
 Description
 
-<figure><img src="../../.gitbook/assets/business_act.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_general.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
 
 Financials
 
-<figure><img src="../../.gitbook/assets/finanscials.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_financials.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
 
 ## **Additional Information**
 
-<figure><img src="../../.gitbook/assets/add_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/additional_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>

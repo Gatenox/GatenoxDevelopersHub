@@ -14,4 +14,4 @@ Your services description will be used in invitation emails sent via Gatenox to 
 
 Your webpage address will be used in invitation emails send via Gatenox to your customers. We treat this data as a part of your corporate profile, that is why you can add it in "Company profile" menu, by editing "Company details". Please navigate to "Additional information" and fill "Company website" field.
 
-<figure><img src="../../.gitbook/assets/add_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/additional_info.png" alt="Company details - additional information"><figcaption><p>Company details - additional information</p></figcaption></figure>
