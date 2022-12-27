@@ -49,6 +49,9 @@
   * [Start onboarding](user-how-to/share-company-profile/start-onboarding.md)
   * [Complete required company data](user-how-to/share-company-profile/complete-required-company-data.md)
   * [Share my profile](user-how-to/share-company-profile/share-my-profile.md)
+* [KYC process](user-how-to/kyc-process/README.md)
+  * [Complete KYC details](user-how-to/kyc-process/complete-kyc-details.md)
+  * [Invite for KYC](user-how-to/kyc-process/invite-for-kyc.md)
 
 ## (Verifier) How to ... ? <a href="#verifier-how-to" id="verifier-how-to"></a>
 

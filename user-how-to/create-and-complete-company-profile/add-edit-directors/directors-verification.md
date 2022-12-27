@@ -8,24 +8,39 @@ The directors verification process involves providing personal data in the follo
 
 You can navigate directly to the "Directors verification" screen by clicking on the "Directors verification" navigation element on the top of the screen.
 
-### Directors verification
+### **Individuals verification**
+
+The Gatenox Hub offers 2 ways of providing individuals identity data:
+
+1. Complete all data by the business user, who is creating or managing company's profile. In this scenario the business user need to be in possession of all required identity data and photos of identity documents belonging to directors / shareholders / UBOs added to company's structure.
+2. Send the invitation to complete data to the person, who has been added to company's structure. This scenario offers the business user the possibility of inviting the individual to complete the identity data and upload document photos on his own. You can learn more here about invitation for KYC: [invitation-for-kyc.md](../../i-received-email-from-gatenox/invitation-for-kyc.md "mention").
+
+Please remember, that you can mix those 2 methods within your profile.
+
+### Directors verification - complete data by user
 
 On the left side of the screen you will see a list of directors prepared on previous steps. You can switch between their names. If the director name is followed by a green "OK" icon then all required information has been provided. Click on the "Continue" button after completing all required information to move to the next step.
 
-<figure><img src="../../../docs/Images/dir_personal2 (1).png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_internal_personal.png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
 
 Now you can provide the director's residential address - pick one from the list or enter a new one manually. Click on the "Continue" button after completing all required information to move to the next step.
 
-<figure><img src="../../../.gitbook/assets/dir_address.png" alt="Directors - residential address"><figcaption><p>Directors - residential address</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_internal_address.png" alt="Directors - residential address"><figcaption><p>Directors - residential address</p></figcaption></figure>
 
 In this step you are asked to provide the director's identity document. Pick one of the following identity document types: passport, national ID card or driving license. After choosing the type, enter documents data (country of issue / citizenship, number, issue and expiry date) and upload document photo.
 
-<figure><img src="../../../.gitbook/assets/dir_identity.png" alt="Directors - identity document"><figcaption><p>Directors - identity document</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dir_internal_document.png" alt="Directors - identity document"><figcaption><p>Directors - identity document</p></figcaption></figure>
 
-Repeat these steps for all directors included in your company's directors list.
+Repeat these steps for all directors included in your company's directors list. This is the last step of completing data in the "Directors" section of your profile.
 
-This is the last step of completing data in the "Directors" section of your profile. By pressing the "Finish" button you will be redirected to the "Thank you" screen.
+### Directors verification - invite for KYC
 
-<figure><img src="../../../.gitbook/assets/dir_finished.png" alt="Directors - required data completed"><figcaption><p>Directors - required data completed</p></figcaption></figure>
+If you are not in possession of identity data of your directors, you can invite them to upload their identity on their own.
+
+To send invitation click on the "Invite to KYC" link next to the director's name. The pop up window will be displayed.
+
+<figure><img src="../../../.gitbook/assets/dir_personal_invitation_KYC (1).png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
+
+Please enter your director's email address and press the "Invite" button to send the invitation email to your director. You can learn more about invitation statuses here: [kyc-process](../../kyc-process/ "mention").
 
 In the next section you will be asked to provide details about your company structure. If you were only modifying part of your data, you can click on "X" button to go back to "Your company profile" screen.
