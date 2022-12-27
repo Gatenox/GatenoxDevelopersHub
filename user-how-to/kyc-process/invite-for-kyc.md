@@ -8,7 +8,7 @@ Meanwhile you can monitor the process on your side. The invitations can have dif
 
 ### Send the invitation for KYC
 
-To send invitation click on the "Invite to KYC" link next to the individual's name. The pop up window will be displayed.
+To send an invitation click on the "Invite to KYC" link next to the individual's name. The pop up window will be displayed.
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC (1).png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
 
@@ -26,7 +26,7 @@ In this status you are not able to enter any individual's data to Gatenox Hub. Y
 
 ### In progress
 
-If the invitation will be opened the status will change to "In progress".
+If the invitation is opened the status will change to "In progress".
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_in_progress.png" alt="KYC status - in progress"><figcaption><p>KYC status - in progress</p></figcaption></figure>
 
