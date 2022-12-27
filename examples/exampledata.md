@@ -17,13 +17,13 @@ Here you can find a description of sample data that has been provided to user an
     <figure><img src="../.gitbook/assets/profile.png" alt=""><figcaption></figcaption></figure>
 3.  Click _Edit_ to modify your Company Details. You may notice that optional data is missing. Editing and data entry are done through an intuitive and simple wizard. More detailed instructions are provided in the latter sections of this guide.
 
-    <figure><img src="../.gitbook/assets/company_detials.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/company_detials (1).png" alt=""><figcaption></figcaption></figure>
 4.  Click _Edit_ to modify your Company Directors. For now, you have only one Director (Joe Allen), but you can add as many directors as you need. For each of them, you can provide all required data, in particular, KYC data.
 
     <figure><img src="../.gitbook/assets/directors.png" alt=""><figcaption></figcaption></figure>
 5.  In the section below, you can view all of your Company's Documents that you have previously added.
 
-    <figure><img src="../.gitbook/assets/documents.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/documents (1).png" alt=""><figcaption></figcaption></figure>
 6.  Click _Edit_ to modify your Company UBOs. For now, you have only one UBO (Joe Allen). For each of your UBOs, you can provide all required data, in particular, KYC data. Adding UBOs is done in the Company Structure section, but here (by clicking Edit) you can go straight to the appropriate place in the form.
 
     <figure><img src="../.gitbook/assets/UBOs.png" alt=""><figcaption></figcaption></figure>

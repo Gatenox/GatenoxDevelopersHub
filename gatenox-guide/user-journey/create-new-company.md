@@ -2,7 +2,7 @@
 
 To create a new company profile you need to open the context menu in the upper right corner and click on the “Add company” link.
 
-<figure><img src="../../.gitbook/assets/settings_manage.png" alt="Context menu - add new company"><figcaption><p>Context menu - add new company</p></figcaption></figure>
+<figure><img src="../../docs/Images/settings_manage (1).png" alt="Context menu - add new company"><figcaption><p>Context menu - add new company</p></figcaption></figure>
 
 You will see an “Add new company” screen. In order to facilitate the process of creating a new company profile (entering selected data for you), you must specify exactly what company you mean by entering the jurisdiction and number.
 
