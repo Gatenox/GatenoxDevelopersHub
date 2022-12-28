@@ -2,7 +2,7 @@
 
 If you own individual identity data, the quickest way to complete the profile is to add it on your own. Below you can find an example of completing individual data based on the director role example. The same screens will be presented in case of individual shareholders or UBOs.
 
-:warning: Please bear in mind that required fields are marked with (\*) and "required" label. Depending on where you are currently onboarding ([share-my-profile.md](../share-company-profile/share-my-profile.md "mention")) different data may be required. On the left side of the screen you will see a list of directors / shareholders / UBOs. You can switch between their names. If the individual name is followed by a green "OK" icon then all required information has been provided.&#x20;
+:warning: Please bear in mind that required fields are marked with (\*) and "required". Depending on where you are currently onboarding ([share-my-profile.md](../share-company-profile/share-my-profile.md "mention")), different data may be required. On the left side of the screen you will see a list of directors / shareholders / UBOs. You can switch between their names. If the individual name is followed by a green "OK" icon then all required information has been provided.&#x20;
 
 ### Personal information
 

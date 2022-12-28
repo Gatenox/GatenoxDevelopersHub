@@ -4,11 +4,11 @@ If you are not in possession of director / shareholder / UBO identity data, you 
 
 The person will receive an invitation email and can follow the step described here: [invitation-for-kyc.md](../i-received-email-from-gatenox/invitation-for-kyc.md "mention").
 
-Meanwhile you can monitor the process on your side. The invitations can have different statuses.
+Meanwhile you can monitor their process on your side. The invitations can have different statuses.
 
 ### Send the invitation for KYC
 
-To send an invitation click on the "Invite to KYC" link next to the individual's name. The pop up window will be displayed.
+To send an invitation, click on the "Invite to KYC" link next to the individual's name. The pop up window will be displayed.
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC (1).png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
 
