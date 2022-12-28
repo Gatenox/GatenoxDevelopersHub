@@ -42,12 +42,12 @@ The invitation is active for limited time only. If the time expires, the invitat
 
 In this status you are not able to enter any individual's data to Gatenox Hub. You can revoke the invitation and add data using the menu next to the individual's name. The invitation will be revoked and you can follow the process described here: [complete-kyc-details.md](complete-kyc-details.md "mention").
 
-Alternatively, you can resend the invitation and allow individual to complete the profile on his own. The invitation will change status to "Not opened".
+Alternatively, you can resend the invitation and allow the individual to complete the profile on his own. The invitation will change status to "Not opened".
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_expired_actions.png" alt="KYC status - expired, actions"><figcaption><p>KYC status - expired, actions</p></figcaption></figure>
 
 ### Verified
 
-This status means, that individual has entered all required information. You can see all details uploaded by the person.
+This status means that the individual has entered all required information. You can see all details uploaded by the person.
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_verified.png" alt="KYC status - verified"><figcaption><p>KYC status - verified</p></figcaption></figure>
