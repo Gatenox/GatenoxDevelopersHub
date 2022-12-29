@@ -36,7 +36,7 @@ In this status you are not able to enter any individual's data to Gatenox Hub. Y
 
 ### Expired
 
-The invitation is active for limited time only. If the time expires, the invitation will change status to "Expired.
+The invitation is active for a limited time only. If the time expires, the invitation will change status to "Expired.
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_expired.png" alt="KYC status - expired"><figcaption><p>KYC status - expired</p></figcaption></figure>
 
@@ -46,8 +46,8 @@ Alternatively, you can resend the invitation and allow the individual to complet
 
 <figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_expired_actions.png" alt="KYC status - expired, actions"><figcaption><p>KYC status - expired, actions</p></figcaption></figure>
 
-### Verified
+### Completed
 
 This status means that the individual has entered all required information. You can see all details uploaded by the person.
 
-<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_verified.png" alt="KYC status - verified"><figcaption><p>KYC status - verified</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_verified.png" alt="KYC status - verified"><figcaption><p>KYC status - completed</p></figcaption></figure>
