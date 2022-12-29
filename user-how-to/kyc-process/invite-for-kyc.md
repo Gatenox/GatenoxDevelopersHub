@@ -50,4 +50,4 @@ Alternatively, you can resend the invitation and allow the individual to complet
 
 This status means that the individual has entered all required information. You can see all details uploaded by the person.
 
-<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_verified.png" alt="KYC status - verified"><figcaption><p>KYC status - completed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC_completed.png" alt="KYC status - verified"><figcaption><p>KYC status - completed</p></figcaption></figure>
