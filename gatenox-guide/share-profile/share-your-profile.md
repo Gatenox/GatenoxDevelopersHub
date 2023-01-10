@@ -2,7 +2,7 @@
 
 On the right side of the "your profile" screen, you can find a list of Gatenox partners. To start the onboarding process, click on your chosen partner.
 
-<figure><img src="../../.gitbook/assets/Other_Gatenox_partners (1).png" alt="Share your profile"><figcaption><p>Share your profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Other_Gatenox_partners (2).png" alt="Share your profile"><figcaption><p>Share your profile</p></figcaption></figure>
 
 The partner will be added to your current onboarding list. If your profile is completed form the perspective of data required by partner, you will be able to quickly share your profile using the "Send for review" button.
 

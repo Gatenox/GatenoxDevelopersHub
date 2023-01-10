@@ -4,7 +4,7 @@
 
 Your logo is your visual identity. We will use your logo throughout the Gatenox Platform. You can add the logo in the "Settings" menu, under the "Company information" tab.
 
-<figure><img src="../../docs/Images/settings_company.png" alt="Settings - company information"><figcaption><p>Settings - company information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/settings_company.png" alt="Settings - company information"><figcaption><p>Settings - company information</p></figcaption></figure>
 
 ### Describe your services
 

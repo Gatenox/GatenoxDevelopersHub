@@ -37,11 +37,11 @@ Office Address
 
 Description
 
-<figure><img src="../../.gitbook/assets/business_activity_general (1).png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_financials.png" alt="Company details - business activity"><figcaption><p>Company details - business activity</p></figcaption></figure>
 
 Financials
 
-<figure><img src="../../.gitbook/assets/business_activity_financials (1).png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/business_activity_general.png" alt="Company details - business activity (financials)"><figcaption><p>Company details - business activity (financials)</p></figcaption></figure>
 
 ## **Additional Information**
 

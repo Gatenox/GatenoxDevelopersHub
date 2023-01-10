@@ -2,7 +2,7 @@
 
 You can edit your company directors by clicking on the "Edit" button in the "Directors" section of the "Your company profile" screen.
 
-<figure><img src="../../.gitbook/assets/directors.png" alt="Your company profile - edit list of directors"><figcaption><p>Your company profile - edit list of directors</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/directors (1).png" alt="Your company profile - edit list of directors"><figcaption><p>Your company profile - edit list of directors</p></figcaption></figure>
 
 You will be redirected to data edit wizard, including the following steps:
 

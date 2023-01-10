@@ -10,7 +10,7 @@ If you need to know who the UBO is, please click on the "Ultimate Beneficial Own
 
 On the list you can select (checkbox on the right side of the list) which one of your individual shareholders are real UBOs. In some situations you will not be able to place your UBO on the company structure prepared on the previous step. In this case, you can manually add UBO to the current list by clicking on the "Add UBO" button.
 
-<figure><img src="../../../.gitbook/assets/cs_UBO_add.png" alt="Company structure - list of UBOs"><figcaption><p>Company structure - list of UBOs</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cs_UBO_add (1).png" alt="Company structure - list of UBOs"><figcaption><p>Company structure - list of UBOs</p></figcaption></figure>
 
 You can select a person previously added to your company profile or add a new one by clicking on the "Enter manually" link. In both cases, please add the percentage of shares controlled by the UBO.
 

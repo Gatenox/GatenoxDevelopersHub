@@ -10,7 +10,7 @@ Meanwhile you can monitor their process on your side. The invitations can have d
 
 To send an invitation, click on the "Invite to KYC" link next to the individual's name. The pop up window will be displayed.
 
-<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC (1).png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_personal_invitation_KYC.png" alt="Invite for KYC - send invitation to email address"><figcaption><p>Invite for KYC - send invitation to email address</p></figcaption></figure>
 
 Please enter the individual's email address and press the "Invite" button to send the invitation email to your director. You can learn more about invitation statuses here: [.](./ "mention").
 

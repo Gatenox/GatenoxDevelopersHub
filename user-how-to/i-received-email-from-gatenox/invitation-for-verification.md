@@ -10,7 +10,7 @@ In the email, you can find information about who invited you to the onboarding p
 
 After accepting the request you will be redirected to welcome page.
 
-<figure><img src="../../.gitbook/assets/invitation_for_verification.png" alt="Invitation for verification - welcome email"><figcaption><p>Invitation for verification - welcome email</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/invitation_for_verification (1).png" alt="Invitation for verification - welcome email"><figcaption><p>Invitation for verification - welcome email</p></figcaption></figure>
 
 ### :question: What should I do?
 

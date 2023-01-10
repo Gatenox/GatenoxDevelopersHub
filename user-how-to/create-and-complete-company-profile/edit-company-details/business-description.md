@@ -10,7 +10,7 @@ Now, you can navigate directly to the business description section by clicking o
 
 Here you can select your company industry and include descriptions of your business, products and countries where you operate.
 
-<figure><img src="../../../.gitbook/assets/business_activity_general (1).png" alt="Business activity - description"><figcaption><p>Business activity - description</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/business_activity_financials.png" alt="Business activity - description"><figcaption><p>Business activity - description</p></figcaption></figure>
 
 To move to the next part (financial information) click on the "Continue" button.
 
@@ -18,7 +18,7 @@ To move to the next part (financial information) click on the "Continue" button.
 
 Here you will be able to add the TAX number and provide information about your company sources of funds.
 
-<figure><img src="../../../.gitbook/assets/business_activity_financials (1).png" alt=""><figcaption><p>Business activities - financials</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/business_activity_general.png" alt=""><figcaption><p>Business activities - financials</p></figcaption></figure>
 
 On this screen your are also able to provide your company crypto addresses, by simply pasting it into "List of crypto addresses" field and click on "Apply" button.
 

@@ -16,7 +16,7 @@ This part is divided into 3 main steps:
 
 **Personal Data**
 
-<figure><img src="../../.gitbook/assets/dir_list_personal.png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dir_list_personal (1).png" alt="Directors - personal data"><figcaption><p>Directors - personal data</p></figcaption></figure>
 
 **List of Directors > Verify your list of directors**
 
