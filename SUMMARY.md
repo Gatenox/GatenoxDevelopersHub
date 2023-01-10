@@ -66,3 +66,7 @@
 ## General settings
 
 * [Add / modify service description](general-settings/add-modify-service-description.md)
+
+## Enterprise API
+
+* [API reference](enterprise-api/api-reference.md)
