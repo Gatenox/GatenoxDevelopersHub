@@ -1,0 +1,15 @@
+description: Unauthorized
+content:
+  application/json:
+    schema:
+      type: object
+      properties:
+        errors:
+          type: object
+          properties:
+            token:
+              type: string
+              example: "missing token"
+            unauthorized:
+              type: string
+              example: "Authentication failure"

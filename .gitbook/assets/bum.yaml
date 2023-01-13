@@ -1,0 +1,247 @@
+openapi: 3.0.0
+info:
+  title: Enterprise API
+  version: 1.0.0
+servers:
+  - url: https://api.kyb.gatenox.com
+    description: Gatenox API domain
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  responses:
+    ReviewsArray:
+      description: OK
+      content:
+        application/json:
+          schema:
+            object: array
+            items:
+              type: object
+              properties:
+                id:
+                  type: string
+                  example: 63cd45ce-d397-4a0a-888a-e58b549ab020
+                status:
+                  type: string
+                  enum:
+                    - new
+                    - in_progress
+                    - completed
+                  example: new
+                revision_timestamps:
+                  type: integer
+                  example: 1673345029
+                created_at:
+                  type: string
+                  example: '2023-01-10T10:03:49.156Z'
+                updated_at:
+                  type: string
+                  example: '2023-01-10T10:03:49.156Z'
+                reviewing_tlc:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      example: 18a0aec4-b760-48db-8225-08d78672884b
+                    name:
+                      type: string
+                      example: Company Name Here
+                    main_company_id:
+                      type: string
+                      example: 88d904d3-dffc-46f0-b6e8-81f5ee9d7bf4
+                    main_company_number:
+                      type: string
+                      example: '111111111'
+                reviewed_tlc:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      example: 18a0aec4-b760-48db-8225-08d78672884b
+                    name:
+                      type: string
+                      example: Company Name Here
+                    main_company_id:
+                      type: string
+                      example: 88d904d3-dffc-46f0-b6e8-81f5ee9d7bf4
+                    main_company_number:
+                      type: string
+                      example: '111111111'
+security:
+  - bearerAuth: []
+paths:
+  /reviews:
+    get:
+      tags:
+        - default
+      summary: Reviews List
+      parameters:
+        - name: outgoing_only
+          in: query
+          schema:
+            type: boolean
+          description: Your company sent application to someone else for verification
+          example: 'true'
+        - name: incoming_only
+          in: query
+          schema:
+            type: boolean
+          description: other company sent their data for verification by Your company
+          example: 'true'
+        - name: status
+          in: query
+          schema:
+            type: string
+          description: filter reviews by status
+          enum: new,in_progress,completed
+          example: new
+        - name: assessment_status
+          in: query
+          schema:
+            type: string
+          description: filter reviews by Compliance Officer assessment
+          enum: approved,rejected
+          example: approved
+        - name: created_at
+          in: query
+          schema:
+            type: string
+          description: filter by creation time
+          example: 2022-07-07,2022-07-12
+        - name: updated_at
+          in: query
+          schema:
+            type: string
+          description: filter by last update time
+          example: 2022-06-07,2022-07-12
+        - name: company_id
+          in: query
+          schema:
+            type: string
+          description: filter by related company's id
+          example: e4172e29-8fe6-4977-9776-fdf76ed852b6
+        - name: company_name
+          in: query
+          schema:
+            type: string
+          description: filter by related company's name
+          example: test
+        - name: jurisdiction
+          in: query
+          schema:
+            type: string
+          description: filter by jurisdiction
+          example: gb
+        - name: order_by
+          in: query
+          schema:
+            type: string
+          description: 'order results by one of: [company_name]'
+          example: company_name,desc
+      responses:
+        '200':
+          $ref: '#/components/responses/ReviewsArray'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+                        example: missing token
+                      unauthorized:
+                        type: string
+                        example: Authentication failure
+  /reviews/{id}:
+    get:
+      tags:
+        - default
+      summary: Review Details
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          description: id of Review
+          example: 62cc76b1-01f5-49a2-8097-37eeb656a9cd
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: 63cd45ce-d397-4a0a-888a-e58b549ab020
+                  status:
+                    type: string
+                    enum:
+                      - new
+                      - in_progress
+                      - completed
+                    example: new
+                  revision_timestamps:
+                    type: integer
+                    example: 1673345029
+                  created_at:
+                    type: string
+                    example: '2023-01-10T10:03:49.156Z'
+                  updated_at:
+                    type: string
+                    example: '2023-01-10T10:03:49.156Z'
+                  reviewing_tlc:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        example: 18a0aec4-b760-48db-8225-08d78672884b
+                      name:
+                        type: string
+                        example: Company Name Here
+                      main_company_id:
+                        type: string
+                        example: 88d904d3-dffc-46f0-b6e8-81f5ee9d7bf4
+                      main_company_number:
+                        type: string
+                        example: '111111111'
+                  reviewed_tlc:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        example: 18a0aec4-b760-48db-8225-08d78672884b
+                      name:
+                        type: string
+                        example: Company Name Here
+                      main_company_id:
+                        type: string
+                        example: 88d904d3-dffc-46f0-b6e8-81f5ee9d7bf4
+                      main_company_number:
+                        type: string
+                        example: '111111111'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+                        example: missing token
+                      unauthorized:
+                        type: string
+                        example: Authentication failure
