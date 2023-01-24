@@ -31,6 +31,7 @@
 * [I received an email from Gatenox](user-how-to/i-received-email-from-gatenox/README.md)
   * [Invitation for verification](user-how-to/i-received-email-from-gatenox/invitation-for-verification.md)
   * [Invitation for KYC](user-how-to/i-received-email-from-gatenox/invitation-for-kyc.md)
+  * [Invitation to context](user-how-to/i-received-email-from-gatenox/invitation-to-context.md)
 * [Create and complete company profile](user-how-to/create-and-complete-company-profile/README.md)
   * [Add new company](user-how-to/create-and-complete-company-profile/add-new-company.md)
   * [Edit company details](user-how-to/create-and-complete-company-profile/edit-company-details/README.md)
@@ -65,7 +66,10 @@
 
 ## General settings
 
-* [Add / modify service description](general-settings/add-modify-service-description.md)
+* [Account information](general-settings/add-modify-service-description.md)
+* [Company informaction](general-settings/company-informaction.md)
+* [Billing and plans](general-settings/billing-and-plans.md)
+* [Users management](general-settings/users-management.md)
 
 ## Enterprise API
 
