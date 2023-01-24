@@ -66,7 +66,7 @@
 
 ## General settings
 
-* [Account information](general-settings/add-modify-service-description.md)
+* [Account information](general-settings/account-information.md)
 * [Company informaction](general-settings/company-informaction.md)
 * [Billing and plans](general-settings/billing-and-plans.md)
 * [Users management](general-settings/users-management.md)
