@@ -71,6 +71,16 @@
 * [Billing and plans](general-settings/billing-and-plans.md)
 * [Users management](general-settings/users-management.md)
 
-## Enterprise API
+## Gatenox API
 
-* [API reference](enterprise-api/api-reference.md)
+* [Overview](gatenox-api/overview.md)
+* [Authentication](gatenox-api/authentication.md)
+* [Rate limiting](gatenox-api/rate-limiting.md)
+* [Errors](gatenox-api/errors.md)
+* [API reference](gatenox-api/api-reference/README.md)
+  * [Verifications](gatenox-api/api-reference/verifications.md)
+  * [Companies](gatenox-api/api-reference/companies.md)
+  * [Directors](gatenox-api/api-reference/directors.md)
+  * [UBOs](gatenox-api/api-reference/ubos.md)
+  * [People](gatenox-api/api-reference/people.md)
+  * [Company documents](gatenox-api/api-reference/company-documents.md)
