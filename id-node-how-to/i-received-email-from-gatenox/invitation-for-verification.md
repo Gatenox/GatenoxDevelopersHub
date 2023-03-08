@@ -16,7 +16,7 @@ After accepting the request you will be redirected to welcome page.
 
 If you recognize the inviter, there are a few simple steps you need to do to complete your company profile and share it with the inviter.
 
-1. If you already have an account on the Gatenox Hub, simply accept the invitation and you will be redirected to the login page of the Gatenox Hub. After login you will automatically start the onboarding process. The inviter will be added to your current onboarding list, as described here: [share-profile](../../gatenox-guide/share-profile/ "mention").
+1. If you already have an account on the Gatenox Hub, simply accept the invitation and you will be redirected to the login page of the Gatenox Hub. After login you will automatically start the onboarding process. The inviter will be added to your current onboarding list, as described here: [share-profile](../../gatenox-guide/user-journey/share-profile/ "mention").
 2. If you do not have a Gatenox Hub account, after accepting the invitation you will be redirected to the login / sign-up page where your account can be created. After creating the account, the onboarding process with inviter will start automatically with the inviter being added to your current onboarding list.
 
 In both cases, the amount of information required to be completed depends on the inviter / partner.
