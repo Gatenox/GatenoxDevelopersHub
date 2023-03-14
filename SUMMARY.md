@@ -82,6 +82,6 @@
 ## General settings
 
 * [Account information](general-settings/account-information.md)
-* [Company informaction](general-settings/company-informaction.md)
+* [Company information](general-settings/company-information.md)
 * [Billing and plans](general-settings/billing-and-plans.md)
 * [Users management](general-settings/users-management.md)

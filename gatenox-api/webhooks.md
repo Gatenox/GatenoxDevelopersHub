@@ -2,7 +2,7 @@
 description: Get notification from Compliance Cloud about your data
 ---
 
-# Webhook
+# Webhooks
 
 Gatenox webhooks are an important feature that allows users to receive notifications for the review process. This feature is extremely useful for staying informed about the status of your review requests and ensuring that you never miss an important update.
 
@@ -10,7 +10,7 @@ The webhook notifications are highly customizable, allowing you to choose the ty
 
 Overall, Gatenox webhooks are an essential tool for anyone who relies on the Gatenox platform for code reviews and collaboration. They provide a simple, yet powerful way to stay informed about the status of your review requests, enabling you to work more efficiently and effectively with your team.
 
-To register your webhook endpoint please follow the guide here: [company-informaction.md](../general-settings/company-informaction.md "mention").
+To register your webhook endpoint please follow the guide here: [company-information.md](../general-settings/company-information.md "mention").
 
 Below you can find an example of webhook endpoint.
 
