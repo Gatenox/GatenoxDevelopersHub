@@ -31,6 +31,7 @@
 * [Authentication](gatenox-api/authentication.md)
 * [Rate limiting](gatenox-api/rate-limiting.md)
 * [Errors](gatenox-api/errors.md)
+* [Webhook](gatenox-api/webhook.md)
 * [API reference](gatenox-api/api-reference/README.md)
   * [Verifications](gatenox-api/api-reference/verifications.md)
   * [Companies](gatenox-api/api-reference/companies.md)
