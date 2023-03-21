@@ -1,4 +1,4 @@
-# Company informaction
+# Company information
 
 The tab is split into 2 sections:
 
@@ -9,7 +9,8 @@ The tab is split into 2 sections:
 2. **Gatenox API:**
    * you can generate your API key,
    * you can check details of generated API key,
-   * you can  block your API Key.
+   * you can block your API Key,
+   * you can enter webhook endpoint to receive notifications.&#x20;
 3. **Verification**:
    * you can see the required fields which is mandatory for every user you verify. This data can be configured in the setup phase.
    * you can customize your verification link.
