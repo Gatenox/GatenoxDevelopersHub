@@ -38,9 +38,9 @@ In the event that you do encounter an error while using Gatenox API, our platfor
 
 Webhooks are an essential feature of modern software and applications that enable seamless communication between different systems. GatenoxAPI's webhook functionality empowers businesses to automate their workflows and receive real-time updates when specific events occur.
 
-Using our webhooks, your business can connect their applications and receive immediate notifications when specific events happen, such as new incoming case, finished assessment positive result of sanctions check. This functionality allows businesses to react quickly to important events and take immediate action to serve their customers better.
+Using our webhooks, your business can connect their applications and receive immediate notifications when specific events happen, such as new incoming case, finished assessment, result of sanctions check. This functionality allows businesses to react quickly to important events and take immediate action to serve their customers better.
 
-In summary, GatenoxAPI's webhook feature is a powerful tool that enables businesses to automate their workflows, stay informed of critical events, and provide better customer service. Try it today and see the difference it can make for your business!
+In summary, GatenoxAPI's webhook feature is a powerful tool that enables businesses to automate their workflows, stay informed of critical events, and provide better customer service.
 
 ### API Reference
 
