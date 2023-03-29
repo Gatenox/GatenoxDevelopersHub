@@ -1,3 +1,0 @@
-# Company details
-
-Coming soon...

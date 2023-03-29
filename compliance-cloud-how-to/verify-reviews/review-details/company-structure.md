@@ -1,3 +1,0 @@
-# Company structure
-
-Coming soon...

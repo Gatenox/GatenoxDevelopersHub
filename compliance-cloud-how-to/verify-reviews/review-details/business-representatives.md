@@ -1,3 +1,0 @@
-# Business representatives
-
-Coming soon...

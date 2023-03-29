@@ -1,3 +1,0 @@
-# Verify reviews
-
-Coming soon ...

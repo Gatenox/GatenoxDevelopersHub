@@ -1,3 +1,0 @@
-# Review details
-
-Coming soon...

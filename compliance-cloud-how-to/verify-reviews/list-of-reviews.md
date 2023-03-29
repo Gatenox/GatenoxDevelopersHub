@@ -1,3 +1,0 @@
-# List of reviews
-
-Coming soon...
