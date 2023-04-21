@@ -28,11 +28,7 @@ To start the KYC process, please click on the "Start KYC" button in the email. Y
 
 The first screen you see after starting the KYC process is the "Welcome" screen.&#x20;
 
-<figure><img src="../../.gitbook/assets/Internal_KYC_welcome.png" alt="KYC process - welcome screen"><figcaption><p>KYC process - welcome screen</p></figcaption></figure>
-
-Under the "see details" link you can find a shortlist of the inviter’s.
-
-<figure><img src="../../.gitbook/assets/Internal_KYC_welcome2.png" alt="KYC process - inviter requirements"><figcaption><p>KYC process - inviter requirements</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_1_NW.png" alt="KYC process - welcome screen"><figcaption><p>KYC process - welcome screen</p></figcaption></figure>
 
 To start completing your data, press the "Continue" button.
 
@@ -46,7 +42,7 @@ The first step of the process requires you to enter your personal data including
 * nationality
 * information about sources of funds (if required).
 
-<figure><img src="../../.gitbook/assets/Internal_KYC_personal_data.png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_2_NW.png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
 
 Please provide the required information and click on the "Continue" button to move to the next step.
 
@@ -58,7 +54,7 @@ The second step requires you to provide your residential address.
 
 Please provide the required information and click on the "Continue" button to move to the next sub-step, which asks you upload a proof of your residential address. In most cases, this is optional.
 
-<figure><img src="../../.gitbook/assets/Internal_KYC_residential_address_proof.png" alt="KYC process - residential address proof"><figcaption><p>KYC process - residential address proof</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_3_NW.png" alt="KYC process - residential address proof"><figcaption><p>KYC process - residential address proof</p></figcaption></figure>
 
 Please provide required information and click on the "Continue" button to move to the next step.
 
@@ -66,10 +62,14 @@ Please provide required information and click on the "Continue" button to move t
 
 In this step you are asked to upload photos of your documents. It is required to verify the information you have provided on the previous steps.
 
-<figure><img src="../../.gitbook/assets/Internal_KYC_document.png" alt="KYC process - identity document upload"><figcaption><p>KYC process - identity document upload</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_4_NW.png" alt="KYC process - identity document upload"><figcaption><p>KYC process - identity document upload</p></figcaption></figure>
 
 Please provide required information and click on the "Finish" button to move to the next step.
 
 In case you have skipped some required data you will be notified after clicking the "Finish" button and your data will not be submitted. You'll still be able to add other details while your invitation is active.
 
-****:warning: **If all required data has been entered, after clicking on the "Finish" button you will not be able to change it.**
+:warning: **If all required data has been entered, after clicking on the "Finish" button you will not be able to change it.**
+
+After clicking on the "Finish" button, the "Thank you" screen will be presented.
+
+<figure><img src="../../.gitbook/assets/KYC_5_NW.png" alt="KYC process - thank you"><figcaption><p>KYC process - thank you</p></figcaption></figure>

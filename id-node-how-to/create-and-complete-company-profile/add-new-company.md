@@ -6,16 +6,19 @@ To create a new company profile you need to open the context menu in the upper r
 
 You will see the “Add new company” screen. In order to facilitate the process of creating a new company profile (entering selected data for you), you must enter the jurisdiction and company registration number.
 
-<figure><img src="../../.gitbook/assets/company_add.png" alt="Add new company"><figcaption><p>Add new company</p></figcaption></figure>
+First, enter your company's jurisdiction. Then you have options to search for your company using:
 
-First, enter your company's jurisdiction and registration number. Now you can use the “Find your company” button to search for the name of your company.
+* name - please provide at least 3 chars to start the search process,
+* number - please provide exact company number.
 
-<figure><img src="../../.gitbook/assets/company_add1.png" alt="Find your company"><figcaption><p>Find your company</p></figcaption></figure>
+After entering search phrase, you will see a list of companies meeting criteria set in the query
 
-The result will be displayed in the “Company name” field. If your company is not found, you can enter “Company name” manually and press the “Continue” button. In this case, you will have to enter all the data manually.
+<figure><img src="../../.gitbook/assets/company_add_NW.png" alt="Add new company"><figcaption><p>Add new company</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/company_add3.png" alt="Find your company - check results"><figcaption><p>Find your company - check results</p></figcaption></figure>
+If your company is not found, you can enter “Company name” manually and press the “Continue” button. In this case, you will have to enter all the data manually.
 
-Now you can press the “Continue” button to go through the company setup wizard. The “Company details” basic data screen will be displayed.
+<figure><img src="../../.gitbook/assets/company_add3_NW.png" alt="Find your company - check results"><figcaption><p>Find your company - add company manually</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/basic_data.png" alt="Company details - basic data"><figcaption><p>Company details - preparation</p></figcaption></figure>
+Now you can press the “Continue” button to go through the company setup wizard. The “Business details” screen will be displayed.
+
+<figure><img src="../../.gitbook/assets/basic_data_NW.png" alt="Company details - basic data"><figcaption><p>Business details</p></figcaption></figure>

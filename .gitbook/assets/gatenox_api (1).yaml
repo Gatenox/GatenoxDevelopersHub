@@ -1,0 +1,2981 @@
+openapi: 3.0.0
+info:
+  title: Gatenox API
+  version: 1.0.0
+servers:
+  - url: https://api.app.gatenox.com
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+security:
+  - bearerAuth: []
+tags:
+  - name: Companies
+  - name: Directors
+  - name: UBOs
+  - name: People
+  - name: Company Documents
+  - name: Verified Crypto Addresses
+paths:
+  /api/v1/verifications/{verification_id}/companies:
+    get:
+      tags:
+        - Companies
+      summary: >-
+        This endpoint retrieves a list of companies associated with a specific
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a list of companies
+        associated with a specific verification ID. The response is an array of
+        objects, with each object representing a company associated with the
+        verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  companies:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        formal_name:
+                          type: string
+                        brand_name:
+                          type: string
+                        company_number:
+                          type: string
+                        inactive:
+                          type: boolean
+                        date_of_incorporation:
+                          type: string
+                          format: date
+                        jurisdiction:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            code:
+                              type: string
+                            name:
+                              type: string
+                            country:
+                              type: string
+                            full_name:
+                              type: string
+                        company_type:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            short_name:
+                              type: string
+                            full_name:
+                              type: string
+                            description:
+                              type: string
+                            source:
+                              type: null
+                            source_url:
+                              type: null
+                            jurisdiction_code:
+                              type: string
+                        business_area:
+                          type: object
+                          properties:
+                            gics_id:
+                              type: integer
+                            sector_id:
+                              type: integer
+                            sector_name:
+                              type: string
+                            industry_group_id:
+                              type: integer
+                            industry_group_name:
+                              type: string
+                            industry_id:
+                              type: integer
+                            industry_name:
+                              type: string
+                            sub_industry_id:
+                              type: integer
+                            sub_industry_name:
+                              type: string
+                            description:
+                              type: string
+                        industry:
+                          type: object
+                          properties:
+                            main:
+                              type: object
+                              properties:
+                                key:
+                                  type: integer
+                                value:
+                                  type: string
+                                industry:
+                                  type: string
+                                keywords:
+                                  type: array
+                                  items:
+                                    type: string
+                            description:
+                              type: string
+                            additional_keys:
+                              type: null
+                        activity_description:
+                          type: string
+                        business_description:
+                          type: string
+                        products_description:
+                          type: string
+                        business_activity_countries:
+                          type: array
+                          items:
+                            type: string
+                        tax_number:
+                          type: string
+                        funds_sources:
+                          type: string
+                        crypto_addresses:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                                format: uuid
+                              address:
+                                type: string
+                              address_type:
+                                type: string
+                              comment:
+                                type: string
+                              created_at:
+                                type: string
+                                format: date-time
+                              updated_at:
+                                type: string
+                                format: date-time
+                        website:
+                          type: string
+                        phone_number:
+                          type: string
+                        email:
+                          type: string
+                        employees_count:
+                          type: string
+                        aml_contact_person:
+                          type: string
+                        aml_contact_email:
+                          type: string
+                        aml_contact_phone_number:
+                          type: string
+                        opencorporates_url:
+                          type: string
+                example:
+                  companies:
+                    - id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                      formal_name: GATENOX LIMITED (DEMO)
+                      brand_name: GATENOX LIMITED
+                      company_number: '13714107'
+                      inactive: false
+                      date_of_incorporation: '2021-11-01'
+                      jurisdiction:
+                        id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                        code: gb
+                        name: United Kingdom
+                        country: United Kingdom
+                        full_name: United Kingdom
+                      company_type:
+                        id: 7e5d03fd-0548-40ea-88a4-19267369477f
+                        short_name: LTD
+                        full_name: Private Limited Company
+                        description: >-
+                          The vast majority of trading companies are private
+                          companies limited by shares. There are over two
+                          million such companies registered at Companies House.
+                          A private company limited by shares must have the word
+                          "Limited" or "Ltd" at the end of its name. The main
+                          advantage of trading through a limitedcompany is to
+                          have limited liability. Many private companies are
+                          very small. There is no minimum capital requirement
+                          for a private company and it is commonly less than
+                          £100. Approximately 90% of private companies are small
+                          or medium sized companies which means that they can
+                          file modified (i.e. simplified) accounts at Companies
+                          House, rather than full accounts. A private company
+                          may not offer shares or debentures to the public: CA
+                          2006, sec755, only a public company (PLC) may do so.
+                        source: null
+                        source_url: null
+                        jurisdiction_code: gb
+                      business_area: null
+                      industry:
+                        main:
+                          key: 7
+                          value: Carpentry Contractors
+                          industry: Building Services
+                          keywords:
+                            - Carpentry
+                            - Contractors
+                        description: ''
+                        additional_keys: []
+                      activity_description: null
+                      business_description: ''
+                      products_description: ''
+                      business_activity_countries: []
+                      tax_number: null
+                      funds_sources: ''
+                      crypto_addresses:
+                        - id: 35672555-bbee-471b-96b3-5d24ab050b01
+                          address: '0xb794f5ea0ba39494ce839613fffba74279579268'
+                          address_type: ''
+                          comment: null
+                          created_at: '2023-01-24T09:24:33.740Z'
+                          updated_at: '2023-01-24T09:24:33.740Z'
+                      website: null
+                      phone_number: null
+                      email: null
+                      employees_count: ''
+                      aml_contact_person: ''
+                      aml_contact_email: ''
+                      aml_contact_phone_number: ''
+                      opencorporates_url: https://opencorporates.com/companies/gb/13714107
+                    - id: c14df450-47b8-4cb9-ae01-ec9f23e38f1e
+                      formal_name: C3 Management GmbH
+                      brand_name: null
+                      company_number: M1201_HRB107586
+                      inactive: null
+                      date_of_incorporation: null
+                      jurisdiction:
+                        id: 1bb2e953-9181-40d7-ad7b-d51d5a4ff107
+                        code: de
+                        name: Germany
+                        country: Germany
+                        full_name: Germany
+                      company_type: null
+                      business_area: null
+                      industry:
+                        main: null
+                        description: null
+                        additional_keys: null
+                      activity_description: null
+                      business_description: null
+                      products_description: null
+                      business_activity_countries: null
+                      tax_number: null
+                      funds_sources: null
+                      crypto_addresses: []
+                      website: null
+                      phone_number: null
+                      email: null
+                      employees_count: null
+                      aml_contact_person: null
+                      aml_contact_email: null
+                      aml_contact_phone_number: null
+                      opencorporates_url: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/companies/{id}:
+    get:
+      tags:
+        - Companies
+      summary: >-
+        This endpoint retrieves a specific company associated with a
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific company associated
+        with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 25f43c24-09e3-4996-9870-c3c442ee1ad9
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      formal_name:
+                        type: string
+                      brand_name:
+                        type: string
+                      company_number:
+                        type: string
+                      inactive:
+                        type: boolean
+                      date_of_incorporation:
+                        type: string
+                        format: date
+                      jurisdiction:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          code:
+                            type: string
+                          name:
+                            type: string
+                          country:
+                            type: string
+                          full_name:
+                            type: string
+                      company_type:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          short_name:
+                            type: string
+                          full_name:
+                            type: string
+                          description:
+                            type: string
+                          source:
+                            type: null
+                          source_url:
+                            type: null
+                          jurisdiction_code:
+                            type: string
+                      business_area:
+                        type: object
+                        properties:
+                          gics_id:
+                            type: integer
+                          sector_id:
+                            type: integer
+                          sector_name:
+                            type: string
+                          industry_group_id:
+                            type: integer
+                          industry_group_name:
+                            type: string
+                          industry_id:
+                            type: integer
+                          industry_name:
+                            type: string
+                          sub_industry_id:
+                            type: integer
+                          sub_industry_name:
+                            type: string
+                          description:
+                            type: string
+                      industry:
+                        type: object
+                        properties:
+                          main:
+                            type: object
+                            properties:
+                              key:
+                                type: integer
+                              value:
+                                type: string
+                              industry:
+                                type: string
+                              keywords:
+                                type: array
+                                items:
+                                  type: string
+                          description:
+                            type: string
+                          additional_keys:
+                            type: null
+                      activity_description:
+                        type: string
+                      business_description:
+                        type: string
+                      products_description:
+                        type: string
+                      business_activity_countries:
+                        type: array
+                        items:
+                          type: string
+                      tax_number:
+                        type: string
+                      funds_sources:
+                        type: string
+                      crypto_addresses:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            address:
+                              type: string
+                            address_type:
+                              type: string
+                            comment:
+                              type: string
+                            created_at:
+                              type: string
+                              format: date-time
+                            updated_at:
+                              type: string
+                              format: date-time
+                      website:
+                        type: string
+                      phone_number:
+                        type: string
+                      email:
+                        type: string
+                      employees_count:
+                        type: string
+                      aml_contact_person:
+                        type: string
+                      aml_contact_email:
+                        type: string
+                      aml_contact_phone_number:
+                        type: string
+                      opencorporates_url:
+                        type: string
+                example:
+                  company:
+                    id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                    formal_name: GATENOX LIMITED (DEMO)
+                    brand_name: GATENOX LIMITED
+                    company_number: '13714107'
+                    inactive: false
+                    date_of_incorporation: '2021-11-01'
+                    jurisdiction:
+                      id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                      code: gb
+                      name: United Kingdom
+                      country: United Kingdom
+                      full_name: United Kingdom
+                    company_type:
+                      id: 7e5d03fd-0548-40ea-88a4-19267369477f
+                      short_name: LTD
+                      full_name: Private Limited Company
+                      description: >-
+                        The vast majority of trading companies are private
+                        companies limited by shares. There are over two million
+                        such companies registered at Companies House. A private
+                        company limited by shares must have the word "Limited"
+                        or "Ltd" at the end of its name. The main advantage of
+                        trading through a limitedcompany is to have limited
+                        liability. Many private companies are very small. There
+                        is no minimum capital requirement for a private company
+                        and it is commonly less than £100. Approximately 90% of
+                        private companies are small or medium sized companies
+                        which means that they can file modified (i.e.
+                        simplified) accounts at Companies House, rather than
+                        full accounts. A private company may not offer shares or
+                        debentures to the public: CA 2006, sec755, only a public
+                        company (PLC) may do so.
+                      source: null
+                      source_url: null
+                      jurisdiction_code: gb
+                    business_area: null
+                    industry:
+                      main:
+                        key: 7
+                        value: Carpentry Contractors
+                        industry: Building Services
+                        keywords:
+                          - Carpentry
+                          - Contractors
+                      description: ''
+                      additional_keys: []
+                    activity_description: null
+                    business_description: ''
+                    products_description: ''
+                    business_activity_countries: []
+                    tax_number: null
+                    funds_sources: ''
+                    crypto_addresses:
+                      - id: 35672555-bbee-471b-96b3-5d24ab050b01
+                        address: '0xb794f5ea0ba39494ce839613fffba74279579268'
+                        address_type: ''
+                        comment: null
+                        created_at: '2023-01-24T09:24:33.740Z'
+                        updated_at: '2023-01-24T09:24:33.740Z'
+                    website: null
+                    phone_number: null
+                    email: null
+                    employees_count: ''
+                    aml_contact_person: ''
+                    aml_contact_email: ''
+                    aml_contact_phone_number: ''
+                    opencorporates_url: https://opencorporates.com/companies/gb/13714107
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/directors:
+    get:
+      tags:
+        - Directors
+      summary: >-
+        This endpoint retrieves a list of directors associated with a specific
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a list of directors
+        associated with a specific verification ID. The response is an array of
+        objects, with each object representing a director associated with the
+        verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  directors:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        position:
+                          type: string
+                        created_at:
+                          type: string
+                          format: date-time
+                        updated_at:
+                          type: string
+                          format: date-time
+                        person:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            surname:
+                              type: string
+                            given_names:
+                              type: string
+                            family_name:
+                              type: string
+                              nullable: true
+                            parents_given_names:
+                              type: string
+                              nullable: true
+                            date_of_birth:
+                              type: string
+                              format: date
+                            sex:
+                              type: string
+                              nullable: true
+                            nationality:
+                              type: string
+                            place_of_birth:
+                              type: string
+                              nullable: true
+                            personal_number:
+                              type: string
+                              nullable: true
+                            funds_sources:
+                              type: string
+                            email:
+                              type: string
+                              nullable: true
+                            phone:
+                              type: string
+                              nullable: true
+                            created_at:
+                              type: string
+                              format: date-time
+                            updated_at:
+                              type: string
+                              format: date-time
+                example:
+                  directors:
+                    - id: 768cc8c5-11d1-4420-a75b-4815fe8a6794
+                      position: Director
+                      created_at: '2022-09-22T11:15:51.204Z'
+                      updated_at: '2022-09-22T11:17:14.587Z'
+                      person:
+                        id: 6b885e6c-b17d-4dca-80e4-0b9b716f5c26
+                        surname: Jan
+                        given_names: Doe
+                        family_name: null
+                        parents_given_names: null
+                        date_of_birth: '1978-05-26'
+                        sex: male
+                        nationality: PL
+                        place_of_birth: Warsaw
+                        personal_number: null
+                        funds_sources: Private account
+                        email: null
+                        phone: null
+                        created_at: '2022-09-22T11:15:51.194Z'
+                        updated_at: '2022-12-28T12:15:45.486Z'
+                    - id: d28ab6b7-d30f-4116-a155-6244f918618a
+                      position: Director
+                      created_at: '2022-09-22T11:15:51.223Z'
+                      updated_at: '2022-09-22T11:17:36.725Z'
+                      person:
+                        id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                        surname: Adam
+                        given_names: Smith
+                        family_name: null
+                        parents_given_names: null
+                        date_of_birth: '1974-11-30'
+                        sex: male
+                        nationality: PL
+                        place_of_birth: Warsaw
+                        personal_number: null
+                        funds_sources: Private account
+                        email: null
+                        phone: null
+                        created_at: '2022-09-22T11:15:51.213Z'
+                        updated_at: '2022-12-28T12:16:30.288Z'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/directors/{id}:
+    get:
+      tags:
+        - Directors
+      summary: >-
+        This endpoint retrieves a specific director associated with a
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific director
+        associated with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 40dd0272-edd9-4107-af5d-071eebbfd8d7
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  director:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      position:
+                        type: string
+                      person:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          surname:
+                            type: string
+                          given_names:
+                            type: string
+                          family_name:
+                            type: null
+                          parents_given_names:
+                            type: null
+                          date_of_birth:
+                            type: string
+                            format: date
+                          sex:
+                            type: null
+                          nationality:
+                            type: string
+                          place_of_birth:
+                            type: null
+                          personal_number:
+                            type: null
+                          funds_sources:
+                            type: string
+                          email:
+                            type: null
+                          phone:
+                            type: null
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                          address_of_residence:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                                format: uuid
+                              name:
+                                type: string
+                              line_1:
+                                type: string
+                              line_2:
+                                type: string
+                              line_3:
+                                type: null
+                              postcode:
+                                type: string
+                              city:
+                                type: string
+                              state:
+                                type: null
+                              country:
+                                type: string
+                              created_at:
+                                type: string
+                                format: date-time
+                              updated_at:
+                                type: string
+                                format: date-time
+                          address_for_correspondence:
+                            type: null
+                          documents:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  format: uuid
+                                purpose:
+                                  type: string
+                                created_at:
+                                  type: string
+                                  format: date-time
+                                updated_at:
+                                  type: string
+                                  format: date-time
+                                document:
+                                  type: object
+                                  properties:
+                                    id:
+                                      type: string
+                                      format: uuid
+                                    country_of_issue:
+                                      type: string
+                                    name:
+                                      type: string
+                                    number:
+                                      type: null
+                                    document_type:
+                                      type: string
+                                    date_of_issue:
+                                      type: string
+                                      format: date
+                                    expiration_date:
+                                      type: string
+                                      format: date
+                                    created_at:
+                                      type: string
+                                      format: date-time
+                                    updated_at:
+                                      type: string
+                                      format: date-time
+                                    attachments:
+                                      type: array
+                                      items:
+                                        type: object
+                                        properties:
+                                          id:
+                                            type: string
+                                            format: uuid
+                                          attachment_type:
+                                            type: string
+                                          created_at:
+                                            type: string
+                                            format: date-time
+                                          updated_at:
+                                            type: string
+                                            format: date-time
+                                          filename:
+                                            type: string
+                                          filesize:
+                                            type: integer
+                                          mime:
+                                            type: string
+                                          urls:
+                                            type: object
+                                            properties:
+                                              thumb:
+                                                type: string
+                                              medium:
+                                                type: string
+                                              original:
+                                                type: string
+                example:
+                  director:
+                    id: d28ab6b7-d30f-4116-a155-6244f918618a
+                    position: Director
+                    created_at: '2022-09-22T11:15:51.223Z'
+                    updated_at: '2022-09-22T11:17:36.725Z'
+                    person:
+                      id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                      surname: Adam
+                      given_names: Smith
+                      family_name: null
+                      parents_given_names: null
+                      date_of_birth: '1974-11-30'
+                      sex: male
+                      nationality: PL
+                      place_of_birth: Warsaw
+                      personal_number: null
+                      funds_sources: Private account
+                      email: null
+                      phone: null
+                      created_at: '2022-09-22T11:15:51.213Z'
+                      updated_at: '2022-12-28T12:16:30.288Z'
+                      address_of_residence:
+                        id: 36048750-228a-456d-99e8-1f05f327c7cc
+                        name: null
+                        line_1: ul. Oleska 2
+                        line_2: null
+                        line_3: null
+                        postcode: 02-100
+                        city: Warsaw
+                        state: null
+                        country: PL
+                        created_at: '2022-09-22T11:18:11.371Z'
+                        updated_at: '2022-09-22T11:18:11.371Z'
+                      address_for_correspondence: null
+                      documents:
+                        - id: 5def8d24-0c2f-4e53-aaac-c783220e93a0
+                          purpose: personal_document
+                          created_at: '2022-12-28T12:16:56.557Z'
+                          updated_at: '2022-12-28T12:16:56.557Z'
+                          document:
+                            id: 393843f3-9f46-452f-8c9b-ec7e000292f5
+                            country_of_issue: PL
+                            name: Polish passport.png
+                            number: APO 234567
+                            document_type: passport
+                            date_of_issue: '2022-12-07'
+                            expiration_date: '2032-12-07'
+                            created_at: '2022-12-28T12:16:55.790Z'
+                            updated_at: '2022-12-28T12:16:55.790Z'
+                            attachments:
+                              - id: 5dfb8df2-e3ab-4fce-a655-393a8bbfab91
+                                attachment_type: main
+                                created_at: '2022-12-28T12:16:56.083Z'
+                                updated_at: '2022-12-28T12:16:56.353Z'
+                                filename: Polish passport.png
+                                filesize: 22118
+                                mime: image/png
+                                urls:
+                                  thumb: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6ImVmNTE3NjA0NDlhNmQ2NzI2N2M3OWM3Mz
+                                  medium: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjFhOTZlYzZiOGRlYmEzMDgyYzM5N2U0O
+                                  original: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjM1NmZiOTEwZDgzOGRlOWFjZTA5ZjI
+                      personal_verification: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/ubos:
+    get:
+      tags:
+        - UBOs
+      summary: >-
+        This endpoint retrieves a list of UBOs associated with a specific
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a list of UBOs associated
+        with a specific verification ID. The response is an array of objects,
+        with each object representing a UBO associated with the verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ubos:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        ubos:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                              approximate_percentage_of_shares:
+                                type: integer
+                              description:
+                                type: string
+                                nullable: true
+                              created_at:
+                                type: string
+                                format: date-time
+                              updated_at:
+                                type: string
+                                format: date-time
+                              person:
+                                type: object
+                                properties:
+                                  id:
+                                    type: string
+                                  surname:
+                                    type: string
+                                  given_names:
+                                    type: string
+                                  family_name:
+                                    type: string
+                                    nullable: true
+                                  parents_given_names:
+                                    type: string
+                                    nullable: true
+                                  date_of_birth:
+                                    type: string
+                                    format: date
+                                  sex:
+                                    type: string
+                                    nullable: true
+                                  nationality:
+                                    type: string
+                                  place_of_birth:
+                                    type: string
+                                    nullable: true
+                                  personal_number:
+                                    type: string
+                                    nullable: true
+                                  funds_sources:
+                                    type: string
+                                  email:
+                                    type: string
+                                    nullable: true
+                                  phone:
+                                    type: string
+                                    nullable: true
+                                  created_at:
+                                    type: string
+                                    format: date-time
+                                  updated_at:
+                                    type: string
+                                    format: date-time
+                example:
+                  ubos:
+                    - id: 6b885626-7188-43e6-9d43-de2e9b9bdd60
+                      approximate_percentage_of_shares: 41
+                      description: null
+                      created_at: '2022-10-27T12:21:36.806Z'
+                      updated_at: '2022-10-27T12:21:36.806Z'
+                      person:
+                        id: 6b885e6c-b17d-4dca-80e4-0b9b716f5c26
+                        surname: John
+                        given_names: Doe
+                        family_name: null
+                        parents_given_names: null
+                        date_of_birth: '1978-05-26'
+                        sex: male
+                        nationality: PL
+                        place_of_birth: null
+                        personal_number: null
+                        funds_sources: Private account
+                        email: null
+                        phone: null
+                        created_at: '2022-09-22T11:15:51.194Z'
+                        updated_at: '2022-12-28T12:15:45.486Z'
+                    - id: 53634f02-4e16-417d-8521-4d01510216e8
+                      approximate_percentage_of_shares: 41
+                      description: null
+                      created_at: '2022-10-27T12:21:38.371Z'
+                      updated_at: '2022-10-27T12:21:38.371Z'
+                      person:
+                        id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                        surname: Adam
+                        given_names: Smith
+                        family_name: null
+                        parents_given_names: null
+                        date_of_birth: '1974-11-30'
+                        sex: male
+                        nationality: PL
+                        place_of_birth: null
+                        personal_number: null
+                        funds_sources: Private account
+                        email: null
+                        phone: null
+                        created_at: '2022-09-22T11:15:51.213Z'
+                        updated_at: '2022-12-28T12:16:30.288Z'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/ubos/{id}:
+    get:
+      tags:
+        - UBOs
+      summary: >-
+        This endpoint retrieves a specific UBO associated with a verification
+        ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific UBO associated
+        with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 4856ac99-8a52-483e-8530-dcdd13386370
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ubo:
+                    type: object
+                    properties:
+                      ubo:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                          approximate_percentage_of_shares:
+                            type: integer
+                          description:
+                            type: string
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                          person:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                              surname:
+                                type: string
+                              given_names:
+                                type: string
+                              family_name:
+                                type: string
+                              parents_given_names:
+                                type: string
+                              date_of_birth:
+                                type: string
+                                format: date
+                              sex:
+                                type: string
+                              nationality:
+                                type: string
+                              place_of_birth:
+                                type: string
+                              personal_number:
+                                type: string
+                              funds_sources:
+                                type: string
+                              email:
+                                type: string
+                              phone:
+                                type: string
+                              created_at:
+                                type: string
+                                format: date-time
+                              updated_at:
+                                type: string
+                                format: date-time
+                              address_of_residence:
+                                type: object
+                                properties:
+                                  id:
+                                    type: string
+                                  name:
+                                    type: string
+                                  line_1:
+                                    type: string
+                                  line_2:
+                                    type: string
+                                  line_3:
+                                    type: string
+                                  postcode:
+                                    type: string
+                                  city:
+                                    type: string
+                                  state:
+                                    type: string
+                                  country:
+                                    type: string
+                                  created_at:
+                                    type: string
+                                    format: date-time
+                                  updated_at:
+                                    type: string
+                                    format: date-time
+                              address_for_correspondence:
+                                type: object
+                              documents:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    id:
+                                      type: string
+                                    purpose:
+                                      type: string
+                                    created_at:
+                                      type: string
+                                      format: date-time
+                                    updated_at:
+                                      type: string
+                                      format: date-time
+                                    document:
+                                      type: object
+                                      properties:
+                                        id:
+                                          type: string
+                                        country_of_issue:
+                                          type: string
+                                        name:
+                                          type: string
+                                        number:
+                                          type: string
+                                        document_type:
+                                          type: string
+                                        date_of_issue:
+                                          type: string
+                                          format: date
+                                        expiration_date:
+                                          type: string
+                                          format: date
+                                        created_at:
+                                          type: string
+                                          format: date-time
+                                        updated_at:
+                                          type: string
+                                          format: date-time
+                                        attachments:
+                                          type: array
+                                          items:
+                                            type: object
+                                            properties:
+                                              id:
+                                                type: string
+                                              attachment_type:
+                                                type: string
+                                              created_at:
+                                                type: string
+                                                format: date-time
+                                              updated_at:
+                                                type: string
+                                                format: date-time
+                                              filename:
+                                                type: string
+                                              filesize:
+                                                type: integer
+                                              mime:
+                                                type: string
+                                              urls:
+                                                type: object
+                                                properties:
+                                                  thumb:
+                                                    type: string
+                                                  medium:
+                                                    type: string
+                                                  original:
+                                                    type: string
+                example:
+                  ubo:
+                    id: 53634f02-4e16-417d-8521-4d01510216e8
+                    approximate_percentage_of_shares: 41
+                    description: null
+                    created_at: '2022-10-27T12:21:38.371Z'
+                    updated_at: '2022-10-27T12:21:38.371Z'
+                    person:
+                      id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                      surname: John
+                      given_names: Doe
+                      family_name: null
+                      parents_given_names: null
+                      date_of_birth: '1974-11-30'
+                      sex: male
+                      nationality: PL
+                      place_of_birth: null
+                      personal_number: null
+                      funds_sources: Private account
+                      email: null
+                      phone: null
+                      created_at: '2022-09-22T11:15:51.213Z'
+                      updated_at: '2022-12-28T12:16:30.288Z'
+                      address_of_residence:
+                        id: 36048750-228a-456d-99e8-1f05f327c7cc
+                        name: null
+                        line_1: ul. Oleska 2
+                        line_2: null
+                        line_3: null
+                        postcode: 02-100
+                        city: Warsaw
+                        state: null
+                        country: PL
+                        created_at: '2022-09-22T11:18:11.371Z'
+                        updated_at: '2022-09-22T11:18:11.371Z'
+                      address_for_correspondence: null
+                      documents:
+                        - id: 5def8d24-0c2f-4e53-aaac-c783220e93a0
+                          purpose: personal_document
+                          created_at: '2022-12-28T12:16:56.557Z'
+                          updated_at: '2022-12-28T12:16:56.557Z'
+                          document:
+                            id: 393843f3-9f46-452f-8c9b-ec7e000292f5
+                            country_of_issue: PL
+                            name: Polish passport.png
+                            number: APO 234567
+                            document_type: passport
+                            date_of_issue: '2022-12-07'
+                            expiration_date: '2032-12-07'
+                            created_at: '2022-12-28T12:16:55.790Z'
+                            updated_at: '2022-12-28T12:16:55.790Z'
+                            attachments:
+                              - id: 5dfb8df2-e3ab-4fce-a655-393a8bbfab91
+                                attachment_type: main
+                                created_at: '2022-12-28T12:16:56.083Z'
+                                updated_at: '2022-12-28T12:16:56.353Z'
+                                filename: Polish passport.png
+                                filesize: 22118
+                                mime: image/png
+                                urls:
+                                  thumb: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6ImVmNTE3NjA0NDlhNm
+                                  medium: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjFhOTZlYzZiOGRlY
+                                  original: >-
+                                    https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjM1NmZiOTEwZDg
+                      personal_verification: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/people:
+    get:
+      tags:
+        - People
+      summary: >-
+        This endpoint retrieves a list of people associated with a specific
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a list of people associated
+        with a specific verification ID. The response is an array of objects,
+        with each object representing a person associated with the verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  people:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        surname:
+                          type: string
+                        given_names:
+                          type: string
+                        family_name:
+                          type: string
+                          nullable: true
+                        parents_given_names:
+                          type: string
+                          nullable: true
+                        date_of_birth:
+                          type: string
+                          format: date
+                        sex:
+                          type: string
+                          nullable: true
+                        nationality:
+                          type: string
+                        place_of_birth:
+                          type: string
+                          nullable: true
+                        personal_number:
+                          type: string
+                          nullable: true
+                        funds_sources:
+                          type: string
+                        email:
+                          type: string
+                          nullable: true
+                        phone:
+                          type: string
+                          nullable: true
+                        created_at:
+                          type: string
+                          format: date-time
+                        updated_at:
+                          type: string
+                          format: date-time
+                example:
+                  people:
+                    - id: 6b885e6c-b17d-4dca-80e4-0b9b716f5c26
+                      surname: John
+                      given_names: Doe
+                      family_name: null
+                      parents_given_names: null
+                      date_of_birth: '1978-05-26'
+                      sex: male
+                      nationality: PL
+                      place_of_birth: Warsaw
+                      personal_number: null
+                      funds_sources: Private account
+                      email: null
+                      phone: null
+                      created_at: '2022-09-22T11:15:51.194Z'
+                      updated_at: '2022-12-28T12:15:45.486Z'
+                    - id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                      surname: Adam
+                      given_names: Smith
+                      family_name: null
+                      parents_given_names: null
+                      date_of_birth: '1974-11-30'
+                      sex: male
+                      nationality: PL
+                      place_of_birth: Warsaw
+                      personal_number: null
+                      funds_sources: Private account
+                      email: null
+                      phone: null
+                      created_at: '2022-09-22T11:15:51.213Z'
+                      updated_at: '2022-12-28T12:16:30.288Z'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/people/{id}:
+    get:
+      tags:
+        - People
+      summary: >-
+        This endpoint retrieves a specific person associated with a verification
+        ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific person associated
+        with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 1377cded-0606-4478-b652-ed5ccde37dc8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  person:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      surname:
+                        type: string
+                      given_names:
+                        type: string
+                      family_name:
+                        type: null
+                      parents_given_names:
+                        type: null
+                      date_of_birth:
+                        type: string
+                        format: date
+                      sex:
+                        type: string
+                        enum:
+                          - male
+                          - female
+                          - other
+                      nationality:
+                        type: string
+                        pattern: ^[A-Z]{2}$
+                      place_of_birth:
+                        type: null
+                      personal_number:
+                        type: null
+                      funds_sources:
+                        type: string
+                      email:
+                        type: null
+                      phone:
+                        type: null
+                      created_at:
+                        type: string
+                        format: date-time
+                      updated_at:
+                        type: string
+                        format: date-time
+                      address_of_residence:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          name:
+                            type: null
+                          line_1:
+                            type: string
+                          line_2:
+                            type: null
+                          line_3:
+                            type: null
+                          postcode:
+                            type: string
+                          city:
+                            type: string
+                          state:
+                            type: string
+                          country:
+                            type: string
+                            pattern: ^[A-Z]{2}$
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                        required:
+                          - id
+                          - line_1
+                          - postcode
+                          - city
+                          - state
+                          - country
+                      address_for_correspondence:
+                        type: null
+                      documents:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            purpose:
+                              type: string
+                            created_at:
+                              type: string
+                              format: date-time
+                            updated_at:
+                              type: string
+                              format: date-time
+                            document:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  format: uuid
+                                country_of_issue:
+                                  type: null
+                                name:
+                                  type: string
+                                number:
+                                  type: null
+                                document_type:
+                                  type: string
+                                date_of_issue:
+                                  type: null
+                                expiration_date:
+                                  type: null
+                                created_at:
+                                  type: string
+                                  format: date-time
+                                updated_at:
+                                  type: string
+                                  format: date-time
+                                attachments:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      id:
+                                        type: string
+                                        format: uuid
+                                      attachment_type:
+                                        type: string
+                                      created_at:
+                                        type: string
+                                        format: date-time
+                                      updated_at:
+                                        type: string
+                                        format: date-time
+                                      filename:
+                                        type: string
+                                      filesize:
+                                        type: integer
+                                      mime:
+                                        type: string
+                                      urls:
+                                        type: object
+                                        properties:
+                                          thumb:
+                                            type: string
+                                          medium:
+                                            type: string
+                                          original:
+                                            type: string
+                example:
+                  person:
+                    id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                    surname: Adam
+                    given_names: Smith
+                    family_name: null
+                    parents_given_names: null
+                    date_of_birth: '1974-11-30'
+                    sex: male
+                    nationality: PL
+                    place_of_birth: Warsaw
+                    personal_number: null
+                    funds_sources: Private account
+                    email: null
+                    phone: null
+                    created_at: '2022-09-22T11:15:51.213Z'
+                    updated_at: '2022-12-28T12:16:30.288Z'
+                    address_of_residence:
+                      id: 36048750-228a-456d-99e8-1f05f327c7cc
+                      name: null
+                      line_1: ul. Oleska 2
+                      line_2: null
+                      line_3: null
+                      postcode: 02-100
+                      city: Warsaw
+                      state: null
+                      country: PL
+                      created_at: '2022-09-22T11:18:11.371Z'
+                      updated_at: '2022-09-22T11:18:11.371Z'
+                    address_for_correspondence: null
+                    documents:
+                      - id: 5def8d24-0c2f-4e53-aaac-c783220e93a0
+                        purpose: personal_document
+                        created_at: '2022-12-28T12:16:56.557Z'
+                        updated_at: '2022-12-28T12:16:56.557Z'
+                        document:
+                          id: 393843f3-9f46-452f-8c9b-ec7e000292f5
+                          country_of_issue: PL
+                          name: Polish passport.png
+                          number: APO 234567
+                          document_type: passport
+                          date_of_issue: '2022-12-07'
+                          expiration_date: '2032-12-07'
+                          created_at: '2022-12-28T12:16:55.790Z'
+                          updated_at: '2022-12-28T12:16:55.790Z'
+                          attachments:
+                            - id: 5dfb8df2-e3ab-4fce-a655-393a8bbfab91
+                              attachment_type: main
+                              created_at: '2022-12-28T12:16:56.083Z'
+                              updated_at: '2022-12-28T12:16:56.353Z'
+                              filename: Polish passport.png
+                              filesize: 22118
+                              mime: image/png
+                              urls:
+                                thumb: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6ImVmNTE3NjA0NDlhNmQ2NzI2
+                                medium: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjFhOTZlYzZiOGRlYmEzMDg
+                                original: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjM1NmZiOTEwZDgzOGRlO
+                    personal_verification: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/company_documents:
+    get:
+      tags:
+        - Company Documents
+      summary: >-
+        This endpoint retrieves a list of company documents associated with a
+        specific verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a list of company documents
+        associated with a specific verification ID. The response is an array of
+        objects, with each object representing a company document associated
+        with the verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company_documents:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        purpose:
+                          type: string
+                        created_at:
+                          type: string
+                          format: date-time
+                        updated_at:
+                          type: string
+                          format: date-time
+                        document:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            country_of_issue:
+                              type: null
+                            name:
+                              type: string
+                            number:
+                              type: null
+                            document_type:
+                              type: string
+                            date_of_issue:
+                              type: null
+                            expiration_date:
+                              type: null
+                            created_at:
+                              type: string
+                              format: date-time
+                            updated_at:
+                              type: string
+                              format: date-time
+                            attachments:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  id:
+                                    type: string
+                                    format: uuid
+                                  attachment_type:
+                                    type: string
+                                  created_at:
+                                    type: string
+                                    format: date-time
+                                  updated_at:
+                                    type: string
+                                    format: date-time
+                                  filename:
+                                    type: string
+                                  filesize:
+                                    type: integer
+                                  mime:
+                                    type: string
+                                  urls:
+                                    type: object
+                                    properties:
+                                      thumb:
+                                        type: string
+                                      medium:
+                                        type: string
+                                      original:
+                                        type: string
+                example:
+                  company_documents:
+                    - id: fa1cdf9b-4532-4938-a94f-e36aca0b8317
+                      purpose: details_confirmation
+                      created_at: '2023-02-23T10:21:35.022Z'
+                      updated_at: '2023-02-23T10:21:35.022Z'
+                      document:
+                        id: 8f06d188-a0f2-47cb-bea9-b8f0ab8192e8
+                        country_of_issue: null
+                        name: other_document.png
+                        number: null
+                        document_type: other
+                        date_of_issue: null
+                        expiration_date: null
+                        created_at: '2023-02-23T10:21:30.877Z'
+                        updated_at: '2023-02-23T10:21:30.877Z'
+                        attachments:
+                          - id: bdb6bf3e-47c6-47f2-a2fc-edac90a5b0e1
+                            attachment_type: main
+                            created_at: '2023-02-23T10:21:32.747Z'
+                            updated_at: '2023-02-23T10:21:34.702Z'
+                            filename: other_document.png
+                            filesize: 618646
+                            mime: image/png
+                            urls:
+                              thumb: >-
+                                https://sandbox.gatenox.com/eyJpZCI6IjFlMGNkNWE2MDU4MTUzMWQzZjY1MGI0Nj
+                              medium: >-
+                                https://sandbox.gatenox.com/eyJpZCI6ImY0YTlkNDQ2NTRjMjQxMDA4ODhjMTMwOD
+                              original: >-
+                                https://sandbox.gatenox.com/eyJpZCI6IjAwYTdhZDIyOWI5Y2VjOTkyMjJlMGE0ZG
+                    - id: cecae6e8-744c-4bf6-b8c6-703f4c3dfdd7
+                      purpose: office_address_confirmation
+                      created_at: '2023-02-23T10:29:10.940Z'
+                      updated_at: '2023-02-23T10:29:10.940Z'
+                      document:
+                        id: 915879c1-3ca7-488d-a992-0476cbadd7c6
+                        country_of_issue: null
+                        name: recent_utility_bill.png
+                        number: null
+                        document_type: recent_utility_bill
+                        date_of_issue: null
+                        expiration_date: null
+                        created_at: '2023-02-23T10:29:08.577Z'
+                        updated_at: '2023-02-23T10:29:08.577Z'
+                        attachments:
+                          - id: b51b3260-4753-421b-9cd9-28b5f21ec3a0
+                            attachment_type: main
+                            created_at: '2023-02-23T10:29:09.530Z'
+                            updated_at: '2023-02-23T10:29:10.648Z'
+                            filename: recent_utility_bill.png
+                            filesize: 57810
+                            mime: image/png
+                            urls:
+                              thumb: >-
+                                https://sandbox.gatenox.com/eyJpZCI6ImE2ODc1MTViYTdkMDRhZDc1MDA0MDJjNj
+                              medium: >-
+                                https://sandbobox.gatenox.com/eyJpZCI6IjI2NzU2ZWE1MThhN2NmZGVlYzNhZmVjOWNkMWVkYmFhL
+                              original: >-
+                                https://sandbobox.gatenox.com/eyJpZCI6IjEzNDQ4YTczYjZiZWQyNWMzNTA1ZmIxNzI5MzhjMjE4L
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/company_documents/{id}:
+    get:
+      tags:
+        - Company Documents
+      summary: >-
+        This endpoint retrieves a specific company document associated with a
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific company document
+        associated with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: fa1cdf9b-4532-4938-a94f-e36aca0b8317
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company_document:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      purpose:
+                        type: string
+                      created_at:
+                        type: string
+                        format: date-time
+                      updated_at:
+                        type: string
+                        format: date-time
+                      document:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          country_of_issue:
+                            type: null
+                          name:
+                            type: string
+                          number:
+                            type: null
+                          document_type:
+                            type: string
+                          date_of_issue:
+                            type: null
+                          expiration_date:
+                            type: null
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                          attachments:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  format: uuid
+                                attachment_type:
+                                  type: string
+                                created_at:
+                                  type: string
+                                  format: date-time
+                                updated_at:
+                                  type: string
+                                  format: date-time
+                                filename:
+                                  type: string
+                                filesize:
+                                  type: integer
+                                mime:
+                                  type: string
+                                urls:
+                                  type: object
+                                  properties:
+                                    thumb:
+                                      type: string
+                                    medium:
+                                      type: string
+                                    original:
+                                      type: string
+                example:
+                  company_document:
+                    id: cecae6e8-744c-4bf6-b8c6-703f4c3dfdd7
+                    purpose: office_address_confirmation
+                    created_at: '2023-02-23T10:29:10.940Z'
+                    updated_at: '2023-02-23T10:29:10.940Z'
+                    document:
+                      id: 915879c1-3ca7-488d-a992-0476cbadd7c6
+                      country_of_issue: null
+                      name: recent_utility_bill.png
+                      number: null
+                      document_type: recent_utility_bill
+                      date_of_issue: null
+                      expiration_date: null
+                      created_at: '2023-02-23T10:29:08.577Z'
+                      updated_at: '2023-02-23T10:29:08.577Z'
+                      attachments:
+                        - id: b51b3260-4753-421b-9cd9-28b5f21ec3a0
+                          attachment_type: main
+                          created_at: '2023-02-23T10:29:09.530Z'
+                          updated_at: '2023-02-23T10:29:10.648Z'
+                          filename: recent_utility_bill.png
+                          filesize: 57810
+                          mime: image/png
+                          urls:
+                            thumb: >-
+                              https://sandbox.gatenox.com/eyJpZCI6ImE2ODc1MTViYTdkMDRhZDc1MDA0MDJjNj
+                            medium: >-
+                              https://sandbobox.gatenox.com/eyJpZCI6IjI2NzU2ZWE1MThhN2NmZGVlYzNhZmVjOWNkMWVkYmFhL
+                            original: >-
+                              https://sandbobox.gatenox.com/eyJpZCI6IjEzNDQ4YTczYjZiZWQyNWMzNTA1ZmIxNzI5MzhjMjE4L
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/company_details:
+    get:
+      tags:
+        - default
+      summary: >-
+        This endpoint retrieves a specific company details associated with a
+        verification ID.
+      description: >-
+        This API endpoint allows users to retrieve a specific company details
+        associated with a specific verification ID.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company:
+                    type: object
+                    properties:
+                      company:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          formal_name:
+                            type: string
+                          brand_name:
+                            type: null
+                          company_number:
+                            type: string
+                          inactive:
+                            type: null
+                          date_of_incorporation:
+                            type: string
+                            format: date
+                          jurisdiction:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                                format: uuid
+                              code:
+                                type: string
+                              name:
+                                type: string
+                              country:
+                                type: string
+                              full_name:
+                                type: string
+                          company_type:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                                format: uuid
+                              short_name:
+                                type: string
+                              full_name:
+                                type: string
+                              description:
+                                type: string
+                              source:
+                                type: null
+                              source_url:
+                                type: null
+                              jurisdiction_code:
+                                type: string
+                          business_area:
+                            type: null
+                          industry:
+                            type: object
+                            properties:
+                              main:
+                                type: null
+                              description:
+                                type: null
+                              additional_keys:
+                                type: null
+                          activity_description:
+                            type: null
+                          business_description:
+                            type: null
+                          products_description:
+                            type: null
+                          business_activity_countries:
+                            type: null
+                          tax_number:
+                            type: null
+                          funds_sources:
+                            type: null
+                          crypto_addresses:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  format: uuid
+                                address:
+                                  type: string
+                                address_type:
+                                  type: string
+                                comment:
+                                  type: null
+                                created_at:
+                                  type: string
+                                  format: date-time
+                                updated_at:
+                                  type: string
+                                  format: date-time
+                          website:
+                            type: string
+                          phone_number:
+                            type: string
+                          email:
+                            type: string
+                          employees_count:
+                            type: string
+                          aml_contact_person:
+                            type: string
+                          aml_contact_email:
+                            type: string
+                          aml_contact_phone_number:
+                            type: string
+                          opencorporates_url:
+                            type: string
+                        required:
+                          - id
+                          - formal_name
+                          - company_number
+                          - date_of_incorporation
+                          - jurisdiction
+                          - company_type
+                      registered_address:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          name:
+                            type: string
+                          line_1:
+                            type: string
+                          line_2:
+                            type: string
+                          line_3:
+                            type: string
+                          postcode:
+                            type: string
+                          city:
+                            type: string
+                          state:
+                            type: string
+                          country:
+                            type: string
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                      office_address:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          name:
+                            type: string
+                          line_1:
+                            type: string
+                          line_2:
+                            type: string
+                          line_3:
+                            type: string
+                          postcode:
+                            type: string
+                          city:
+                            type: string
+                          state:
+                            type: string
+                          country:
+                            type: string
+                          created_at:
+                            type: string
+                            format: date
+                      proof_of_incorporation_details:
+                        - id: string
+                          country_of_issue: string
+                          name: string
+                          number: string
+                          document_type: other
+                          date_of_issue: string
+                          expiration_date: string
+                          created_at: string
+                          updated_at: string
+                          attachments:
+                            - id: string
+                              attachment_type: main
+                              created_at: string
+                              updated_at: string
+                              filename: string
+                              filesize: integer
+                              mime: string
+                              urls:
+                                thumb: string
+                                medium: string
+                                original: string
+                      proof_of_office_address:
+                        - id: string
+                          country_of_issue: string
+                          name: string
+                          number: string
+                          document_type: recent_utility_bill
+                          date_of_issue: string
+                          expiration_date: string
+                          created_at: string
+                          updated_at: string
+                          attachments:
+                            - id: string
+                              attachment_type: main
+                              created_at: string
+                              updated_at: string
+                              filename: string
+                              filesize: integer
+                              mime: string
+                              urls:
+                                thumb: string
+                                medium: string
+                                original: string
+                example:
+                  company:
+                    id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                    formal_name: GATENOX LIMITED (DEMO)
+                    brand_name: GATENOX LIMITED
+                    company_number: '13714107'
+                    inactive: false
+                    date_of_incorporation: '2021-11-01'
+                    jurisdiction:
+                      id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                      code: gb
+                      name: United Kingdom
+                      country: United Kingdom
+                      full_name: United Kingdom
+                    company_type:
+                      id: 7e5d03fd-0548-40ea-88a4-19267369477f
+                      short_name: LTD
+                      full_name: Private Limited Company
+                      description: >-
+                        The vast majority of trading companies are private
+                        companies limited by shares. There are over two million
+                        such companies registered at Companies House. A private
+                        company limited by shares must have the word "Limited"
+                        or "Ltd" at the end of its name. The main advantage of
+                        trading through a limitedcompany is to have limited
+                        liability. Many private companies are very small. There
+                        is no minimum capital requirement for a private company
+                        and it is commonly less than £100. Approximately 90% of
+                        private companies are small or medium sized companies
+                        which means that they can file modified (i.e.
+                        simplified) accounts at Companies House, rather than
+                        full accounts. A private company may not offer shares or
+                        debentures to the public: CA 2006, sec755, only a public
+                        company (PLC) may do so.
+                      source: null
+                      source_url: null
+                      jurisdiction_code: gb
+                    business_area: null
+                    industry:
+                      main:
+                        key: 7
+                        value: Carpentry Contractors
+                        industry: Building Services
+                        keywords:
+                          - Carpentry
+                          - Contractors
+                      description: ''
+                      additional_keys: []
+                    activity_description: ''
+                    business_description: ''
+                    products_description: ''
+                    business_activity_countries: []
+                    tax_number: ''
+                    funds_sources: ''
+                    crypto_addresses:
+                      - id: 35672555-bbee-471b-96b3-5d24ab050b01
+                        address: '0xb794f5ea0ba39494ce839613fffba74279579268'
+                        address_type: AZERO
+                        comment: null
+                        created_at: '2023-01-24T09:24:33.740Z'
+                        updated_at: '2023-01-24T09:24:33.740Z'
+                    website: null
+                    phone_number: null
+                    email: null
+                    employees_count: ''
+                    aml_contact_person: ''
+                    aml_contact_email: ''
+                    aml_contact_phone_number: ''
+                    opencorporates_url: https://opencorporates.com/companies/gb/13714107
+                  registered_address:
+                    id: 41c6ae08-96bd-4e25-8482-2c07d515c03c
+                    name: >-
+                      Parker Russell, Level 30 The Leadenhall Building 122
+                      Leadenhall Street, London, Select County, EC3V 4AB
+                    line_1: Parker Russell, Level 30 The Leadenhall Building
+                    line_2: 122 Leadenhall Street
+                    line_3: null
+                    postcode: EC3V 4AB
+                    city: London
+                    state: Select County
+                    country: GB
+                    created_at: '2022-09-22T11:15:51.176Z'
+                    updated_at: '2022-09-22T11:15:51.176Z'
+                  office_address:
+                    id: 41c6ae08-96bd-4e25-8482-2c07d515c03c
+                    name: >-
+                      Parker Russell, Level 30 The Leadenhall Building 122
+                      Leadenhall Street, London, Select County, EC3V 4AB
+                    line_1: Parker Russell, Level 30 The Leadenhall Building
+                    line_2: 122 Leadenhall Street
+                    line_3: null
+                    postcode: EC3V 4AB
+                    city: London
+                    state: Select County
+                    country: GB
+                    created_at: '2022-09-22T11:15:51.176Z'
+                    updated_at: '2022-09-22T11:15:51.176Z'
+                  proof_of_incorporation_details:
+                    - id: 671ac970-0256-4463-9c87-3577d91935ee
+                      country_of_issue: null
+                      name: Articles of Association.pdf
+                      number: null
+                      document_type: articles_of_association
+                      date_of_issue: null
+                      expiration_date: null
+                      created_at: '2022-09-23T08:16:59.527Z'
+                      updated_at: '2022-09-23T08:16:59.883Z'
+                      attachments:
+                        - id: bdb6bf3e-47c6-47f2-a2fc-edac90a5b0e1
+                          attachment_type: main
+                          created_at: '2023-02-23T10:21:32.747Z'
+                          updated_at: '2023-02-23T10:21:34.702Z'
+                          filename: Articles of Association.pdf
+                          filesize: 618646
+                          mime: image/png
+                          urls:
+                            thumb: https://sandbox.gatenox.com/eyJpZCI6IjFlMGNkNW...
+                            medium: https://sandbox.gatenox.com/eyJpZCI6ImY0YTlkND...
+                            original: https://sandbox.gatenox.com/eyJpZCI6IjAwYTdhZD...
+                  proof_of_office_address:
+                    - id: a2f75bd3-3f95-4b38-8943-2a9805278908
+                      country_of_issue: null
+                      name: Utility bill.pdf
+                      number: null
+                      document_type: recent_utility_bill
+                      date_of_issue: null
+                      expiration_date: null
+                      created_at: '2022-09-23T08:19:51.379Z'
+                      updated_at: '2022-09-23T08:19:51.682Z'
+                      attachments:
+                        - id: b51b3260-4753-421b-9cd9-28b5f21ec3a0
+                          attachment_type: main
+                          created_at: '2023-02-23T10:29:09.530Z'
+                          updated_at: '2023-02-23T10:29:10.648Z'
+                          filename: Utility bill.pdf
+                          filesize: 57810
+                          mime: image/png
+                          urls:
+                            thumb: >-
+                              https://sandbox.gatenox.com/eyJpZCI6ImE2ODc1MTViYTdkMDR...
+                            medium: >-
+                              https://sandbox.gatenox.com/eyJpZCI6IjI2NzU2ZWE1MThhN2N...
+                            original: >-
+                              https://sandbox.gatenox.com/eyJpZCI6IjEzNDQ4YTczYjZiZWQ...
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications:
+    get:
+      tags:
+        - default
+      summary: This endpoint retrieves a list of all incoming verifications.
+      description: >-
+        This API endpoint allows users to retrieve a list of all incoming
+        verifications in the system. The response is an array of objects, with
+        each object representing a verification.
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  verifications:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        company_name:
+                          type: string
+                        company_number:
+                          type: string
+                        status:
+                          type: string
+                          enum:
+                            - new
+                            - in_progress
+                            - qa
+                            - completed
+                        revision_timestamps:
+                          type: array
+                          items:
+                            type: integer
+                        created_at:
+                          type: string
+                          format: date-time
+                        updated_at:
+                          type: string
+                          format: date-time
+                        company_jurisdiction:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            code:
+                              type: string
+                            name:
+                              type: string
+                            country:
+                              type: string
+                            full_name:
+                              type: string
+                        assigned_to:
+                          type: object
+                example:
+                  verifications:
+                    - id: af020acb-6168-4d1b-8137-b3906b6a5c54
+                      company_name: BROOKS & BROOKS LIMITED
+                      company_number: '32213112'
+                      status: new
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:05.831Z'
+                      updated_at: '2023-03-01T13:43:05.831Z'
+                      company_jurisdiction:
+                        id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                        code: gb
+                        name: United Kingdom
+                        country: United Kingdom
+                        full_name: United Kingdom
+                      assigned_to: null
+                    - id: 21abb64b-a98b-42d6-9685-4b7f1f4638d4
+                      company_name: GATENOX LIMITED (DEMO)
+                      company_number: '13714107'
+                      status: in_progress
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:06.005Z'
+                      updated_at: '2023-03-01T14:45:27.841Z'
+                      company_jurisdiction:
+                        id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                        code: gb
+                        name: United Kingdom
+                        country: United Kingdom
+                        full_name: United Kingdom
+                      assigned_to: null
+  /api/v1/verifications/{id}:
+    get:
+      tags:
+        - default
+      summary: This endpoint retrieves the details of a single incoming verification.
+      description: >-
+        This API endpoint allows users to retrieve the details of a single
+        verification by providing the unique identifier of the verification as a
+        path parameter.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  verification:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      company_name:
+                        type: string
+                      company_number:
+                        type: string
+                      status:
+                        type: string
+                        enum:
+                          - new
+                          - in_progress
+                          - qa
+                          - completed
+                      revision_timestamps:
+                        type: array
+                        items:
+                          type: integer
+                      created_at:
+                        type: string
+                        format: date-time
+                      updated_at:
+                        type: string
+                        format: date-time
+                      company_jurisdiction:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          code:
+                            type: string
+                          name:
+                            type: string
+                          country:
+                            type: string
+                          full_name:
+                            type: string
+                      assigned_to:
+                        type: object
+                example:
+                  verification:
+                    - id: 21abb64b-a98b-42d6-9685-4b7f1f4638d4
+                      company_name: GATENOX LIMITED (DEMO)
+                      company_number: '13714107'
+                      status: in_progress
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:06.005Z'
+                      updated_at: '2023-03-01T14:45:27.841Z'
+                      company_jurisdiction:
+                        id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                        code: gb
+                        name: United Kingdom
+                        country: United Kingdom
+                        full_name: United Kingdom
+                      assigned_to: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verifications/{verification_id}/graph:
+    get:
+      tags:
+        - default
+      summary: This endpoint retrieves a specific company details - shareholders graph
+      description: >-
+        This API endpoint allows users to retrieve a graph, including relations
+        between companies associated with the verification.
+      parameters:
+        - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  graph:
+                    type: object
+                    properties:
+                      acyclic:
+                        type: boolean
+                      vertices:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            type:
+                              type: string
+                            labels:
+                              type: object
+                              properties:
+                                name:
+                                  type: string
+                                root:
+                                  type: boolean
+                                given_names:
+                                  type: string
+                                surname:
+                                  type: string
+                                shareholder:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      company_id:
+                                        type: string
+                                      shares:
+                                        type: integer
+                                ubo:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      company_id:
+                                        type: string
+                                      shares:
+                                        type: integer
+                                director:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      company_id:
+                                        type: string
+                                      position:
+                                        type: string
+                                calculated_shares:
+                                  type: integer
+                      edges:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            source:
+                              type: string
+                            target:
+                              type: string
+                            labels:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  shares:
+                                    type: integer
+                example:
+                  graph:
+                    acyclic: true
+                    vertices:
+                      - id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                        type: Company
+                        labels:
+                          name: GATENOX LIMITED (DEMO)
+                          root: true
+                      - id: c14df450-47b8-4cb9-ae01-ec9f23e38f1e
+                        type: Company
+                        labels:
+                          name: C3 Management GmbH
+                          shareholder:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              shares: 13
+                          calculated_shares: 13
+                      - id: 6b885e6c-b17d-4dca-80e4-0b9b716f5c26
+                        type: Person
+                        labels:
+                          given_names: John
+                          surname: Doe
+                          shareholder:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              shares: 41
+                          ubo:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              shares: 41
+                          director:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              position: Director
+                          calculated_shares: 41
+                      - id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                        type: Person
+                        labels:
+                          given_names: Adam
+                          surname: Smith
+                          shareholder:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              shares: 41
+                          ubo:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              shares: 41
+                          director:
+                            - company_id: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                              position: Director
+                          calculated_shares: 41
+                    edges:
+                      - source: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                        target: c14df450-47b8-4cb9-ae01-ec9f23e38f1e
+                        labels:
+                          - shares: 13
+                      - source: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                        target: 6b885e6c-b17d-4dca-80e4-0b9b716f5c26
+                        labels:
+                          - shares: 41
+                      - source: 026b8bce-b7c6-4517-af22-a1bf0322d662
+                        target: ce1f6409-5760-436e-b287-8e17594ca5e1
+                        labels:
+                          - shares: 41
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verified_crypto_address:
+    get:
+      tags:
+        - default
+      summary: >-
+        The purpose of this endpoint is to obtain details regarding a verified
+        crypto address.
+      description: >-
+        Two mandatory parameters are accepted by the endpoint: type and address.
+        The type parameter denotes the type of cryptocurrency utilized, while
+        the address parameter indicates the address that requires verification.
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+          example: AZERO
+        - name: address
+          in: query
+          schema:
+            type: string
+          example: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                verified_crypto_address:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      format: uuid
+                    address:
+                      type: string
+                    address_type:
+                      type: string
+                    assessment:
+                      type: string
+                      enum:
+                        - risk_low
+                        - risk_medium
+                        - risk_high
+                    owner_company_number:
+                      type: string
+                    created_at:
+                      type: string
+                      format: date-time
+                    updated_at:
+                      type: string
+                      format: date-time
+                    owner_jurisdiction:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        code:
+                          type: string
+                        name:
+                          type: string
+                        country:
+                          type: string
+                        full_name:
+                          type: string
+                    verification_id:
+                      type: string
+                      format: uuid
+              example:
+                verified_crypto_address:
+                  id: d6713ce4-3648-454a-8f34-797117dba88a
+                  address: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+                  address_type: AZERO
+                  assessment: risk_low
+                  owner_company_number: '2222222'
+                  created_at: '2023-03-28T12:36:59.025Z'
+                  updated_at: '2023-03-28T12:36:59.025Z'
+                  owner_jurisdiction:
+                    id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                    code: gb
+                    name: United Kingdom
+                    country: United Kingdom
+                    full_name: United Kingdom
+                  verification_id: 21c1a29c-68e0-40a5-b6c8-6f85350213b8

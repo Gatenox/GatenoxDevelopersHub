@@ -10,7 +10,7 @@ description: >-
 The Gatenox API is currently in **beta** version. This means you should not rely on it's availability, and that it may change without prior warning.
 {% endhint %}
 
-The Gatenox API uses company access tokens to authenticate requests. You can view and manage your access tokens in the [Company information](../gatenox-guide/configuration-and-settings/company-information.md) tab in Settings menu of your Gatenox company account.
+The Gatenox API uses company access tokens to authenticate requests. You can view and manage your access tokens in the [Company information](broken-reference) tab in Settings menu of your Gatenox company account.
 
 API requests are authenticated using the [Bearer Auth scheme](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication\_schemes). To authenticate a request, provide the token in the `Authorization` header of the request:
 
@@ -25,5 +25,5 @@ Access tokens are tied to the Gatenox company account for which they were create
 {% hint style="warning" %}
 Please be sure to keep your API access tokens secure! Do not share them in emails, chat messages, client-side code or publicly accessible sites.
 
-If you have accidentally shared an API access token publicly, you can revoke it in the [Company information](../gatenox-guide/configuration-and-settings/company-information.md) of your Gatenox company account by clicking the "<mark style="color:red;">**Block API key**</mark>" link next to the token.
+If you have accidentally shared an API access token publicly, you can revoke it in the [Company information](broken-reference) of your Gatenox company account by clicking the "<mark style="color:red;">**Block API key**</mark>" link next to the token.
 {% endhint %}

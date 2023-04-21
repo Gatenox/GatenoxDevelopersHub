@@ -1,17 +1,25 @@
 # Complete required company data
 
-If your profile requires additional information requested by Gatenox Partner, the following information will be displayed on "Your company profile" screen.
+The "Company Profile" screen provides a summary of their current onboarding progress and company profile information. This screen also displays notifications about any missing information that is required to complete the onboarding process.
 
-<figure><img src="../../.gitbook/assets/Current_onboarding_missing (1).png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ShareProfileMissingData.png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
 
-You will get information about the profile section, which needs to be completed. Click on the "Get started". You will be redirected to wizard, which will guide you through the company profile to enter required data.
+The notifications are grouped into nine areas, plus a "Summary" section:
 
-**Please notice that required data are marked with a red star and "required" label next to the field name.**
+1. Business Identity: This section includes information about the legal name, registration number, and other identifying details of the business [business-identity.md](../create-and-complete-company-profile/manage-company-details/business-identity.md "mention").
+2. Business Details: This section includes information about the industry, company size, website, and other details about the business [business-details.md](../create-and-complete-company-profile/manage-company-details/business-details.md "mention").
+3. Business Addresses: This section includes information about the physical and mailing addresses of the business [business-addresses.md](../create-and-complete-company-profile/manage-company-details/business-addresses.md "mention").
+4. Business Financials: This section includes information about the financial data, such and TAX number or crypto addresses list.[business-financials.md](../create-and-complete-company-profile/manage-company-details/business-financials.md "mention").
+5. Business Representatives: This section includes information about the people who represent the business, such as directors and representatives[business-representatives.md](../create-and-complete-company-profile/manage-company-details/business-representatives.md "mention").
+6. Contact Details: This section includes information about the main point of contact for the business, such as the email address and phone number [contact-details.md](../create-and-complete-company-profile/manage-company-details/contact-details.md "mention").
+7. Shareholders: This section includes information about the shareholders of the business, such as their names and percentage of ownership [shareholders.md](../create-and-complete-company-profile/create-modify-ownership-structure/shareholders.md "mention").
+8. Proposed UBOs: This section includes information about the proposed ultimate beneficial owners (UBOs) calculated based on data provided on "Shareholder" screen. [proposed-ubos.md](../create-and-complete-company-profile/create-modify-ownership-structure/proposed-ubos.md "mention").
+9. UBOs: This section includes information about the actual ultimate beneficial owners (UBOs) of the business, if applicable [ubos.md](../create-and-complete-company-profile/create-modify-ownership-structure/ubos.md "mention").
 
-On the screen below "Date of incorporation" and "Company type" are required, but "Brand name" is not required (requested by Partner), so you do not need to fill all fields, if you would like to quickly go through wizard and complete only required data.
+Find out more about completing your profile based on Partner's requirements in the linked docs.
 
-<figure><img src="../../.gitbook/assets/basic_data.png" alt="Required data - how to find fields requested by Partner"><figcaption><p>Required data - how to find fields requested by Partner</p></figcaption></figure>
+Alternatively you can check details of missing data on "Review and finish" screen ([review-and-finish.md](../create-and-complete-company-profile/summary/review-and-finish.md "mention")).
 
-Nevertheless, we encourage you to enter all the data to save your time in the future - these may be data required by other Gatenox Partners and in this case you will not have to go back to completing the company profile.
+<figure><img src="../../.gitbook/assets/ReviewAndFinishNOKNW.png" alt="Review and finish - missing data"><figcaption><p>Review and finish - missing data</p></figcaption></figure>
 
 If you have completed all data required by Partner let's share your profile: [share-my-profile.md](share-my-profile.md "mention").

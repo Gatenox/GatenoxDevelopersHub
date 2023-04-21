@@ -1,6 +1,6 @@
 # What data my company requires?
 
-Each business requires different data sets. Gatenox users are creating their corporate profiles (in "Company profile" menu [user-journey](../../gatenox-guide/user-journey/ "mention")).
+Each business requires different data sets. Gatenox users are creating their corporate profiles (in "Company profile" menu [Broken link](broken-reference "mention")).
 
 Your business may requires all fields or specific set of data. Those requirement are visible in "Settings" menu, on "Company information" tab, in "Verification" section.
 
