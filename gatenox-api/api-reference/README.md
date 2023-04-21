@@ -21,5 +21,5 @@ Gatenox API offers you the ability to:
 
 #### Verified crypto addresses
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="verified-cryptocurrency-addresses.md">verified-cryptocurrency-addresses.md</a></td><td>Check if crypto address exists on your crypto address whitelist</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="verified-crypto-addresses.md">verified-crypto-addresses.md</a></td><td>Check if crypto address exists on your crypto address whitelist</td><td></td></tr></tbody></table>
 
