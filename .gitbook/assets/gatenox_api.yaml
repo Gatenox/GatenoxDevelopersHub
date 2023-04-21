@@ -17,6 +17,7 @@ tags:
   - name: UBOs
   - name: People
   - name: Company Documents
+  - name: Verified Crypto Addresses
 paths:
   /api/v1/verifications/{verification_id}/companies:
     get:
@@ -2888,3 +2889,93 @@ paths:
                       not_found:
                         type: string
                         example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verified_crypto_address:
+    get:
+      tags:
+        - default
+      summary: >-
+        The purpose of this endpoint is to obtain details regarding a verified
+        crypto address.
+      description: >-
+        Two mandatory parameters are accepted by the endpoint: type and address.
+        The type parameter denotes the type of cryptocurrency utilized, while
+        the address parameter indicates the address that requires verification.
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+          example: AZERO
+        - name: address
+          in: query
+          schema:
+            type: string
+          example: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                verified_crypto_address:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      format: uuid
+                    address:
+                      type: string
+                    address_type:
+                      type: string
+                    assessment:
+                      type: string
+                      enum:
+                        - risk_low
+                        - risk_medium
+                        - risk_high
+                    owner_company_number:
+                      type: string
+                    created_at:
+                      type: string
+                      format: date-time
+                    updated_at:
+                      type: string
+                      format: date-time
+                    owner_jurisdiction:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        code:
+                          type: string
+                        name:
+                          type: string
+                        country:
+                          type: string
+                        full_name:
+                          type: string
+                    verification_id:
+                      type: string
+                      format: uuid
+              example:
+                verified_crypto_address:
+                  id: d6713ce4-3648-454a-8f34-797117dba88a
+                  address: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+                  address_type: AZERO
+                  assessment: risk_low
+                  owner_company_number: '2222222'
+                  created_at: '2023-03-28T12:36:59.025Z'
+                  updated_at: '2023-03-28T12:36:59.025Z'
+                  owner_jurisdiction:
+                    id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                    code: gb
+                    name: United Kingdom
+                    country: United Kingdom
+                    full_name: United Kingdom
+                  verification_id: 21c1a29c-68e0-40a5-b6c8-6f85350213b8

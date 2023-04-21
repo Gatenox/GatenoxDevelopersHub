@@ -12,13 +12,27 @@ The Gatenox API is currently in **beta** version. This means you should not rely
 
 ### Welcome to the Gatenox API!
 
-Gatenox API is a powerful tool that allows you to easily access and manage verification data. With our API, you can quickly check the status and result of incoming verifications, giving you the ability to make informed decisions in real time.
-
-In addition to status and result information, Gatenox API provides access to detailed verification data, including company details, business representatives' data, shareholders structure, and all documents attached to the verification. This information is invaluable for making informed decisions and mitigating risk.
+Gatenox API is a powerful tool that allows you to easily access and manage verification data.
 
 Our API is designed with simplicity and ease of use in mind. Whether you're a developer building a new application or a business owner looking for a streamlined way to manage verification data, Gatenox API has you covered.
 
 So why wait? Start using Gatenox API today and experience the power of our verification data services for yourself!
+
+#### Cases management
+
+With our API, you can quickly check the status and result of incoming verifications, giving you the ability to make informed decisions in real time.
+
+In addition to status and result information, Gatenox API provides access to detailed verification data, including company details, business representatives' data, shareholders structure, and all documents attached to the verification. This information is invaluable for making informed decisions and mitigating risk.
+
+#### Verified cryptocurrency addresses
+
+The function checks whether a specified cryptocurrency address is included in a list of approved and verified cryptocurrency addresses, also known as a whitelist.
+
+The whitelist comprises cryptocurrency address that have undergone a verification process (case management) and user has set the risk score for the case.
+
+If the address is found on the whitelist, the function returns a positive verification status and also provides additional information. The positive result includes a list of reviews in which the cryptocurrency address has been previously verified, as well as a score associated with the address (optional) and risk score associated with the case, indicating the level of confidence in the verification. Furthermore, the company name responsible for the verification and the date of the most recent verification are also provided.
+
+These details can be useful in assessing the credibility and reliability of the cryptocurrency address and can help to prevent fraudulent or malicious activities.
 
 ### Authentication
 

@@ -39,6 +39,7 @@
   * [UBOs](gatenox-api/api-reference/ubos.md)
   * [People](gatenox-api/api-reference/people.md)
   * [Company documents](gatenox-api/api-reference/company-documents.md)
+  * [Verified cryptocurrency addresses](gatenox-api/api-reference/verified-cryptocurrency-addresses.md)
 
 ## ID Node - how to ... ? <a href="#id-node-how-to" id="id-node-how-to"></a>
 
