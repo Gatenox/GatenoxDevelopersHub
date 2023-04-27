@@ -13,12 +13,12 @@ First, enter your company's jurisdiction. Then you have options to search for yo
 
 After entering search phrase, you will see a list of companies meeting criteria set in the query
 
-<figure><img src="../../.gitbook/assets/company_add_NW.png" alt="Add new company"><figcaption><p>Add new company</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/company_add.png" alt="Add new company"><figcaption><p>Add new company</p></figcaption></figure>
 
 If your company is not found, you can enter “Company name” manually and press the “Continue” button. In this case, you will have to enter all the data manually.
 
-<figure><img src="../../.gitbook/assets/company_add3_NW.png" alt="Find your company - check results"><figcaption><p>Find your company - add company manually</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/company_add3.png" alt="Find your company - check results"><figcaption><p>Find your company - add company manually</p></figcaption></figure>
 
 Now you can press the “Continue” button to go through the company setup wizard. The “Business details” screen will be displayed.
 
-<figure><img src="../../.gitbook/assets/basic_data_NW.png" alt="Company details - basic data"><figcaption><p>Business details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/basic_data.png" alt="Company details - basic data"><figcaption><p>Business details</p></figcaption></figure>
