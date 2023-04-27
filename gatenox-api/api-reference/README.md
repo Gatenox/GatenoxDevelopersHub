@@ -6,6 +6,10 @@ description: >-
 
 # API reference
 
+{% hint style="info" %}
+The Gatenox API is currently in **beta** version. This means you should not rely on it's availability, and that it may change without prior warning.
+{% endhint %}
+
 Gatenox API offers you the ability to:
 
 * check the status and result of incoming verifications
