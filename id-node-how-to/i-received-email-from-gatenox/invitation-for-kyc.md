@@ -28,7 +28,7 @@ To start the KYC process, please click on the "Start KYC" button in the email. Y
 
 The first screen you see after starting the KYC process is the "Welcome" screen.&#x20;
 
-<figure><img src="../../.gitbook/assets/KYC_1_NW.png" alt="KYC process - welcome screen"><figcaption><p>KYC process - welcome screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_0_NW.png" alt="KYC process - welcome screen"><figcaption><p>KYC process - welcome screen</p></figcaption></figure>
 
 To start completing your data, press the "Continue" button.
 
@@ -42,7 +42,7 @@ The first step of the process requires you to enter your personal data including
 * nationality
 * information about sources of funds (if required).
 
-<figure><img src="../../.gitbook/assets/KYC_2_NW.png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_1_NW.png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
 
 Please provide the required information and click on the "Continue" button to move to the next step.
 
@@ -50,7 +50,7 @@ Please provide the required information and click on the "Continue" button to mo
 
 The second step requires you to provide your residential address.
 
-<figure><img src="../../.gitbook/assets/Internal_KYC_residential_address.png" alt="KYC process - residential address"><figcaption><p>KYC process - residential address</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_2_NW.png" alt="KYC process - residential address"><figcaption><p>KYC process - residential address</p></figcaption></figure>
 
 Please provide the required information and click on the "Continue" button to move to the next sub-step, which asks you upload a proof of your residential address. In most cases, this is optional.
 
