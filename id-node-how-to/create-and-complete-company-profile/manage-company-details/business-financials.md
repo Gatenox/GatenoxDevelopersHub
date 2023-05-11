@@ -15,6 +15,12 @@ Here is a brief description of each field:
 1. TAX number: This field allows users to enter their company's tax identification number, which is typically assigned by the government.
 2. Company sources of funds: This field allows users to specify the various sources of funding for their company, such as investments, loans, or revenue from sales.
 3. Crypto Addresses: This field allows users to enter any cryptocurrency addresses associated with their company. This may include addresses for Bitcoin, Ethereum, or other digital currencies.
+4. "Bank account" section:
+   * Bank's name: This field refers to the name of the bank where the account is held. It represents the financial institution that provides the banking services and holds the funds in the account.
+   * Bank's address: This field specifies the physical address of the bank where the account is held. It includes details such as the street address, city, state/province, and postal code. The bank's address is important for identification and communication purposes.
+   * &#x20;Is IBAN: This field indicates whether the provided bank account number is in the International Bank Account Number (IBAN) format. IBAN is a standardized format used for identifying bank accounts internationally. If this field is marked as "Yes," it means the provided bank account number is in IBAN format.
+   * Account number: This field refers to the unique identification number assigned to a bank account. It is a combination of digits that identifies the specific account held with a financial institution.
+   * Account holder: This field represents the name of the individual or entity that owns or holds the bank account. It could be an individual's name or the name of a company or organization.
 
 <figure><img src="../../../.gitbook/assets/BusinessFinancialsNW.png" alt="Business Financials"><figcaption><p>Business Financials</p></figcaption></figure>
 

@@ -40,6 +40,7 @@
     * [Business Addresses](id-node-how-to/create-and-complete-company-profile/manage-company-details/business-addresses.md)
     * [Business Financials](id-node-how-to/create-and-complete-company-profile/manage-company-details/business-financials.md)
     * [Business Representatives](id-node-how-to/create-and-complete-company-profile/manage-company-details/business-representatives.md)
+    * [Additional information](id-node-how-to/create-and-complete-company-profile/manage-company-details/additional-information.md)
     * [Contact Details](id-node-how-to/create-and-complete-company-profile/manage-company-details/contact-details.md)
   * [Create / modify ownership structure](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/README.md)
     * [Shareholders](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/shareholders.md)

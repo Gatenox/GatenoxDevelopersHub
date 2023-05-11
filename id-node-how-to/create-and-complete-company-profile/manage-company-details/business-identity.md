@@ -13,6 +13,7 @@ Here is a brief description of each field:
 1. Jurisdiction: This field allows users to select the legal jurisdiction in which their company is registered. This could be a country, state, or province, depending on the user's location.
 2. Company name: This field is where users can enter the official name of their company. This should be the name that appears on official documents and legal filings.
 3. Company Registration Number: This field allows users to enter the unique registration number assigned to their company by the relevant government agency. This number is used to identify the company and may be required for certain types of transactions or filings.
+4. Registration Authority - This field refers to the specific organization or governmental body responsible for overseeing the registration and regulation of companies within a particular jurisdiction. It is the entity that maintains the official records of registered companies and ensures compliance with legal requirements. The Registration Authority's name provided in this field indicates the specific authority that has jurisdiction over the company being referenced.
 
 <figure><img src="../../../.gitbook/assets/BusinessIdentityNW.png" alt="Business Identity"><figcaption><p>Business Identity</p></figcaption></figure>
 

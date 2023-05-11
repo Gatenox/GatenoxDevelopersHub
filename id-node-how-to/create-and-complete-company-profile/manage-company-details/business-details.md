@@ -15,10 +15,11 @@ Here is a brief description of each field:
 1. Trading name: This field allows users to enter the name under which their company conducts its business. It may be different from the legal name of the company.
 2. Date of Incorporation: This field allows users to enter the date on which their company was officially incorporated. This is important for legal and regulatory compliance.
 3. Business Type: This field allows users to specify the type of business their company engages in. This could include manufacturing, retail, service, or other types of businesses.
-4. Business Size: This field allows users to indicate the size of their company in terms of the number of employees, annual revenue, or other relevant metrics.
-5. Business description: This field allows users to provide a brief overview of their company, including its history, mission, and values.
-6. Product and Services Description: This field allows users to describe the products or services that their company offers. This could include information about pricing, features, and benefits.
-7. Locations of Activity: This field allows users to specify the geographical locations where their company operates. This could include specific cities, regions, or countries.
+4. Public company listed on stock exchange - this filed indicates, if company is listed on stock exchange.
+5. Business Size: This field allows users to indicate the size of their company in terms of the number of employees, annual revenue, or other relevant metrics.
+6. Business description: This field allows users to provide a brief overview of their company, including its history, mission, and values.
+7. Product and Services Description: This field allows users to describe the products or services that their company offers. This could include information about pricing, features, and benefits.
+8. Locations of Activity: This field allows users to specify the geographical locations where their company operates. This could include specific cities, regions, or countries.
 
 <figure><img src="../../../.gitbook/assets/BusinessDetialsNW.png" alt="Business Details"><figcaption><p>Business Details</p></figcaption></figure>
 
