@@ -2,11 +2,14 @@
 
 ### :information\_source: Why did I receive an invitation?
 
-If you received an email from the Gatenox Hub inviting you to the KYC process, it means that a Gatenox User has asked you to provide your personal identification details using Gatenox Hub. Usually, the main reason for this request is to add your personal data to the corporate profile of the company, where you perform one of the following functions: director, shareholder or you are the UBO (Ultimate Beneficial Owner).
+If you received an email from the Gatenox Hub inviting you to the KYC process, it means that a Gatenox User has asked you to provide your personal identification details using Gatenox Hub. Usually, the main reason for this request is to:
+
+1. add your personal data to the corporate profile of the company, where you perform one of the following functions: director, shareholder or you are the UBO (Ultimate Beneficial Owner).
+2. receive your personal data within the onboarding process.
 
 <figure><img src="../../.gitbook/assets/email_invitation_KYC.png" alt="Invitation for KYC"><figcaption><p>Email - invitation for KYC</p></figcaption></figure>
 
-In the email, you can find information about who (demo@gatenox.com) and which company ((Demo Verifier LTD) invited you to the KYC process including their webpage and email / support contact in case you have any questions about the received invitation (information in the footer).
+In the email, you can find information about who (demo@gatenox.com - this information is optional) and which company ((Demo Verifier LTD) invited you to the KYC process including their webpage and email / support contact in case you have any questions about the received invitation (information in the footer).
 
 ### :question: What should I do?
 
@@ -42,7 +45,7 @@ The first step of the process requires you to enter your personal data including
 * nationality
 * information about sources of funds (if required).
 
-<figure><img src="../../.gitbook/assets/KYC_1_NW.png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_1_NW (1).png" alt="KYC process - personal data"><figcaption><p>KYC process - personal data</p></figcaption></figure>
 
 Please provide the required information and click on the "Continue" button to move to the next step.
 
@@ -50,7 +53,7 @@ Please provide the required information and click on the "Continue" button to mo
 
 The second step requires you to provide your residential address.
 
-<figure><img src="../../.gitbook/assets/KYC_2_NW.png" alt="KYC process - residential address"><figcaption><p>KYC process - residential address</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_2_NW (2).png" alt="KYC process - residential address"><figcaption><p>KYC process - residential address</p></figcaption></figure>
 
 Please provide the required information and click on the "Continue" button to move to the next sub-step, which asks you upload a proof of your residential address. In most cases, this is optional.
 
@@ -62,7 +65,7 @@ Please provide required information and click on the "Continue" button to move t
 
 In this step you are asked to upload photos of your documents. It is required to verify the information you have provided on the previous steps.
 
-<figure><img src="../../.gitbook/assets/KYC_4_NW.png" alt="KYC process - identity document upload"><figcaption><p>KYC process - identity document upload</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KYC_4_NW (2).png" alt="KYC process - identity document upload"><figcaption><p>KYC process - identity document upload</p></figcaption></figure>
 
 Please provide required information and click on the "Finish" button to move to the next step.
 

@@ -20,7 +20,7 @@ So why wait? Start using Gatenox API today and experience the power of our verif
 
 #### Cases management
 
-With our API, you can quickly check the status and result of incoming verifications, giving you the ability to make informed decisions in real time.
+With our API, you can quickly check the status and result of incoming verifications (both individual and corporate), giving you the ability to make informed decisions in real time.
 
 In addition to status and result information, Gatenox API provides access to detailed verification data, including company details, business representatives' data, shareholders structure, and all documents attached to the verification. This information is invaluable for making informed decisions and mitigating risk.
 

@@ -16,19 +16,21 @@ tags:
   - name: Directors
   - name: UBOs
   - name: People
+  - name: People > Individual
   - name: Company Documents
+  - name: Verified Crypto Addresses
 paths:
   /api/v1/verifications/{verification_id}/companies:
     get:
       tags:
         - Companies
       summary: >-
-        This endpoint retrieves a list of companies associated with a specific
+        Retrieves a list of companies associated with a specific corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a list of companies
-        associated with a specific verification ID. The response is an array of
-        objects, with each object representing a company associated with the
+        Allows users to retrieve a list of companies associated with a specific
+        corporate verification ID. The response is an array of objects, with
+        each object representing a company associated with the corporate
         verification.
       parameters:
         - name: verification_id
@@ -314,11 +316,11 @@ paths:
       tags:
         - Companies
       summary: >-
-        This endpoint retrieves a specific company associated with a
-        verification ID.
+        Retrieves a specific company associated with a corporate verification
+        ID.
       description: >-
-        This API endpoint allows users to retrieve a specific company associated
-        with a specific verification ID.
+        Allows users to retrieve a specific company associated with a specific
+        corporate verification ID.
       parameters:
         - name: verification_id
           in: path
@@ -574,12 +576,12 @@ paths:
       tags:
         - Directors
       summary: >-
-        This endpoint retrieves a list of directors associated with a specific
+        Retrieves a list of directors associated with a specific corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a list of directors
-        associated with a specific verification ID. The response is an array of
-        objects, with each object representing a director associated with the
+        Allows users to retrieve a list of directors associated with a specific
+        corporate verification ID. The response is an array of objects, with
+        each object representing a director associated with the corporate
         verification.
       parameters:
         - name: verification_id
@@ -721,11 +723,11 @@ paths:
       tags:
         - Directors
       summary: >-
-        This endpoint retrieves a specific director associated with a
-        verification ID.
+        Retrieves a specific director associated with a corporate verification
+        ID.
       description: >-
-        This API endpoint allows users to retrieve a specific director
-        associated with a specific verification ID.
+        Allows users to retrieve a specific director associated with a specific
+        corporate verification ID.
       parameters:
         - name: verification_id
           in: path
@@ -984,12 +986,13 @@ paths:
       tags:
         - UBOs
       summary: >-
-        This endpoint retrieves a list of UBOs associated with a specific
+        Retrieves a list of UBOs associated with a specific corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a list of UBOs associated
-        with a specific verification ID. The response is an array of objects,
-        with each object representing a UBO associated with the verification.
+        Allows users to retrieve a list of UBOs associated with a specific
+        corporate verification ID. The response is an array of objects, with
+        each object representing a UBO associated with the corporate
+        verification.
       parameters:
         - name: verification_id
           in: path
@@ -1137,12 +1140,10 @@ paths:
     get:
       tags:
         - UBOs
-      summary: >-
-        This endpoint retrieves a specific UBO associated with a verification
-        ID.
+      summary: Retrieves a specific UBO associated with a corporate verification ID.
       description: >-
-        This API endpoint allows users to retrieve a specific UBO associated
-        with a specific verification ID.
+        Allows users to retrieve a specific UBO associated with a specific
+        corporate verification ID.
       parameters:
         - name: verification_id
           in: path
@@ -1407,12 +1408,13 @@ paths:
       tags:
         - People
       summary: >-
-        This endpoint retrieves a list of people associated with a specific
+        Retrieves a list of people associated with a specific corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a list of people associated
-        with a specific verification ID. The response is an array of objects,
-        with each object representing a person associated with the verification.
+        Allows users to retrieve a list of people associated with a specific
+        corporate verification ID. The response is an array of objects, with
+        each object representing a person associated with the corporate
+        verification.
       parameters:
         - name: verification_id
           in: path
@@ -1528,14 +1530,273 @@ paths:
     get:
       tags:
         - People
-      summary: >-
-        This endpoint retrieves a specific person associated with a verification
-        ID.
+      summary: Retrieves a specific person associated with a corporate verification ID.
       description: >-
-        This API endpoint allows users to retrieve a specific person associated
-        with a specific verification ID.
+        Allows users to retrieve a specific person associated with a specific
+        corporate verification ID.
       parameters:
         - name: verification_id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: b13956ac-e7c2-4235-8099-a123b6fb25cd
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 1377cded-0606-4478-b652-ed5ccde37dc8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  person:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      surname:
+                        type: string
+                      given_names:
+                        type: string
+                      family_name:
+                        type: null
+                      parents_given_names:
+                        type: null
+                      date_of_birth:
+                        type: string
+                        format: date
+                      sex:
+                        type: string
+                        enum:
+                          - male
+                          - female
+                          - other
+                      nationality:
+                        type: string
+                        pattern: ^[A-Z]{2}$
+                      place_of_birth:
+                        type: null
+                      personal_number:
+                        type: null
+                      funds_sources:
+                        type: string
+                      email:
+                        type: null
+                      phone:
+                        type: null
+                      created_at:
+                        type: string
+                        format: date-time
+                      updated_at:
+                        type: string
+                        format: date-time
+                      address_of_residence:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          name:
+                            type: null
+                          line_1:
+                            type: string
+                          line_2:
+                            type: null
+                          line_3:
+                            type: null
+                          postcode:
+                            type: string
+                          city:
+                            type: string
+                          state:
+                            type: string
+                          country:
+                            type: string
+                            pattern: ^[A-Z]{2}$
+                          created_at:
+                            type: string
+                            format: date-time
+                          updated_at:
+                            type: string
+                            format: date-time
+                        required:
+                          - id
+                          - line_1
+                          - postcode
+                          - city
+                          - state
+                          - country
+                      address_for_correspondence:
+                        type: null
+                      documents:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                              format: uuid
+                            purpose:
+                              type: string
+                            created_at:
+                              type: string
+                              format: date-time
+                            updated_at:
+                              type: string
+                              format: date-time
+                            document:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  format: uuid
+                                country_of_issue:
+                                  type: null
+                                name:
+                                  type: string
+                                number:
+                                  type: null
+                                document_type:
+                                  type: string
+                                date_of_issue:
+                                  type: null
+                                expiration_date:
+                                  type: null
+                                created_at:
+                                  type: string
+                                  format: date-time
+                                updated_at:
+                                  type: string
+                                  format: date-time
+                                attachments:
+                                  type: array
+                                  items:
+                                    type: object
+                                    properties:
+                                      id:
+                                        type: string
+                                        format: uuid
+                                      attachment_type:
+                                        type: string
+                                      created_at:
+                                        type: string
+                                        format: date-time
+                                      updated_at:
+                                        type: string
+                                        format: date-time
+                                      filename:
+                                        type: string
+                                      filesize:
+                                        type: integer
+                                      mime:
+                                        type: string
+                                      urls:
+                                        type: object
+                                        properties:
+                                          thumb:
+                                            type: string
+                                          medium:
+                                            type: string
+                                          original:
+                                            type: string
+                example:
+                  person:
+                    id: ce1f6409-5760-436e-b287-8e17594ca5e1
+                    surname: Adam
+                    given_names: Smith
+                    family_name: null
+                    parents_given_names: null
+                    date_of_birth: '1974-11-30'
+                    sex: male
+                    nationality: PL
+                    place_of_birth: Warsaw
+                    personal_number: null
+                    funds_sources: Private account
+                    email: null
+                    phone: null
+                    created_at: '2022-09-22T11:15:51.213Z'
+                    updated_at: '2022-12-28T12:16:30.288Z'
+                    address_of_residence:
+                      id: 36048750-228a-456d-99e8-1f05f327c7cc
+                      name: null
+                      line_1: ul. Oleska 2
+                      line_2: null
+                      line_3: null
+                      postcode: 02-100
+                      city: Warsaw
+                      state: null
+                      country: PL
+                      created_at: '2022-09-22T11:18:11.371Z'
+                      updated_at: '2022-09-22T11:18:11.371Z'
+                    address_for_correspondence: null
+                    documents:
+                      - id: 5def8d24-0c2f-4e53-aaac-c783220e93a0
+                        purpose: personal_document
+                        created_at: '2022-12-28T12:16:56.557Z'
+                        updated_at: '2022-12-28T12:16:56.557Z'
+                        document:
+                          id: 393843f3-9f46-452f-8c9b-ec7e000292f5
+                          country_of_issue: PL
+                          name: Polish passport.png
+                          number: APO 234567
+                          document_type: passport
+                          date_of_issue: '2022-12-07'
+                          expiration_date: '2032-12-07'
+                          created_at: '2022-12-28T12:16:55.790Z'
+                          updated_at: '2022-12-28T12:16:55.790Z'
+                          attachments:
+                            - id: 5dfb8df2-e3ab-4fce-a655-393a8bbfab91
+                              attachment_type: main
+                              created_at: '2022-12-28T12:16:56.083Z'
+                              updated_at: '2022-12-28T12:16:56.353Z'
+                              filename: Polish passport.png
+                              filesize: 22118
+                              mime: image/png
+                              urls:
+                                thumb: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6ImVmNTE3NjA0NDlhNmQ2NzI2
+                                medium: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjFhOTZlYzZiOGRlYmEzMDg
+                                original: >-
+                                  https://api.sandbox.gatenox.com/attachments/eyJpZCI6IjM1NmZiOTEwZDgzOGRlO
+                    personal_verification: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verification_individuals/{verification_individual_id}/people:
+    get:
+      tags:
+        - People > Individual
+      summary: >-
+        Retrieves a specific person associated with a individual verification
+        ID.
+      description: >-
+        Allows users to retrieve a specific person associated with a specific
+        individual verification ID.
+      parameters:
+        - name: verification_individual_id
           in: path
           schema:
             type: string
@@ -1790,13 +2051,13 @@ paths:
       tags:
         - Company Documents
       summary: >-
-        This endpoint retrieves a list of company documents associated with a
-        specific verification ID.
+        Retrieves a list of company documents associated with a specific
+        corporate verification ID.
       description: >-
-        This API endpoint allows users to retrieve a list of company documents
-        associated with a specific verification ID. The response is an array of
-        objects, with each object representing a company document associated
-        with the verification.
+        Allows users to retrieve a list of company documents associated with a
+        specific corporate verification ID. The response is an array of objects,
+        with each object representing a company document associated with the
+        corporate verification.
       parameters:
         - name: verification_id
           in: path
@@ -1966,11 +2227,11 @@ paths:
       tags:
         - Company Documents
       summary: >-
-        This endpoint retrieves a specific company document associated with a
+        Retrieves a specific company document associated with a corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a specific company document
-        associated with a specific verification ID.
+        Allows users to retrieve a specific company document associated with a
+        specific corporate verification ID.
       parameters:
         - name: verification_id
           in: path
@@ -2115,11 +2376,11 @@ paths:
       tags:
         - default
       summary: >-
-        This endpoint retrieves a specific company details associated with a
+        Retrieves a specific company details associated with a corporate
         verification ID.
       description: >-
-        This API endpoint allows users to retrieve a specific company details
-        associated with a specific verification ID.
+        Allows users to retrieve a specific company details associated with a
+        specific corporate verification ID.
       parameters:
         - name: verification_id
           in: path
@@ -2516,11 +2777,11 @@ paths:
     get:
       tags:
         - default
-      summary: This endpoint retrieves a list of all incoming verifications.
+      summary: Retrieves a list of all incoming corporate verifications.
       description: >-
-        This API endpoint allows users to retrieve a list of all incoming
-        verifications in the system. The response is an array of objects, with
-        each object representing a verification.
+        Allows users to retrieve a list of all incoming corporate verifications
+        in the system. The response is an array of objects, with each object
+        representing a corporate verification.
       security:
         - bearerAuth: []
       responses:
@@ -2617,10 +2878,10 @@ paths:
     get:
       tags:
         - default
-      summary: This endpoint retrieves the details of a single incoming verification.
+      summary: Retrieves the details of a single incoming corporate verification.
       description: >-
-        This API endpoint allows users to retrieve the details of a single
-        verification by providing the unique identifier of the verification as a
+        Allows users to retrieve the details of a single corporate verification
+        by providing the unique identifier of the corporate verification as a
         path parameter.
       security:
         - bearerAuth: []
@@ -2717,14 +2978,195 @@ paths:
                       not_found:
                         type: string
                         example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verification_individuals:
+    get:
+      tags:
+        - default
+      summary: Retrieves a list of all incoming individual verifications.
+      description: >-
+        Allows users to retrieve a list of all incoming individual verifications
+        in the system. The response is an array of objects, with each object
+        representing a individual verification.
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  verifications:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        person_name:
+                          type: string
+                        person_number:
+                          type: string
+                        status:
+                          type: string
+                          enum:
+                            - new
+                            - in_progress
+                            - qa
+                            - completed
+                        assessment:
+                          type: string
+                          enum:
+                            - risk_low
+                            - risk_medium
+                            - risk_high
+                        assessment_comment:
+                          type: string
+                        revision_timestamps:
+                          type: array
+                          items:
+                            type: integer
+                        created_at:
+                          type: string
+                          format: date-time
+                        updated_at:
+                          type: string
+                          format: date-time
+                        assigned_to:
+                          type: object
+                example:
+                  verification_individuals:
+                    - id: 21abb64b-a98b-42d6-9685-4b7f1f4638d4
+                      person_name: Joe Doe
+                      person_number: '1986-03-20'
+                      status: in_progress
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:06.005Z'
+                      updated_at: '2023-03-01T14:45:27.841Z'
+                      assessment: risk_low
+                      assessment_comment: OK
+                      assigned_to: null
+                    - id: 21abb64b-a98b-42d6-9685-4b7f1f4638d4
+                      person_name: Adam Smith
+                      person_number: '1974-06-23'
+                      status: completed
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:06.005Z'
+                      updated_at: '2023-03-01T14:45:27.841Z'
+                      assessment: risk_low
+                      assessment_comment: OK
+                      assigned_to: null
+  /api/v1/verification_individuals/{id}:
+    get:
+      tags:
+        - default
+      summary: Retrieves the details of a single incoming individual verification.
+      description: >-
+        Allows users to retrieve the details of a single individual verification
+        by providing the unique identifier of the individual verification as a
+        path parameter.
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  verification:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      person_name:
+                        type: string
+                      person_number:
+                        type: string
+                      status:
+                        type: string
+                        enum:
+                          - new
+                          - in_progress
+                          - qa
+                          - completed
+                      assessment:
+                        type: string
+                        enum:
+                          - risk_low
+                          - risk_medium
+                          - risk_high
+                      assessment_comment:
+                        type: string
+                      revision_timestamps:
+                        type: array
+                        items:
+                          type: integer
+                      created_at:
+                        type: string
+                        format: date-time
+                      updated_at:
+                        type: string
+                        format: date-time
+                      assigned_to:
+                        type: object
+                example:
+                  verification_individual:
+                    - id: 21abb64b-a98b-42d6-9685-4b7f1f4638d4
+                      person_name: Joe Doe
+                      person_number: '1986-03-20'
+                      status: in_progress
+                      revision_timestamps:
+                        - 1677148251
+                      created_at: '2023-03-01T13:43:06.005Z'
+                      updated_at: '2023-03-01T14:45:27.841Z'
+                      assessment: risk_low
+                      assessment_comment: OK
+                      assigned_to: null
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: object
+                    properties:
+                      not_found:
+                        type: string
+                        example: Couldn't find record with id=abcd-1111-ab12
   /api/v1/verifications/{verification_id}/graph:
     get:
       tags:
         - default
-      summary: This endpoint retrieves a specific company details - shareholders graph
+      summary: Retrieves a specific company details - shareholders graph
       description: >-
-        This API endpoint allows users to retrieve a graph, including relations
-        between companies associated with the verification.
+        Allows users to retrieve a graph, including relations between companies
+        associated with the corporate verification.
       parameters:
         - name: verification_id
           in: path
@@ -2888,3 +3330,94 @@ paths:
                       not_found:
                         type: string
                         example: Couldn't find record with id=abcd-1111-ab12
+  /api/v1/verified_crypto_address:
+    get:
+      tags:
+        - default
+      summary: >-
+        The purpose of this endpoint is to obtain details regarding a verified
+        crypto address.
+      description: >-
+        Two mandatory parameters are accepted by the endpoint: type and address.
+        The type parameter denotes the type of cryptocurrency utilized, while
+        the address parameter indicates the address that requires corporate
+        verification.
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+          example: AZERO
+        - name: address
+          in: query
+          schema:
+            type: string
+          example: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                verified_crypto_address:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      format: uuid
+                    address:
+                      type: string
+                    address_type:
+                      type: string
+                    assessment:
+                      type: string
+                      enum:
+                        - risk_low
+                        - risk_medium
+                        - risk_high
+                    owner_company_number:
+                      type: string
+                    created_at:
+                      type: string
+                      format: date-time
+                    updated_at:
+                      type: string
+                      format: date-time
+                    owner_jurisdiction:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        code:
+                          type: string
+                        name:
+                          type: string
+                        country:
+                          type: string
+                        full_name:
+                          type: string
+                    verification_id:
+                      type: string
+                      format: uuid
+              example:
+                verified_crypto_address:
+                  id: d6713ce4-3648-454a-8f34-797117dba88a
+                  address: A6jBksQ2TMEof0cBbAkxxnGU326aMH/wXg==
+                  address_type: AZERO
+                  assessment: risk_low
+                  owner_company_number: '2222222'
+                  created_at: '2023-03-28T12:36:59.025Z'
+                  updated_at: '2023-03-28T12:36:59.025Z'
+                  owner_jurisdiction:
+                    id: 5d82c7ef-5000-407f-8a50-2b83af99bbd6
+                    code: gb
+                    name: United Kingdom
+                    country: United Kingdom
+                    full_name: United Kingdom
+                  verification_id: 21c1a29c-68e0-40a5-b6c8-6f85350213b8

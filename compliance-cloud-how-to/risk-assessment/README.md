@@ -6,7 +6,11 @@ description: >-
 
 # Risk assessment
 
-The risk assessment screen comprises several distinct sections. The top bar features a "Back" button, along with the name, number, and jurisdiction of the reviewed company. Additionally, a "Verify company" checkbox is present, enabling the execution of enhanced due diligence by cross-checking with extended sanctions lists. The top bar also displays pertinent details regarding the user's plan and available credits (more information: [company-information.md](../../general-settings/company-information.md "mention")).
+The risk assessment screen comprises several distinct sections. The top bar features a "Back" button, along with the name, number, and jurisdiction of the reviewed company.
+
+Additionally for corporate verifications, a "Verify company" checkbox is present, enabling the execution of enhanced due diligence by cross-checking with extended sanctions lists. For individuals "Verify person" checkbox is available.
+
+The top bar also displays pertinent details regarding the user's plan and available credits (more information: [company-information.md](../../general-settings/company-information.md "mention")).
 
 Further, the top bar includes links to essential features, including notifications, settings, and context changes. The left side of the screen contains links to various review sections, along with a small version of the company structure graph for added reference.
 
@@ -19,7 +23,8 @@ The main component of the review screen displays the data set, as per the user's
 Each case is organized into eight primary components as follows:
 
 * **Summary**: This section displays a list of issues related to the application, which Gatenox Hub has identified. The issues may include the outcome of sanctions checks, data inconsistencies, or other relevant information related to the review assessment.
-* **Company Details**: This section provides all details related to the company's incorporation data, addresses, and other pertinent information.
+* **Company Details**: (section for corporate verifications)This section provides all details related to the company's incorporation data, addresses, and other pertinent information.
+* **Personal Details:** (section for individual verifications) This section displays all details related to the individual person, who have shared its personal information.
 * **Business Representatives**: This section displays all details related to the company's directors, including any necessary KYC information.
 * **UBOs**: This section displays all details related to the company's ultimate beneficial owners (UBOs), including any required KYC information.
 * **Company Structure**: This section displays all shareholders, with this component connected to the company structure graph visible at the top of the review page.

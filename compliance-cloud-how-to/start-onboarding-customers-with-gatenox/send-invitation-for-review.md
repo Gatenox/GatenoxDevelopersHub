@@ -1,6 +1,6 @@
-# Send invitation for review
+# Send the invitation for review to corporate client
 
-To invite your current or potential user to start the corporate KYC process with Gatenox, you can simply use the "Invite for verification" button placed on the top right corner on 'Verifications" tab.
+To invite your current or potential user to start the corporate KYC process with Gatenox, you can simply use the "Invite for verification" button placed on the top right corner on "Corporate Verifications" tab.
 
 <figure><img src="../../docs/Images/verifications (1) (1).png" alt="Verifications - list of reviews"><figcaption><p>Verifications - list of reviews</p></figcaption></figure>
 
