@@ -19,6 +19,7 @@ tags:
   - name: People > Individual
   - name: Company Documents
   - name: Verified Crypto Addresses
+  - name: Invites
 paths:
   /api/v1/verifications/{verification_id}/companies:
     get:
@@ -3421,3 +3422,33 @@ paths:
                     country: United Kingdom
                     full_name: United Kingdom
                   verification_id: 21c1a29c-68e0-40a5-b6c8-6f85350213b8
+  /api/v1/invites/individuals:
+    post:
+      tags:
+        - Invites
+      summary: Individuals
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                recipients:
+                  - email: example@domain.com
+                    verifier_id: 1b30c22a-901e-439c-a71a-32bc5389dd2f
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                invitation_urls:
+                  - >-
+                    https://domain.com/invitations/kyc/2nsRH1JF3ZmsrKujhbYDy7LMKQpAEAHvvfSJRApH
