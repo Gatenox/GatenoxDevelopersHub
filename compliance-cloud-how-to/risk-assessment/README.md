@@ -6,6 +6,8 @@ description: >-
 
 # Risk assessment
 
+### Risk assessment screen structure
+
 The risk assessment screen comprises several distinct sections. The top bar features a "Back" button, along with the name, number, and jurisdiction of the reviewed company.
 
 Additionally for corporate verifications, a "Verify company" checkbox is present, enabling the execution of enhanced due diligence by cross-checking with extended sanctions lists. For individuals "Verify person" checkbox is available.
@@ -16,7 +18,7 @@ Further, the top bar includes links to essential features, including notificatio
 
 The main component of the review screen displays the data set, as per the user's defined requirements ([what-data-my-company-requires.md](../start-onboarding-customers-with-gatenox/what-data-my-company-requires.md "mention")).
 
-<figure><img src="../../.gitbook/assets/CC_review_screen_overview.png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CC_review_screen_overview (2).png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
 
 
 

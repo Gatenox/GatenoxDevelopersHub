@@ -4,6 +4,8 @@ The "UBOs" section provides a list of ultimate beneficial owners of the company 
 
 Furthermore, users can conduct enhanced due diligence on each person listed within this section ([entities-verification.md](entities-verification.md "mention")).
 
+Next to each field there is a menu allowing Compliance Officer to start conversation with User - ask questions about the review data. Please find our more here: [in-app-communication-tool.md](../in-app-communication-tool.md "mention").
+
 {% hint style="info" %}
 The visibility of certain data may be dependent on the user's specific data set requirements. Therefore, some information may not be visible.
 {% endhint %}

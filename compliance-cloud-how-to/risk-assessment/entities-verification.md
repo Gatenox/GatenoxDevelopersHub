@@ -28,7 +28,7 @@ The outcomes of the entity verification will be displayed in the "Business repre
 * PEP: The individual has been found in the Politically Exposed Persons (PEP) database.
 * Criminal: The entity has criminal records.
 
-<figure><img src="../../.gitbook/assets/CC_identified_issues.png" alt=""><figcaption><p>Review - sanctioned individuals</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CC_review_screen_overview.png" alt=""><figcaption><p>Review - sanctioned individuals</p></figcaption></figure>
 
 ### The graph&#x20;
 
