@@ -68,7 +68,7 @@
   * [What data my company requires?](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/what-data-my-company-requires.md)
   * [Referral code](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/referral-code.md)
   * [Send the invitation for review to corporate client](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
-  * [Send the invitation for KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
+  * [Send the invitation for Individual KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
   * [Apply via Gatenox](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
 * [Cases management](compliance-cloud-how-to/cases-management.md)
 * [In-App Communication Tool](compliance-cloud-how-to/in-app-communication-tool.md)
