@@ -7,7 +7,7 @@ description: >-
 # Overview
 
 {% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on it's availability, and that it may change without prior warning.
+The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
 {% endhint %}
 
 ### Welcome to the Gatenox API!
@@ -20,19 +20,19 @@ So why wait? Start using Gatenox API today and experience the power of our verif
 
 #### Cases management
 
-With our API, you can quickly check the status and result of incoming verifications (both individual and corporate), giving you the ability to make informed decisions in real time.
+With our API, you can quickly check the status and result of incoming verifications (both individual and corporate), giving you the ability to make informed decisions in real-time.
 
-In addition to status and result information, Gatenox API provides access to detailed verification data, including company details, business representatives' data, shareholders structure, and all documents attached to the verification. This information is invaluable for making informed decisions and mitigating risk.
+In addition to status and result information, Gatenox API provides access to detailed verification data, including company details, business representatives' data, shareholders' structure, and all documents attached to the verification. This information is invaluable for making informed decisions and mitigating risk.
 
 #### Verified cryptocurrency addresses
 
 The function checks whether a specified cryptocurrency address is included in a list of approved and verified cryptocurrency addresses, also known as a whitelist.
 
-The whitelist comprises cryptocurrency address that have undergone a verification process (case management) and user has set the risk score for the case.
+The whitelist comprises cryptocurrency addresses that have undergone a verification process (case management) and the user has set the risk score for the case.
 
 If the address is found on the whitelist, the function returns a positive verification status and also provides additional information. The positive result includes a list of reviews in which the cryptocurrency address has been previously verified, as well as a score associated with the address (optional) and risk score associated with the case, indicating the level of confidence in the verification. Furthermore, the company name responsible for the verification and the date of the most recent verification are also provided.
 
-These details can be useful in assessing the credibility and reliability of the cryptocurrency address and can help to prevent fraudulent or malicious activities.
+These details can be useful in assessing the credibility and reliability of the cryptocurrency address and can help prevent fraudulent or malicious activities.
 
 ### Authentication
 
@@ -52,7 +52,7 @@ In the event that you do encounter an error while using Gatenox API, our platfor
 
 Webhooks are an essential feature of modern software and applications that enable seamless communication between different systems. GatenoxAPI's webhook functionality empowers businesses to automate their workflows and receive real-time updates when specific events occur.
 
-Using our webhooks, your business can connect their applications and receive immediate notifications when specific events happen, such as new incoming case, finished assessment, result of sanctions check. This functionality allows businesses to react quickly to important events and take immediate action to serve their customers better.
+Using our webhooks, your business can connect its applications and receive immediate notifications when specific events happen, such as a new incoming case, finished assessment, or result of a sanctions check. This functionality allows businesses to react quickly to important events and take immediate action to serve their customers better.
 
 In summary, GatenoxAPI's webhook feature is a powerful tool that enables businesses to automate their workflows, stay informed of critical events, and provide better customer service.
 
