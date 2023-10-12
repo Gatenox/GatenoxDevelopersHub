@@ -7,13 +7,17 @@ description: >-
 # API reference
 
 {% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on it's availability, and that it may change without prior warning.
+The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
 {% endhint %}
 
 Gatenox API offers you the ability to:
 
 * check the status and result of incoming corporate and individual verifications
-* get verification data including company's details, business representatives data, shareholders structure and all documents attached verification.
+* get verification data including company details, business representatives' data, shareholders' structure, and all documents attached for verification.
+
+{% hint style="info" %}
+For some endpoints, you may need your verifierID identificator. You can check it on the Settings page on the Company Infomation tab ([company-information.md](../../general-settings/company-information.md "mention")).
+{% endhint %}
 
 #### Individual verifications
 

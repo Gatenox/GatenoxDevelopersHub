@@ -1,3 +1,5 @@
 # Billing and plans
 
-Coming soon ...
+In this section, you can see and manage your license details.&#x20;
+
+<figure><img src="../.gitbook/assets/SettingsBillingAndPlans.png" alt=""><figcaption></figcaption></figure>
