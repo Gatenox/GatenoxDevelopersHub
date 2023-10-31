@@ -7,7 +7,7 @@ On this screen, users can update their company's address information as needed. 
 #### Fields
 
 {% hint style="warning" %}
-The fields listed in documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
+The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
 {% endhint %}
 
 Here is a brief description of each field:
@@ -25,6 +25,6 @@ Here is a brief description of each field:
 
 #### Proof of company's address
 
-In some cases, a business may be required to provide proof of their address, such as when registering with a government agency, crypto crypto currency exchange or opening a bank account. Users can upload proof of their business address on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.
+In some cases, a business may be required to provide proof of their address, such as when registering with a government agency, cryptocurrency exchange or, opening a bank account. Users can upload proof of their business address on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.
 
 ###

@@ -1,8 +1,6 @@
 # I received an email from Gatenox
 
-There are two main emails that Gatenox will send you:&#x20;
-
-
+There are three main emails that Gatenox will send you:&#x20;
 
 ### Invitation for verification&#x20;
 
@@ -10,7 +8,7 @@ You receive an invitation email from Gatenox when the service which you are open
 
 ### Invitation for KYC
 
-As an individual person, you are probably a director, UBO or individual shareholder in a company which has a corporate profile stored in the Gatenox Hub. In this case, you are asked to provide your identification details. Learn more here:[invitation-for-kyc.md](invitation-for-kyc.md "mention").
+As an individual person, you are probably a director, UBO, or individual shareholder in a company that has a corporate profile stored in the Gatenox Hub. In this case, you are asked to provide your identification details. Learn more here:[invitation-for-kyc.md](invitation-for-kyc.md "mention").
 
 ### Invitation to team
 

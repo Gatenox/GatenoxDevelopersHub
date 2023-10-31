@@ -5,10 +5,10 @@ The "Additional Information" screen is where users can provide additional detail
 #### Fields
 
 {% hint style="warning" %}
-The fields listed in documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
+The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
 {% endhint %}
 
-Here is a brief description of fields:
+Here is a brief description of the fields:
 
 1. Notice of Prosecution: Users are asked to indicate whether they or any of the directors, shareholders, or ultimate beneficiary owners have received a notice of prosecution or have any prosecutions pending. This helps gather information regarding any ongoing legal proceedings.
 2. Ongoing Investigations or Inquiries: Users are asked to disclose if there are any ongoing investigations or inquiries, either conducted by or on behalf of any government or other body, regarding the affairs of their company, subsidiaries, or parent companies. This helps assess any potential legal or regulatory issues.
@@ -18,4 +18,4 @@ Here is a brief description of fields:
 6. License Authority Name: Users should provide the name of the authority or regulatory body that issued the license.
 7. License Dates: Users should enter the date of issue and the date of expiry of the license.
 
-<figure><img src="../../../.gitbook/assets/AdditionalInformationNW.png" alt="Additional information"><figcaption><p>Additional information</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AdditionalInformation.png" alt="Additional information"><figcaption><p>Additional information</p></figcaption></figure>

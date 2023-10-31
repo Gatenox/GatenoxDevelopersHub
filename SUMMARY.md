@@ -48,7 +48,7 @@
     * [Proposed UBOs](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/proposed-ubos.md)
     * [UBOs](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md)
   * [Verification](id-node-how-to/create-and-complete-company-profile/verification/README.md)
-    * [Individuals](id-node-how-to/create-and-complete-company-profile/verification/individuals.md)
+    * [Individuals](id-node-how-to/create-and-complete-company-profile/verification/invite-for-kyc.md)
     * [Business Documents](id-node-how-to/create-and-complete-company-profile/verification/business-documents.md)
   * [Summary](id-node-how-to/create-and-complete-company-profile/summary/README.md)
     * [Review and finish](id-node-how-to/create-and-complete-company-profile/summary/review-and-finish.md)
@@ -57,9 +57,6 @@
   * [Complete required company data](id-node-how-to/share-company-profile/complete-required-company-data.md)
   * [Share my profile](id-node-how-to/share-company-profile/share-my-profile.md)
 * [I received a message from Compliance Officer](id-node-how-to/i-received-a-message-from-compliance-officer.md)
-* [KYC process](id-node-how-to/kyc-process/README.md)
-  * [Complete KYC details](id-node-how-to/kyc-process/complete-kyc-details.md)
-  * [Invite for KYC](id-node-how-to/kyc-process/invite-for-kyc.md)
 
 ## Compliance Cloud - how to ... ? <a href="#compliance-cloud-how-to" id="compliance-cloud-how-to"></a>
 
@@ -67,13 +64,14 @@
   * [About your company](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/about-your-company.md)
   * [What data my company requires?](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/what-data-my-company-requires.md)
   * [Referral code](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/referral-code.md)
-  * [Send the invitation for review to corporate client](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
+  * [Send the invitation for review to the corporate client](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
   * [Send the invitation for Individual KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
   * [Apply via Gatenox](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
 * [Cases management](compliance-cloud-how-to/cases-management.md)
-* [In-App Communication Tool](compliance-cloud-how-to/in-app-communication-tool.md)
 * [Risk assessment](compliance-cloud-how-to/risk-assessment/README.md)
   * [Summary](compliance-cloud-how-to/risk-assessment/summary.md)
+  * [In-App Communication Tool](compliance-cloud-how-to/risk-assessment/in-app-communication-tool.md)
+  * [Ask for data update](compliance-cloud-how-to/risk-assessment/ask-for-data-update.md)
   * [Company details](compliance-cloud-how-to/risk-assessment/company-details.md)
   * [Personal details](compliance-cloud-how-to/risk-assessment/personal-details.md)
   * [Business representatives](compliance-cloud-how-to/risk-assessment/business-representatives.md)
@@ -81,6 +79,7 @@
   * [Company structure](compliance-cloud-how-to/risk-assessment/company-structure.md)
   * [Identified issues](compliance-cloud-how-to/risk-assessment/identified-issues.md)
   * [Files](compliance-cloud-how-to/risk-assessment/files.md)
+  * [Document AI](compliance-cloud-how-to/risk-assessment/document-ai.md)
   * [Entities verification](compliance-cloud-how-to/risk-assessment/entities-verification.md)
   * [Final assessment](compliance-cloud-how-to/risk-assessment/final-assessment.md)
 

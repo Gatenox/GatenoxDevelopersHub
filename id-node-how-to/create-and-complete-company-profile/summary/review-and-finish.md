@@ -8,6 +8,6 @@ For each missing piece of data, the screen provides information about the entity
 
 Once all the missing data has been entered or updated, users can click on the "Submit" button to share profile. The "Review and Finish" screen provides a final check to ensure that all required information has been entered accurately and completely, and that users have not missed any critical details.
 
-<figure><img src="../../../.gitbook/assets/ReviewAndFinishOKNW.png" alt="Review and finish - data ready to be submitted"><figcaption><p>Review and finish - data ready to be submitted</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ReviewAndFinishOK.png" alt="Review and finish - data ready to be submitted"><figcaption><p>Review and finish - data ready to be submitted</p></figcaption></figure>
 
 It's important to note that users should carefully review all the information on this screen before sharing their profile. This will help to ensure that all data is accurate and up-to-date, and that the registration process goes smoothly.

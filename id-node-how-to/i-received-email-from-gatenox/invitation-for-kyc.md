@@ -55,19 +55,19 @@ The second step requires you to provide your residential address.
 
 <figure><img src="../../.gitbook/assets/KYC_2_NW (2).png" alt="KYC process - residential address"><figcaption><p>KYC process - residential address</p></figcaption></figure>
 
-Please provide the required information and click on the "Continue" button to move to the next sub-step, which asks you upload a proof of your residential address. In most cases, this is optional.
+Please provide the required information and click on the "Continue" button to move to the next sub-step, which asks you to upload proof of your residential address. In most cases, this is optional.
 
 <figure><img src="../../.gitbook/assets/KYC_3_NW.png" alt="KYC process - residential address proof"><figcaption><p>KYC process - residential address proof</p></figcaption></figure>
 
-Please provide required information and click on the "Continue" button to move to the next step.
+Please provide the required information and click on the "Continue" button to move to the next step.
 
 ### :page\_facing\_up:Identity document upload
 
-In this step you are asked to upload photos of your documents. It is required to verify the information you have provided on the previous steps.
+In this step, you are asked to upload photos of your documents. It is required to verify the information you have provided in the previous steps.
 
 <figure><img src="../../.gitbook/assets/KYC_4_NW (2).png" alt="KYC process - identity document upload"><figcaption><p>KYC process - identity document upload</p></figcaption></figure>
 
-Please provide required information and click on the "Finish" button to move to the next step.
+Please provide the required information and click on the "Finish" button to move to the next step.
 
 In case you have skipped some required data you will be notified after clicking the "Finish" button and your data will not be submitted. You'll still be able to add other details while your invitation is active.
 

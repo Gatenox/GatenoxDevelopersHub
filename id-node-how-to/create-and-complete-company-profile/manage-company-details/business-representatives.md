@@ -9,10 +9,10 @@ Users can add new representatives by entering their details in the fields provid
 #### Fields
 
 {% hint style="warning" %}
-The fields listed in documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
+The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
 {% endhint %}
 
-Here is a brief description of fields:
+Here is a brief description of the fields:
 
 1. Given names: This field allows users to enter the given names of the representative.
 2. Surname: This field allows users to enter the surname of the representative.
@@ -29,7 +29,7 @@ In addition to adding new representatives and managing their details, users can 
 #### KYC procedure
 
 {% hint style="success" %}
-Learn more about verification of people on [individuals.md](../verification/individuals.md "mention") page.
+Learn more about the verification of people on [Broken link](broken-reference "mention") page.
 {% endhint %}
 
 In some cases, users may need to verify the identity of their representatives for legal or regulatory compliance purposes. To do so, users can choose from several options on the "Business Representatives" screen:
@@ -40,6 +40,6 @@ In some cases, users may need to verify the identity of their representatives fo
 
 By verifying the identity of their representatives, users can help ensure that their company is complying with relevant laws and regulations, as well as maintaining a high level of security and trust with their business partners.
 
-#### Proof: list of directors / representatives
+#### Proof: list of directors/representatives
 
-In some cases, a business may be required to provide proof of list of directors / representatives, such as when registering with a government agency, crypto crypto currency exchange or opening a bank account. Users can upload proof of their business address on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.
+In some cases, a business may be required to provide proof of a list of directors/representatives, such as when registering with a government agency, cryptocurrency exchange, or opening a bank account. Users can upload proof of their business address on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.

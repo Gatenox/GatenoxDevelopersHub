@@ -7,10 +7,10 @@ Users can enter their contact information in the relevant fields on the "Contact
 #### Fields
 
 {% hint style="warning" %}
-The fields listed in documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
+The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
 {% endhint %}
 
-Here is a brief description of fields:
+Here is a brief description of the fields:
 
 1. Business Website: This field allows users to enter the website address for their business. This can be a useful way to direct potential customers or clients to more information about the company.
 2. Business Contact Number: This field allows users to enter the primary contact number for their business. This number may be used by customers, clients, or other stakeholders to get in touch with the company.

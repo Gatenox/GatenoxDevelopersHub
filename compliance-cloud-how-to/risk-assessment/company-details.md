@@ -8,7 +8,7 @@ In addition, the section includes information on the company's registered addres
 
 Moreover, the "Company Details" section may contain documents related to the company, such as  shareholder agreements or proof of address. All of this information serves to provide a comprehensive picture of the company under review and forms a crucial part of the overall assessment process.
 
-Next to each field there is a menu allowing Compliance Officer to start conversation with User - ask questions about the review data. Please find our more here: [in-app-communication-tool.md](../in-app-communication-tool.md "mention").
+Next to each field there is a menu allowing Compliance Officer to start conversation with User - ask questions about the review data. Please find our more here: [in-app-communication-tool.md](in-app-communication-tool.md "mention").
 
 {% hint style="info" %}
 The visibility of certain data may be dependent on the user's specific data set requirements. Therefore, some information may not be visible.

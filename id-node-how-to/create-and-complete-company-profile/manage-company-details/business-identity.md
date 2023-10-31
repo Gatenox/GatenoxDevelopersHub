@@ -5,7 +5,7 @@ The "Business Identity" screen is where users can enter and manage their company
 On this screen, users can update their company's information as needed. They may need to make changes if their company's name or registration number has changed, or if they move to a new jurisdiction. Keeping this information up-to-date is important for legal and regulatory compliance, as well as for building trust with customers and partners.
 
 {% hint style="warning" %}
-The fields listed in documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
+The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
 {% endhint %}
 
 Here is a brief description of each field:
@@ -17,4 +17,4 @@ Here is a brief description of each field:
 
 <figure><img src="../../../.gitbook/assets/BusinessIdentityNW.png" alt="Business Identity"><figcaption><p>Business Identity</p></figcaption></figure>
 
-In some cases, a business may be required to provide proof of company's identification data, such as when registering with a government agency, crypto crypto currency exchange or opening a bank account. Users can upload proof  of company's identification data on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.
+In some cases, a business may be required to provide proof of the company's identification data, such as when registering with a government agency, cryptocurrency exchange, or opening a bank account. Users can upload proof of the company's identification data on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.

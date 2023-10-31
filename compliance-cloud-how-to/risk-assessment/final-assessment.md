@@ -4,7 +4,9 @@ The final section of the review provides a comprehensive risk management feature
 
 The risk scoring methodology must be aligned with your company's unique risk assessment policies.
 
-<figure><img src="../../.gitbook/assets/CC_assessment.png" alt="Review - assessment"><figcaption><p>Review - assessment</p></figcaption></figure>
+After providing the user-rated risk score associated with the company or individual, The Gatenox Hub will display the planned date of the recurring review. On this date in the future to new case will be automatically opened for review.
+
+<figure><img src="../../.gitbook/assets/AddAssessment.png" alt="Review - assessment"><figcaption><p>Review - assessment</p></figcaption></figure>
 
 Based on your configuration, the review can either be moved to "QA" status and will require another compliance officer to check it. At this point, the other compliance officer has the option to either confirm your assessment, return the case to analysis with comments, or approve the review.&#x20;
 

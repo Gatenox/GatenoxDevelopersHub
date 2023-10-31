@@ -6,4 +6,4 @@ A <mark style="color:red;">red-colored</mark> section located at the top of the 
 The visibility of this section is contingent upon the outcome of sanctions screening. If nothing is found during the screening process, the section will be hidden from the view.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CC_review_screen_overview (1).png" alt="Review - Gatenox Hub found issues"><figcaption><p>Review - Gatenox Hub found issues</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Review_screen_overview.png" alt="Review - Gatenox Hub found issues"><figcaption><p>Review - Gatenox Hub found issues</p></figcaption></figure>
