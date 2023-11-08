@@ -16,4 +16,4 @@ At the end of the assessment, the user has the option to generate a PDF report w
 
 In some cases you may need to reassess the risk score. To reopen a case, the user can simply click on the "Reopen Verification" button.
 
-<figure><img src="../../.gitbook/assets/CC_completed.png" alt="Review - generate PDF report"><figcaption><p>Review - generate PDF report</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Review_completed.png" alt="Review - generate PDF report"><figcaption><p>Review - generate PDF report</p></figcaption></figure>
