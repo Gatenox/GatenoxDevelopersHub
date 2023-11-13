@@ -48,7 +48,7 @@
     * [Proposed UBOs](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/proposed-ubos.md)
     * [UBOs](id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md)
   * [Verification](id-node-how-to/create-and-complete-company-profile/verification/README.md)
-    * [Individuals](id-node-how-to/create-and-complete-company-profile/verification/invite-for-kyc.md)
+    * [Individuals](id-node-how-to/kyc-process/invite-for-kyc.md)
     * [Business Documents](id-node-how-to/create-and-complete-company-profile/verification/business-documents.md)
   * [Summary](id-node-how-to/create-and-complete-company-profile/summary/README.md)
     * [Review and finish](id-node-how-to/create-and-complete-company-profile/summary/review-and-finish.md)
@@ -57,6 +57,8 @@
   * [Complete required company data](id-node-how-to/share-company-profile/complete-required-company-data.md)
   * [Share my profile](id-node-how-to/share-company-profile/share-my-profile.md)
 * [I received a message from Compliance Officer](id-node-how-to/i-received-a-message-from-compliance-officer.md)
+* [KYC process](id-node-how-to/kyc-process/README.md)
+  * [Complete KYC details](id-node-how-to/kyc-process/complete-kyc-details.md)
 
 ## Compliance Cloud - how to ... ? <a href="#compliance-cloud-how-to" id="compliance-cloud-how-to"></a>
 
@@ -67,6 +69,7 @@
   * [Send the invitation for review to the corporate client](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md)
   * [Send the invitation for Individual KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
   * [Apply via Gatenox](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
+  * [Integration options with Gatenox HUB](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/integration-options-with-gatenox-hub.md)
 * [Cases management](compliance-cloud-how-to/cases-management.md)
 * [Risk assessment](compliance-cloud-how-to/risk-assessment/README.md)
   * [Summary](compliance-cloud-how-to/risk-assessment/summary.md)

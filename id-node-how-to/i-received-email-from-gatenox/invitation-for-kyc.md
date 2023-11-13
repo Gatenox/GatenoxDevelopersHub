@@ -4,7 +4,7 @@
 
 If you received an email from the Gatenox Hub inviting you to the KYC process, it means that a Gatenox User has asked you to provide your personal identification details using Gatenox Hub. Usually, the main reason for this request is to:
 
-1. add your personal data to the corporate profile of the company, where you perform one of the following functions: director, shareholder or you are the UBO (Ultimate Beneficial Owner).
+1. add your personal data to the corporate profile of the company, where you perform one of the following functions: director, shareholder or you are UBO (Ultimate Beneficial Owner).
 2. receive your personal data within the onboarding process.
 
 <figure><img src="../../.gitbook/assets/email_invitation_KYC.png" alt="Invitation for KYC"><figcaption><p>Email - invitation for KYC</p></figcaption></figure>
@@ -70,8 +70,6 @@ In this step, you are asked to upload photos of your documents. It is required t
 Please provide the required information and click on the "Finish" button to move to the next step.
 
 In case you have skipped some required data you will be notified after clicking the "Finish" button and your data will not be submitted. You'll still be able to add other details while your invitation is active.
-
-:warning: **If all required data has been entered, after clicking on the "Finish" button you will not be able to change it.**
 
 After clicking on the "Finish" button, the "Thank you" screen will be presented.
 
