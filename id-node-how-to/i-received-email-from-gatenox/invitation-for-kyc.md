@@ -71,6 +71,6 @@ Please provide the required information and click on the "Finish" button to move
 
 In case you have skipped some required data you will be notified after clicking the "Finish" button and your data will not be submitted. You'll still be able to add other details while your invitation is active.
 
-After clicking on the "Finish" button, the "Thank you" screen will be presented.
+After clicking on the "Finish" button, the "Thank you" screen will be presented or you also might be redirected to the original webpage.
 
 <figure><img src="../../.gitbook/assets/KYC_5_NW.png" alt="KYC process - thank you"><figcaption><p>KYC process - thank you</p></figcaption></figure>

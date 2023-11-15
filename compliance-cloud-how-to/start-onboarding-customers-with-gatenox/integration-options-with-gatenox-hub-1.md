@@ -1,10 +1,4 @@
----
-description: >-
-  This page presents possible scenarios of integration your system with the
-  Gatenox Hub
----
-
-# Integration options with Gatenox HUB
+# Integration options with Gatenox Hub
 
 ### Corporate KYC Integration
 
@@ -24,7 +18,7 @@ You can use the following button to inform users about verification processes vi
 </a>
 ```
 
-The "GATENOX" code in href link should be replaced with your referral code. It is available to copy from "Settings" menu, tab "Company information" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
+The "GATENOX" code in the href link should be replaced with your referral code. It is available to copy from the "Settings" menu, tab "Company information" ([#where-is-my-referral-code](referral-code.md#where-is-my-referral-code "mention")).
 {% endtab %}
 {% endtabs %}
 
@@ -41,7 +35,7 @@ Simplify individual KYC processes with Gatenox HUB's Individual KYC integration.
 1. A user registers on your portal.
 2. To fulfill KYC requirements, your portal initiates an API call [#api-v1-invites-individuals](../../gatenox-api/api-reference/individual-verifications.md#api-v1-invites-individuals "mention") to obtain a unique verification link from Gatenox.
 3. The verification link is then presented to the logged-in user.
-4. Upon clicking the link, the user is seamlessly redirected to Gatenox HUB, where they can provide their KYC details without the need to set up an account.
+4. Upon clicking the link, the user is seamlessly redirected to Gatenox HUB, where they can provide their KYC details without setting up an account.
 
 ### Gathering results
 
@@ -50,8 +44,8 @@ The information submitted by individuals or companies can be efficiently downloa
 * Corporate verifications: [#get-the-list-of-all-your-company-verifications-and-their-details](../../gatenox-api/api-reference/corporate-verifications.md#get-the-list-of-all-your-company-verifications-and-their-details "mention")
 * Individual verifications: [#get-the-list-of-all-your-individual-verifications-and-their-details](../../gatenox-api/api-reference/individual-verifications.md#get-the-list-of-all-your-individual-verifications-and-their-details "mention")
 
-You can download this data shortly after receiving it, or you can perform a risk assessment in Gatenox Hub and then download the finalized data to your system.
+You can download this data shortly after receiving it, or perform a risk assessment in Gatenox Hub and then download the finalized data to your system.
 
 This feature ensures that the KYC data collected is easily accessible and can be utilized within your organization's processes.
 
-By leveraging these integration options, you can enhance the efficiency and effectiveness of your KYC processes, enabling smooth interactions between your clients and compliance teams while maintaining a high level of security and data integrity.
+By leveraging these integration options, you can enhance the efficiency and effectiveness of your KYC processes, enabling smooth interactions between your clients and compliance teams while maintaining high security and data integrity.
