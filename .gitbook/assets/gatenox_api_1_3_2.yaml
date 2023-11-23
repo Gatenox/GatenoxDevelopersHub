@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Gatenox API
-  version: 1.3.1
+  version: 1.3.2
 servers:
   - url: https://api.app.gatenox.com
     description: Gatenox Production Environment
@@ -2667,6 +2667,9 @@ paths:
                     created_at: '2023-11-07T13:43:05.928Z'
                     updated_at: '2023-11-07T13:43:05.928Z'
                     state: completed
+                    cscore_section:
+                      cscore: 44
+                      risk_level: MEDIUM
                     address_type: ETH
                     address: dafea492d9c6733ae3d56b7ed1adb60692c98bc5
                 meta:
@@ -6595,6 +6598,9 @@ paths:
                           days_since_start: 413
                         usd_exchange_rate: 1878.14
                         usd_balance_without_tokens: 18768.56
+                  cscore_section:
+                    cscore: 44
+                    risk_level: MEDIUM
                   address_type: ETH
                   address: dafea492d9c6733ae3d56b7ed1adb60692c98bc5
   /api/v1//verifications/{verification_id}/addresses:
@@ -7944,7 +7950,7 @@ paths:
           schema:
             type: string
           description: new | in_progress | data_update_requested | qa |completed
-          example: new,in_progress,completed
+          example: new,in_progress
         - name: assessment_status
           in: query
           schema:
@@ -8451,6 +8457,2144 @@ paths:
                   qa_comment: null
                   assessment_comment: null
                   assigned_to: null
+  /api/v1/verification_individuals/{id}/audit_log:
+    get:
+      tags:
+        - Verifications > Individual
+      summary: Audit Log
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          example: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                audit_log:
+                  audits:
+                    - id: 2093
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: 89fff78b-3457-471e-b597-c9a68a3e9eda
+                      user_type: KYCAccessToken
+                      username: null
+                      action: create
+                      audited_changes:
+                        mode: normal
+                        status: created
+                        reopen_at: null
+                        assessment: null
+                        qa_comment: null
+                        entity_name: Roman Abramovich
+                        pdf_report_id: null
+                        assigned_to_id: null
+                        reviewed_tlc_id: 78b98e68-71d0-4cc2-9c04-a91547554dfc
+                        reviewing_tlc_id: e636733a-b8dd-4ebd-ada2-f08db8582b16
+                        entity_identifier: '1966-10-24'
+                        assessment_comment: null
+                        revision_timestamps: []
+                        company_jurisdiction_id: null
+                        completeness_profile_id: 23943c71-5d1b-4b4c-b3f2-960b6c49f357
+                        primary_verification_id: null
+                        trust_verification_cart_id: 824fe2c9-a8bc-4266-8888-a40a6e83eac4
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: d185c364-133b-4c6a-a251-9451731b3417
+                      created_at: '2023-11-23T12:19:14.340Z'
+                      comment: null
+                    - id: 2096
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: null
+                      user_type: null
+                      username: null
+                      action: update
+                      audited_changes:
+                        revision_timestamps:
+                          - []
+                          - - 1700741954
+                      version: 2
+                      remote_address: null
+                      request_uuid: 9c2ba1ba-59e6-46af-bd2a-770f99799050
+                      created_at: '2023-11-23T12:19:14.554Z'
+                      comment: null
+                    - id: 2097
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: null
+                      user_type: null
+                      username: null
+                      action: sanctions_check
+                      audited_changes: {}
+                      version: 3
+                      remote_address: null
+                      request_uuid: 2e62ead1-9e6a-48ef-af47-d65c60d59d68
+                      created_at: '2023-11-23T12:19:14.616Z'
+                      comment:
+                        sanctions_check: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        sources:
+                          - source: us_department_of_treasury_sdn
+                            name: >-
+                              OFAC - Department of Treasury - Specially
+                              Designated Nationals
+                            description: >-
+                              The U.S. Office of Foreign Asset Control (OFAC)
+                              publishes lists of individuals and companies owned
+                              or controlled by, or acting for or on behalf of,
+                              targeted countries. It also lists individuals,
+                              groups, and entities designated under programs
+                              that are not country-specific. Collectively, such
+                              individuals and companies are called 'Specially
+                              Designated Nationals' (SDNs).
+                            link: >-
+                              https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx
+                            country_name: USA
+                          - source: pl_sanction_list
+                            name: Sanction List
+                            description: >-
+                              Decisions of the Minister of Interior and
+                              Administration on entry on the list of persons and
+                              entities to whom the measures referred to in the
+                              Act on special solutions in the field of
+                              counteracting supporting aggression against
+                              Ukraine and serving to protect national security
+                              are applied.
+                            link: >-
+                              https://www.gov.pl/web/mswia/lista-osob-i-podmiotow-objetych-sankcjami
+                            country_name: Poland
+                          - source: uk_hmt_financial_sanction_list
+                            name: HMT Financial Sanctions
+                            description: >-
+                              The Office of Financial Sanctions Implementation
+                              (OFSI), part of Her Majesty's Treasury (HMT), have
+                              imposed sanctions to freeze assets, to prevent
+                              transit through their territories and to prevent
+                              the direct or indirect supply, sale and transfer
+                              of military equipment.
+                            link: >-
+                              https://www.gov.uk/government/publications/financial-sanctions-consolidated-list-of-targets/consolidated-list-of-targets
+                            country_name: United Kingdom
+                          - source: un_consolidated_sanction_list
+                            name: United Nations Security Council Consolidated List
+                            description: >-
+                              The Consolidated List includes all individuals and
+                              entities subject to measures imposed by the
+                              Security Council of the European Union. For each
+                              instance in response to a threat, a Security
+                              Council Committee manages the sanctions regime.
+                            link: >-
+                              https://www.un.org/securitycouncil/content/un-sc-consolidated-list
+                            country_name: International
+                          - source: sg_statutes_online_terrorism_act
+                            name: >-
+                              Singapore Statutes Online - Terrorism (Suppression
+                              of Financing) Act
+                            description: >-
+                              The Singaporean Government have imposed sanctions
+                              to suppress the financing of terrorism, to give
+                              effect to the International Convention for the
+                              Suppression of the Financing of Terrorism and for
+                              matters connected therewith.
+                            link: https://sso.agc.gov.sg/Act/TSFA2002
+                            country_name: Singapore
+                          - link: >-
+                              https://www.eeas.europa.eu/eeas/european-union-sanctions_en
+                            name: EU Financial Sanctions
+                            source: eu_financial_sanction_list
+                            description: >-
+                              Restrictive measures (sanctions) are an essential
+                              tool in the EU’s common foreign and security
+                              policy (CFSP), through which the EU can intervene
+                              where necessary to prevent conflict or respond to
+                              emerging or current crises. The EU has over forty
+                              different sanctions regimes in place.
+                            country_name: European Union
+                    - id: 2103
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: sanctions_check
+                      audited_changes: {}
+                      version: 4
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.717Z'
+                      comment:
+                        sanctions_check: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        sources:
+                          - link: https://www.uaeiec.gov.ae
+                            name: National Terrorist List
+                            source: ae_national_terrorist_list
+                            description: >-
+                              In compliance with UN Security Council resolution
+                              No. 1730/2006 and pursuant to UAE Federal Law No.
+                              7 of 2014, the UAE publishes the National
+                              Sanctions List containing the names of individuals
+                              and entities identified as terrorist and
+                              associated with proliferation of weapons of mass
+                              destruction.
+                            country_name: United Arab Emirates
+                          - link: >-
+                              https://www.afdb.org/en/projects-operations/debarment-and-sanctions-procedures
+                            name: African Development Bank - Debarred Entities
+                            source: af_african_development_bank_debarred_entities
+                            description: >-
+                              The African Development Bank Group have imposed
+                              sanctions on entities found to have participated
+                              in fraudulent practices and are therefore
+                              ineligible to participate in contracts financed or
+                              administered by the African Development Bank
+                              Group.
+                            country_name: Africa
+                          - link: https://repet.jus.gob.ar/
+                            name: >-
+                              RePET - Registro Público de Personas y Entidades
+                              vinculadas a actos de Terrorismo y su
+                              Financiamiento
+                            source: ar_repet_personas_y_entidades
+                            description: >-
+                              The Argentine Ministry of Justice and Human Rights
+                              publishes a list of people and organizations
+                              related to terrorist attacks and their funding,
+                              also known as Registro Público de Personas y
+                              Entidades vinculadas a actos de Terrorismo y su
+                              Financiamiento.
+                            country_name: Argentina
+                          - link: http://www.fiu.az/eng/general-list/
+                            name: >-
+                              Financial Monitoring Service Domestic Sanction
+                              List
+                            source: >-
+                              az_financial_monitoring_service_domestic_sanction_list
+                            description: >-
+                              Domestic List of natural and legal persons subject
+                              to sanctions based on legislation of and
+                              international instruments, which the Republic of
+                              Azerbaijan is a party to, as well as relevant
+                              resolutions of the United Nations Security
+                              Council.
+                            country_name: Azerbaijan
+                          - link: >-
+                              https://www.iadb.org/en/transparency/sanctioned-firms-and-individuals
+                            name: >-
+                              Inter-American Development Bank - Sanctioned firms
+                              and individuals
+                            source: na_sa_idb_sanctioned_firms_and_individuals
+                            description: >-
+                              The Inter-American Development Bank have
+                              sanctioned firms and individuals for engaging in
+                              fraudulent, corrupt, collusive, coercive or
+                              obstructive practices, in violation of the IDB
+                              Group’s Sanctions Procedures and anti-corruption
+                              policies.
+                            country_name: America
+                          - link: >-
+                              http://lnadbg4.adb.org/oga0009p.nsf/sancALLPublic?OpenView&count=999
+                            name: Asian Development Bank
+                            source: as_asia_development_bank
+                            description: >-
+                              The Asian Development Bank have imposed sanctions
+                              on entities who violated the sanctions while
+                              ineligible; entities who committed second and
+                              subsequent violations; debarred entities who are
+                              uncontactable; and cross debarred entities.
+                            country_name: Asia
+                          - link: >-
+                              https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list
+                            name: DFAT - Department of Foreign Affairs and Trade
+                            source: >-
+                              au_australian_department_of_foreign_affairs_and_trade_sanction_list
+                            description: >-
+                              The Department of Foreign Affairs and Trade of
+                              Australia (DFAT) have imposed financial sanctions
+                              and travel bans on persons and entities to which
+                              the Charter of the United Nations Act 1945 and the
+                              Autonomous Sanctions Act 2011 currently applies.
+                            country_name: Australia
+                          - link: https://www.bb.org.bd/bfiu/sanction_list.php
+                            name: >-
+                              BFIU - Bangladesh Financial Intelligence Unit
+                              Sanction List
+                            source: bd_bfiu_domestic_sanction_list
+                            description: >-
+                              Bangladesh Financial Intelligence Unit (BFIU) is
+                              the central agency of Bangladesh responsible for
+                              analyzing Suspicious Transaction Reports (STRs),
+                              Cash Transaction Reports (CTRs) & information
+                              related to money laundering (ML) /financing of
+                              terrorism (TF) received from reporting agencies &
+                              other sources.
+                            country_name: Bangladesh
+                          - link: >-
+                              https://financien.belgium.be/nl/thesaurie/financiele-sancties
+                            name: Federal Public Service Finance
+                            source: be_national_financial_sanctions
+                            description: >-
+                              The Belgian national list is adopted and modified
+                              by a Royal Decree adopted in implementation of the
+                              Royal Decree of December 28th 2006 as regards
+                              specific restrictive measures against some persons
+                              and entities within the framework of the fight
+                              against terrorism financing.
+                            country_name: Belgium
+                          - link: >-
+                              https://www.mofa.gov.bh/Default.aspx?tabid=12342&language=en-US
+                            name: MOFA - Ministry of Foreign Affairs
+                            source: bh_mofa_terrorist_list
+                            description: >-
+                              In 2005, the International Monetary Fund evaluated
+                              the procedures taken by the Kingdom of Bahrain to
+                              combat money laundering and terrorism financing.
+                              According to the resolutions issued after the
+                              evaluation, the Kingdom developed all the required
+                              legislation and practices.
+                            country_name: Bahrain
+                          - link: >-
+                              https://www.portaltransparencia.gov.br/download-de-dados/acordos-leniencia
+                            name: >-
+                              Portal da Transparência do Governo Federal -
+                              Acordos de Leniência
+                            source: br_national_registry_acordos
+                            description: Leniency Agreements
+                            country_name: Brazil
+                          - link: >-
+                              https://www.portaltransparencia.gov.br/download-de-dados/ceis
+                            name: >-
+                              Portal da Transparência do Governo Federal -
+                              Empresas Inidôneas e Suspensas
+                            source: br_national_registry_ceis
+                            description: Disreputable and Suspended Companies
+                            country_name: Brazil
+                          - link: >-
+                              https://www.portaltransparencia.gov.br/download-de-dados/cepim
+                            name: >-
+                              Portal da Transparência do Governo Federal -
+                              Entidades sem Fins Lucrativos Impedidas
+                            source: br_national_registry_cepim
+                            description: Prohibited Non-Profit Entities
+                            country_name: Brazil
+                          - link: >-
+                              https://www.portaltransparencia.gov.br/download-de-dados/cnep
+                            name: >-
+                              Portal da Transparência do Governo Federal -
+                              Empresas Punidas
+                            source: br_national_registry_cnep
+                            description: Punished Companies
+                            country_name: Brazil
+                          - link: >-
+                              https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/consolidated-consolide.aspx?lang=eng
+                            name: >-
+                              DFAIT - Department of Foreign Affairs and Trade -
+                              Consolidated Canadian Autonomous Sanctions List
+                            source: ca_global_affairs_sanction_list
+                            description: >-
+                              The Consolidated Canadian Autonomous Sanctions
+                              List includes individuals and entities subject to
+                              specific sanctions regulations made under the
+                              Special Economic Measures Act (SEMA) and the
+                              Justice for Victims of Corrupt Foreign Officials
+                              Act (JVCFOA).
+                            country_name: Canada
+                          - link: >-
+                              https://laws-lois.justice.gc.ca/eng/regulations/SOR-2017-233/page-2.html#h-842596
+                            name: Canada Corrupt Foreign Nationals
+                            source: ca_corrupt_foreign_officials_sanction_list
+                            description: >-
+                              An individual whose name is listed in the schedule
+                              is a foreign national who, in the opinion of the
+                              Governor in Council, has committed an act set out
+                              in subsection 4(2) of the Justice for Victims of
+                              Corrupt Foreign Officials Act (Sergei Magnitsky
+                              Law).
+                            country_name: Canada
+                          - link: >-
+                              https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+                            name: Canadian Counter-Terrorism Entity List
+                            source: >-
+                              ca_government_of_canada_public_safety_terrorist_entity_sanction_list
+                            description: >-
+                              The listing of an entity is a public means of
+                              identifying a group or individual as being
+                              associated with terrorism. The definition of an
+                              entity includes a person, group, trust,
+                              partnership or fund, or an unincorporated
+                              association or organization.
+                            country_name: Canada
+                          - link: >-
+                              https://laws-lois.justice.gc.ca/eng/regulations/SOR-2011-78/page-2.html#h-780106
+                            name: >-
+                              Freezing Assets of Corrupt Foreign Officials
+                              (Tunisia) Regulations
+                            source: ca_justice_tunisia_pefp
+                            description: >-
+                              Tunisia and Egypt have asserted to the Government
+                              of Canada, in writing, that each of the persons
+                              listed has misappropriated property of Tunisia or
+                              of Egypt, as the case may be, or have acquired
+                              property inappropriately by virtue of their office
+                              or a personal or business relationship and have
+                              asked the Government of Canada to freeze the
+                              property of those persons.
+                            country_name: Canada
+                          - link: >-
+                              https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-284/page-1.html
+                            name: Regulations Establishing a List of Entities
+                            source: ca_regulations_establishing_list_of_entities
+                            description: >-
+                              Her Excellency the Governor General in Council, on
+                              the recommendation of the Solicitor General of
+                              Canada, pursuant to subsection 83.05(1) of the
+                              Criminal Code, makes the annexed Regulations
+                              Establishing a List of Entities.
+                            country_name: Canada
+                          - link: >-
+                              https://laws-lois.justice.gc.ca/eng/regulations/SOR-2014-44/FullText.html
+                            name: >-
+                              Freezing Assets of Corrupt Foreign Officials
+                              (Ukraine) Regulations
+                            source: ca_justice_ukraine_pefp
+                            description: >-
+                              Ukraine has asserted to the Government of Canada,
+                              in writing, that each of the persons listed has
+                              misappropriated property of Ukraine or has
+                              acquired property inappropriately by virtue of
+                              their office or a personal or business
+                              relationship and Ukraine has asked the Government
+                              of Canada to freeze the property of those persons.
+                            country_name: Canada
+                          - link: https://www.rcmp-grc.gc.ca/en/wanted
+                            name: RCMP - Wanted Persons
+                            source: ca_rcmp_most_wanted
+                            description: >-
+                              At the community, provincial, territorial and
+                              federal levels, Royal Canadian Mounted Police
+                              (RCMP) work to prevent crime, enforce the law,
+                              investigate offences, keep Canadians, and their
+                              interests, safe and secure, assist Canadians in
+                              emergency situations/incidents.
+                            country_name: Canada
+                          - link: >-
+                              https://bc-cb.rcmp-grc.gc.ca/ViewPage.action?siteNodeId=1035&languageId=1&p=1&contentId=-1
+                            name: BC RCMP - Wanted Persons
+                            source: ca_bc_rcmp_most_wanted
+                            description: >-
+                              The British Columbia Royal Canadian Mounted Police
+                              (BC RCMP) proudly provides municipal, provincial
+                              and federal policing in areas that range from
+                              isolated Aboriginal communities and coastal
+                              villages to major cities.
+                            country_name: Canada
+                          - link: http://www.csrc.gov.cn
+                            name: CSRC - Administrative Penalties and Enforcements
+                            source: cn_administrative_penalties_and_enforcements
+                            description: >-
+                              China Securities Regulatory Commission (CSRC), a
+                              ministerial-level public institution directly
+                              under the State Council, performs a unified
+                              regulatory function, according to the relevant
+                              laws and regulations, and with the authority by
+                              the State Council.
+                            country_name: China
+                          - link: https://www.mzv.cz
+                            name: MZV - National Sanctions List
+                            source: cz_national_sanctions_list
+                            description: >-
+                              According to Act No. 1/2023 Coll. on restrictive
+                              measures against certain serious acts applied in
+                              international relations, the Ministry of Foreign
+                              Affairs maintains a national sanctions list and
+                              publishes it on its website.
+                            country_name: Czech Republic
+                          - link: https://www.bka.de/EN/Home/home_node.html
+                            name: Bundeskriminalamt
+                            source: de_bka_most_wanted
+                            description: >-
+                              The Bundeskriminalamt is an essential cornerstone
+                              in a comprehensive system of crime control and
+                              works as a partner with the police forces of the
+                              Federation and of the individual German states.
+                            country_name: Germany
+                          - link: https://mlcu.org.eg
+                            name: Money Laundering Combating Unit
+                            source: >-
+                              eg_money_laundering_combating_unit_domestic_terrorist_list
+                            description: >-
+                              The Egyptian Money Laundering Combating Unit
+                              (EMLCU) was established under the Anti-Money
+                              Laundering Law promulgated by Law No. 80 of 2002,
+                              and is the Egyptian Financial Intelligence Unit
+                              that became operative in September 2002.
+                            country_name: Egypt
+                          - link: >-
+                              https://transport.ec.europa.eu/transport-themes/eu-air-safety-list_en
+                            name: The EU Air Safety List
+                            source: eu_air_safety_list
+                            description: >-
+                              The EU Air Safety List actually contains two
+                              lists: The first list (Annex A) includes all
+                              airlines banned from operating in Europe. The
+                              second list (Annex B) includes airlines that are
+                              restricted from operating under certain conditions
+                              in Europe.
+                            country_name: European Union
+                          - link: https://eur-lex.europa.eu/eli/reg/2014/833
+                            name: European Council Regulation No 833/2014
+                            source: eu_council_regulation_833_2014
+                            description: >-
+                              The European Council defines the EU's overall
+                              political direction and priorities. The Council
+                              Regulation (EU) No 833/2014 of 31 July 2014 is
+                              concerning restrictive measures in view of
+                              Russia's actions destabilising the situation in
+                              Ukraine.
+                            country_name: European Union
+                          - link: https://eur-lex.europa.eu/eli/reg/2022/398/oj
+                            name: European Council Regulation 2022/398
+                            source: eu_council_regulation_2022_398
+                            description: >-
+                              Council Regulation (EU) 2022/398 of 9 March 2022
+                              amending Regulation (EC) No 765/2006 concerning
+                              restrictive measures in view of the situation in
+                              Belarus and the involvement of Belarus in the
+                              Russian aggression against Ukraine.
+                            country_name: European Union
+                          - link: https://eur-lex.europa.eu/eli/dec/2022/399/oj
+                            name: European Council Decision 2022/399
+                            source: eu_council_decision_2022_399
+                            description: >-
+                              Council Decision (CFSP) 2022/399 of 9 March 2022
+                              amending Decision 2012/642/CFSP concerning
+                              restrictive measures in view of the situation in
+                              Belarus and the involvement of Belarus in the
+                              Russian aggression against Ukraine.
+                            country_name: European Union
+                          - link: >-
+                              https://www.eeas.europa.eu/eeas/european-union-sanctions_en
+                            name: EU Financial Sanctions
+                            source: eu_financial_sanction_list
+                            description: >-
+                              Restrictive measures (sanctions) are an essential
+                              tool in the EU’s common foreign and security
+                              policy (CFSP), through which the EU can intervene
+                              where necessary to prevent conflict or respond to
+                              emerging or current crises. The EU has over forty
+                              different sanctions regimes in place.
+                            country_name: European Union
+                          - link: https://www.ebrd.com/ineligible-entities.html
+                            name: >-
+                              EBRD - European Bank for Reconstruction and
+                              Development - Mutual Enforcement of Debarment
+                              Decisions
+                            source: eu_ebrd_ineligible_entities
+                            description: >-
+                              The European Bank for Reconstruction and
+                              Development have imposed sanctions on entities and
+                              individuals who are subject to Debarment Decision
+                              by a Mutual Enforcement Institution (e.g. African
+                              Development Bank, World Bank etc.).
+                            country_name: European Union
+                          - link: https://www.ebrd.com/ineligible-entities.html
+                            name: >-
+                              EBRD - European Bank for Reconstruction and
+                              Development - EBRD-initiated sanctions and
+                              sanctions resulting from third party findings
+                            source: eu_ebrd_sanctions_and_third_party_findings
+                            description: >-
+                              The European Bank for Reconstruction and
+                              Development have imposed sanctions on entities and
+                              individuals who engaged in prohibited practices in
+                              the context of a bank project or are subject to a
+                              third party finding.
+                            country_name: European Union
+                          - link: https://eumostwanted.eu
+                            name: Europol
+                            source: eu_europol
+                            description: >-
+                              Headquartered in The Hague, the Netherlands,
+                              Europol support the 27 EU Member States in their
+                              fight against terrorism, cybercrime and other
+                              serious and organised forms of crime. Europol also
+                              work with many non-EU partner states and
+                              international organisations.
+                            country_name: European Union
+                          - link: https://www.amf-france.org
+                            name: AMF - Decisions De La Commission Des Sanctions
+                            source: fr_amf_decisions_de_la_commission_des_sanctions
+                            description: >-
+                              The Autorité des Marchés Financiers (AMF) is an
+                              independent public authority responsible for
+                              ensuring that savings invested in financial
+                              products are protected, providing investors with
+                              adequate information and supervising the orderly
+                              operation of markets.
+                            country_name: France
+                          - link: >-
+                              https://www.tresor.economie.gouv.fr/services-aux-entreprises/sanctions-economiques/tout-savoir-sur-les-personnes-et-entites-sanctionnees
+                            name: >-
+                              Ministère de l'Économie et des Finances - Trésor
+                              Direction Générale - Registre des Gels
+                            source: fr_tresor_registre_national_des_gels_sanction_list
+                            description: >-
+                              Under Article L. 561-2 of the Monetary and
+                              Financial Code, persons subject to the AML/CFT
+                              regime are required to implement the asset freezes
+                              ordered by France. In order to enable
+                              professionals to meet these freezing obligations,
+                              a national register of persons and entities
+                              subject to a freezing measure is established.
+                            country_name: France
+                          - link: https://police.gov.gh/en/index.php/wanted-persons
+                            name: Ghana Police Service
+                            source: gh_police_service_wanted_persons
+                            description: >-
+                              The Ghana Police Service exists to deliver
+                              services in Crime Prevention Detection,
+                              Apprehension and Prosecution of offenders
+                              consistent with the expectations of Ghana
+                              stakeholders for Maximum Protection, Safe, Secure
+                              and Peaceful Communities.
+                            country_name: Ghana
+                          - link: https://www.police.gov.hk
+                            name: Wanted Persons with Reward Notices
+                            source: hk_most_wanted_criminal_list
+                            description: >-
+                              The vision is to maintain Hong Kong as one of the
+                              safest and most stable societies in the world. In
+                              this fast-changing world, emerging crime trends,
+                              global terrorism threats and unprecedented
+                              disasters have remained relevant in the global
+                              context.
+                            country_name: Hong Kong
+                          - link: >-
+                              http://www.ppatk.go.id/link/read/23/dttot-proliferasi-wmd.html
+                            name: >-
+                              PPATK - Financial Transaction Reports and Analysis
+                              Center
+                            source: id_ppatk_dttot_sanction_list
+                            description: >-
+                              The Financial Transaction Reports and Analysis
+                              Center (PPATK) is a central institution that
+                              coordinates the implementation of efforts to
+                              prevent and eradicate money laundering in
+                              Indonesia. PPATK has the duty and authority to
+                              receive financial transaction reports, conduct
+                              analysis of financial transaction reports, and
+                              forward the results of the analysis to law
+                              enforcement agencies.
+                            country_name: Indonesia
+                          - link: https://www.mha.gov.in
+                            name: MHA - Banned Organizations
+                            source: in_banned_terrorist_organisations
+                            description: >-
+                              The source from the Ministry of Home Affairs (MHA)
+                              contains terrorist organisations listed in the
+                              first schedule of the unlawful activities
+                              (prevention) act, 1967 and unlawful associations
+                              under section 3 of unlawful activities
+                              (prevention) act, 1967.
+                            country_name: India
+                          - link: >-
+                              https://www.interpol.int/How-we-work/Notices/View-Red-Notices
+                            name: Interpol Most Wanted List
+                            source: in_interpol_most_wanted_list
+                            description: >-
+                              The Interpol Most Wanted List contains fugitives
+                              wanted either for prosecution or to serve a
+                              sentence. Law enforcement worldwide is requested
+                              to locate and provisionally arrest a person
+                              pending extradition, surrender, or similar legal
+                              action.
+                            country_name: International
+                          - link: >-
+                              https://nbctf.mod.gov.il/he/Announcements/Pages/nbctfDownloads.aspx
+                            name: Declarations On Activists
+                            source: il_nbctf_declaration_on_activists
+                            description: >-
+                              The National Bureau for Counter Terror Financing
+                              (NBCTF) issues this list in accordance with the
+                              Prohibition on Terrorist Financing Law 5765-2004
+                              and the Counter Terrorism Law 2016. The NBCTF was
+                              established in March 2018 as a result of an
+                              Israeli Cabinet decision.
+                            country_name: Israel
+                          - link: >-
+                              https://nbctf.mod.gov.il/he/Announcements/Pages/nbctfDownloads.aspx
+                            name: Unauthorized Assoc. & Terrorists Org.
+                            source: il_nbctf_terrorist_organizations
+                            description: >-
+                              The National Bureau for Counter Terror Financing
+                              (NBCTF) issues this list in accordance with the
+                              Defense Regulations (Emergency) 1945 and the
+                              Prohibition on Terrorist Financing Law 5765-2004
+                              and the Prevention of Terrorism Ordinance No 33
+                              5708-1948 and the Counter Terrorism Law 2016.
+                            country_name: Israel
+                          - link: https://www.mof.go.jp
+                            name: Ministry of Finance - Asset Freeze List
+                            source: jp_finance_ministry_asset_freeze_list
+                            description: Asset freezes based on the Foreign Exchange Act.
+                            country_name: Japan
+                          - link: >-
+                              https://www.meti.go.jp/english/policy/external_economy/trade_control/index.html
+                            name: >-
+                              METI - Ministry of Economy, Trade and Industry End
+                              User List
+                            source: jp_meti_sanction_list
+                            description: >-
+                              The Ministry of Economy, Trade and Industry (METI)
+                              has issued the End User List, providing exporters
+                              with information on foreign entities for which
+                              concern cannot be eliminated regarding involvement
+                              in activities such as the development of weapons
+                              of mass destruction (WMDs) and other items.
+                            country_name: Japan
+                          - link: https://fiu.gov.kg/sked/9
+                            name: FIU - Financial Intelligence Unit
+                            source: kg_fiu_sanction_list
+                            description: >-
+                              The Financial Intelligence Unit (FIU) of the
+                              Kyrgyz Republic was established with the beginning
+                              of membership in the Eurasian Regional Group
+                              (EAG). The FIU is responsible, inter alia, for
+                              implementing decisions in the field of combating
+                              money laundering and the financing of terrorism.
+                            country_name: Kyrgyzstan
+                          - link: >-
+                              https://www.ird.lt/lt/paieska-ieskomu-asmenu-duomenu-bazeje
+                            name: IRD - Register of Suspects, Accused and Convicts
+                            source: lt_ird_wanted_persons
+                            description: >-
+                              The Register of Suspects, Accused and Convicts was
+                              set up in 2012 by the Information Technology and
+                              Communications Department (IRD) under the Ministry
+                              of the Interior (VRM) of the Republic of Lithuania
+                              which is the administrator of the register.
+                            country_name: Lithuania
+                          - link: >-
+                              https://www.fntt.lt/lt/tarptautines-finansines-sankcijos/4166
+                            name: Tarptautinės Finansinės Sankcijos
+                            source: lt_tarptautines_finansines_sankcijos
+                            description: >-
+                              The goal of the Financial Crime Investigation
+                              Service is to elaborate methods of combating
+                              criminal activities against the State financial
+                              system.
+                            country_name: Lithuania
+                          - link: https://www.cssf.lu/fr/publications-donnees
+                            name: >-
+                              CSSF - Commission de Surveillance du Secteur
+                              Financier
+                            source: lu_cssf_administrative_sanctions_and_measures
+                            description: >-
+                              The Commission de Surveillance du Secteur
+                              Financier (CSSF) of Luxembourg conducts its
+                              prudential and market surveillance missions with
+                              the aim of contributing to the soundness and
+                              stability of the financial sector, exclusively in
+                              the public interest.
+                            country_name: Luxembourg
+                          - link: http://www.worldbank.org/debarr
+                            name: Worldbank Debarred Firms and Individuals
+                            source: worldbank_debarred_firms_and_individuals
+                            description: >-
+                              The World Bank have imposed sanctions on firms and
+                              individuals meaning they are ineligible to be
+                              awarded a World Bank-financed contract for the
+                              periods indicated because they have been
+                              sanctioned under the Bank's fraud and corruption
+                              policy.
+                            country_name: International
+                          - link: >-
+                              https://www.un.org/securitycouncil/content/un-sc-consolidated-list
+                            name: United Nations Security Council Consolidated List
+                            source: un_consolidated_sanction_list
+                            description: >-
+                              The Consolidated List includes all individuals and
+                              entities subject to measures imposed by the
+                              Security Council of the European Union. For each
+                              instance in response to a threat, a Security
+                              Council Committee manages the sanctions regime.
+                            country_name: International
+                          - link: >-
+                              http://www.moha.gov.my/index.php/en/senarai-kementerian-dalam-negeri
+                            name: Ministry of Home Affairs Sanction List
+                            source: my_moha_sanction_list
+                            description: >-
+                              This list is made by the Minister of Home Affairs
+                              under the section 66B (1) of the Anti-Money
+                              Laundering, Anti-Terrorism Financing and Proceeds
+                              From Illegal Activities 2001 [Act 613]. Under
+                              section 66B (1) of the Act 613, Where the Minister
+                              of Home Affairs is satisfied on information given
+                              to him by a police officer.
+                            country_name: Malaysia
+                          - link: >-
+                              https://www.government.nl/documents/reports/2016/01/15/national-terrorism-list
+                            name: Dutch National Sanction List Terrorism
+                            source: nl_national_sanction_list_terrorism
+                            description: >-
+                              The Dutch national sanction list terrorism
+                              contains the names of individuals and
+                              organisations who are involved in terrorist
+                              activities. In accordance with UN Security Council
+                              Resolution 1373 (2001) their assets have been
+                              frozen.
+                            country_name: Netherlands
+                          - link: >-
+                              http://www.police.govt.nz/advice/personal-community/counterterrorism/designated-entities/lists-associated-with-resolutions-1267-1989-2253-1988
+                            name: >-
+                              New Zealand Police Resolutions 1267/1989/2253 and
+                              1988 as well as UNSCR 1373
+                            source: nz_designated_entities_sanction_list
+                            description: >-
+                              The UNSC 1267/1989/2253 and 1988 Committees
+                              specifically obliges New Zealand to take action
+                              against those terrorist entities it lists. UNSC
+                              Resolution 1373 obliges New Zealand (among other
+                              things) to outlaw the financing of, participation
+                              in and recruitment to, terrorist entities.
+                            country_name: New Zealand
+                          - link: >-
+                              https://www.mfat.govt.nz/en/countries-and-regions/europe/ukraine/russian-invasion-of-ukraine/sanctions
+                            name: Russian Sanctions
+                            source: nz_mfat_russian_sanctions
+                            description: >-
+                              The Russia Sanctions Act 2022, passed unanimously
+                              by Parliament on 9 March 2022, is Aotearoa New
+                              Zealand’s response to Russia’s illegal and
+                              unprovoked invasion of Ukraine.
+                            country_name: New Zealand
+                          - link: https://nacta.gov.pk/proscribed-organizations/
+                            name: >-
+                              NACTA - National Counter Terrorism Authority -
+                              Proscribed Organizations
+                            source: pk_nacta_proscribed_organizations
+                            description: >-
+                              The Government of Pakistan with its National
+                              Counter Terrorism Authority (NACTA) under section
+                              11-B of Anti Terrorism Act can declare an
+                              organization believed to be concerned with
+                              terrorism as a Proscribed Organization or put it
+                              under surveillance.
+                            country_name: Pakistan
+                          - link: https://nacta.gov.pk/proscribed-persons/
+                            name: >-
+                              NACTA - National Counter Terrorism Authority -
+                              Proscribed Persons
+                            source: pk_nacta_proscribed_persons
+                            description: >-
+                              Any individual about whom either there is a
+                              credible intelligence-information or who has a
+                              history of being linked to a Proscribed
+                              Organization can be proscribed by Home Department
+                              of a Province and can be subjected to restrictions
+                              on travel, speech and business, under the Anti
+                              Terrorism Act, 1997.
+                            country_name: Pakistan
+                          - link: >-
+                              https://www.gov.pl/web/mswia/lista-osob-i-podmiotow-objetych-sankcjami
+                            name: Sanction List
+                            source: pl_sanction_list
+                            description: >-
+                              Decisions of the Minister of Interior and
+                              Administration on entry on the list of persons and
+                              entities to whom the measures referred to in the
+                              Act on special solutions in the field of
+                              counteracting supporting aggression against
+                              Ukraine and serving to protect national security
+                              are applied.
+                            country_name: Poland
+                          - link: >-
+                              https://www.pma.ps/en/Legislation//AMLCFT//LocalFreezingList
+                            name: >-
+                              PMA - Palestine Monetary Authority - Local
+                              Freezing List
+                            source: ps_pma_local_freezing_list
+                            description: >-
+                              In line with authorities of the "Security Council
+                              Resolutions Enforcing Committee", which formed
+                              according to Decree No. (14) of 2015 Concerning
+                              the Enforcement of Security Council Resolutions, a
+                              Local Freezing List has been created.
+                            country_name: Palestine
+                          - link: https://portal.moi.gov.qa/wps/portal/NCTC/Home
+                            name: >-
+                              MOI - Ministry of Interior - National Counter
+                              Terrorism Committee
+                            source: qa_moi_national_counter_terrorism_committee
+                            description: >-
+                              The committee assumes its responsibilities in one
+                              of the most important security areas in order to
+                              ensure the achievement of the strategy of
+                              countries in the fight against terrorism through
+                              the security related efforts and cooperation with
+                              the relevant bodies.
+                            country_name: Qatar
+                          - link: >-
+                              https://fiu.gov.ua/en/pages/dijalnist/protidija-terorizmu/perelik-teroristiv
+                            name: State Financial Monitoring Service of Ukraine
+                            source: ua_blacklist_sanction_list
+                            description: >-
+                              The State Financial Monitoring Service of Ukraine
+                              (SFMS) is the national center for receiving and
+                              analyzing: suspicious transaction reports,
+                              information related to money laundering, terrorist
+                              financing and financing of the proliferation of
+                              weapons of mass destruction.
+                            country_name: Ukraine
+                          - link: https://www.dfsa.ae/public-register/individuals
+                            name: DFSA - Register of Restricted Individuals
+                            source: uae_dfsa_register_of_restricted_individuals
+                            description: >-
+                              In addition to regulating financial and ancillary
+                              services, the DFSA is responsible for supervising
+                              and enforcing anti-money laundering (AML) and
+                              counter-terrorist financing (CTF) requirements
+                              applicable in the DIFC.
+                            country_name: United Arab Emirates
+                          - link: https://sso.agc.gov.sg/Act/TSFA2002
+                            name: >-
+                              Singapore Statutes Online - Terrorism (Suppression
+                              of Financing) Act
+                            source: sg_statutes_online_terrorism_act
+                            description: >-
+                              The Singaporean Government have imposed sanctions
+                              to suppress the financing of terrorism, to give
+                              effect to the International Convention for the
+                              Suppression of the Financing of Terrorism and for
+                              matters connected therewith.
+                            country_name: Singapore
+                          - link: >-
+                              https://www.seco.admin.ch/seco/de/home/Aussenwirtschaftspolitik_Wirtschaftliche_Zusammenarbeit/Wirtschaftsbeziehungen/exportkontrollen-und-sanktionen/sanktionen-embargos/sanktionsmassnahmen/suche_sanktionsadressaten.html
+                            name: SECO - State Secretariat for Economic Affairs
+                            source: ch_sanction_list
+                            description: >-
+                              The State Secretariat for Economic Affairs have
+                              imposed sanctions based on the Federal Act on the
+                              Implementation of International Sanctions (Embargo
+                              Act, EmbA, 1st of January 2003). It has formed the
+                              legal basis for the implementation of sanctions
+                              imposed by Switzerland.
+                            country_name: Switzerland
+                          - link: >-
+                              https://www.amlo.go.th/index.php/en/high-risk-countries-designated-list/2016-06-04-14-50-52
+                            name: AMLO - Designated List
+                            source: th_amlo_designated_list
+                            description: >-
+                              The Anti-Money Laundering Office (AMLO) of
+                              Thailand is a government agency, not under Prime
+                              Minister's Office or any Ministry. The office
+                              works independently and is answerable to the Prime
+                              Minister. It is mandated under Section 40 of the
+                              Anti-Money Laundering Act, 1999 and its
+                              amendments.
+                            country_name: Thailand
+                          - link: >-
+                              https://www.gov.uk/government/publications/financial-sanctions-consolidated-list-of-targets/consolidated-list-of-targets
+                            name: HMT Financial Sanctions
+                            source: uk_hmt_financial_sanction_list
+                            description: >-
+                              The Office of Financial Sanctions Implementation
+                              (OFSI), part of Her Majesty's Treasury (HMT), have
+                              imposed sanctions to freeze assets, to prevent
+                              transit through their territories and to prevent
+                              the direct or indirect supply, sale and transfer
+                              of military equipment.
+                            country_name: United Kingdom
+                          - link: >-
+                              https://www.gov.uk/government/publications/financial-sanctions-consolidated-list-of-targets/ukraine-list-of-persons-subject-to-restrictive-measures-in-view-of-russias-actions-destabilising-the-situation-in-ukraine
+                            name: HMT Ukraine Restrictive Measures
+                            source: uk_hmt_ukraine_restrictive_measures
+                            description: >-
+                              List of persons subject to restrictive measures in
+                              view of Russia's actions destabilising the
+                              situation in Ukraine. These persons and certain
+                              other parties are subject to restrictive measures
+                              relating to transferable securities and money
+                              market instruments, as set out in Council
+                              Regulation (EU) No.833/2014.
+                            country_name: United Kingdom
+                          - link: >-
+                              https://www.gov.uk/government/news/uk-sanctions-target-30-corrupt-political-figures-human-rights-violators-and-perpetrators-of-conflict-related-sexual-violence-around-the-world
+                            name: Foreign Secretary - Corrupt Political Figures
+                            source: >-
+                              uk_foreign_secretary_corrupt_political_figures_202212
+                            description: >-
+                              The Foreign Secretary announced sanctions that
+                              target corrupt political figures, those violating
+                              human rights, and perpetrators of sexual-violence
+                              in conflict.
+                            country_name: United Kingdom
+                          - link: https://www.atf.gov/most-wanted/list
+                            name: ATF - Most Wanted
+                            source: us_atf_most_wanted
+                            description: >-
+                              The Bureau of Alcohol, Tobacco, Firearms and
+                              Explosives protects the public from crimes
+                              involving firearms, explosives, arson, and the
+                              diversion of alcohol and tobacco products;
+                              regulates lawful commerce in firearms and
+                              explosives.
+                            country_name: USA
+                          - link: >-
+                              https://www.cbp.gov/document/report/north-korea-sanctions-and-enforcement-actions-advisory
+                            name: >-
+                              CBP - North Korea Sanctions and Enforcement
+                              Actions Advisory
+                            source: us_cbp_north_korea_sanctions
+                            description: >-
+                              CBP and ICE, with the U.S. Department of State,
+                              and the U.S. Department of the Treasury's Office
+                              of Foreign Assets Control (OFAC), issued the North
+                              Korea Sanctions and Enforcement Actions Advisory:
+                              Risks for Businesses with Supply Chain Links to
+                              North Korea on July 23, 2018.
+                            country_name: USA
+                          - link: >-
+                              https://www.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=c22d1833dbb8d300d0a370131f9619f0
+                            name: >-
+                              DDTC - Directorate of Defense Trade Controls -
+                              Arms Export Control Act (AECA) debarred
+                              (statutory) list
+                            source: us_department_of_state_statutory
+                            description: >-
+                              The persons (including entities and individuals)
+                              have been convicted of violating or conspiracy to
+                              violate the Arms Export Control Act (AECA). They
+                              are subject to "statutory debarment" pursuant to
+                              §38(g)(4) of the AECA and §127.7 of the
+                              International Traffic in Arms Regulations (ITAR).
+                            country_name: USA
+                          - link: >-
+                              https://www.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=c22d1833dbb8d300d0a370131f9619f0
+                            name: >-
+                              DDTC - Directorate of Defense Trade Controls -
+                              Arms Export Control Act (AECA) debarred
+                              (administrative) list
+                            source: us_department_of_state_administrative
+                            description: >-
+                              The U.S. Department of State - Directorate of
+                              Defense Trade Controls (DDTC) may impose
+                              administrative debarment for violations of the
+                              Arms Export Control Act (AECA/ITAR), as specified
+                              in 22 CFR §127.7(a), upon resolution of
+                              enforcement proceedings.
+                            country_name: USA
+                          - link: >-
+                              https://www.state.gov/key-topics-bureau-of-international-security-and-nonproliferation/nonproliferation-sanctions/
+                            name: Department of State - Nonproliferation Sanctions
+                            source: us_department_of_state_nonproliferation
+                            description: >-
+                              The U.S. Department of State have imposed
+                              sanctions under various legal authorities against
+                              foreign individuals, private entities, and
+                              governments that engage in proliferation
+                              activities. The Federal Register notices are the
+                              official notifications for all nonproliferation
+                              sanctions determinations.
+                            country_name: USA
+                          - link: >-
+                              https://www.treasury.gov/resource-center/sanctions/sdn-list/pages/consolidated.aspx
+                            name: >-
+                              OFAC - Department of Treasury - Non-SDN sanction
+                              list
+                            source: us_department_of_treasury_non_sdn
+                            description: >-
+                              The U.S. Office of Foreign Asset Control (OFAC)
+                              have imposed sanctions on non-specially designated
+                              nationals (SDN) which were consolidates from the
+                              FSE list, the SSI list, the NS-PLC list, the list
+                              of Foreign Financial Institutions Subject to Part
+                              561, the non-SDN Iranian Sanctions Act list and
+                              the list of Foreign Financial Institutions Subject
+                              to the CAPTA List.
+                            country_name: USA
+                          - link: >-
+                              https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx
+                            name: >-
+                              OFAC - Department of Treasury - Specially
+                              Designated Nationals
+                            source: us_department_of_treasury_sdn
+                            description: >-
+                              The U.S. Office of Foreign Asset Control (OFAC)
+                              publishes lists of individuals and companies owned
+                              or controlled by, or acting for or on behalf of,
+                              targeted countries. It also lists individuals,
+                              groups, and entities designated under programs
+                              that are not country-specific. Collectively, such
+                              individuals and companies are called 'Specially
+                              Designated Nationals' (SDNs).
+                            country_name: USA
+                          - link: >-
+                              https://home.treasury.gov/policy-issues/financial-sanctions/additional-ofac-resources/ofac-legal-library/executive-orders-eo
+                            name: >-
+                              OFAC - Department of Treasury - Executive Order
+                              13959
+                            source: >-
+                              us_department_of_treasury_ofac_executive_order_13959
+                            description: >-
+                              The President of the United States manages the
+                              operations of the Executive branch of Government
+                              through Executive Orders. The Executive Order
+                              13959 of November 12, 2020 is addressing the
+                              threat from securities investments that finance
+                              communist Chinese military companies.
+                            country_name: USA
+                          - link: >-
+                              https://home.treasury.gov/system/files/126/russia_gl26.pdf
+                            name: >-
+                              OFAC - Department of Treasury - 31 CFR part 587 -
+                              General License 26
+                            source: >-
+                              us_department_of_treasury_ofac_31_cfr_part_587_gl_26
+                            description: >-
+                              OFAC is issuing the Russian Harmful Foreign
+                              Activities Sanctions Regulations, 31 CFR part 587,
+                              to implement E.O. 14024, pursuant to authorities
+                              delegated to the Secretary of the Treasury in E.O.
+                              14024.
+                            country_name: USA
+                          - link: >-
+                              https://home.treasury.gov/system/files/126/russia_gl30_0.pdf
+                            name: >-
+                              OFAC - Department of Treasury - 31 CFR part 587 -
+                              General License 30
+                            source: >-
+                              us_department_of_treasury_ofac_31_cfr_part_587_gl_30
+                            description: >-
+                              OFAC is issuing the Russian Harmful Foreign
+                              Activities Sanctions Regulations, 31 CFR part 587,
+                              to implement E.O. 14024, pursuant to authorities
+                              delegated to the Secretary of the Treasury in E.O.
+                              14024.
+                            country_name: USA
+                          - link: https://home.treasury.gov/
+                            name: OFAC - Department of Treasury - 31 CFR part 587
+                            source: us_department_of_treasury_ofac_31_cfr_part_587
+                            description: >-
+                              OFAC is issuing the Russian Harmful Foreign
+                              Activities Sanctions Regulations, 31 CFR part 587,
+                              to implement E.O. 14024, pursuant to authorities
+                              delegated to the Secretary of the Treasury in E.O.
+                              14024.
+                            country_name: USA
+                          - link: >-
+                              https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/denied-persons-list
+                            name: >-
+                              BIS - Bureau of Industry and Security - Denied
+                              Persons List
+                            source: us_bis_denied_persons_sanction_list
+                            description: >-
+                              The U.S. Bureau of Industry and Security imposed
+                              sanctions on persons who violated against the U.S.
+                              export law and for which the export privileges
+                              have been denied by written order of the
+                              Department of Commerce. Each order affecting
+                              export privileges is published in the Federal
+                              Register.
+                            country_name: USA
+                          - link: >-
+                              https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list
+                            name: >-
+                              BIS - Bureau of Industry and Security - Entity
+                              List
+                            source: us_bis_entity_list
+                            description: >-
+                              The U.S. Export Administration Regulations (EAR)
+                              contain a list of names of certain foreign persons
+                              – including businesses, research institutions,
+                              government and private organizations, individuals,
+                              and other types of legal persons – that are
+                              subject to specific license requirements for the
+                              export, reexport and/or transfer (in-country) of
+                              specified items. These persons comprise the Entity
+                              List, which is found in Supplement No. 4 to Part
+                              744 of the EAR. On an individual basis, the
+                              persons on the Entity List are subject to
+                              licensing requirements and policies supplemental
+                              to those found elsewhere in the EAR.
+                            country_name: USA
+                          - link: >-
+                              https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/unverified-list
+                            name: >-
+                              BIS - Bureau of Industry and Security - Unverified
+                              list
+                            source: us_bis_unverified_list
+                            description: >-
+                              Parties listed on the Unverified List (UVL) are
+                              ineligible to receive items subject to the Export
+                              Administration Regulations (EAR) by means of a
+                              license exception. Restrictions on exports,
+                              reexports and transfers (in-country) to persons
+                              listed on the UVL are set forth in Section 744.15
+                              of the EAR. The Unverified List is set forth in
+                              Supplement No. 6 to Part 744 of the EAR.
+                            country_name: USA
+                          - link: >-
+                              https://www.usmarshals.gov/what-we-do/fugitive-apprehension/profiled-fugitives
+                            name: US Marshals Service - Fugitives
+                            source: us_marshals_fugitives
+                            description: >-
+                              The United States Marshals Service (USMS) is the
+                              nation’s first and most versatile federal law
+                              enforcement agency, involved in virtually every
+                              federal law enforcement initiative. Its mission is
+                              to protect, defend, and enforce the American
+                              justice system.
+                            country_name: USA
+                          - link: >-
+                              https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/1770
+                            name: >-
+                              BIS - Bureau of Industry and Security - Military
+                              End User List
+                            source: us_meu_sanction_list
+                            description: >-
+                              The Military End User List identifies foreign
+                              parties that are prohibited from receiving items
+                              described in Supplement No. 2 of Part 744 of the
+                              EAR unless the exporter secures a license. These
+                              parties have been determined by the U.S.
+                              Government to be ‘military end users,’ and
+                              represent an unacceptable risk of use in China,
+                              Russia, or Venezuela.
+                            country_name: USA
+                          - link: >-
+                              https://www.defense.gov/Newsroom/Releases/Release/Article/2645126/dod-releases-list-of-chinese-military-companies-in-accordance-with-section-1260/source/GovDelivery/
+                            name: >-
+                              DOD - Department of Defense - Section 1260H -
+                              Chinese military companies
+                            source: us_dod_section_1260h_ndaa
+                            description: >-
+                              The Department of Defense released the names of
+                              “Chinese military companies” operating directly or
+                              indirectly in the United States in accordance with
+                              the statutory requirement of Section 1260H of the
+                              National Defense Authorization Act for Fiscal Year
+                              2021.
+                            country_name: USA
+                          - link: >-
+                              https://www.state.gov/cuba-sanctions/cuba-restricted-list/
+                            name: DOS - Department of State – Cuba Restricted List
+                            source: us_dos_cuba_restricted_list
+                            description: >-
+                              The U.S. Department of State’s list of entities
+                              and subentities under the control of, or acting
+                              for or on behalf of, the Cuban military,
+                              intelligence, or security services or personnel
+                              with which direct financial transactions would
+                              disproportionately benefit such services or
+                              personnel at the expense of the Cuban people or
+                              private enterprise in Cuba.
+                            country_name: USA
+                          - link: >-
+                              https://www.state.gov/reports/report-to-congress-on-anti-kleptocracy-and-human-rights-visa-restrictions-public-listing/
+                            name: DOS - Department of State – Section 7031(c)
+                            source: us_dos_section_7031
+                            description: >-
+                              Section 7031(c) of the Department of State,
+                              Foreign Operations, and Related Programs
+                              Appropriations Act, Congress provides that
+                              officials of foreign governments and their
+                              immediate family members are ineligible for entry
+                              into the United States when the Secretary of State
+                              has credible information that the foreign official
+                              has been involved, directly or indirectly, with
+                              significant corruption and/or a gross violation of
+                              human rights.
+                            country_name: USA
+                          - link: https://www.state.gov/terrorist-exclusion-list
+                            name: >-
+                              DOS - Department of State - Terrorist Exclusion
+                              List
+                            source: us_terrorist_exclusion_list
+                            description: >-
+                              Section 411 of the USA PATRIOT ACT of 2001 (8
+                              U.S.C. § 1182) authorized the Secretary of State,
+                              in consultation with or upon the request of the
+                              Attorney General, to designate terrorist
+                              organizations for immigration purposes. This
+                              authority is known as the “Terrorist Exclusion
+                              List (TEL)” authority.
+                            country_name: USA
+                          - link: https://apps.occ.gov/EASearch
+                            name: >-
+                              OCC - Office of the Comptroller of the Currency -
+                              Enforcement Actions
+                            source: us_occ_enforcement_actions_sanction_list
+                            description: >-
+                              The U.S. Office of the Comptroller (OCC)
+                              supervises the following entities and has the
+                              statutory authority to take enforcement actions
+                              against them: National banks and their
+                              subsidiaries, Federally chartered savings
+                              associations and their subsidiaries, Federal
+                              branches and agencies of foreign banks,
+                              Institution-affiliated parties (IAPs).
+                            country_name: USA
+                          - link: https://www.fbi.gov/wanted
+                            name: >-
+                              FBI - Federal Bureau of Investigation - Most
+                              Wanted List
+                            source: us_fbi_most_wanted
+                            description: >-
+                              The FBI is an intelligence-driven and
+                              threat-focused national security organization with
+                              both intelligence and law enforcement
+                              responsibilities. The FBI Most Wanted List
+                              includes the ten most wanted persons, fugitives,
+                              terrorists, parental kidnappers and bank robbers.
+                            country_name: USA
+                          - link: https://www.dea.gov/fugitives/all
+                            name: >-
+                              DEA - Drug Enforcement Administration - Most
+                              Wanted List
+                            source: us_dea_most_wanted
+                            description: >-
+                              The DEA enforce the controlled substances laws and
+                              regulations of the United States. The DEA Most
+                              Wanted List includes fugitives involved in the
+                              growing, manufacture, or distribution of
+                              controlled substances appearing in or destined for
+                              illicit traffic in the US.
+                            country_name: USA
+                          - link: >-
+                              http://en.bocongan.gov.vn/Terrorist/Pages/Terrorist-group.aspx
+                            name: >-
+                              Ministry of Public Security - Sanctions List of
+                              Terrorism-related Organizations and Individuals
+                            source: vn_ministry_of_public_security_sanction_list
+                            description: >-
+                              The Decree No.122/2013/ND-CP issued on October 11,
+                              2013 by the Government of the Socialist Republic
+                              of Vietnam addresses the suspension of
+                              circulation, freezing, sealing, sequestration and
+                              handling of money and assets related to terrorism
+                              and terrorism financing.
+                            country_name: Vietnam
+                          - link: >-
+                              https://www.fic.gov.za/International/sanctions/SitePages/Home.aspx
+                            name: FIC - Financial Intelligence Centre
+                            source: za_fic_targeted_financial_sanction_list
+                            description: >-
+                              The Financial Intelligence Centre (FIC) is the
+                              national centre for the receipt of financial data,
+                              analysis and dissemination of financial
+                              intelligence. The FIC was established by the FIC
+                              Act, 2001 (Act 38 of 2001) and has the mandate to
+                              identify the proceeds of crime, combat money
+                              laundering and terror financing.
+                            country_name: South Africa
+                          - link: https://www.dilisense.com
+                            name: Dilisense PEP List
+                            source: dilisense_pep
+                            description: >-
+                              The Dilisense PEP list is a proprietary collection
+                              of politically exposed persons from various
+                              publicly accessible lists from governments and
+                              other official bodies.
+                            country_name: International
+                    - id: 2113
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: update
+                      audited_changes:
+                        assessment:
+                          - null
+                          - risk_high
+                        assessment_comment:
+                          - null
+                          - >-
+                            Russia government related, sanctioned individual.
+                            Very high risk.
+                      version: 5
+                      remote_address: 127.0.0.1
+                      request_uuid: 056df362-9439-4125-947b-3031d83ef194
+                      created_at: '2023-11-23T12:21:17.633Z'
+                      comment: null
+                    - id: 2114
+                      auditable_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      auditable_type: Review
+                      associated_id: null
+                      associated_type: null
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: update
+                      audited_changes:
+                        reopen_at:
+                          - null
+                          - '2024-02-23'
+                      version: 6
+                      remote_address: 127.0.0.1
+                      request_uuid: 056df362-9439-4125-947b-3031d83ef194
+                      created_at: '2023-11-23T12:21:17.668Z'
+                      comment: null
+                  associated_audits:
+                    - id: 2094
+                      auditable_id: 824fe2c9-a8bc-4266-8888-a40a6e83eac4
+                      auditable_type: Trust::VerificationCart
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 89fff78b-3457-471e-b597-c9a68a3e9eda
+                      user_type: KYCAccessToken
+                      username: null
+                      action: create
+                      audited_changes:
+                        people: []
+                        companies: []
+                        crypto_addresses: []
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: d185c364-133b-4c6a-a251-9451731b3417
+                      created_at: '2023-11-23T12:19:14.345Z'
+                      comment: null
+                    - id: 2098
+                      auditable_id: dc025b9f-fb2b-417b-a88c-7ddb1de657d7
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: null
+                      user_type: null
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Abramovič
+                          source:
+                            link: >-
+                              https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions
+                            name: >-
+                              Consolidated list of persons, groups and entities
+                              subject to EU financial sanctions
+                            source: EU_CONSOLIDATED
+                            description: ''
+                            country_name: EUROPEAN UNION
+                          address:
+                            - city: Moscow
+                              line1: 1, Lipovaya Aleya, Nemchinovo, Odinsovo district
+                              line2: ''
+                              line3: ''
+                              state: ''
+                              postal: ''
+                              country: RUSSIAN FEDERATION
+                          unique_id: EU:137652
+                          last_names:
+                            - Abramovič
+                          alias_names:
+                            - Roman Abramovič
+                            - Roman Abramovič
+                            - Roman Abramovici
+                            - Роман Аркадьевич АБРАМОВИЧ
+                            - Roman Arkadjevitj ABRAMOVITJ
+                            - Roman Arkadyevich ABRAMOVICH
+                          citizenship:
+                            - RU
+                          given_names:
+                            - Roman
+                          source_type: SANCTION
+                          date_of_birth:
+                            - '1966-10-24'
+                          alias_given_names: []
+                        source: companies_api
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: eu_consolidated
+                        source_unique_id: sanction_eu_consolidated_eu:137652
+                      version: 1
+                      remote_address: null
+                      request_uuid: 952fce5a-7a80-4838-9fc0-115c0fef4565
+                      created_at: '2023-11-23T12:19:15.045Z'
+                      comment: null
+                    - id: 2099
+                      auditable_id: 9d13aef1-c646-4587-b433-36bfaad9224e
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: null
+                      user_type: null
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman ABRAMOVICH
+                          source:
+                            link: >-
+                              https://www.gov.uk/government/publications/the-uk-sanctions-list
+                            name: The UK Sanctions List
+                            source: UK_LIST
+                            description: >-
+                              The UK government publishes the UK Sanctions List,
+                              which provides details of those designated under
+                              regulations made under the Sanctions Act. The list
+                              also details which sanctions measures apply to
+                              these persons or ships, and in the case of UK
+                              designations, provides a statement of reasons for
+                              the designation.
+                            country_name: UK
+                          address: []
+                          unique_id: UK:RUS0270
+                          last_names:
+                            - ABRAMOVICH
+                          alias_names:
+                            - ABRAMOVICH
+                            - ABRAMOVICH
+                          citizenship:
+                            - Russia
+                          given_names:
+                            - Roman
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          alias_given_names:
+                            - Roman
+                            - Roman
+                        source: companies_api
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: uk_list
+                        source_unique_id: sanction_uk_list_uk:rus0270
+                      version: 1
+                      remote_address: null
+                      request_uuid: 56e0fefa-f638-45f2-a8e2-cae8c2c6f8d7
+                      created_at: '2023-11-23T12:19:15.065Z'
+                      comment: null
+                    - id: 2100
+                      auditable_id: 824fe2c9-a8bc-4266-8888-a40a6e83eac4
+                      auditable_type: Trust::VerificationCart
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: update
+                      audited_changes:
+                        people:
+                          - []
+                          - - 20b45753-5b10-47d4-96de-ef529e773d7a
+                      version: 2
+                      remote_address: 127.0.0.1
+                      request_uuid: b66d6b65-a555-4fbe-b2dc-1fce87d1aea1
+                      created_at: '2023-11-23T12:20:20.701Z'
+                      comment: null
+                    - id: 2104
+                      auditable_id: 0881d795-253e-4a6d-a0cd-758248f4cfc3
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman ABRAMOVICH
+                          links:
+                            - >-
+                              https://www.gov.uk/government/publications/financial-sanctions-consolidated-list-of-targets/consolidated-list-of-targets
+                          gender: MALE
+                          list_date: '0'
+                          positions:
+                            - Stakeholder in Evraz PLC and Norilsk Nickel
+                          source_id: uk_hmt_financial_sanction_list
+                          last_names:
+                            - ABRAMOVICH
+                          alias_names:
+                            - ABRAMOVICH
+                            - Роман Аркадьевич АБРАМОВИЧ
+                          citizenship:
+                            - RU
+                            - IL
+                            - PT
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov
+                            - Russia
+                          sanction_details:
+                            - 'Date listed: 10/03/2022'
+                            - 'Date designated: 10/03/2022'
+                            - RUS0270
+                            - >-
+                              Roman Arkadyevich ABRAMOVICH (hereafter
+                              ABRAMOVICH) is a prominent Russian businessman and
+                              pro-Kremlin oligarch. He is an involved person on
+                              the basis of the following grounds: (1) ABRAMOVICH
+                              is associated with a person who has been, and is,
+                              involved in destabilising Ukraine and undermining
+                              and threatening the territorial integrity,
+                              sovereignty and independence of Ukraine, namely
+                              President Vladimir PUTIN; (2) ABRAMOVICH is
+                              associated with an individual who is, and has
+                              been, involved in obtaining a benefit or
+                              supporting the Government of Russia, namely
+                              Alisher Usmanov; (3) ABRAMOVICH is involved in
+                              obtaining a benefit from or supporting the
+                              Government of Russia by owning or controlling
+                              directly or indirectly: (i) Evraz plc; and (ii)
+                              the following subsidiaries of Evraz plc: JSC Evraz
+                              NTMK; PJSC Raspadskaya; JSC Evraz ZSMK; JSC Evraz
+                              United Coal Company Yuzhkuzbassugol; and JSC Evraz
+                              Kachkanar Mining and Processing Plant; (4)
+                              ABRAMOVICH is involved in obtaining a benefit from
+                              or supporting the Government of Russia by carrying
+                              on business in sectors of strategic significance
+                              to the Government of Russia, namely: extractives,
+                              construction, and transport; (5) ABRAMOVICH is a
+                              member of, or associated with, a person who is or
+                              has been so involved, namely Evraz plc.
+                            - 'Group status: Asset Freeze Targets'
+                          alias_given_names:
+                            - Roman
+                            - Arkadyevich
+                          other_information:
+                            - Russia
+                          citizenship_remarks:
+                            - >-
+                              Individual passport number: (1) CB982788 (2)
+                              24132276
+                            - >-
+                              Individual passport details: (1) Portugal (2)
+                              Israel
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: uk_hmt_financial_sanction_list
+                        source_unique_id: >-
+                          sanction_uk_hmt_financial_sanction_list_4b13d2d1c05d08c4f579af695f1a47ecb1714e563def52691c72dedf5acd3a59
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.755Z'
+                      comment: null
+                    - id: 2105
+                      auditable_id: 9a5799a0-8a9b-4309-b951-0c1c3085fc2d
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Abramovich
+                          gender: MALE
+                          spouse:
+                            - Dasha Zhukova
+                            - Irina Abramovich
+                          parents:
+                            - Arkady Abramovich
+                            - Irina Vasilievna Abramovich
+                          children:
+                            - Arkadiy Abramovich
+                          pep_type: POLITICIAN
+                          list_date: '0'
+                          positions:
+                            - >-
+                              2000-12-17 - 2008-07-03  Governor of Chukotka
+                              Autonomous Okrug
+                            - 2000-01-10 - 2000-12-17  member of the State Duma
+                          source_id: dilisense_pep
+                          last_names:
+                            - Abramovich
+                          alias_names:
+                            - Roman Arkadyevich Abramovich
+                            - Рома́н Арка́дьевич Абрамо́вич
+                            - רומן ארקדיביץ׳ אברמוביץ׳
+                          citizenship:
+                            - IL
+                            - PT
+                            - RU
+                            - SU
+                          description:
+                            - Russian oligarch, and politician
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman
+                          occupations:
+                            - entrepreneur
+                            - member of the State Duma
+                            - politician
+                          source_type: PEP
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov
+                        source: dilisense
+                        comment: null
+                        category: pep
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: dilisense_pep
+                        source_unique_id: >-
+                          pep_dilisense_pep_84c2ffb56f26553be736138886e48686f0067360ba7491b6f1fd64715c5c5c9f
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.759Z'
+                      comment: null
+                    - id: 2106
+                      auditable_id: 80dac854-bb9a-4b34-99ef-3ea2e8d61001
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Abramovich Arkadyevich
+                          gender: MALE
+                          address:
+                            - >-
+                              1 Lipovaya Aleya Nemchinovo Odinsovo district,
+                              Moscow Russian Federation
+                          list_date: '1414800000000'
+                          source_id: ch_sanction_list
+                          last_names:
+                            - Abramovich
+                            - Arkadyevich
+                          citizenship:
+                            - RU
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov Russian Federation
+                          sanction_details:
+                            - >-
+                              Roman Abramovich is a Russian leading
+                              businessperson who has long and close ties to the
+                              President of the Russian Federation Vladimir
+                              Putin. He has had privileged access to the
+                              President, and has maintained very good relations
+                              with him. This connection with the Russian leader
+                              has helped him to maintain his considerable
+                              wealth. He is a major shareholder of the steel
+                              group Evraz, which is one of Russia’s largest
+                              taxpayers.
+                            - >-
+                              He has therefore been benefitting from Russian
+                              decision-makers responsible for the annexation of
+                              Crimea or the destabilisation of Ukraine. He is
+                              also a leading Russian businessperson operating in
+                              Russia and a businessperson involved in economic
+                              sectors providing a substantial source of revenue
+                              to the Government of the Russian Federation, which
+                              is responsible for the annexation of Crimea and
+                              the destabilisation of Ukraine.
+                            - >-
+                              Ordinance of 4 March 2022 on measures related to
+                              the situation in Ukraine (RS 946.231.176.72),
+                              annexes 2, 8, 9, 10, 11, 12,13, 14, 15 and 25 Art.
+                              15 para. 1 and 4 (Financial sanctions) and art. 29
+                              para. 1 (Travel ban), annexe 8
+                          other_information:
+                            - >-
+                              Function: Leading businessperson close to the
+                              President of the Russian Federation Vladimir
+                              Putin; major shareholder of Evraz; former Governor
+                              of Chukotka
+                            - >-
+                              Associated individuals: the President of the
+                              Russian Federation Vladimir Putin
+                          citizenship_remarks:
+                            - Russian Federation
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: ch_sanction_list
+                        source_unique_id: >-
+                          sanction_ch_sanction_list_2405da876b6e0d7dfae9e0589ae0da1c6ffa69119f275c6ed1a84292877c42c6
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.764Z'
+                      comment: null
+                    - id: 2107
+                      auditable_id: c22ff4eb-aefd-4853-880d-6bd5313dc546
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Abramovič
+                          gender: MALE
+                          address:
+                            - 1, Lipovaya Aleya, Nemchinovo, Odinsovo district
+                            - Moscow
+                            - RUSSIAN FEDERATION
+                          functions:
+                            - Businessperson. Former governor of Chukotka.
+                          list_date: '1699983333975'
+                          source_id: eu_financial_sanction_list
+                          last_names:
+                            - Abramovič
+                          alias_names:
+                            - Roman Abramovič
+                            - Abramovič
+                            - Abramovici
+                            - Roman Abramovici
+                            - АБРАМОВИЧ
+                            - Роман Аркадьевич АБРАМОВИЧ
+                            - ABRAMOVITJ
+                            - Roman Arkadjevitj ABRAMOVITJ
+                            - ABRAMOVICH
+                            - Roman Arkadyevich ABRAMOVICH
+                          citizenship:
+                            - RU
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov
+                            - RU
+                            - RUSSIAN FEDERATION
+                          sanction_details:
+                            - '2023-09-15'
+                            - UKR
+                          alias_given_names:
+                            - Roman
+                            - Роман
+                            - Аркадьевич
+                            - Arkadjevitj
+                            - Arkadyevich
+                          citizenship_remarks:
+                            - RUSSIAN FEDERATION
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: eu_financial_sanction_list
+                        source_unique_id: >-
+                          sanction_eu_financial_sanction_list_019c2ddfb1e3bfff364d37abd58f6f8ddad9ff005b6af9a7f2ca810dd2e92db1
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.767Z'
+                      comment: null
+                    - id: 2108
+                      auditable_id: 0693c351-e809-43f7-921a-cef8ea0c4b3a
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Arkadyevich ABRAMOVICH
+                          links:
+                            - >-
+                              https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/consolidated-consolide.aspx
+                          gender: UNKNOWN
+                          list_date: '0'
+                          source_id: ca_global_affairs_sanction_list
+                          last_names:
+                            - ABRAMOVICH
+                          alias_names:
+                            - Роман Аркадьевич Абрамович
+                          citizenship:
+                            - RU
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman Arkadyevich
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 00/00/1966
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: ca_global_affairs_sanction_list
+                        source_unique_id: >-
+                          sanction_ca_global_affairs_sanction_list_51ae9eef6124faf8c2a247c450cd156abd788dc89b20da399bf03f20ba1490d3
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.770Z'
+                      comment: null
+                    - id: 2109
+                      auditable_id: aae50bc2-e3cd-4f07-8dbf-8ca91aa33a7e
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Arkadyevich ABRAMOVICH
+                          links:
+                            - >-
+                              https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list
+                          gender: UNKNOWN
+                          list_date: '0'
+                          source_id: >-
+                            au_australian_department_of_foreign_affairs_and_trade_sanction_list
+                          last_names:
+                            - Roman Arkadyevich ABRAMOVICH
+                          entity_type: INDIVIDUAL
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov, Russia
+                          sanction_details:
+                            - >-
+                              Instrument of first designation and declaration
+                              Autonomous Sanctions (Designated Persons and
+                              Entities and Declared Persons—Ukraine) Amendment
+                              (No. 6) Instrument 2022
+                          other_information:
+                            - Owner of Millhouse Capital
+                            - Autonomous (Russia and Ukraine)
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: >-
+                          au_australian_department_of_foreign_affairs_and_trade_sanction_list
+                        source_unique_id: >-
+                          sanction_au_australian_department_of_foreign_affairs_and_trade_sanction_list_51ae9eef6124faf8c2a247c450cd156abd788dc89b20da399bf03f20ba1490d3
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.777Z'
+                      comment: null
+                    - id: 2110
+                      auditable_id: bed4854e-7cad-4498-9e61-8c6f018d1ba7
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: ABRAMOVICH
+                          links:
+                            - https://gels-avoirs.dgtresor.gouv.fr/List
+                            - >-
+                              https://gels-avoirs.dgtresor.gouv.fr/Gels/RegistreDetail?idRegistre=4484
+                          gender: MALE
+                          titles:
+                            - >-
+                              homme d’affaires influent proche de Vladimir
+                              Poutine;
+                            - Actionnaire principal d’Evraz
+                            - Ancien gouverneur de Tchoukotka
+                          address:
+                            - >-
+                              1 Lipovaya Aleya, Nemchinovo, district d'Odinstvo,
+                              Moscou, Russie
+                          list_date: '1700006400000'
+                          source_id: fr_tresor_registre_national_des_gels_sanction_list
+                          alias_names:
+                            - Роман Аркадьевич АБРАМОВИЧ
+                          citizenship:
+                            - RU
+                          entity_type: INDIVIDUAL
+                          given_names:
+                            - Roman Arkadyevich
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          place_of_birth:
+                            - Saratov
+                            - RUSSIE
+                          sanction_details:
+                            - >-
+                              Personne associée: le président de la Fédération
+                              de Russie Vladimir Poutine. Roman Abramovich est
+                              un homme d’affaires influent russe qui entretient
+                              des liens étroits et de longue date avec le
+                              président de la Fédération de Russie Vladimir
+                              Poutine. Il a bénéficié d’un accès privilégié au
+                              président et conserve de très bonnes relations
+                              avec lui. Ce lien avec le dirigeant russe l’a aidé
+                              à préserver sa fortune qui est considérable. Il
+                              est l’un des principaux actionnaires du groupe
+                              sidérurgique Evraz, qui est l’un des plus grands
+                              contribuables de la Russie. Il tire donc avantage
+                              de décideurs russes responsables de l’annexion de
+                              la Crimée ou de la déstabilisation de l’Ukraine.
+                              Il est également un homme d’affaires russe
+                              influent exerçant des activités en Russie ainsi
+                              qu’un homme d’affaires intervenant dans des
+                              secteurs économiques constituant une source
+                              substantielle de revenus pour le gouvernement de
+                              la Fédération de Russie, qui est responsable de
+                              l’annexion de la Crimée et de la déstabilisation
+                              de l’Ukraine.
+                            - >-
+                              (UE) 2022/427 du 15/03/2022 (UE Ukraine intégrité
+                              territoriale - R (UE) 269/2014)
+                            - >-
+                              (UE) 2022/1529 du 14/09/2022 (UE Ukraine intégrité
+                              territoriale - R (UE) 269/2014)
+                            - >-
+                              (UE) 2023/806 du 13/04/2023 (UE Ukraine intégrité
+                              territoriale - R (UE) 269/2014)
+                            - >-
+                              (UE) 2023/1765 du 13/09/2023 (UE Ukraine intégrité
+                              territoriale - R (UE) 269/2014)
+                          other_information:
+                            - EU.7792.75
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: fr_tresor_registre_national_des_gels_sanction_list
+                        source_unique_id: >-
+                          sanction_fr_tresor_registre_national_des_gels_sanction_list_79f8cafa76315aa654292342b4f5bb671c6aa6cb3f9b6bff308c6242e46fb9ae
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.780Z'
+                      comment: null
+                    - id: 2111
+                      auditable_id: 274d94c6-85f7-4237-a699-4db0d00b82f2
+                      auditable_type: Trust::Issue
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: create
+                      audited_changes:
+                        report:
+                          name: Roman Arkadyevich Abramovich
+                          links:
+                            - >-
+                              https://www.mfat.govt.nz/en/countries-and-regions/europe/ukraine/russian-invasion-of-ukraine/sanctions
+                          gender: UNKNOWN
+                          list_date: '0'
+                          positions:
+                            - Owner of Millhouse Capital
+                          source_id: nz_mfat_russian_sanctions
+                          citizenship:
+                            - RU
+                          entity_type: INDIVIDUAL
+                          source_type: SANCTION
+                          date_of_birth:
+                            - 24/10/1966
+                          sanction_details:
+                            - 'Sanction Status: Sanctioned'
+                            - 'Date of Sanction: 2022-04-05 00:00:00'
+                            - 'Date of Additional Sanction: NaT'
+                            - 'Travel Ban: Yes'
+                            - 'Asset Freeze: Yes'
+                            - 'Aircraft Ban: Yes'
+                            - 'Ship Ban: Yes'
+                            - 'Service Prohibition: Yes'
+                            - 'Dealing with Securities: Yes'
+                            - >-
+                              General Rationale for Sanction: Person of
+                              strategic or economic significance to Russia
+                        source: dilisense
+                        comment: null
+                        category: sanction
+                        relevant: null
+                        entity_id: 20b45753-5b10-47d4-96de-ef529e773d7a
+                        review_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                        entity_type: Person
+                        source_list_name: nz_mfat_russian_sanctions
+                        source_unique_id: >-
+                          sanction_nz_mfat_russian_sanctions_404ee1bdcbc98dacbe26335418932e93bc3ae448aadd96178482d313f51711d9
+                      version: 1
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.783Z'
+                      comment: null
+                    - id: 2112
+                      auditable_id: 824fe2c9-a8bc-4266-8888-a40a6e83eac4
+                      auditable_type: Trust::VerificationCart
+                      associated_id: bba9d483-98bd-487c-bb7c-a77ddb615ff3
+                      associated_type: Review
+                      user_id: 08bbaf57-8d92-40b6-815d-086ee24ab3c6
+                      user_type: User
+                      username: null
+                      action: update
+                      audited_changes:
+                        people:
+                          - - 20b45753-5b10-47d4-96de-ef529e773d7a
+                          - []
+                      version: 3
+                      remote_address: 127.0.0.1
+                      request_uuid: 865a0c73-8c4f-4d43-b63e-24e337b6635c
+                      created_at: '2023-11-23T12:20:22.787Z'
+                      comment: null
   /api/v1/invites/individuals:
     post:
       tags:
