@@ -17,11 +17,11 @@ Gatenox API offers you the ability to:
 
 Here is the open API specification of our services:
 
-{% file src="../../.gitbook/assets/gatenox_api_1_3_1.yaml" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_3_2.yaml" %}
 Gatenox API
 {% endfile %}
 
-
+The previous versions of the API specification can be found here: [api-versions-history.md](api-versions-history.md "mention").
 
 {% hint style="info" %}
 For some endpoints, you may need your verifierID identificator. You can check it on the Settings page on the Company Infomation tab ([company-information.md](../../general-settings/company-information.md "mention")).

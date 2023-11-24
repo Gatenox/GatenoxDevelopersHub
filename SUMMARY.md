@@ -21,6 +21,7 @@
   * [Corporate verifications](gatenox-api/api-reference/corporate-verifications.md)
   * [Verified crypto addresses](gatenox-api/api-reference/verified-crypto-addresses.md)
   * [Comprehensive screening](gatenox-api/api-reference/comprehensive-screening.md)
+  * [API versions - history](gatenox-api/api-reference/api-versions-history.md)
 
 ## ID Node - how to ... ? <a href="#id-node-how-to" id="id-node-how-to"></a>
 
