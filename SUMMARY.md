@@ -4,24 +4,19 @@
 
 * [Introduction](README.md)
 
-## Examples
-
-* [Example data - overview](examples/exampledata.md)
-* [Videos tutorials](sandbox/videos-tutorials.md)
-
 ## Gatenox API
 
-* [Overview](gatenox-api/overview.md)
-* [Authentication](gatenox-api/authentication.md)
-* [Rate limiting](gatenox-api/rate-limiting.md)
-* [Errors](gatenox-api/errors.md)
-* [Webhooks](gatenox-api/webhooks.md)
+* [Overview](gatenox-api/overview/README.md)
+  * [Authentication](gatenox-api/overview/authentication.md)
+  * [Rate limiting](gatenox-api/overview/rate-limiting.md)
+  * [Errors](gatenox-api/overview/errors.md)
 * [API reference](gatenox-api/api-reference/README.md)
   * [Individual verifications](gatenox-api/api-reference/individual-verifications.md)
   * [Corporate verifications](gatenox-api/api-reference/corporate-verifications.md)
   * [Verified crypto addresses](gatenox-api/api-reference/verified-crypto-addresses.md)
   * [Comprehensive screening](gatenox-api/api-reference/comprehensive-screening.md)
   * [API versions - history](gatenox-api/api-reference/api-versions-history.md)
+* [Webhooks](gatenox-api/webhooks.md)
 
 ## ID Node - how to ... ? <a href="#id-node-how-to" id="id-node-how-to"></a>
 
@@ -67,7 +62,6 @@
   * [Send the invitation for Individual KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
   * [Apply via Gatenox](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
   * [Integration options with Gatenox HUB](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/integration-options-with-gatenox-hub.md)
-  * [Integration options with Gatenox Hub](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/integration-options-with-gatenox-hub-1.md)
 * [Cases management](compliance-cloud-how-to/cases-management.md)
 * [Risk assessment](compliance-cloud-how-to/risk-assessment/README.md)
   * [Summary](compliance-cloud-how-to/risk-assessment/summary.md)
