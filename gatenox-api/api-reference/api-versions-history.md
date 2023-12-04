@@ -10,6 +10,20 @@ Explore the timeline to gain insights into the enhancements, updates, and optimi
 
 Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
+##
+
+## API version 1.3.4
+
+:date: Publish date: **2023-11-30**
+
+:notebook: Release notes:
+
+1. Add "personal\_verification\_id" to connect invitations with verifications ( [individual-verifications.md](individual-verifications.md "mention")).
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_3_4 (1).yaml" %}
+
 ## API version 1.3.2
 
 :date: Publish date: **2023-11-23**
@@ -18,6 +32,7 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
 1. Add API support for sanctions / PEP / criminal records check without creating the case.
 2. Add API support for crypto address verification (report) without creating the case.
+3. Add audit log information to the details in the individual verification endpoint.
 
 :file\_folder: File:
 
