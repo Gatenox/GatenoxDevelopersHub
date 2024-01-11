@@ -28,7 +28,7 @@ If the user decides to add a new UBO, the following fields will be displayed:
 * Date of birth: This field is used to enter the date of birth of the UBO.
 * Why is this person referred to as a UBO?: This field is used to enter a brief explanation of why this person is considered a UBO.
 
-<figure><img src="../../../.gitbook/assets/UBOs.png" alt="UBOs"><figcaption><p>UBOs</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/UBOs (4).png" alt="UBOs"><figcaption><p>UBOs</p></figcaption></figure>
 
 Users can select a new UBO from the previously defined list or add a new one. Users can also edit an existing UBO by clicking on the pencil icon next to their name.
 

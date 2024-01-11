@@ -4,7 +4,7 @@
 
 Upon opening a review, Gatenox Hub performs a verification of entities against internal databases. The outcome of the sanctions screening is displayed in the "Summary" section of the review.
 
-<figure><img src="../../.gitbook/assets/Identified_issues_found (2).png" alt=""><figcaption><p>Review details - sanctions found</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Identified_issues_found.png" alt=""><figcaption><p>Review details - sanctions found</p></figcaption></figure>
 
 {% hint style="danger" %}
 Pay attention to records displayed in this section - it depends on you if the result is relevant for your business or not.

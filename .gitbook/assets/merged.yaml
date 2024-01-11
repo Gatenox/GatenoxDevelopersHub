@@ -3,7 +3,7 @@ info:
   title: Enterprise API
   version: 1.0.0
 servers:
-  - url: https://api.kyb.gatenox.com
+  - url: http://localhost:3000
     description: Gatenox API domain
 components:
   securitySchemes:

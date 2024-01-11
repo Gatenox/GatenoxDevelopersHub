@@ -1,188 +1,131 @@
-{
-  "openapi": "3.0.0",
-  "info": {
-    "title": "KYB",
-    "version": "1.0.0"
-  },
-  "servers": [
-    {
-      "url": "https://kyb-api.dev.gatenox.com",
-      "description": "Heroku Dev Environment"
-    },
-    {
-      "url": "https://api.kyb.gatenox.com",
-      "description": "Heroku Dev Environment"
-    },
-    {
-      "url": "http://localhost:3000",
-      "description": "Local development server"
-    }
-  ],
-  "components": {
-    "securitySchemes": {
-      "basicAuth": {
-        "type": "http",
-        "scheme": "basic"
-      },
-      "bearerAuth": {
-        "type": "http",
-        "scheme": "bearer"
-      }
-    }
-  },
-  "security": [
-    {
-      "bearerAuth": []
-    }
-  ],
-  "tags": [
-    {
-      "name": "Enterprise API"
-    }
-  ],
-  "paths": {
-    "/api/v1/verifications": {
-      "get": {
-        "tags": [
-          "Enterprise API"
-        ],
-        "summary": "Verifications Index",
-        "security": [
-          {
-            "bearerAuth": []
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "headers": {
-              "X-Frame-Options": {
-                "schema": {
-                  "type": "string",
-                  "example": "SAMEORIGIN"
-                }
-              },
-              "X-XSS-Protection": {
-                "schema": {
-                  "type": "integer",
-                  "example": "0"
-                }
-              },
-              "X-Content-Type-Options": {
-                "schema": {
-                  "type": "string",
-                  "example": "nosniff"
-                }
-              },
-              "X-Download-Options": {
-                "schema": {
-                  "type": "string",
-                  "example": "noopen"
-                }
-              },
-              "X-Permitted-Cross-Domain-Policies": {
-                "schema": {
-                  "type": "string",
-                  "example": "none"
-                }
-              },
-              "Referrer-Policy": {
-                "schema": {
-                  "type": "string",
-                  "example": "strict-origin-when-cross-origin"
-                }
-              },
-              "Content-Type": {
-                "schema": {
-                  "type": "string",
-                  "example": "application/json; charset=utf-8"
-                }
-              },
-              "Vary": {
-                "schema": {
-                  "type": "string",
-                  "example": "Accept, Origin"
-                }
-              },
-              "Set-Cookie": {
-                "schema": {
-                  "type": "string",
-                  "example": "__profilin=p%3Dt; path=/; HttpOnly; SameSite=Lax"
-                }
-              },
-              "Cache-Control": {
-                "schema": {
-                  "type": "string",
-                  "example": "no-store, must-revalidate, private, max-age=0"
-                }
-              },
-              "X-Request-Id": {
-                "schema": {
-                  "type": "string",
-                  "example": "840fc7bf-7962-48c2-a935-070d94a75ee0"
-                }
-              },
-              "X-Runtime": {
-                "schema": {
-                  "type": "number",
-                  "example": "0.311259"
-                }
-              },
-              "Server-Timing": {
-                "schema": {
-                  "type": "string",
-                  "example": "sql.active_record;dur=32.52, start_processing.action_controller;dur=0.10, instantiation.active_record;dur=6.59, cache_read.active_support;dur=0.19, cache_generate.active_support;dur=3.15, cache_write.active_support;dur=0.22, cache_fetch_hit.active_support;dur=0.00, process_action.action_controller;dur=50.27"
-                }
-              },
-              "X-MiniProfiler-Original-Cache-Control": {
-                "schema": {
-                  "type": "string",
-                  "example": "max-age=0, private, must-revalidate"
-                }
-              },
-              "X-MiniProfiler-Ids": {
-                "schema": {
-                  "type": "string",
-                  "example": "2ngyo7fenraikpz37m26,jj8edfbidx31nt1tmo9p,zor5alr3h3s1dmsivdqr,c3nskowy6bmnywoms8ji,1wlqdm7a7nhu72ct4wdv,xj26jvjvfx5w2ljpvbdn,tab91uvzdnfb7vjlsykv,il5fchap3jjvkag31ydc,pose9bs1ikrbbgpg26xd,rwfoh5raimz433hvr7xo,awm2sgo0zcd71piu43tl,a9tzvafmcl9x0kkt8i0c,qiqgn99nk0fhewf0p4j9,zmg2sr5heute79mbmk9f,7jjlvcnox8ex29ueoprc,72hp8a4l7fu9f7sl1hct,s8vf1sk67diuzsico34m,uchyfacmqzfbouxsp7vw,gj7wyrnqw5u00cn55nun,cyk0hg9djze4zvpy2add"
-                }
-              },
-              "Transfer-Encoding": {
-                "schema": {
-                  "type": "string",
-                  "example": "chunked"
-                }
-              }
-            },
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object"
-                },
-                "example": {
-                  "verifications": [
-                    {
-                      "id": "1b3d7d7d-6b03-4524-903c-4841f46837bd",
-                      "company_name": "Gatenox Partner",
-                      "company_number": "XYZ 123",
-                      "status": "new",
-                      "created_at": "2023-01-20T00:27:22.824Z",
-                      "updated_at": "2023-01-31T21:14:56.983Z",
-                      "company_jurisidiction": {
-                        "id": "c8eef49d-486a-4402-8c07-485f6c6dc78b",
-                        "code": "ae_uq",
-                        "name": "Umm Al-quwain",
-                        "country": "United Arab Emirates",
-                        "full_name": "Umm Al-quwain (United Arab Emirates)"
-                      },
-                      "assigned_to": null
-                    }
-                  ]
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+openapi: 3.0.0
+info:
+  title: KYB
+  version: 1.0.0
+servers:
+  - url: 'https://kyb-api.dev.gatenox.com'
+    description: Heroku Dev Environment
+  - url: 'https://api.kyb.gatenox.com'
+    description: Heroku Dev Environment
+  - url: 'http://localhost:3000'
+    description: Local development server
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    bearerAuth:
+      type: http
+      scheme: bearer
+security:
+  - bearerAuth: []
+tags:
+  - name: Enterprise API
+
+paths:
+  /api/v1/verifications:
+    get:
+      tags:
+        - Enterprise API
+      summary: Verifications Index
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: strict-origin-when-cross-origin
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Vary:
+              schema:
+                type: string
+                example: 'Accept, Origin'
+            Set-Cookie:
+              schema:
+                type: string
+                example: __profilin=p%3Dt; path=/; HttpOnly; SameSite=Lax
+            Cache-Control:
+              schema:
+                type: string
+                example: 'no-store, must-revalidate, private, max-age=0'
+            X-Request-Id:
+              schema:
+                type: string
+                example: 840fc7bf-7962-48c2-a935-070d94a75ee0
+            X-Runtime:
+              schema:
+                type: number
+                example: '0.311259'
+            Server-Timing:
+              schema:
+                type: string
+                example: >-
+                  sql.active_record;dur=32.52,
+                  start_processing.action_controller;dur=0.10,
+                  instantiation.active_record;dur=6.59,
+                  cache_read.active_support;dur=0.19,
+                  cache_generate.active_support;dur=3.15,
+                  cache_write.active_support;dur=0.22,
+                  cache_fetch_hit.active_support;dur=0.00,
+                  process_action.action_controller;dur=50.27
+            X-MiniProfiler-Original-Cache-Control:
+              schema:
+                type: string
+                example: 'max-age=0, private, must-revalidate'
+            X-MiniProfiler-Ids:
+              schema:
+                type: string
+                example: >-
+                  2ngyo7fenraikpz37m26,jj8edfbidx31nt1tmo9p,zor5alr3h3s1dmsivdqr,c3nskowy6bmnywoms8ji,1wlqdm7a7nhu72ct4wdv,xj26jvjvfx5w2ljpvbdn,tab91uvzdnfb7vjlsykv,il5fchap3jjvkag31ydc,pose9bs1ikrbbgpg26xd,rwfoh5raimz433hvr7xo,awm2sgo0zcd71piu43tl,a9tzvafmcl9x0kkt8i0c,qiqgn99nk0fhewf0p4j9,zmg2sr5heute79mbmk9f,7jjlvcnox8ex29ueoprc,72hp8a4l7fu9f7sl1hct,s8vf1sk67diuzsico34m,uchyfacmqzfbouxsp7vw,gj7wyrnqw5u00cn55nun,cyk0hg9djze4zvpy2add
+            Transfer-Encoding:
+              schema:
+                type: string
+                example: chunked
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                verifications:
+                  - id: 1b3d7d7d-6b03-4524-903c-4841f46837bd
+                    company_name: Gatenox Partner
+                    company_number: XYZ 123
+                    status: new
+                    created_at: '2023-01-20T00:27:22.824Z'
+                    updated_at: '2023-01-31T21:14:56.983Z'
+                    company_jurisidiction:
+                      id: c8eef49d-486a-4402-8c07-485f6c6dc78b
+                      code: ae_uq
+                      name: Umm Al-quwain
+                      country: United Arab Emirates
+                      full_name: Umm Al-quwain (United Arab Emirates)
+                    assigned_to: null
+definitions: {}
+parameters: {}
+responses: {}

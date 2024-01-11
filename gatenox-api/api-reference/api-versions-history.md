@@ -12,6 +12,18 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
 ##
 
+## API version 1.3.5
+
+:date: Publish date: **2024-01-11**
+
+:notebook: Release notes:
+
+1. Add "customer\_id" to connect invitations and verifications with external systems ( [individual-verifications.md](individual-verifications.md "mention")).
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" %}
+
 ## API version 1.3.4
 
 :date: Publish date: **2023-11-30**
@@ -22,7 +34,7 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
 :file\_folder: File:
 
-{% file src="../../.gitbook/assets/gatenox_api_1_3_4 (1).yaml" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_3_4 .yaml" %}
 
 ## API version 1.3.2
 
