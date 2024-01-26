@@ -36,5 +36,8 @@ The endpoint's body requires the following values to be included in the request:
 [gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
 {% endswagger %}
 
+### Individual documents&#x20;
 
-
+{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% endswagger %}
