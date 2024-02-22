@@ -10,7 +10,7 @@ Explore the timeline to gain insights into the enhancements, updates, and optimi
 
 Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
-##
+
 
 ## API version 1.3.5
 

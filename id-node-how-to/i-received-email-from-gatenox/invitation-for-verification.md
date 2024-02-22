@@ -23,11 +23,11 @@ In both cases, the amount of information required to be completed depends on the
 
 * Sometimes, when you have already onboarded to another company, your profile may include all required information and all you need to do is to press the "Send for review" button. Learn more here: [share-my-profile.md](../share-company-profile/share-my-profile.md "mention").
 
-<figure><img src="../../.gitbook/assets/Onboarding_primary_ready (1).png" alt=""><figcaption><p>Current onboarding - all required data provided</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding_primary_ready2.png" alt=""><figcaption><p>Current onboarding - all required data provided</p></figcaption></figure>
 
 * Sometimes, only 1-2 additional fields are required. You will see the appropriate notifications on your profile. Learn more here: [complete-required-company-data.md](../share-company-profile/complete-required-company-data.md "mention").
 
-<figure><img src="../../.gitbook/assets/Onboarding_missing_data.png" alt=""><figcaption><p>Current onboarding - some required data is missing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding_missing_data2.png" alt=""><figcaption><p>Current onboarding - some required data is missing</p></figcaption></figure>
 
 * If you have just created a Gatenox account, you will need to create the profile from scratch. Do not worry - we will try to facilitate the process for you! After providing the company number and jurisdiction we will try to complete your profile with any available data from the company register and other data sources. At the beginning, you will see the company add screen. Learn more about creating your profile here: [add-new-company.md](../create-and-complete-company-profile/add-new-company.md "mention").
 

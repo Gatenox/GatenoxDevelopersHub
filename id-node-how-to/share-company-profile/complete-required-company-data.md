@@ -2,7 +2,7 @@
 
 The "Company Profile" screen provides a summary of their current onboarding progress and company profile information. This screen also displays notifications about any missing information that is required to complete the onboarding process.
 
-<figure><img src="../../.gitbook/assets/Onboarding_missing_data.png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding_missing_data2.png" alt="Current onboarding - missing data required by Partner"><figcaption><p>Current onboarding - missing data required by Partner</p></figcaption></figure>
 
 The notifications are grouped into nine areas, plus a "Summary" section:
 

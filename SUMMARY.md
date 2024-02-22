@@ -3,6 +3,7 @@
 ## Gatenox guide
 
 * [Introduction](README.md)
+* [What's new?](gatenox-guide/whats-new.md)
 
 ## Gatenox API
 
