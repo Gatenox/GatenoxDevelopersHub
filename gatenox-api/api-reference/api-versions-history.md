@@ -10,6 +10,10 @@ Explore the timeline to gain insights into the enhancements, updates, and optimi
 
 Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 
+{% hint style="info" %}
+If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
+{% endhint %}
+
 
 
 ## API version 1.3.5
