@@ -6,6 +6,10 @@ description: >-
 
 # What's new?
 
+{% hint style="info" %}
+If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
+{% endhint %}
+
 ### 2024-02-21
 
 The new KYC provider has been integrated [kyc-process](../id-node-how-to/kyc-process/ "mention")
