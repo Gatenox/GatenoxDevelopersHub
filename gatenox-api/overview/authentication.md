@@ -6,10 +6,6 @@ description: >-
 
 # Authentication
 
-{% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
-{% endhint %}
-
 The Gatenox API uses company access tokens to authenticate requests. You can view and manage your access tokens in the [Company information](broken-reference) tab in the Settings menu of your Gatenox company account.
 
 API requests are authenticated using the [Bearer Auth scheme](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication\_schemes). To authenticate a request, provide the token in the `Authorization` header of the request:

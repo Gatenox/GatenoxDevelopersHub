@@ -6,10 +6,6 @@ description: >-
 
 # Overview
 
-{% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
-{% endhint %}
-
 ### Welcome to the Gatenox API!
 
 Gatenox API is a powerful tool that allows you to easily access and manage verification data.

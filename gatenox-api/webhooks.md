@@ -4,10 +4,6 @@ description: Get notification from Compliance Cloud about your data
 
 # Webhooks
 
-{% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
-{% endhint %}
-
 Gatenox webhooks are an important feature that allows downstream systems to receive notifications of the status of Customer KYC Applications.&#x20;
 
 The webhook notifications are highly customizable, allowing you to choose the types of events you want to receive notifications for (new application received, changes made, process completed). This means that you can tailor the notifications to your specific needs and preferences, ensuring that you receive the information you need in a timely and effective manner.

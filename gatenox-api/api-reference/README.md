@@ -6,10 +6,6 @@ description: >-
 
 # API reference
 
-{% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
-{% endhint %}
-
 Gatenox API offers you the ability to:
 
 * check the status and result of incoming corporate and individual verifications
@@ -17,7 +13,7 @@ Gatenox API offers you the ability to:
 
 Here is the open API specification of our services:
 
-{% file src="../../.gitbook/assets/gatenox_api_1_3_2.yaml" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" %}
 Gatenox API
 {% endfile %}
 

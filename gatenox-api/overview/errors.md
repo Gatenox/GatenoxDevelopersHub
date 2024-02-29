@@ -6,10 +6,6 @@ description: >-
 
 # Errors
 
-{% hint style="info" %}
-The Gatenox API is currently in **beta** version. This means you should not rely on its availability, and that it may change without prior warning.
-{% endhint %}
-
 Gatenox API uses conventional HTTP response codes to indicate the success or failure of an API request.
 
 As a general rule:
