@@ -20,7 +20,7 @@ The main component of the review screen displays the data set, as per the user's
 
 The left side of the screen contains links to various review sections, along with a small version of the company structure graph for added reference and a list of previous cases for this company. The list is organized as links so the Compliance Officer can easily open the case view in a separate window.&#x20;
 
-<figure><img src="../../.gitbook/assets/Review_screen_overview (1).png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Review screen overview.png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
 
 
 
@@ -45,3 +45,11 @@ Each case is organized into eight primary components as follows:
 {% hint style="info" %}
 The visibility of certain sections may be dependent on the user's specific data set requirements. Therefore, some sections may not be visible.
 {% endhint %}
+
+### Review progress
+
+Each tab shows the status of the analysis. After reviewing the section, you can mark it as reviewed using the enabled placed on the top right under the section header.
+
+The green thick in the circle represents the section already reviewed, while the grey circle indicates the analysis remaining to be performed.
+
+<figure><img src="../../.gitbook/assets/Review screen overview - section reviewed (1).png" alt=""><figcaption><p>Review status</p></figcaption></figure>

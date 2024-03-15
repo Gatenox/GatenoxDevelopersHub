@@ -16,10 +16,11 @@ Here is a brief description of each field:
 2. Date of Incorporation: This field allows users to enter the date on which their company was officially incorporated. This is important for legal and regulatory compliance.
 3. Business Type: This field allows users to specify the type of business their company engages in. This could include manufacturing, retail, service, or other types of businesses.
 4. A public company listed on the stock exchange - this field indicates if the company is listed on the stock exchange.
-5. Business Size: This field allows users to indicate the size of their company in terms of the number of employees, annual revenue, or other relevant metrics.
-6. Business description: This field allows users to provide a brief overview of their company, including its history, mission, and values.
-7. Product and Services Description: This field allows users to describe the products or services that their company offers. This could include information about pricing, features, and benefits.
-8. Locations of Activity: This field allows users to specify the geographical locations where their company operates. This could include specific cities, regions, or countries.
+5. Industry: The field allows users to provide the industry that best suites their business activity.
+6. Business Size: This field allows users to indicate the size of their company in terms of the number of employees, annual revenue, or other relevant metrics.
+7. Business Description: This field allows users to provide a brief overview of their company, including its history, mission, and values.
+8. Product and Services Description: This field allows users to describe their company's products or services. This could include information about pricing, features, and benefits.
+9. Locations of Activity: This field allows users to specify the geographical locations where their company operates. This could include specific cities, regions, or countries.
 
 <figure><img src="../../../.gitbook/assets/BusinessDetialsNW.png" alt="Business Details"><figcaption><p>Business Details</p></figcaption></figure>
 

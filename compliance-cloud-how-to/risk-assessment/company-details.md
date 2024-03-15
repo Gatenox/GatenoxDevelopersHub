@@ -20,12 +20,14 @@ The visibility of certain data may be dependent on the user's specific data set 
 
 Within this section, users can access a list of crypto addresses (if required) associated with the company under review. Each address can be verified by selecting the corresponding checkbox and adding it to the verification basket. Upon clicking on the "Verify" button, a request for the report will be initiated.
 
+<figure><img src="../../.gitbook/assets/CC_crypto_address_verification (2).png" alt="Review - crypto address verification"><figcaption><p>Review - crypto address verification</p></figcaption></figure>
+
+
+
 {% hint style="warning" %}
-Please note that the report generation process may take a few seconds to complete. Please refresh the screen to get the report.
+Please note that the report generation process may take up to 1 minute to complete.  You can use the refresh button (placed above the list) to show the current status of the generation process.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CC_crypto_address_verification.png" alt="Review - crypto address verification"><figcaption><p>Review - crypto address verification</p></figcaption></figure>
+After the report is generated, users should be presented with the crypto address score and a description of the associated risk. If a full report is required, users can access it by clicking on the "Download Full Report" link.
 
-Upon refreshing the screen, users should be presented with the crypto address score and a description of the associated risk. If a full report is required, users can access it by clicking on the "Download Full Report" link.
-
-<figure><img src="../../.gitbook/assets/CC_crypto_address_verification_result.png" alt="Review - crypto address verification result"><figcaption><p>Review - crypto address verification result</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CC_crypto_address_verification_result (2).png" alt="Review - crypto address verification result"><figcaption><p>Review - crypto address verification result</p></figcaption></figure>

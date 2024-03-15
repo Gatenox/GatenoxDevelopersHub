@@ -10,6 +10,21 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-03-13
+
+1. Allow to mark section as reviewed during the risk assessment process [#review-progress](../compliance-cloud-how-to/risk-assessment/#review-progress "mention")
+2. Allow to return the case from QA for additional analysis [#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention") and[#assessment-with-qa](../compliance-cloud-how-to/risk-assessment/final-assessment.md#assessment-with-qa "mention")
+3. The industry list has been expanded  [#fields](../id-node-how-to/create-and-complete-company-profile/manage-company-details/business-details.md#fields "mention")
+4. Add a button to refresh the crypto address wallet report list [check-crypto-addresses.md](../compliance-cloud-how-to/comprehensive-screening/check-crypto-addresses.md "mention")
+
+Bug fixes:
+
+* Performance optimized,
+* Updated RWD design to correctly display Gatenox Hub on mobile devices,
+* Show the "Identified issues" tab, even if no entity is found on sanctions lists,
+* Hide the "Continue" button, while adding a person/company to the list,
+* Other minor fixes.
+
 ### 2024-02-28
 
 New data is allowed to be collected for individuals: email address and crypto wallet.
