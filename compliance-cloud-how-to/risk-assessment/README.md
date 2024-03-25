@@ -20,7 +20,7 @@ The main component of the review screen displays the data set, as per the user's
 
 The left side of the screen contains links to various review sections, along with a small version of the company structure graph for added reference and a list of previous cases for this company. The list is organized as links so the Compliance Officer can easily open the case view in a separate window.&#x20;
 
-<figure><img src="../../.gitbook/assets/Review screen overview.png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Review company (2).png" alt=""><figcaption><p>The review screen</p></figcaption></figure>
 
 
 
@@ -39,7 +39,8 @@ Each case is organized into eight primary components as follows:
 * **Company Structure**: This section displays all shareholders, with this component connected to the company structure graph visible at the top of the review page.
 * **Identified Issues**: This section highlights any identified potential issues, such as the presence of company entities or individuals on sanctions, PEP, or criminal lists.
 * **Files**: This section displays all company-related files attached to the review.
-* **Document AI** - this feature allows the Compliance Officer to chat with AI to for example summarize or translate the document, find data in the text, and ask a question about the document. More information can be found here: [document-ai.md](document-ai.md "mention").
+* **Additional files:** This section displays additional files related to the case and uploaded by the compliance team.
+* **Document AI:** this feature allows the Compliance Officer to chat with AI to for example summarize or translate the document, find data in the text, and ask a question about the document. More information can be found here: [document-ai.md](document-ai.md "mention").
 * **Assessment**: This section enables the user to accept or reject the application and include summary notes as needed.
 
 {% hint style="info" %}

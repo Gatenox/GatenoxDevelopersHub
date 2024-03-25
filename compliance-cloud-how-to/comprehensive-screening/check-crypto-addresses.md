@@ -30,6 +30,10 @@ To request for crypto address report:
 
 <figure><img src="../../.gitbook/assets/CheckCryptoAddress_request.png" alt=""><figcaption><p>Check crypto addresses - request for verification</p></figcaption></figure>
 
+{% hint style="danger" %}
+You will be redirected back to the crypto address report list. All the filters will be clear and you can find your newly requested report at the top.
+{% endhint %}
+
 After the report generation is finished, the information about the risk score associated with the crypto address will be displayed. Click on the item on the list to display the report. You can download the report using link in the top right corner of the modal.
 
 <figure><img src="../../.gitbook/assets/CheckCryptoAddress_report.png" alt=""><figcaption><p>Check crypto addresses - report</p></figcaption></figure>

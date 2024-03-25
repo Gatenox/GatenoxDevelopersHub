@@ -10,6 +10,12 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-03-25
+
+1. Allow the Compliance Officer to mark the sanctions / PEP / criminal records as relevant/irrelevant. [identified-issues.md](../compliance-cloud-how-to/risk-assessment/identified-issues.md "mention")
+2. Allow the Compliance Officer to upload additional files related to the case. [files-1.md](../compliance-cloud-how-to/risk-assessment/files-1.md "mention")
+3. Filters are now cleared after a new request for an entity or crypto address check is performed. [check-crypto-addresses.md](../compliance-cloud-how-to/comprehensive-screening/check-crypto-addresses.md "mention") [check-sanctions-pep-criminal-records.md](../compliance-cloud-how-to/comprehensive-screening/check-sanctions-pep-criminal-records.md "mention")
+
 ### 2024-03-13
 
 1. Allow to mark section as reviewed during the risk assessment process [#review-progress](../compliance-cloud-how-to/risk-assessment/#review-progress "mention")
@@ -27,7 +33,7 @@ Bug fixes:
 
 ### 2024-02-28
 
-New data is allowed to be collected for individuals: email address and crypto wallet.
+New data can be collected for individuals: email address and crypto wallet.
 
 ### 2024-02-21
 

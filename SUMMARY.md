@@ -77,6 +77,7 @@
   * [Company structure](compliance-cloud-how-to/risk-assessment/company-structure.md)
   * [Identified issues](compliance-cloud-how-to/risk-assessment/identified-issues.md)
   * [Files](compliance-cloud-how-to/risk-assessment/files.md)
+  * [Additional files](compliance-cloud-how-to/risk-assessment/files-1.md)
   * [Document AI](compliance-cloud-how-to/risk-assessment/document-ai.md)
   * [Entities verification](compliance-cloud-how-to/risk-assessment/entities-verification.md)
   * [Final assessment](compliance-cloud-how-to/risk-assessment/final-assessment.md)

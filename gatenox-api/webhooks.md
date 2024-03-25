@@ -14,28 +14,23 @@ To register your webhook endpoint please follow the guide here: [company-informa
 
 Below you can find an example of the webhook endpoint.
 
-{% swagger method="post" path="/webhook" baseUrl="https://example.com" summary="Webhook endpoint example" %}
-{% swagger-description %}
+## Webhook endpoint example
+
+<mark style="color:green;">`POST`</mark> `https://example.com/webhook`
+
 An example of a webhook endpoint.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="verification_id" type="string" required="true" %}
-Id of verification (review) related to notification.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="event" required="true" type="string" %}
-Event type.
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                          |
+| -------------------------------------------------- | ------ | ---------------------------------------------------- |
+| event<mark style="color:red;">\*</mark>            | string | Event type.                                          |
+| new\_state<mark style="color:red;">\*</mark>       | string | New status of the review process.                    |
+| prev\_state<mark style="color:red;">\*</mark>      | string | Previous status of the review process.               |
+| verification\_id<mark style="color:red;">\*</mark> | string | Id of verification (review) related to notification. |
 
-{% swagger-parameter in="body" name="new_state" type="string" required="true" %}
-New status of the review process.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="prev_state" type="string" required="true" %}
-Previous status of the review process.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```json
 {
   "event": "state_change",
@@ -44,5 +39,5 @@ Previous status of the review process.
   "verification_id": "21c1a29c-68e0-40a5-b6c8-6f85350213b8"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

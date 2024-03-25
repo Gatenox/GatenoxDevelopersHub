@@ -22,6 +22,7 @@ Important notes
 * Always review potential matches carefully and investigate any hits further before taking any action.
 * The standard search is generally faster but covers fewer databases. Use it for routine checks and when entities are expected to appear in the major sanctions lists.
 * The premium service is recommended for high-risk individuals, companies with global exposure, or when comprehensive due diligence is required.
+* After creating a new request, you will be redirected back to the list. All the filters will be clear and you can find your newly requested report at the top.
 {% endhint %}
 
 ### Individuals screening
