@@ -63,6 +63,7 @@
   * [Send the invitation for Individual KYC](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review-1.md)
   * [Apply via Gatenox](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/apply-via-gatenox.md)
   * [Integration options with Gatenox HUB](compliance-cloud-how-to/start-onboarding-customers-with-gatenox/integration-options-with-gatenox-hub.md)
+* [Multiple company profiles](compliance-cloud-how-to/multiple-company-profiles.md)
 * [Cases management](compliance-cloud-how-to/cases-management/README.md)
   * [Corporate verifications](compliance-cloud-how-to/cases-management/corporate-verifications.md)
   * [Individual verifications](compliance-cloud-how-to/cases-management/individual-verifications.md)

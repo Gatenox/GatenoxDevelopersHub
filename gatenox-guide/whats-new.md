@@ -10,6 +10,18 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-04-10
+
+1. Integrate new crypto address report provider - AMLBot ( [#check-crypto-addresses](../compliance-cloud-how-to/comprehensive-screening/#check-crypto-addresses "mention") )
+2. Show the brand name in the profile subtitle ( [manage-company-details](../id-node-how-to/create-and-complete-company-profile/manage-company-details/ "mention") )
+3. Order context list alphabetically ( [multiple-company-profiles.md](../compliance-cloud-how-to/multiple-company-profiles.md "mention") )
+4. Allow to turn on / off email notifications about case status changes ( [account-information.md](../general-settings/account-information.md "mention") ).
+
+Bug fixes:
+
+1. "Add assessment" was not displayed upon opening the case for the first time.
+2. The ToDo list did not display "at\_least" rules (for example "Provide at least one director").
+
 ### 2024-03-25
 
 1. Allow the Compliance Officer to mark the sanctions / PEP / criminal records as relevant/irrelevant. [identified-issues.md](../compliance-cloud-how-to/risk-assessment/identified-issues.md "mention")
