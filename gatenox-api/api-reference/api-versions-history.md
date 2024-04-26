@@ -26,7 +26,7 @@ If you are looking for information about new features on the Gatenox Hub platfor
 
 :file\_folder: File:
 
-{% file src="broken-reference" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_5_1.yaml" %}
 
 ## API version 1.4.0
 
