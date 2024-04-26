@@ -6,9 +6,17 @@ The "Corporate Verifications" tab displays a comprehensive index of all incoming
 
 Before you receive the case for risk assessment, your client needs to receive an invitation, start the onboarding process, and gather all the information required by your company.
 
-#### How to send an invitation to the client?
+#### How do you send an invitation to the corporate client?
 
 Please follow the guide described here: [send-invitation-for-review.md](../start-onboarding-customers-with-gatenox/send-invitation-for-review.md "mention").
+
+After sending the invitation, it will appear on the "Invitation sent" tab in the "Invited" status. After the customer starts the onboarding process, the stats will change to "Completed" and the new item, with the company name, will appear on the "Clients in progress" tab.
+
+{% hint style="info" %}
+If you sent the invitation via the API endpoint and added the customer\_ID, it will be displayed in the "Name / customer\_ID" column.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Corporate verifications - sent invitations.png" alt=""><figcaption><p>Corporate invitations - invitations sent</p></figcaption></figure>
 
 #### How do you check the client's status of the onboarding process?
 

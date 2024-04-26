@@ -10,6 +10,19 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-04-25
+
+1. Allow to add customer ID to corporate KYC invitations sent to clients via API [#api-version-1.5.1](../gatenox-api/api-reference/api-versions-history.md#api-version-1.5.1 "mention") and [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](../gatenox-api/api-reference/corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")
+2. Display the list of corporate invitations sent  [#how-do-you-send-an-invitation-to-the-corporate-client](../compliance-cloud-how-to/cases-management/corporate-verifications.md#how-do-you-send-an-invitation-to-the-corporate-client "mention")
+
+Bug fixes:
+
+1. Login/logout/"401 unauthorized" error problems after inactivity time.
+2. "Business email" field visibility.
+3. Disable the "Continue" button when a person/company is added to business representatives/shareholders/UBOs lists.
+4. Refresh the tabs in the menu after the context is changed.
+5. Other minor fixes.
+
 ### 2024-04-10
 
 1. Integrate new crypto address report provider - AMLBot ( [#check-crypto-addresses](../compliance-cloud-how-to/comprehensive-screening/#check-crypto-addresses "mention") )

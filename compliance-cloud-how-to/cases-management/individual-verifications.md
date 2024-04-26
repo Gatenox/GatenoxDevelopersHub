@@ -6,14 +6,14 @@ The "Individual verifications" tab displays a comprehensive index of all incomin
 
 Before you receive the case for risk assessment, your client needs to receive an invitation, start the onboarding process, and gather all the information required by your company.
 
-#### How to send an invitation to the client?
+#### How do you send an invitation to the individual client?
 
 Please follow the guide described here: [#how-to-send-an-invitation-to-the-client](individual-verifications.md#how-to-send-an-invitation-to-the-client "mention")
 
 After sending the invitation, it will appear on the "Invitation sent" tab.
 
 {% hint style="info" %}
-If you have sent the invitation via the API endpoint and you have added the customer\_ID, it will be displayed in the "Name / customer\_ID" column.
+If you sent the invitation via the API endpoint and added the customer\_ID, it will be displayed in the "Name / customer\_ID" column.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Individual verifications - invitation sent.png" alt=""><figcaption><p>Individual invitations - invitations sent</p></figcaption></figure>

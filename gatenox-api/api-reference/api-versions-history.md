@@ -16,6 +16,30 @@ If you are looking for information about new features on the Gatenox Hub platfor
 
 
 
+## API version 1.5.1
+
+:date: Publish date: **2024-04-25**
+
+:notebook: Release notes:
+
+1. Add "customer\_id" to connect invitations and verifications with external systems ( [corporate-verifications.md](corporate-verifications.md "mention")).
+
+:file\_folder: File:
+
+{% file src="broken-reference" %}
+
+## API version 1.4.0
+
+:date: Publish date: **2024-04-10**
+
+:notebook: Release notes:
+
+1. Allow requesting for crypto address reports from AMLBot.&#x20;
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_4_0.yaml" %}
+
 ## API version 1.3.5
 
 :date: Publish date: **2024-01-11**

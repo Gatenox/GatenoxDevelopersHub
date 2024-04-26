@@ -15,8 +15,8 @@ Gatenox Hub offers both individuals and companies screening against sanctions / 
 
 * For Individuals - provide a surname, given names, and optional date of birth.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/individuals" method="post" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/individuals" method="post" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 The endpoint's body requires the following values to be included in the request:
@@ -27,8 +27,8 @@ The endpoint's body requires the following values to be included in the request:
 
 * For Companies -  specifying company name.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/companies" method="post" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/companies" method="post" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 The endpoint's body requires the following values to be included in the request:
@@ -48,28 +48,28 @@ Download a comprehensive list of checks and details from previous screenings usi
 
 **Individuals**
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/individuals" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/individuals" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/individuals/{id}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/individuals/{id}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 **Companies**
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/companies" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/companies" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/companies/{id}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/companies/{id}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 Associated files (if any) can be downloaded via an additional endpoint.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/attachments/{rest}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 ### **Crypto Address Verification (Blockchain Analytics)**&#x20;
@@ -78,25 +78,25 @@ Associated files (if any) can be downloaded via an additional endpoint.
 
 Verify crypto addresses by providing the blockchain and the specific address.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/crypto_address" method="post" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/crypto_address" method="post" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 #### **Get the report**
 
 Receive a comprehensive crypto address report, including risk assessment, financial analysis (historical balance), and a list of owned tokens.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/crypto_address" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/crypto_address" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/checks/crypto_address/{id}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/checks/crypto_address/{id}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 Download the detailed report in PDF format for further analysis and record-keeping.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/attachments/{rest}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 

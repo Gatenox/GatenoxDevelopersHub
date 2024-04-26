@@ -6,7 +6,7 @@ To invite your current or potential user to start the corporate KYC process with
 
 After clicking on the "Invite a business for verification" button, the pop-up window will be displayed. Please enter your customer's business email to send the invitation to the corporate KYC process.
 
-<figure><img src="../../.gitbook/assets/Corporate verifications - invite (1).png" alt="Verifications - invite for verification"><figcaption><p>Corporate verifications - invite for verification</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Corporate verifications - new invite.png" alt="Verifications - invite for verification"><figcaption><p>Corporate verifications - invite for verification</p></figcaption></figure>
 
 After clicking on the invite button, the invitation email will be sent to your customer.
 

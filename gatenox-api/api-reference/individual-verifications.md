@@ -2,8 +2,8 @@
 
 ### Get the link for your client to start the individual verification process (KYC)
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/invites/individuals" method="post" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/invites/individuals" method="post" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 The endpoint's body requires the following values to be included in the request:
@@ -12,32 +12,32 @@ The endpoint's body requires the following values to be included in the request:
 
 ### Get the list of all your individual verifications and their details
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals/{id}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals/{id}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/people" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/people" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/addresses" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/addresses" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/addresses/{id}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals/{verification_individual_id}/addresses/{id}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/verification_individuals/{id}/audit_log" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/verification_individuals/{id}/audit_log" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
 
 ### Individual documents&#x20;
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" path="/api/v1/attachments/{rest}" method="get" %}
-[gatenox_api_1_3_5.yaml](../../.gitbook/assets/gatenox_api_1_3_5.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
