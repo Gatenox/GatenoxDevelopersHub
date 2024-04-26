@@ -13,7 +13,7 @@ Gatenox API offers you the ability to:
 
 Here is the open API specification of our services:
 
-{% file src="../../.gitbook/assets/gatenox_api_1_3_5.yaml" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_5_1.yaml" %}
 Gatenox API
 {% endfile %}
 
