@@ -2,8 +2,8 @@
 
 ### Get the link for your client to start the corporate verification process (KYB)
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/invites/corporates" method="post" %}
-[gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_5_1.yaml" path="/api/v1/invites/corporates" method="post" %}
+[gatenox_api_1_5_1.yaml](../../.gitbook/assets/gatenox_api_1_5_1.yaml)
 {% endswagger %}
 
 The endpoint's body requires the following values to be included in the request:
@@ -12,8 +12,8 @@ The endpoint's body requires the following values to be included in the request:
 
 ### Get the list of all your company verifications and their details
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_3_4.yaml" path="/api/v1/verifications" method="get" %}
-[gatenox_api_1_3_4.yaml](../../.gitbook/assets/gatenox_api_1_3_4.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_5_1.yaml" path="/api/v1/verifications" method="get" %}
+[gatenox_api_1_5_1.yaml](../../.gitbook/assets/gatenox_api_1_5_1.yaml)
 {% endswagger %}
 
 {% swagger src="../../.gitbook/assets/gatenox_api_1_3_4.yaml" path="/api/v1/verifications/{id}" method="get" %}
