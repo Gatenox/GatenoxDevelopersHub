@@ -10,6 +10,13 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-05-10
+
+Bug fix:
+
+1. Include "invitaion\_url" in the response to /invite/corporates: [#api-version-1.5.3](../gatenox-api/api-reference/api-versions-history.md#api-version-1.5.3 "mention").
+2. Allow API use to decide if Gatenox Hub should send an invitation email to the corporate customer.
+
 ### 2024-04-25
 
 1. Allow to add customer ID to corporate KYC invitations sent to clients via API [#api-version-1.5.1](../gatenox-api/api-reference/api-versions-history.md#api-version-1.5.1 "mention") and [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](../gatenox-api/api-reference/corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")

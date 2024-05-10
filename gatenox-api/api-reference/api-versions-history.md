@@ -14,7 +14,18 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.5.3
 
+:date: Publish date: **2024-05-10**
+
+:notebook: Release notes:
+
+1. Bugfix - include "invitation\_url" in the response to /invite/corporates
+2. Allow API users to decide, if Gatenox Hub should send an invitation email to the corporate customer. By default, it is set to false.
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_5_3.yaml" %}
 
 ## API version 1.5.1
 
@@ -34,7 +45,7 @@ If you are looking for information about new features on the Gatenox Hub platfor
 
 :notebook: Release notes:
 
-1. Allow requesting for crypto address reports from AMLBot.&#x20;
+1. Allow requesting for crypto address reports from AMLBot.
 
 :file\_folder: File:
 
