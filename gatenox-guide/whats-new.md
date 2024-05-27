@@ -10,6 +10,22 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-05-24
+
+1. Updated Document AI feature, allowing you to chat with AI about the document's content in your chosen language [document-ai.md](../compliance-cloud-how-to/risk-assessment/document-ai.md "mention").
+2. Add email address to the list of cases + allow to search by email [#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention").
+3. Show a message to the user when the list of shareholders ([shareholders.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/shareholders.md "mention")) / UBOs ([ubos.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md "mention")) has less than 75% of shares.
+4. Other minor features.
+
+Bug fixes:
+
+1. Fixed infinite loop redirection when the case got "Processing" status.
+2. Always show the "Identified issues" tab.
+3. Show the name of the missing field (instead of the tab name) on the "Review and finish " tab, in case only one field was missing.
+4. Always ask to choose the company when signing up / logging in with the referral code.
+5. Show new fields in the summary on the "Review and finish" tab.
+6. Other minor bug fixes.
+
 ### 2024-05-10
 
 Bug fix:

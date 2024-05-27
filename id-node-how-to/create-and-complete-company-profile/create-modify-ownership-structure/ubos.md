@@ -34,6 +34,12 @@ Users can select a new UBO from the previously defined list or add a new one. Us
 
 It is important to ensure that all UBOs are correctly identified and recorded, as this information may be required for regulatory compliance purposes.
 
+{% hint style="warning" %}
+The message will be presented if you provide less than 75% of shareholders.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/UBOs_less_then_75.png" alt=""><figcaption><p>Notiification if list involves less than 75% of shareholders</p></figcaption></figure>
+
 #### Documents
 
 In some cases, a business may be required to provide proof that someone is a UBO, such as when registering with a government agency, crypto cryptocurrency exchange, or opening a bank account. Users can upload proof of being UBO on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.

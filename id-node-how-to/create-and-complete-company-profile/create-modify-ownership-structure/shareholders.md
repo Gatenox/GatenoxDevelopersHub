@@ -36,6 +36,14 @@ For corporate shareholders:
 
 <figure><img src="../../../.gitbook/assets/Shareholders_NW.png" alt="Shareholders"><figcaption><p>Shareholders</p></figcaption></figure>
 
+
+
+{% hint style="warning" %}
+The message will be presented if you provide less than 75% of shareholders.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Shareholders_less_than_75.png" alt=""><figcaption><p>Notification if the lists involves less than 75% of shareholders</p></figcaption></figure>
+
 #### Documents
 
 In some cases, a business may be required to provide proof of the list of shareholders, such as when registering with a government agency, cryptocurrency exchange, or opening a bank account. Users can upload proof of the list of shareholders on the [business-documents.md](../verification/business-documents.md "mention") tab, which is used to store important business documents. Users can upload digital copies of these documents for safekeeping and to provide to relevant parties upon request.
