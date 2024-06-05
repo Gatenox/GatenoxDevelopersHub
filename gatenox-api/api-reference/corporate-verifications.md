@@ -77,3 +77,7 @@ The endpoint's body requires the following values to be included in the request:
 {% swagger src="../../.gitbook/assets/gatenox_api_1_5_3.yaml" path="/api/v1/verifications/{verification_id}/company_documents/{id}" method="get" %}
 [gatenox_api_1_5_3.yaml](../../.gitbook/assets/gatenox_api_1_5_3.yaml)
 {% endswagger %}
+
+{% swagger src="../../.gitbook/assets/gatenox_api_1_5_3.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1_5_3.yaml](../../.gitbook/assets/gatenox_api_1_5_3.yaml)
+{% endswagger %}
