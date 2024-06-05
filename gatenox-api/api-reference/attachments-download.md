@@ -2,7 +2,7 @@
 description: How to download documents using Gatenox API?
 ---
 
-# Download documents
+# Attachments download
 
 #### How to Download Your Document
 
