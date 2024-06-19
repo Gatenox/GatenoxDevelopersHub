@@ -14,6 +14,21 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.6.0
+
+:date: Publish date: **2024-06-19**
+
+:notebook: Release notes:
+
+1. Allow uploading externally calculated risk scores to the case:&#x20;
+   1. Settings [company-information.md](../../general-settings/company-information.md "mention")
+   2. Corporate [#upload-externally-calculated-risk-score](corporate-verifications.md#upload-externally-calculated-risk-score "mention")
+   3. Individual [#upload-externally-calculated-risk-score](individual-verifications.md#upload-externally-calculated-risk-score "mention")
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_6_0.yaml" %}
+
 ## API version 1.5.3
 
 :date: Publish date: **2024-05-10**

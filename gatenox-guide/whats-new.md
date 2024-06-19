@@ -10,10 +10,20 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-06-19
+
+1. Adverse media screening (BETA VERSION) [#adverse-media](../compliance-cloud-how-to/risk-assessment/identified-issues.md#adverse-media "mention")
+2. Upload external risk calculation to the case [#api-version-1.6.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.6.0 "mention")
+3. Allow adding comments to entities and crypto address checks.
+4. Static verification links for individual verifications [company-information.md](../general-settings/company-information.md "mention").
+5. Add a switch to turn on/off notifications about chat messages [account-information.md](../general-settings/account-information.md "mention").
+6. Add fuzzy match score on the issues lists [identified-issues.md](../compliance-cloud-how-to/risk-assessment/identified-issues.md "mention").
+7. Other minor features and bug fixes.
+
 ### 2024-05-24
 
 1. Updated Document AI feature, allowing you to chat with AI about the document's content in your chosen language [document-ai.md](../compliance-cloud-how-to/risk-assessment/document-ai.md "mention").
-2. Add email address to the list of cases + allow to search by email [#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention").
+2. Add email address to the list of cases + allow searching by email[#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention").
 3. Show a message to the user when the list of shareholders ([shareholders.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/shareholders.md "mention")) / UBOs ([ubos.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md "mention")) has less than 75% of shares.
 4. Other minor features.
 

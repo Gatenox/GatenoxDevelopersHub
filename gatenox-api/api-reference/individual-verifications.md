@@ -41,3 +41,9 @@ The endpoint's body requires the following values to be included in the request:
 {% swagger src="../../.gitbook/assets/gatenox_api_1.5.1.yaml" path="/api/v1/attachments/{rest}" method="get" %}
 [gatenox_api_1.5.1.yaml](../../.gitbook/assets/gatenox_api_1.5.1.yaml)
 {% endswagger %}
+
+### Upload externally calculated risk score
+
+{% swagger src="../../.gitbook/assets/gatenox_api_1_6_0.yaml" path="/api/v1/webhooks/external_risk_score" method="post" %}
+[gatenox_api_1_6_0.yaml](../../.gitbook/assets/gatenox_api_1_6_0.yaml)
+{% endswagger %}

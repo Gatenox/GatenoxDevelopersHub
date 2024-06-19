@@ -6,6 +6,6 @@ Your business may require all fields or a specific set of data. Those requiremen
 
 Right now those data sets are configured via our consultants, so please contact [sales@gatenox.com](mailto:sales@gatenox.com) if you would like to change the default values.
 
-<figure><img src="../../.gitbook/assets/SettingsCompanyInfo (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Company information.png" alt=""><figcaption></figcaption></figure>
 
 We are working hard to allow this feature to be configured by Users directly.

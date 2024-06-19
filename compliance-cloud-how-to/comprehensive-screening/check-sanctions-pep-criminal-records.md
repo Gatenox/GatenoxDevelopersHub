@@ -8,7 +8,7 @@ description: >-
 
 The "Check Sanctions / PEP / Criminal Records" feature is a robust compliance tool designed to help users perform due diligence and risk assessments by screening entities against various sanctions, PEP, and criminal records databases. This service is essential for financial institutions, businesses, and other entities seeking to comply with international regulations and prevent engaging in relationships with high-risk or legally exposed individuals or companies.
 
-<figure><img src="../../.gitbook/assets/CheckEntity-listview.png" alt=""><figcaption><p>Check enity - list view</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check sanctions  - corporate request.png" alt=""><figcaption><p>Check enity - list view</p></figcaption></figure>
 
 Gatenox Hub offers two types of search:
 
@@ -31,17 +31,18 @@ To check an individual:
 
 1. Click the "Check new entity" button and select "Individual".
 2. Provide the surname and given names of an individual.
-3. The date of birth is optional.&#x20;
-4. Mark "Extended check" to request premium service.
-5. Press the "Check" button" to start the search.
+3. The date of birth is optional. After the check is performed you can search the checks list using this field.
+4. You can also provide a comment on the check. After the check is performed you can search the checks list using this field.
+5. Mark "Extended check" to request premium service.
+6. Press the "Check" button" to start the search.
 
-<figure><img src="../../.gitbook/assets/CheckEntity-request individual.png" alt=""><figcaption><p>Check entity - request to verify individual</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check sanctions - individual.png" alt=""><figcaption><p>Check entity - individual screening results</p></figcaption></figure>
 
-After the search is finished, click on the item on the list, and you will see the summary screen with the search result. If you need to recheck an individual, click on the "Recheck" button on the list.
+After the search, click on the item on the list, and you will see the summary screen with the search result. If you need to recheck an individual, click on the "Recheck" button on the list.
+
+<figure><img src="../../.gitbook/assets/Check sanctions - list individual.png" alt=""><figcaption><p>Check entity - request to verify individual</p></figcaption></figure>
 
 
-
-<figure><img src="../../.gitbook/assets/CheckEntity-individual.png" alt=""><figcaption><p>Check entity - individual screening results</p></figcaption></figure>
 
 ### Companies screening
 
@@ -49,11 +50,12 @@ To check a company:
 
 1. Click the "Check new entity" button and select "Company".
 2. Provide the jurisdiction, then you can search for the company using a name or number.
-3. Mark "Extended check" to request premium service.
-4. Press the "Check" button" to start the search.
+3. You can also provide a comment on the check. After the check is performed you can search the checks list using this field.
+4. Mark "Extended check" to request premium service.
+5. Press the "Check" button" to start the search.
 
-<figure><img src="../../.gitbook/assets/CheckEntity-request company.png" alt=""><figcaption><p>Check entity - request to verify company </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check sanctions  - corporate request.png" alt=""><figcaption><p>Check entity - request to verify company </p></figcaption></figure>
 
-After the search is finished, click on the item on the list, and you will see the summary screen with the search result. If you need to recheck an individual, click on the "Recheck" button on the list.
+After the search is finished, click on the item on the list, and you will see the summary screen with the search result. If you need to recheck a company, click on the "Recheck" button on the list.
 
-<figure><img src="../../.gitbook/assets/CheckEntity-company.png" alt=""><figcaption><p>Check entity - company screening results</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check company - results.png" alt=""><figcaption><p>Check entity - company screening results</p></figcaption></figure>

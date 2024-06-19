@@ -8,7 +8,7 @@ The risk scoring methodology must be aligned with your company's unique risk ass
 
 After providing the user-rated risk score associated with the company or individual, The Gatenox Hub will display the planned date of the recurring review. On this date in the future, the new case will be automatically opened for review.
 
-<figure><img src="../../.gitbook/assets/AddAssessment.png" alt="Review - assessment"><figcaption><p>Review - assessment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/AddAssessment2.png" alt="Review - assessment"><figcaption><p>Review - assessment</p></figcaption></figure>
 
 Once the review process is completed, the case will be marked as "Completed."
 

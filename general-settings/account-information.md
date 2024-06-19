@@ -11,6 +11,8 @@ In this tab, you have the option to enable or disable email notifications for ca
    1. The compliance team will ask for a data update.
    2. The compliance team will finish the assessment.
 
+You also have the option to enable or disable email notifications about new chat messages.
 
 
-<figure><img src="../.gitbook/assets/SettingsAccountInformation.png" alt="Settings - account information"><figcaption><p>Settings - account information</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Account information.png" alt="Settings - account information"><figcaption><p>Settings - account information</p></figcaption></figure>
