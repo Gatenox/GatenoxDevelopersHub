@@ -14,7 +14,7 @@ If you are looking for a list of changes in our API please check [api-versions-h
 
 1. Adverse media screening (BETA VERSION) [#adverse-media](../compliance-cloud-how-to/risk-assessment/identified-issues.md#adverse-media "mention")
 2. Upload external risk calculation to the case [#api-version-1.6.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.6.0 "mention")
-3. Allow adding comments to entities and crypto address checks.
+3. Allow adding comments to entities and crypto address checks [check-crypto-addresses.md](../compliance-cloud-how-to/comprehensive-screening/check-crypto-addresses.md "mention") and [check-sanctions-pep-criminal-records.md](../compliance-cloud-how-to/comprehensive-screening/check-sanctions-pep-criminal-records.md "mention").
 4. Static verification links for individual verifications [company-information.md](../general-settings/company-information.md "mention").
 5. Add a switch to turn on/off notifications about chat messages [account-information.md](../general-settings/account-information.md "mention").
 6. Add fuzzy match score on the issues lists [identified-issues.md](../compliance-cloud-how-to/risk-assessment/identified-issues.md "mention").
