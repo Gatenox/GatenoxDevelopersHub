@@ -8,7 +8,7 @@ description: >-
 
 The "Check Sanctions / PEP / Criminal Records" feature is a robust compliance tool designed to help users perform due diligence and risk assessments by screening entities against various sanctions, PEP, and criminal records databases. This service is essential for financial institutions, businesses, and other entities seeking to comply with international regulations and prevent engaging in relationships with high-risk or legally exposed individuals or companies.
 
-<figure><img src="../../.gitbook/assets/Check sanctions  - corporate request.png" alt=""><figcaption><p>Check enity - list view</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check sanctions   PEP criminal records.png" alt=""><figcaption><p>Check enity - list view</p></figcaption></figure>
 
 Gatenox Hub offers two types of search:
 
@@ -54,8 +54,8 @@ To check a company:
 4. Mark "Extended check" to request premium service.
 5. Press the "Check" button" to start the search.
 
-<figure><img src="../../.gitbook/assets/Check sanctions  - corporate request.png" alt=""><figcaption><p>Check entity - request to verify company </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check sanctions   PEP criminal records.png" alt=""><figcaption><p>Check entity - request to verify company </p></figcaption></figure>
 
 After the search is finished, click on the item on the list, and you will see the summary screen with the search result. If you need to recheck a company, click on the "Recheck" button on the list.
 
-<figure><img src="../../.gitbook/assets/Check company - results.png" alt=""><figcaption><p>Check entity - company screening results</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Check company - result with labels.png" alt=""><figcaption><p>Check entity - company screening results</p></figcaption></figure>

@@ -10,6 +10,12 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-06-28
+
+1. Allow to add a comment to the UBOs list [ubos.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md "mention") .
+2. Add labels (screening results) to the individuals' verifications [personal-details.md](../compliance-cloud-how-to/risk-assessment/personal-details.md "mention") and checks [check-sanctions-pep-criminal-records.md](../compliance-cloud-how-to/comprehensive-screening/check-sanctions-pep-criminal-records.md "mention").
+3. Minor bug fixes.
+
 ### 2024-06-19
 
 1. Adverse media screening (BETA VERSION) [#adverse-media](../compliance-cloud-how-to/risk-assessment/identified-issues.md#adverse-media "mention")

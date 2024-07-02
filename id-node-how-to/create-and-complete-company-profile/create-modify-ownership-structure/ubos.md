@@ -15,7 +15,7 @@ Below is a list of reasons why someone can be classified as a UBO:
 * Corporate directors or nominee directors are appointed to conceal the true owners of a given firm.
 * Shareholders, including the holders of bearer shares, may be transferred anonymously.
 
-#### Fields:
+#### Fields
 
 {% hint style="warning" %}
 The fields listed in the documentation may differ from those displayed in your profile. The specific fields required by the company you are onboarding with depend on their specific data needs.
@@ -34,11 +34,13 @@ Users can select a new UBO from the previously defined list or add a new one. Us
 
 It is important to ensure that all UBOs are correctly identified and recorded, as this information may be required for regulatory compliance purposes.
 
+You can add a comment to the list if there are UBOs with less than 25% shares.
+
 {% hint style="warning" %}
 The message will be presented if you provide less than 75% of shareholders.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/UBOs_less_then_75.png" alt=""><figcaption><p>Notiification if list involves less than 75% of shareholders</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/UBOs list with comment.png" alt=""><figcaption><p>Notiification if list involves less than 75% of shareholders</p></figcaption></figure>
 
 #### Documents
 
