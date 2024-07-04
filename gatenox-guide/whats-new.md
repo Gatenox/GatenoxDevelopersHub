@@ -10,6 +10,13 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-07-04
+
+1. Add new final status for cases - "Rejected". Now, the assessment can finish with the decision (approved/rejected), which will result in the final status (completed/rejected). In case of completed status, the risk score is required. For "Rejected" status only a comment is needed. [#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention") (corporate verifications), [#risk-assessment-process](../compliance-cloud-how-to/cases-management/individual-verifications.md#risk-assessment-process "mention") (individual verifications) and [final-assessment.md](../compliance-cloud-how-to/risk-assessment/final-assessment.md "mention").
+2. Reopening the case redirects the user to the corporate/individual verifications list.
+3. Adverse media screening improvements, resulting in switching from BETA to STABLE version.
+4. Other minor fixes.
+
 ### 2024-06-28
 
 1. Allow to add a comment to the UBOs list [ubos.md](../id-node-how-to/create-and-complete-company-profile/create-modify-ownership-structure/ubos.md "mention") .

@@ -10,7 +10,7 @@ Some of the check results may be irrelevant to your case - for example, a sancti
 
 <figure><img src="../../.gitbook/assets/Review_identified_issues_2.png" alt="Review - identified issues"><figcaption><p>Review - identified issues</p></figcaption></figure>
 
-### Adverse Media (BETA VERSION)
+### Adverse Media
 
 You can also find the "Gatenox Adverse Media Service" item on the issues list. It represents a search for negative news about this individual or company.
 
