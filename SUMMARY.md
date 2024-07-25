@@ -83,6 +83,7 @@
   * [Document AI](compliance-cloud-how-to/risk-assessment/document-ai.md)
   * [Entities verification](compliance-cloud-how-to/risk-assessment/entities-verification.md)
   * [Final assessment](compliance-cloud-how-to/risk-assessment/final-assessment.md)
+  * [Report](compliance-cloud-how-to/risk-assessment/report.md)
 * [Comprehensive screening](compliance-cloud-how-to/comprehensive-screening/README.md)
   * [Check sanctions / PEP / criminal records](compliance-cloud-how-to/comprehensive-screening/check-sanctions-pep-criminal-records.md)
   * [Check crypto addresses](compliance-cloud-how-to/comprehensive-screening/check-crypto-addresses.md)

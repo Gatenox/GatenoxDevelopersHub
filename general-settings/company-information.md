@@ -14,15 +14,16 @@ The tab is split into 2 sections:
    * you can enter the webhook endpoint to receive notifications.&#x20;
    * you can enter the webhook endpoint to receive notifications about new cases waiting for external risk calculation.&#x20;
 3. **Verification settings and info**:
-   * you can see the required fields for every user you verify. This data can be configured in the setup phase.
    * you can customize your verification link (referral code) used for:
      * corporate invitations,
      * individual invitations.
-4. **Ongoing monitoring:**
+4. **Onboarding profiles**
+   * you can see the required fields included in the profiles attached to your company. This data can be configured in the setup phase.
+5. **Ongoing monitoring:**
    * you can set up recurring review times,
    * you can set up reminders for future reviews.
 
-<figure><img src="../.gitbook/assets/Company information.png" alt="Settings - Company information"><figcaption><p>Settings - Company information</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Company information (2).png" alt="Settings - Company information"><figcaption><p>Settings - Company information</p></figcaption></figure>
 
 
 

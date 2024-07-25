@@ -4,8 +4,6 @@ On the review screen, Compliance Officers can find the "Ask for data update" but
 
 <figure><img src="../../.gitbook/assets/Review company (2).png" alt=""><figcaption><p>Review screen - ask for data update</p></figcaption></figure>
 
-**Ask for Data Update Button -** clicking on this button triggers a change in the review status from "In Progress" to "Request for Update." This signifies to the Business User that additional information or updates are needed.
-
 The status change is instrumental in clearly indicating the stage of the review process. "Request for Update" flags the specific cases requiring additional attention.
 
 <figure><img src="../../.gitbook/assets/CorporateVerificationRequestForUpdate.png" alt=""><figcaption><p>Corporate verification - request for data update</p></figcaption></figure>

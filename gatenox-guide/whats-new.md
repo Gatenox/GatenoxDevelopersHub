@@ -10,6 +10,16 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-07-24
+
+1. Update of PDF report  - summary of risk assessment. [report.md](../compliance-cloud-how-to/risk-assessment/report.md "mention")
+2. Allow changes to the scope of data collected from customers during the review process for corporate verifications. [ask-for-data-update.md](../compliance-cloud-how-to/risk-assessment/ask-for-data-update.md "mention") [#api-version-1.8.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.8.0 "mention")
+3. Show data-gathering profiles for KYB and KYC onboarding processes. [company-information.md](../general-settings/company-information.md "mention").
+4. Allow corporate data to be uploaded within the invitation. [#api-version-1.8.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.8.0 "mention")
+5. Perform EDD on all entities with the case at once. [#enhanced-due-diligence-on-individuals-and-companies-check-all-entities-within-the-case](../compliance-cloud-how-to/risk-assessment/entities-verification.md#enhanced-due-diligence-on-individuals-and-companies-check-all-entities-within-the-case "mention")
+6. Search field to navigate between company contexts. [multiple-company-profiles.md](../compliance-cloud-how-to/multiple-company-profiles.md "mention")
+7. Other minor features and bug fixes.
+
 ### 2024-07-04
 
 1. Add new final status for cases - "Rejected". Now, the assessment can finish with the decision (approved/rejected), which will result in the final status (completed/rejected). In case of completed status, the risk score is required. For "Rejected" status only a comment is needed. [#risk-assessment-process](../compliance-cloud-how-to/cases-management/corporate-verifications.md#risk-assessment-process "mention") (corporate verifications), [#risk-assessment-process](../compliance-cloud-how-to/cases-management/individual-verifications.md#risk-assessment-process "mention") (individual verifications) and [final-assessment.md](../compliance-cloud-how-to/risk-assessment/final-assessment.md "mention").

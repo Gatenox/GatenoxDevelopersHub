@@ -14,6 +14,19 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.8.0
+
+:date: Publish date: **2024-07-24**
+
+:notebook: Release notes:
+
+1. Allow uploading of company profile data before creating a company profile. [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")
+2. Allow the change of the scope of data requested from the corporate customer during the review process. [#change-the-profile-of-gathered-data-during-the-review-process](corporate-verifications.md#change-the-profile-of-gathered-data-during-the-review-process "mention")
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" %}
+
 ## API version 1.6.0
 
 :date: Publish date: **2024-06-19**
