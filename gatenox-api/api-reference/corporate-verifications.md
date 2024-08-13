@@ -2,8 +2,8 @@
 
 ### Get the link for your client to start the corporate verification process (KYB)
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/invites/corporates" method="post" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/invites/corporates" method="post" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 The endpoint's body requires the following values to be included in the request:
@@ -12,18 +12,18 @@ The endpoint's body requires the following values to be included in the request:
 
 ### Get the list of all your company verifications and their details
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### Upload externally calculated risk score
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/webhooks/external_risk_score" method="post" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/webhooks/external_risk_score" method="post" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### Change the profile of gathered data during the review process
@@ -32,68 +32,68 @@ It allows to change the scope of data requested from the corporate client and au
 
 You can get the "completeness\_profile\_id" from the "Settings" menu. On the "Company Information" tab, in the "Onboarding profiles" section, select a profile name, and the "profile id" will be displayed.
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/state/request_data_update" method="post" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/state/request_data_update" method="post" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### Get details about the company, which sent the application
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/company_details" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/company_details" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/graph" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/graph" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### The list of all people (directors, UBOs, individual shareholders, company representatives, others)
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/people" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/people" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/people/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/people/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/companies" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/companies" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/companies/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/companies/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### The list of company directors
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/directors" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/directors" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/directors/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/directors/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### The list of UBOs
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/ubos" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/ubos" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/ubos/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/ubos/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
 ### Company documents
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/company_documents" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/company_documents" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/verifications/{verification_id}/company_documents/{id}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/verifications/{verification_id}/company_documents/{id}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/gatenox_api_1_8_0.yaml" path="/api/v1/attachments/{rest}" method="get" %}
-[gatenox_api_1_8_0.yaml](../../.gitbook/assets/gatenox_api_1_8_0.yaml)
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/attachments/{rest}" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
 {% endswagger %}

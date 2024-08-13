@@ -14,6 +14,18 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.9.1
+
+:date: Publish date: **2024-08-14**
+
+:notebook: Release notes:
+
+1. Updated endpoint to check crypto address allowing to receive sync answer and limit the response to c-score only [#crypto-address-verification-blockchain-analytics](comprehensive-screening.md#crypto-address-verification-blockchain-analytics "mention").
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" %}
+
 ## API version 1.8.0
 
 :date: Publish date: **2024-07-24**

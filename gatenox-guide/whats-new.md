@@ -10,6 +10,19 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-08-13
+
+1. API update - updated endpoint to check crypto address allowing to receive sync answer and limit the response to c-score only [#crypto-address-verification-blockchain-analytics](../gatenox-api/api-reference/comprehensive-screening.md#crypto-address-verification-blockchain-analytics "mention").
+2. Validation of IBANs [business-financials.md](../id-node-how-to/create-and-complete-company-profile/manage-company-details/business-financials.md "mention")
+3. Crypto address validation during the data collection process [#cryptocurrency-address-verification](../id-node-how-to/create-and-complete-company-profile/manage-company-details/business-financials.md#cryptocurrency-address-verification "mention")
+4. Other minor features (allowing to copy crypto address value, showing jurisdiction name instead of code, asking for unreviewed section during the risk assessment process, individual's name is not included in the email for incoming new cases, other).
+
+Bug fixes:
+
+1. Fix to join organization process.
+2. Fix for sending invitations for corporate clients for GUI.
+3. A comment is not required to verify the crypto address check.
+
 ### 2024-07-24
 
 1. Update of PDF report  - summary of risk assessment. [report.md](../compliance-cloud-how-to/risk-assessment/report.md "mention")

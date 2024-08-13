@@ -30,7 +30,10 @@ In addition to entering crypto addresses on the "Business Financials" screen, us
 
 <figure><img src="../../../.gitbook/assets/BusinessFinancialsCrypto.png" alt=""><figcaption><p>Add and check cryptoaddress</p></figcaption></figure>
 
-Before adding a crypto address to the list, we verify if the address exists on the blockchain. This is important to ensure that the address is valid and can be used for transactions. To perform the verification, we use blockchain explorers (defined by blockchain) to check if the address has any associated transactions or balances.
+Before adding a crypto address to the list, we verify:
+
+* if the crypto address is valid. We check the value against the blockchain address structure,
+* if the address exists on the blockchain. This is important to ensure that the address is valid and can be used for transactions. To perform the verification, we use blockchain explorers (defined by blockchain) to check if the address has any associated transactions or balances.
 
 If the address is found on the blockchain, users can proceed to add it to their financial records. If the address is not found, users will receive an error message and will not be able to proceed with adding it. This verification step helps to ensure the accuracy and reliability of the financial records stored on our platform.
 
