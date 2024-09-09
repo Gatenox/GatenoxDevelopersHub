@@ -10,6 +10,14 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-09-06
+
+1. API update - allow to get case data in the "new" status, get the list of verification profiles, set verification profile within the invitation [#api-version-1.10.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.10.0 "mention").
+2. Clients can use any email to create an account and accept the corporate invitation  [send-invitation-for-review.md](../compliance-cloud-how-to/start-onboarding-customers-with-gatenox/send-invitation-for-review.md "mention").
+3. Show approval info within the case [#after-the-review-process-the-case-is-closed](../compliance-cloud-how-to/risk-assessment/summary.md#after-the-review-process-the-case-is-closed "mention").
+4. Extend risk score assessment values [#review-progress](../compliance-cloud-how-to/risk-assessment/#review-progress "mention").
+5. Other minor changes and bug fixes.
+
 ### 2024-08-13
 
 1. API update - updated endpoint to check crypto address allowing to receive sync answer and limit the response to c-score only [#crypto-address-verification-blockchain-analytics](../gatenox-api/api-reference/comprehensive-screening.md#crypto-address-verification-blockchain-analytics "mention").

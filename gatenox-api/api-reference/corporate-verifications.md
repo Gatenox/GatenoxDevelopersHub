@@ -8,7 +8,15 @@
 
 The endpoint's body requires the following values to be included in the request:
 
-<table><thead><tr><th width="203">Parameter</th><th width="109">Values</th><th width="316">Info</th><th>Required?</th></tr></thead><tbody><tr><td>email</td><td></td><td>The customer's email address, where the invitation will be sent. I will also be displayed on the "Corporate verifications" tab on the lists.</td><td>Yes</td></tr><tr><td>redirect_url_success</td><td></td><td>The URL, where the customer will be redirected if the KYC process finishes successfully.</td><td>No</td></tr><tr><td>redirect_url_failure</td><td></td><td>The URL, where the customer will be redirected if the KYC process fails.</td><td>No</td></tr><tr><td>customer_id</td><td></td><td>external id to be used to match invitation with verification</td><td>No</td></tr><tr><td>send_notification</td><td></td><td>This parameter indicates if Gatenox Hub should send the email to the customer. By default, it is set to false.</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="203">Parameter</th><th width="109">Values</th><th width="316">Info</th><th>Required?</th></tr></thead><tbody><tr><td>email</td><td></td><td>The customer's email address, where the invitation will be sent. I will also be displayed on the "Corporate verifications" tab on the lists.</td><td>Yes</td></tr><tr><td>redirect_url_success</td><td></td><td>The URL, where the customer will be redirected if the KYC process finishes successfully.</td><td>No</td></tr><tr><td>redirect_url_failure</td><td></td><td>The URL, where the customer will be redirected if the KYC process fails.</td><td>No</td></tr><tr><td>customer_id</td><td></td><td>External id to be used to match invitation with verification</td><td>No</td></tr><tr><td>completeness_profile_id</td><td></td><td>The verification profile to be used to gather data during the onboarding process.</td><td>No</td></tr><tr><td>send_notification</td><td></td><td>This parameter indicates if Gatenox Hub should send the email to the customer. By default, it is set to false.</td><td>No</td></tr></tbody></table>
+
+### Get the list of all your verification profiles
+
+{% swagger src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" path="/api/v1/contexts/{context_id}/completeness_profiles" method="get" %}
+[gatenox_api_1_9_1.yaml](../../.gitbook/assets/gatenox_api_1_9_1.yaml)
+{% endswagger %}
+
+
 
 ### Get the list of all your company verifications and their details
 

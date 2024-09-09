@@ -29,7 +29,7 @@ In addition to adding new representatives and managing their details, users can 
 #### KYC procedure
 
 {% hint style="success" %}
-Learn more about the verification of people on [Broken link](broken-reference "mention") page.
+Learn more about the verification of people on [kyc-process](../../kyc-process/ "mention") page.
 {% endhint %}
 
 In some cases, users may need to verify the identity of their representatives for legal or regulatory compliance purposes. To do so, users can choose from several options on the "Business Representatives" screen:

@@ -14,6 +14,22 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.10.0
+
+:date: Publish date: **2024-09-06**
+
+:notebook: Release notes:
+
+1. Allow to get case data in the "new" status
+2. Get the list of verification profiles
+3. Set verification profile within the invitation [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_10_0.yaml" %}
+
+
+
 ## API version 1.9.1
 
 :date: Publish date: **2024-08-14**
@@ -24,7 +40,7 @@ If you are looking for information about new features on the Gatenox Hub platfor
 
 :file\_folder: File:
 
-{% file src="../../.gitbook/assets/gatenox_api_1_9_1.yaml" %}
+{% file src="../../.gitbook/assets/gatenox_api_1_9_1 (1).yaml" %}
 
 ## API version 1.8.0
 

@@ -8,7 +8,7 @@ The risk scoring methodology must be aligned with your company's unique risk ass
 
 First, you have a choice to approve or reject the case. After providing the user-rated risk score associated with the company or individual, The Gatenox Hub will display the planned date of the recurring review. On this date in the future, the new case will be automatically opened for review.
 
-<figure><img src="../../.gitbook/assets/AddAsssessment2_new (1).png" alt=""><figcaption><p>Review - assessment without QA</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Risk_assessment.png" alt=""><figcaption><p>Review - assessment without QA</p></figcaption></figure>
 
 Once the review process is completed, the case will be marked as "Completed." or "Rejected according to your final decision.
 
@@ -22,7 +22,7 @@ In some cases, you may need to reassess the risk score. To reopen a case, the us
 
 Based on your configuration, the review can either be moved to "QA" status and will require another compliance officer to check it.
 
-<figure><img src="../../.gitbook/assets/AddAsssessment2_new.png" alt=""><figcaption><p>Review - assssment with QA</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Risk_assessment_SendToQA.png" alt=""><figcaption><p>Review - assssment with QA</p></figcaption></figure>
 
 At this point, the other compliance officer has the option to either confirm your assessment (approve or reject the review) or return the case to analysis with comments.
 
