@@ -72,6 +72,7 @@
   * [Summary](compliance-cloud-how-to/risk-assessment/summary.md)
   * [In-App Communication Tool](compliance-cloud-how-to/risk-assessment/in-app-communication-tool.md)
   * [Ask for data update](compliance-cloud-how-to/risk-assessment/ask-for-data-update.md)
+  * [Risk score recalculation](compliance-cloud-how-to/risk-assessment/risk-score-recalculation.md)
   * [Company details](compliance-cloud-how-to/risk-assessment/company-details.md)
   * [Personal details](compliance-cloud-how-to/risk-assessment/personal-details.md)
   * [Business representatives](compliance-cloud-how-to/risk-assessment/business-representatives.md)

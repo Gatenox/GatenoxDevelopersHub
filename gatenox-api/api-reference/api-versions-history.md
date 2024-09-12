@@ -21,8 +21,9 @@ If you are looking for information about new features on the Gatenox Hub platfor
 :notebook: Release notes:
 
 1. Allow to get case data in the "new" status
-2. Get the list of verification profiles
-3. Set verification profile within the invitation [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")
+2. Get the list of verification profiles [#get-the-list-of-all-your-verification-profiles](corporate-verifications.md#get-the-list-of-all-your-verification-profiles "mention")
+3. Upload externally calculated risk score [#upload-externally-calculated-risk-score](corporate-verifications.md#upload-externally-calculated-risk-score "mention")
+4. Set verification profile within the invitation [#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb](corporate-verifications.md#get-the-link-for-your-client-to-start-the-corporate-verification-process-kyb "mention")
 
 :file\_folder: File:
 
