@@ -14,6 +14,19 @@ Stay informed about the continuous evolution of Gatenox Hub's API capabilities.
 If you are looking for information about new features on the Gatenox Hub platform please check[whats-new.md](../../gatenox-guide/whats-new.md "mention")
 {% endhint %}
 
+## API version 1.11.0
+
+:date: Publish date: **2024-09-20**
+
+:notebook: Release notes:
+
+1. Corporate sources of funds - in the response from endpoint /api/v1/verifications/{verification\_id}/company\_details' the "funds\_sources" field is replaced by "sources\_of\_funds" and "sources\_of\_funds\_other" fields.
+2. Add "Risk Score Update" and "Cancel Risk Score Update" endpoints allowing to change the status of the case.
+
+:file\_folder: File:
+
+{% file src="../../.gitbook/assets/gatenox_api_1_11_0 (1).yaml" %}
+
 ## API version 1.10.0
 
 :date: Publish date: **2024-09-06**
@@ -28,8 +41,6 @@ If you are looking for information about new features on the Gatenox Hub platfor
 :file\_folder: File:
 
 {% file src="../../.gitbook/assets/gatenox_api_1_10_0.yaml" %}
-
-
 
 ## API version 1.9.1
 

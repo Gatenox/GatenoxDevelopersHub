@@ -10,6 +10,13 @@ description: >-
 If you are looking for a list of changes in our API please check [api-versions-history.md](../gatenox-api/api-reference/api-versions-history.md "mention")
 {% endhint %}
 
+### 2024-09-20
+
+1. Corporate sources of funds - migration from text area into multi-select field.
+2. API update - change field name "funds\_sources" to "sources\_of\_funds" and "sources\_of\_funds\_other".
+3. Additional case status changes - external risk score request and cancel [case-manaegment-change-status.md](../gatenox-api/api-reference/case-manaegment-change-status.md "mention").
+4. Other minor changes and bugfixes.
+
 ### 2024-09-06
 
 1. API update - allow to get case data in the "new" status, get the list of verification profiles, set verification profile within the invitation [#api-version-1.10.0](../gatenox-api/api-reference/api-versions-history.md#api-version-1.10.0 "mention").

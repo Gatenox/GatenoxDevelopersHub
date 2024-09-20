@@ -14,6 +14,7 @@
 * [API reference](gatenox-api/api-reference/README.md)
   * [Individual verifications](gatenox-api/api-reference/individual-verifications.md)
   * [Corporate verifications](gatenox-api/api-reference/corporate-verifications.md)
+  * [Case manaegment - change status](gatenox-api/api-reference/case-manaegment-change-status.md)
   * [Attachments download](gatenox-api/api-reference/attachments-download.md)
   * [Verified crypto addresses](gatenox-api/api-reference/verified-crypto-addresses.md)
   * [Comprehensive screening](gatenox-api/api-reference/comprehensive-screening.md)
